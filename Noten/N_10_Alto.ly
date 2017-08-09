@@ -79,7 +79,7 @@ ChristeAltoNotes = {
 		\mvTr e8\pE^\soloE a16([ cis)] h([ a)] gis([ a)] a4
 		R2.
 		r8 e' a, h a d
-		cis4.^\adlibitum h4 r8 %40
+		\tempoChristeB cis4.^\adlibitum \tempoChristeC h4 r8 %40
 		R2.
 		r8 fis fis h h16([ a)] gis([ fis)]
 		gis([ fis)] e8 r r h' fis
@@ -111,10 +111,10 @@ ChristeAltoNotes = {
 		R2.*7 %77
 		h8 e16([ gis)] fis([ e)] dis([ e)] e4
 		r4 r8 r fis fis
-		h16([ a)] gis([ fis)] e([ d)] cis([ h)] a8 r %80
+		h16([ a)] gis([ fis)] e([ d!)] cis([ h)] a8 r %80
 		R2.
 		r4 r8 r e'' a,
-		\time 9/8 h a d cis4.^\adlibitum h
+		\time 9/8 h a d \tempoChristeD cis4.^\adlibitum \tempoChristeE h
 		\time 6/8 R2.
 		r4 r8 r e, gis %85
 		a e16([ fis)] g8 fis[ h16 a gis? fis]
@@ -124,10 +124,11 @@ ChristeAltoNotes = {
 		r gis a h4.~ %90
 		h8[ a16 h cis8]~ cis[ h16 cis d8]~
 		d[ cis16 d e cis] a8 fis16([ gis)] a8
-		gis4( a8~ a16[^\adlibitum h] \once\stemUp h4)
-		a4 r8 r4 r8
+		gis4( a8~ \tempoChristeF a16[^\adlibitum h] \once\stemUp h4)
+		\tempoChristeG a4 r8 r4 r8
 		R2.*5 %99
-		R4.*5\fermataMarkup \bar "||" %100 finis
+		R4.*4 %100
+		R4.\fermataMarkup \bar "||" %101 finis
 	}
 }
 

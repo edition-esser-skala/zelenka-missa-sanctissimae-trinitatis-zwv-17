@@ -41,7 +41,7 @@ ChristeOboeI = {
 		\key a \major \time 6/8 \tempoChriste
 			\set Staff.timeSignatureFraction = 3/8
 			\set Score.currentBarNumber = #21
-		\mvTr e'8\fE-\tuttiE a64([ h cis16.)] h32 a16. gis16( a) a4
+		e'8\fE a64([ h cis16.)] h32 a16. gis16( a) a4
 		\appoggiatura { fis16[ gis] } a8.\trill gis32[ fis] e16 d cis16. d64 e \appoggiatura cis8 h4
 		e32( a16.) f32([ e16.)] dis32( e16.) r4 r8
 		c32(\f a'16.) c,32([ h16.)] a16( h32 c) c16(\trill h) h4
@@ -51,12 +51,60 @@ ChristeOboeI = {
 		d8-! gis-! a~ \tuplet 3/2 8 { \stemDown a16[ gis(-. fis-.] e[-. d-. cis-.] h[-. a-. gis)] \stemNeutral }
 		\appoggiatura gis8 a4. fis16. d'32 d8.([\trill cis32 d)]
 		a16. dis32 dis8.([\trill cis32 dis)] \appoggiatura dis16 e8.([\trill d?32 cis)] h16 d %30
-		cis32( e16.) fis32([ a,16.)] gis32( d'16.) cis64( h a16.) a4~-\tenuto
-		\tuplet 3/2 8 { a16 \mvTr cis(\p-\flauti e fis[ d cis] h e d) } cis64[ h a16.]~ a16 \mvTr h32\f-\tutti cis d[ e fis gis]
+		cis32( e16.) fis32([ a,16.)] gis32( d'16.) cis64( h a16.) a4-\tenuto
+		r4 r8 r a16\f h32 cis d[ e fis gis]
 		a8 r dis, r16 e gis16.([\trill fis64 gis)] a8
 		r16 a, d,8[ e] a dis r
 		e r16 gis \noBeam a8~ \tuplet 3/2 8 { \stemDown a16 gis(-. fis-. e-.[ d-. cis-.] h-. a-. gis-.) \stemNeutral } %35
 		a16.-! fis32-! d8[ e] a4 r8
+		R2.
+		a'8.\f\trill gis32[ fis] e16 d cis16. d64 e h4
+		R2.
+		\tempoChristeB r4^\adlibitum r8 \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
+		dis16([ e)] e8 r e8.\trill( dis32 cis) h16[ a]
+		gis16.[ a64 h] fis8 r r4 r8
+		R2.*12 %53
+		\tuplet 3/2 8 { h'16(\f-. ais-. gis-. fis[-. e-. dis?-.] cis h ais) } \appoggiatura ais8 h4 r8 %55
+		gis16.[ e'32] e8.(\trill dis32 e) h16.[ eis32] eis8.(\trill dis32 eis)
+		\appoggiatura eis16 fis8.\trill( e32 dis) cis16[ e] dis16. h32 e,8[ fis]
+		h-\critnote r8 r r4 r8
+		R2.*2 %60
+		r4 r8 fis32(\f fis'16.) d!32([ cis16.)] his32([ cis16.)]
+		r4 r8 a32(\fE fis'16.) a,32([ gis16.)] fis32( gis a16)
+		a([ gis)] gis d'([ cis h)] a64 gis fis16. gis8.[\trill fis16]
+		fis8 r r r4 r8
+		R2.*2 %66
+		\time 9/8 R4.*3
+		\time 6/8 R2.*3 %70
+		cis'16.\fE a'32 a8.([\trill gis32 a)] e16. ais32 ais8.([\trill gis32 ais)]
+		h8.([\trill a32 gis)] fis16 a gis32( h16.) cis32([ e,16.)] dis32( a'16.)
+		gis64( fis e16.) e4^\tenuto r r8
+		r e,16[\fE fis32 gis] a h cis dis e8 r ais,
+		r16 h dis16.([\trill cis64 dis)] e8 r16 gis, a8[ h] %75
+		e, ais r h r16 dis \noBeam e8~
+		\tuplet 3/2 8 { e16(-. dis-. cis-. h-.[ a-. gis-.] fis-. e-. dis-.) } e16.-! cis'32-!-\critnote a8[ h]
+		e,8 r r r4 r8
+		e'8.([\f dis32 cis]) h16 a gis16([ a32 h)] fis8 r
+		r4 r8 e'8\f a64([ h cis16.)] h32( a16.) %80
+		gis16( a) a8 r a8.([\trill gis32 fis)] e16 d
+		cis16.([ d64 e)] \appoggiatura cis16 h8 r r4 r8
+		\time 9/8 r4 r8 \tempoChristeD r4^\adlibitumE r8 \tempoChristeE \tuplet 3/2 8 { e,16(\fE gis h e[ h a] gis fis e) }
+		\tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
+		\appoggiatura { h16[ cis] } d8 cis8.\trill h16 h8 r r %85
+		R2.*2
+		r4 r8 a32(\f a'16.) f32([ e16.)] dis32( e16.)
+		r4 r8 c32(\f a'16.) c,32([ h16.)] a32( h c16)
+		c16([ h)] h8 r r4 r8 %90
+		R2.*2
+		<< \oneVoice R2. \\ { s4. \tempoChristeF s^\adlibitum } >>
+		\tempoChristeG a16.\fE a'32 a8.([\trill gis32 a)] a,16. dis32 dis8.([\trill cis32 dis)]
+		\appoggiatura dis?16 e8.([\trill d?32 cis)] h16 d cis32( e16.) fis32([ a,16.)] gis32( d'16.) %95
+		cis32( h a16) a4~ \tuplet 3/2 8 { a16 cis(\p e fis[ d cis] h e d) }
+		cis32( h a16)~ a[ h32\f cis] d e fis gis a8 r dis,
+		r16 e gis16.([\trill fis64 gis)] a8 r16 a,-\critnote d,8[ e]
+		a dis r e r16 gis \noBeam a8~
+		\time 12/8 \tuplet 3/2 8 { a16 gis(-. fis-. e[-. d-. cis-.] h-. a-. gis-.) } a16.-! fis32-! d8[-! e-!] a-\critnote\fermata \tempoChristeFinis e'4~ e16 dis dis8.[\trill e16] %100
+		\time 3/8 e4.\fermata \bar "||" %101 finis
 	} 
 }
 

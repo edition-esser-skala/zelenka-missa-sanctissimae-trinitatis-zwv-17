@@ -112,13 +112,15 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" "Flauto I, II" } }
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\ChristeOboeI
-						}
-					>>
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Flauto I, II" } }
+						\ChristeFlautoI
+					}
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
+						\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+						\ChristeOboeI
+					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<

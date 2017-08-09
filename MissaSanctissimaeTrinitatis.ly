@@ -59,6 +59,7 @@ orgE = \markup { \anmerkungE Org. }
 rip = \markup { \anmerkung Rip. }
 ripE = \markup { \anmerkungE Rip. }
 flauti = \markup { \anmerkung Flauti }
+flautiE = \markup { \anmerkungE Flauti }
 tenuto = \markup { \anmerkung ten. }
 tenutoE = \markup { \anmerkungE ten. }
 sostenuto = \markup { \anmerkung sostenuto }
@@ -108,7 +109,14 @@ tempoMarkup =
 %
 
 tempoKyrieI = \tempoMarkup "Adagio"
-	tempoChriste = \tempoMarkup "Spirituoso"
+
+tempoChriste = \tempoMarkup "Spirituoso"
+	tempoChristeB = \tempoMarkup "[Adagio]"
+	tempoChristeC = \tempoMarkup "[a tempo]"
+	tempoChristeD = \tempoMarkup "Adagio"
+	tempoChristeE = \tempoMarkup "Vivace"
+	tempoChristeF = \tempoMarkup "[Adagio]"
+	tempoChristeG = \tempoMarkup "[a tempo]"
 	tempoChristeFinis = \tempoMarkup "Adagio"
 
 

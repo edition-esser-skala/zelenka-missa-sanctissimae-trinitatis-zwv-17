@@ -83,7 +83,7 @@ ChristeBassiOrgano = {
 		\mvTr a'\p-\org cis d e cis d
 		\mvTr cis\fE-\rip a gis a e'16 d cis h
 		cis8 \mvTr cis,\pE-\org cis' d cis h
-		a-\adlibitumE dis,4 \mvTr e8\f-\rip gis a %40
+		\tempoChristeB a-\adlibitumE dis,4 \tempoChristeC \mvTr e8\f-\rip gis a %40
 		h gis a gis e dis
 		e \mvTr h'16\pE-\soloE a gis fis gis8 dis h
 		e e e dis dis dis
@@ -126,7 +126,7 @@ ChristeBassiOrgano = {
 		gis e gis \mvTr a\f-\tutti a, d %80
 		e cis d cis cis' gis
 		a e'16 d cis h cis8 \mvTr cis,\pE-\orgE cis'
-		\time 9/8 d cis h a^\adlibitumE dis,4 \mvTr e8\f-\tutti e' d
+		\time 9/8 d cis h \tempoChristeD a^\adlibitumE dis,4 \tempoChristeE \mvTr e8\f-\tutti e' d
 		\time 6/8 cis cis, cis d d cis
 		h a dis e \mvTr e'\pE-\org d %85
 		cis cis cis d d d
@@ -136,14 +136,15 @@ ChristeBassiOrgano = {
 		e' \mvTr e,\p-\orgE fis gis e gis %90
 		a a a h h h
 		cis cis cis d d d
-		e e a, e4-\adlibitum r8
-		\mvTr a8\f-\rip cis a fis h a
+		e e a, \tempoChristeF e4-\adlibitum r8
+		\tempoChristeG \mvTr a8\f-\rip cis a fis h a
 		gis e gis a d, e %95
 		a8.([ gis32 fis)] e16 d cis8\p d e
 		a8.([\f gis32 fis)] e16 d cis8 fis r
 		gis r16 d' \noBeam cis8 fis, d e
 		fis r a r16 gis \noBeam d'8 r16 cis
-		\time 15/8 fis,8 cis e a16.[ fis32] d8 e a,\fermata \tempoChristeFinis a' g f4. e\fermata \bar "||" %100 finis
+		\time 12/8 fis,8 cis e a16.[ fis32] d8 e a,\fermata \tempoChristeFinis a' g f4. %100
+		\time 3/8 e\fermata \bar "||" %101 finis
 	}
 }
 

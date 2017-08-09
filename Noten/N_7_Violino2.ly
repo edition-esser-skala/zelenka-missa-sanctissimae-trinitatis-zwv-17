@@ -57,6 +57,71 @@ ChristeViolinoII = {
 		r16 cis,, d8[ e] a, dis' r
 		e r16 gis \noBeam a8~ \tuplet 3/2 8 { \stemDown a16 gis(-. fis-. e-.[ d-. cis-.] h-. a-. gis-.) \stemNeutral } %35
 		a16.-! fis32-! d8[ e] a,4 r8
+		e'8\p a16 cis h a gis a a4
+		<a' cis, e, a,>8.\f\trill gis32[ fis] e16 d cis16. d64 e h4
+		r8 e\pE a, h16 a a([ cis)] d8
+		\tempoChristeB cis4.^\adlibitum \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
+		dis16([ e)] e8 r <e h gis e>8.\trill( dis32 cis) h16[ a]
+		gis16. a64 h fis8[\p fis] h h16 a gis fis
+		gis32(\f e'16.) c32([ h16.)] ais32( h16.) \tuplet 3/2 8 { a16(\mp fis' e dis[ cis? h] a g fis) }
+		g32( e'16.) g,32([ fis16.)] e16( fis32 g) g16[ fis] fis8 r
+		\appoggiatura { fis16[ gis?] } a8\f a8.[(\trill gis32 a]) gis32[\p a h16]~ h gis([ fis e)] %45
+		a32[ h cis16]~ cis a([ gis fis)] h32([ cis dis16)]~ dis h[ a gis]
+		cis32( dis? e16)~ e cis([ h a)] dis4.\f^\tenuto
+		<e h gis>8 r <e cis> dis32(\p fis16.) gis32([ h,16.)] ais32( e'16.)
+		dis32( cis h16)~ h4 \tuplet 3/2 8 { h16( dis fis gis[ e dis] cis fis e) }
+		dis8 cis16( h) ais( gis) ais8.[ h16] cis8~ %50
+		cis h16 cis dis8~ dis cis16 dis e8~
+		e dis16 e fis8~ fis e16 fis gis8~
+		gis fis16 fis ais8~ ais gis16 ais h8
+		cis, ais' h~ h16  cis ais8.\trill h16
+		\tuplet 3/2 8 { h16(\f-. ais-. gis-. fis[-. e-. dis?-.] cis h ais) } \appoggiatura ais8 h4 r8 %55
+		gis16.[ e'32] e8.(\trill dis32 e) h16.[ eis32] eis8.(\trill dis32 eis)
+		\appoggiatura eis16 fis8.\trill( e32 dis) cis16[ e] dis16. h32 e,8[ fis]
+		h, fis'[\pE gis16 a] h8. cis16 h8
+		h16 a a8 gis fis16 eis fis a gis fis
+		eis d' cis h a gis a gis fis eis fis8~ %60
+		fis16 dis eis8.[\trill fis16] fis32(\f fis'16.) d32([ cis16.)] his32( cis16.)
+		\tuplet 3/2 8 { h?16(\p gis' fis eis[ dis? cis] h[ a gis]) } a32(\fE fis'16.) a,32([ gis16.)] fis32( gis a16)
+		a([ gis)] gis d'([ cis h)] a64 gis fis16. gis8.[\trill fis16]
+		fis8 fis[\mp gis] a8. h16 a8
+		a16 gis gis8 fis e16 dis e gis fis e %65
+		dis cis'([ h a gis fis]) gis(-. gis-. gis-. gis-. gis-. gis-.)
+		\time 9/8 gis(-. gis-. gis-. gis-. gis-. gis-.) fis8 h, dis \tuplet 3/2 8 { fis16( h dis fis[ dis h] a gis fis) }
+		\time 6/8 gis16 fis gis a h cis d!8 cis h
+		cis16 h a gis fis e dis4 e8~
+		e16 a fis8.[ e16] \tuplet 3/2 8 { e16(\f gis h e[ gis h] gis h d,!) } %70
+		cis16. a'32 a8.([\trill gis32 a)] e16. ais32 ais8.([\trill gis32 ais)]
+		h8.([\trill a32 gis)] fis16 a gis32( h16.) cis32([ e,16.)] dis32( a'16.)
+		gis64( fis e16.) e4^\tenuto \tuplet 3/2 8 { e,16(\p gis h cis[ a gis] fis h a) }
+		gis64 fis e16.~ e16[ fis32\fE gis] a h cis dis e8 r ais,
+		r16 h dis16.([\trill cis64 dis)] <e h e,>8 r16 gis, a8[ h] %75
+		e, ais r h r16 dis \noBeam e8~
+		\tuplet 3/2 8 { e16(-. dis-. cis-. h-.[ a-. gis-.] fis-. e-. dis-.) } e16.-! cis32-! a8[ h]
+		e16 h e64([\p fis gis16.)] fis32 e16. dis16( e) e4
+		<e gis h e>8.([\f dis'32 cis]) h16 a gis16( a32 h) fis8[ fis\p]
+		h16( a) gis( fis) e( d!) e'8\f a64([ h cis16.)] h32( a16.) %80
+		gis16( a) a8 r <a cis, e, a,>8.([\trill gis32 fis)] e16 d
+		cis16.([ d64 e)] \appoggiatura cis16 h8 r r e\pE a,
+		\time 9/8 h16( a) a([ cis)] d8 \tempoChristeD cis4.^\adlibitumE \tempoChristeE \tuplet 3/2 8 { e,16(\fE gis h e[ h a] gis fis e) }
+		\tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
+		\appoggiatura { h16[ cis] } d8 cis8.\trill h16 h8 e,\pE gis %85
+		a e16 fis g8 fis h16 a gis? fis
+		gis fis gis a h cis d8 cis16 h cis8~
+		cis16 fis, gis8.[ a16] a32(\f a'16.) f32([ e16.)] dis32( e16.)
+		\tuplet 3/2 8 { d16(\p h' a gis[ fis e] d c h) } c32(\f a'16.) c,32([ h16.)] a32( h c16)
+		c16([ h)] h8 r r e,\p gis %90
+		a8. h16 cis8~ cis h16 cis d8~
+		d cis16 d e8~ e d16 e fis8~
+		fis e16 d cis8 \tempoChristeF r8^\adlibitum gis8.[\trillE a16]
+		\tempoChristeG a16.\fE a'32 a8.([\trill gis32 a)] a,16. dis32 dis8.([\trill cis32 dis)]
+		\appoggiatura dis?16 e8.([\trill d?32 cis)] h16 d cis32( e16.) fis32([ a,16.)] gis32( d'16.) %95
+		cis32( h a16) a4~ \tuplet 3/2 8 { a16 cis(\p e fis[ d cis] h e d) }
+		cis32( h a16)~ a[ h32\f cis] d e fis gis a8 r dis,
+		r16 e gis16.([\trill fis64 gis)] <a cis, e, a,>8 r16 cis,, d8[ e]
+		a, dis' r e r16 gis \noBeam a8~
+		\time 12/8 \tuplet 3/2 8 { a16 gis(-. fis-. e[-. d-. cis-.] h-. a-. gis-.) } a16.-! fis32-! d8[-! e-!] a,\fermata \tempoChristeFinis e''4~ e16 dis dis8.[\trill e16] %100
+		\time 3/8 e4.\fermata \bar "||" %101 finis
 	} 
 }
 
