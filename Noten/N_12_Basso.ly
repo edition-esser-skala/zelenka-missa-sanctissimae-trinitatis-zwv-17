@@ -58,291 +58,133 @@ KyrieIBassoLyrics = \lyricmode {
 	%20 finis
 }
 
-% KyrieIIBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
-% 			\set Score.currentBarNumber = #82
-% 		R1*10 %91
-% 		r8 \mvTr e\fE^\tuttiE c' h16([ a)] gis8([ g f e]
-% 		d[ e] f[ e16 d] c4) h
-% 		r8 e fis gis a([ e] a4~
-% 		a g f2) %95
-% 		e4 r a4. a8
-% 		a4 a h, h'8 h
-% 		c,4( a' cis,) a'8 a
-% 		dis,4( a'4. g8 g[ fis16 e]
-% 		fis8[ h,] h'4 e, a~ %100
-% 		a gis) a r
-% 		r4 r8 d, g f e([ c]
-% 		f2 g
-% 		a h4) c
-% 		g4. g8 g4 g %105
-% 		g, g'8 g a,4( f'
-% 		a,) f'8 f h,4( f'~
-% 		f8[ e] e[ d16 c] d4 g~
-% 		g fis) g8 d g f?
-% 		e([ d c e] f4) f, %110
-% 		R1*7 %117
-% 		r2 r8 a a' g
-% 		f([ fis]) g a16([ h!)] c4 g8([ f)]
-% 		e2 f %120
-% 		g a(
-% 		b) a4 d,
-% 		g( a) fis g
-% 		e( fis) g es
-% 		c d h! c %125
-% 		a h! c2
-% 		d4 g2 f4
-% 		e8 e'4 e8 e4 e
-% 		e, e'8 e f,4( d'
-% 		fis,) d'8 d gis,4( d'~ %130
-% 		d8[ c] c[ h16 a] h8[ e,] e'4~
-% 		e dis) e8 h e d?
-% 		c([ h] a4) a, r
-% 		R1*3 %136
-% 		e''4. e8 e4 e
-% 		e,1
-% 		e2 e
-% 		e e %140
-% 		e1^\critnote
-% 		e
-% 		a,4 a' h2
-% 		c d(
-% 		e f) %145
-% 		e4 a, d,( e)
-% 		cis2\fermata \tempoKyrieIIB r4 dis\ff
-% 		e4( a, e'2)
-% 		a4 a d,2
-% 		\tempoKyrieIIFinis a'1 \bar "|." %150 FINIS
-% 	}
-% }
-% 
-% KyrieIIBassoLyrics = \lyricmode {
-% 	Chri -- ste e -- lei -- %92
-% 	son,
-% 	Chri -- ste e -- lei --
-% 	%95
-% 	son. Ky -- ri --
-% 	e e -- lei -- son, e --
-% 	lei -- son, e --
-% 	lei --
-% 	%100
-% 	son.
-% 	Chri -- ste e -- lei --
-% 	
-% 	son.
-% 	Ky -- ri -- e e -- %105
-% 	lei -- son, e -- lei --
-% 	son, e -- lei --
-% 	
-% 	son. Chri -- ste e --
-% 	lei -- son. %110
-% 	
-% 	Chri -- ste e -- %118
-% 	lei -- son, e -- lei -- son, __
-% 	Chri -- ste %120
-% 	e -- lei --
-% 	son, e --
-% 	lei -- son, e --
-% 	lei -- son, e --
-% 	lei -- _ _ _ %125
-% 	_ _ _
-% 	_ _ _
-% 	son. Ky -- ri -- e e --
-% 	lei -- son, e -- lei --
-% 	son, e -- lei -- %130
-% 	
-% 	son. Chri -- ste e --
-% 	lei -- son.
-% 	
-% 	Ky -- ri -- e e -- %137
-% 	lei --
-% 	son, e --
-% 	lei -- son, %140
-% 	e --
-% 	lei --
-% 	son. Chri -- ste
-% 	e -- lei --
-% 	%145
-% 	son, e -- lei --
-% 	son, e --
-% 	lei --
-% 	son, e -- lei --
-% 	son. %150 finis
-% }
-% 
-% GloriaBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \major \time 4/4 \autoBeamOff \tempoGloria
-% 		R1*24
-% 		\mvTr a'8\fE^\tuttiE a16 h cis8 a d h e4 %25
-% 		a, r r2
-% 		a8 a e cis a4 r
-% 		gis' r a8 a a e
-% 		a, a' e cis a4 r
-% 		a' r a8 a a d, %30
-% 		a e' a d, a a'16([ gis)] a8 d,
-% 		a cis d e a,4 r
-% 		R1*3 %35
-% 		r2 \mvTr e''8\fE^\tutti e e a,
-% 		e4 r r8 e' h gis
-% 		e4 r r a8 g
-% 		fis e16 fis gis8 gis a a, a'4~
-% 		a( gis fis8[ gis16 a] h8[ a] %40
-% 		gis) e e' d cis h16 a gis8 e
-% 		a fis h4 e, r
-% 		R1*9 %51
-% 		r2 r4 \mvTr e\pE^\solo
-% 		h'8 a16([ gis)] fis8 e dis([ cis)] h4
-% 		r2 r4 fis'8 fis
-% 		g4 a8 g fis4 r %55
-% 		r2 h8([ a)] gis([ e)]
-% 		h'4 h, fis' r8 fis
-% 		cis'([ gis)] cis,([ cis')] h([ a gis)] e
-% 		r fis h h e,4 fis
-% 		h, r r2 %60
-% 		R1*6 %66
-% 		\mvTr h'4.\fE^\tuttiE h8 a!2^\critnote
-% 		gis4 gis8 gis ais4 fis
-% 		h8 dis dis h gis8. gis16 gis4
-% 		ais8 cis cis ais fis8. fis16 fis4 %70
-% 		gis8 h h gis eis8. eis16 eis4
-% 		fis8 a! a fis d!([ d'16 cis] d8[ h]
-% 		cis8.) cis16 cis4 cis cis
-% 		cis cis8 cis cis2
-% 		fis,4 r r2 %75
-% 		R1*7 %82
-% 		\mvTr a4\fE^\tutti a8 a g4 g
-% 		fis fis gis2
-% 		a8 cis16([ h] cis8) a16 a fis4 fis %85
-% 		r8 h16([ a] h8) gis e4 e
-% 		r8 a16([ gis] a8) fis dis([ h'16 a] h8[ dis,]
-% 		e[ g16 fis] g8[ e] c[ c'16 h] c8[ a]
-% 		h4.) e,8 h'4 h
-% 		h h8 h h4. h8 %90
-% 		e,4 r r2
-% 		R1*3
-% 		r2 \mvTr g4\fE^\tuttiE g8 g %95
-% 		f4 f e e
-% 		fis4. fis8 g h4 g16 g
-% 		e4 e r8 a4 fis8
-% 		d8. d16 d4 r8 g4( e8
-% 		cis![ a'16 g?] a8[ cis,] d[ fis16 e] fis8[ d] %100
-% 		h[ h'16 a] h8[ g] a4.) d,8
-% 		a'2. a4
-% 		a2 d,4 r
-% 		R1*8 %111
-% 		\mvTr e'4\fE^\tuttiE e8 e d!4 d
-% 		cis cis dis2
-% 		e8 gis,4 e16 e cis4 cis
-% 		r8 fis4 dis8 h4 h %115
-% 		r8 e4 cis16 cis ais8[ fis'16 e] fis8[ ais,]
-% 		h[ h'16 a] h8[ e,] h4 r
-% 		r8 h'16[ a] h8[ e,] h4 h'
-% 		e,4 r e' e8 e
-% 		e,([ e'16 d] e8[ a,] e[ e'16 d] e4) %120
-% 		a,4 r r2
-% 		r e'4 e8 d
-% 		cis4 d8 e a,([ h cis a]
-% 		e'[ h e, e'] h[ fis h, h']
-% 		fis'[ cis fis, fis'] e[ d cis a] %125
-% 		d4 e) a, r
-% 		R1
-% 		a4 a8 a e4 r
-% 		r8 a[ gis a] e4 r
-% 		r8 a[ gis a] e[ d cis! fis] %130
-% 		d4 e a,8 a'4 h16 h
-% 		cis8[( h a d] e4 e,)
-% 		a r cis8. h16 a4
-% 		d,4( e) a, r
-% 		R1*7 \bar "||" %141 finis
-% 	}
-% }
-% 
-% GloriaBassoLyrics = \lyricmode {
-% 	Glo -- ri -- a in ex -- cel -- sis De -- %25
-% 	o.
-% 	Et in ter -- ra pax,
-% 	pax, et in ter -- ra
-% 	pax, in ter -- ra pax,
-% 	pax, et in ter -- ra %30
-% 	pax, in __ ter -- ra pax, in ter -- ra
-% 	pax ho -- mi -- ni -- bus.
-% 	
-% 	Et in ter -- ra %36
-% 	pax, in ter -- ra
-% 	pax, pax ho --
-% 	mi -- ni -- bus bo -- nae vo -- lun -- ta -- 
-% 	%40
-% 	tis, pax ho -- mi -- ni -- bus bo -- nae
-% 	vo -- lun -- ta -- tis.
-% 	
-% 	Lau -- %52
-% 	da -- mus te, lau -- da -- mus,
-% 	be -- ne --
-% 	di -- ci -- mus te, %55
-% 	ad -- o --
-% 	ra -- mus te, glo --
-% 	ri -- fi -- ca -- mus,
-% 	glo -- ri -- fi -- ca -- mus
-% 	te. %60
-% 	
-% 	Gra -- ti -- as %67
-% 	a -- gi -- mus ti -- bi
-% 	pro -- pter ma -- gnam glo -- ri -- am,
-% 	pro -- pter ma -- gnam glo -- ri -- am, %70
-% 	pro -- pter ma -- gnam glo -- ri -- am,
-% 	pro -- pter ma -- gnam glo --
-% 	ri -- am, ma -- gnam
-% 	glo -- ri -- am tu --
-% 	am. %75
-% 	
-% 	Do -- mi -- ne De -- us, %83
-% 	Rex coe -- les --
-% 	tis, Do -- mi -- ne De -- us, %85
-% 	Rex __ coe -- les -- tis,
-% 	De -- us Pa --
-% 	
-% 	ter, De -- us
-% 	Pa -- ter o -- mni -- pot -- %90
-% 	ens.
-% 	
-% 	Do -- mi -- ne %95
-% 	Fi -- li u -- ni --
-% 	ge -- ni -- te, Do -- mi -- ne
-% 	Fi -- li u -- ni --
-% 	ge -- ni -- te, Je --
-% 	%100
-% 	su,
-% 	Je -- su
-% 	Chri -- ste.
-% 	
-% 	Do -- mi -- ne De -- us, %112
-% 	A -- gnus De --
-% 	i, Do -- mi -- ne De -- us,
-% 	A -- gnus De -- i, %115
-% 	Fi -- li -- us Pa -- _
-% 	_ _ _
-% 	_ _ _ _
-% 	tris, Fi -- li -- us
-% 	Pa -- %120
-% 	tris,
-% 	Fi -- li -- us,
-% 	Fi -- li -- us Pa --
-% 	
-% 	tris, %126
-% 	
-% 	Fi -- li -- us Pa --
-% 	_ _
-% 	_ _ %130
-% 	_ _ tris, Fi -- li -- us
-% 	Pa --
-% 	tris, Fi -- li -- us
-% 	Pa -- tris. %134 finis
-% }
-% 
+KyrieIIBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #102
+		R1*4 %105
+		\mvTr e4.\fE^\tuttiE e8 e4 e
+		dis a' gis d
+		cis g' fis c
+		h h' a g~
+		g f!8[ d] f[ g a a,] %110
+		e'4 r r2
+		R1*2
+		r2 e8. fis16 g8 a
+		h[ a16 g] fis8[ h] e,[ fis gis e] %115
+		a[ g16 fis] e8[ a] d,[ e fis d]
+		g[ fis16 e] dis8[ h] e[ d c a]
+		h4 e h'2
+		e,4 r r2
+		R1*6 %125
+		r2 g8. a16 b8 c
+		d[ c16 b] a8[ d] g,[ a h g]
+		c[ b16 a] g8[ c] f,[ g a f]
+		b[ a16 g] f8[ e] d4 d'
+		a4 r r2 %130
+		R1*2
+		a4. a8 a4 a
+		gis d' cis g
+		fis c' h f %135
+		e a d,8. d16 e8 fis
+		g[ f16 e] d8[ g] c[ h16 a] gis8[ e]
+		a[ g] f[ g16 a] b4 g
+		a d a4. g8
+		f[( e d c] b2) %140
+		a4 r r2
+		R1
+		f'8. g16 a8 b c[( b16 a] g8[ c]
+		f,[ g a f] b[ as?16 g] f8[ b]
+		es,4 f) g r %145
+		R1*2
+		r2 a4. a8
+		a4 a gis d'
+		cis g fis c'? %150
+		h f e a
+		d,4 e8[ fis] g[ f16 e] d8[ g]
+		c,4 r e8. fis16 g8 a
+		h[ a16 g] fis8[ h] e,[ fis gis e]
+		a[ g16 fis] e8[ a] d,[ e fis d] %155
+		g[ f16 e] d8[ g] c,[ d e c]
+		f[ e] d([ f)] e4. e8
+		e4 e dis( a'
+		gis d cis g'?)
+		f d e2~ %160
+		e e~
+		e4 e e2
+		f4 r8 f d4( e)
+		c r8 a' d,4( e)
+		a, r r2\fermata \bar "|." %165 FINIS
+	}
+}
+
+KyrieIIBassoLyrics = \lyricmode {
+	Ky -- ri -- e e -- %106
+	lei -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ %110
+	son.
+	
+	Ky -- ri -- e e --
+	lei -- _ _ %115
+	_ _ _
+	_ _ _
+	_ _ _
+	[son.]
+	
+	Ky -- ri -- e e -- %126
+	lei -- _ _
+	_ _ _
+	_ _ _ _
+	[son.] %130
+	
+	Ky -- ri -- e e -- %133
+	lei -- _ _ _
+	_ _ _ _ %135
+	_ son. Ky -- ri -- e e --
+	lei -- _ _ _
+	_ _ _ _
+	_ _ son, e --
+	lei -- %140
+	son.
+	
+	Ky -- ri -- e e -- lei --
+	
+	son. %145
+	
+	Ky -- ri -- %148
+	e e -- lei -- _
+	_ _ _ _ %150
+	_ _ _ _
+	_ _ _ _
+	son. Ky -- ri -- e e --
+	lei -- _ _
+	_ _ _ %155
+	_ _ _
+	_ son. __ Ky -- ri --
+	e e -- lei --
+	
+	son, [e -- lei] -- %160
+	son, __
+	e -- lei --
+	son, e -- lei --
+	son, e -- lei --
+	son. %165 FINIS
+}
+
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	
+}
+
 % QuoniamIBassoNotes = {
 % 	\relative c {
 % 		\clef bass

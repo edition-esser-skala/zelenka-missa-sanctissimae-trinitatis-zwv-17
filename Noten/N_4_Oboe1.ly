@@ -42,7 +42,7 @@ ChristeOboeI = {
 			\set Staff.timeSignatureFraction = 3/8
 			\set Score.currentBarNumber = #21
 		e'8\fE a64([ h cis16.)] h32 a16. gis16( a) a4
-		\appoggiatura { fis16[ gis] } a8.\trill gis32[ fis] e16 d cis16. d64 e \appoggiatura cis8 h4
+		\appoggiatura { fis16[ gis] } a8.\trill gis32[ fis] e16 d cis16.( d64 e) \appoggiatura cis8 h4
 		e32( a16.) f32([ e16.)] dis32( e16.) r4 r8
 		c32(\f a'16.) c,32([ h16.)] a16( h32 c) c16(\trill h) h4
 		\appoggiatura { h16[ cis] } d8 d8.([\trill cis32 d)] cis32([ d e16)]~ e16 cis([ h a)] %25
@@ -58,11 +58,11 @@ ChristeOboeI = {
 		e r16 gis \noBeam a8~ \tuplet 3/2 8 { \stemDown a16 gis(-. fis-. e-.[ d-. cis-.] h-. a-. gis-.) \stemNeutral } %35
 		a16.-! fis32-! d8[ e] a4 r8
 		R2.
-		a'8.\f\trill gis32[ fis] e16 d cis16. d64 e h4
+		a'8.\f\trill gis32[ fis] e16 d cis16.( d64 e) h4
 		R2.
-		\tempoChristeB r4^\adlibitum r8 \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
+		\tempoChristeB r4^\adlibitumE r8 \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
 		dis16([ e)] e8 r e8.\trill( dis32 cis) h16[ a]
-		gis16.[ a64 h] fis8 r r4 r8
+		gis16.[( a64 h]) fis8 r r4 r8
 		R2.*12 %53
 		\tuplet 3/2 8 { h'16(\f-. ais-. gis-. fis[-. e-. dis?-.] cis h ais) } \appoggiatura ais8 h4 r8 %55
 		gis16.[ e'32] e8.(\trill dis32 e) h16.[ eis32] eis8.(\trill dis32 eis)
@@ -108,223 +108,78 @@ ChristeOboeI = {
 	} 
 }
 
+KyrieIIOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoKyrieII
+			\set Score.currentBarNumber = #102
+		R1*8 %109
+		\mvTr a'4.\fE-\tenuto a8 a4 a %110
+		gis d' cis g
+		fis c' h f
+		e r r2
+		e'4.^\tenuto e8 e4 e
+		dis a' gis d %115
+		cis g' fis c
+		h h'4. e,8 a4~
+		a g fis4.\trill fis8
+		e4 r r2
+		R1*2 %121
+		r2-\critnote c8. d16 e8 f!
+		g f16 e d8 g c, d e c
+		f es16 d c8 f b, c d b
+		es d16 c b8 d a4. g16 a %125
+		h8 g'4^\tenuto g8 g4 g
+		fis c' h f
+		e b' a es
+		d r d8.^\critnote e16 f8 g
+		a g16 f e8 a d, e fis d %130
+		g f16 e d8 g c, d e c
+		f e16 d cis8 a b4 h8 e
+		cis a d2 c?4
+		r2 a4.-\tenutoE a8
+		a4 a gis d' %135
+		cis g fis c'
+		h f e e'~
+		e8 cis d4~ d8 f e d
+		cis e d4. cis16 h cis8.\trill d16
+		d8 d, r4 d'8.-! e16-! f8 g %140
+		a g16 f e8 a d, e fis d
+		g f16 e d8 g c, d e8.(\trill d32 e)
+		f8 f, r f' e4^\tenuto b
+		a es' d as
+		g4 r r2 %145
+		d'8. d16 e!8 fis g f16 es d8 g
+		g,4 r8 e' f es16 d c8 f
+		f, f'4 e16 d cis8 a r4
+		a8.-!\f h16-! c8 d e d16 c h8 e
+		a, h cis a d c16 h a8 c %150
+		d c h c16 d e4.\trill e8
+		d2 r
+		e4.^\tenuto e8 e4 e
+		dis a' gis d
+		cis g' fis c %155
+		h f' e b
+		a d2 c4
+		h8 e16 fis g8 a h a16 g fis8 h
+		e, fis gis e a g16 fis e8 a
+		a, a'16 g f8.\trill e16 e8 e, d'4 %160
+		cis4.^\tenuto cis8 dis2\f^\tenuto
+		e8 e, e' d16 c h8 a' h, gis'
+		r a a, a' r f r h,
+		r e e, e' r f h, gis'
+		a4 r r2\fermata \bar "|." %165 FINIS
+	}
+}
 
-% KyrieIIOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \tempoKyrieII
-% 			\set Score.currentBarNumber = #82
-% 		e'4.\fE e8 e4 e %82
-% 		e, e'8 e f,4 d'
-% 		fis, d'8 d gis,4 d'~
-% 		d8 c c h16 a h8 e, e'4~ %85
-% 		e d e8 h e d
-% 		c h c4 r8 a fis' e
-% 		dis d c h a h c h16 a
-% 		g4 fis r8 h cis dis
-% 		e h e2 d4 %90
-% 		c2 h8 e4 e8
-% 		e4 e e, e'8 e
-% 		f,4 d' fis, d'8 d
-% 		gis,4 d'4. c8 c h16 a
-% 		h8 e, e'2 d4 %95
-% 		e8 h e d c h c4
-% 		r8 a fis' e dis d c h
-% 		a h c h16 a g4 fis
-% 		r8 h cis dis e h e4~
-% 		e d2 c4 %100
-% 		h2 r8 a e' d
-% 		c cis d c? h16 g' g g g g g f32 g
-% 		a16 a a a a a a g32 a h16 h h h h h h a32 h
-% 		c16 c c c c c c h32 c d16 f, f f e g g e
-% 		d8 g, e' g, d' g, g' f %105
-% 		e d16 c h8 d c h a h
-% 		c4 a r8 g a h
-% 		c g c4. h8 h a16 g
-% 		a4.\trill a8 g4 r
-% 		c4. c8 c4 c %110
-% 		c, c'8 c d,4 b'
-% 		d, b'8 b e,4 b'~
-% 		b8 a a g16 f g8 c, c'4~
-% 		c h8 c d4 cis8 d
-% 		e4 r8 a, d c b c %115
-% 		d4 cis e d8 e
-% 		a,4. g16 f g8 a e a
-% 		d4. d8 cis4 r
-% 		r8 d g f e f g16 g, g g
-% 		g g g g g g g f32 g a16 a a a a a a g32 a %120
-% 		b16 b b b b b b a32 b c16 c c c c c c b32 c
-% 		d16 d d d d d d cis32 d cis16 a' a a a a a a
-% 		b d, d d c c' c b32 c a16 c, c c b b' b a32 b
-% 		g16 b, b b a a' a g32 a b16 g d b g g' g g
-% 		g g g f32 g f16 f f f f f f es32 f es16 es es es %125
-% 		es es es d32 es d16 d d d d d d c32 d c16 g' g g
-% 		fis fis fis e32 fis g16 g g g a a a g32 a d,16 a' a a
-% 		gis4-! a-! gis8-! h, e d16 c
-% 		h8 e, r gis a g f a
-% 		d d, fis g16 a h4. h8 %130
-% 		e,4 e' dis8 e h a16 g
-% 		a8 h c8. c16 h4 r
-% 		a'4. a8 a4 a
-% 		a, a'8 a h,4 a'
-% 		cis, a'8 a dis,4 a'~ %135
-% 		a8 g g fis16 e fis8 h, h' a
-% 		gis4 r e4. e8
-% 		e4 e e, e'8 e
-% 		f,4 d' fis, d'8 d
-% 		gis,4 d'4. c8 c h16 a %140
-% 		h8 e, e'2 d4
-% 		gis a gis r8 h,
-% 		c16 c c c c c c h32 c d16 d d d d d d c32 d
-% 		e16 e e e e e e d32 e fis16 fis fis fis fis fis fis e32 fis
-% 		gis16 gis gis gis a a a gis32 a a,4-! a'-! %145
-% 		gis-! a-! f16 f f f g g g g
-% 		g2\fermata_\tenuto \tempoKyrieIIB a4\ff r8 c-!
-% 		h4-! a-! a-! gis
-% 		a e f2~
-% 		\tempoKyrieIIFinis f4 e8 d e2 \bar "|." %150 FINIS
-% 	}
-% }
-% 
-% GloriaOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \major \time 4/4 \tempoGloria
-% 		a'8\fE cis16 d e8 e e e e e
-% 		e16 a gis fis e d cis h cis a e'8 e e
-% 		e e e e e16 a gis fis e d cis h
-% 		cis8 a r4 r r8 e'
-% 		cis cis \tuplet 3/2 8 { cis16[-! d-! e-!] d e fis } \appoggiatura fis8 e4 r8 fis\p %5
-% 		e16( d) d( cis) \tuplet 3/2 8 { cis[-! d-! e]-! d e fis } \appoggiatura fis8 e4 r8 fis\f
-% 		e8.( d16) d8.(\trill cis16) cis8 a a'4~
-% 		a gis fis8 gis16 a h4~
-% 		h a gis8 e a4~
-% 		a16 fis d' h gis8.\trill a16 a4 r %10
-% 		r8 cis,16 d e8 e e r r4
-% 		r8 cis16 d \tuplet 3/2 8 { e16[-! fis-! e-!] e fis e } e8 e4 e8~
-% 		e e4 e e e8~
-% 		e e4 e gis8 a d,
-% 		cis!4 h \tuplet 3/2 8 { a16[-! h-! cis-!] h cis d cis[ d e] d e fis } %15
-% 		e8 gis a d, cis4 h
-% 		a4 r e'8\f gis a d,
-% 		cis4 h a16 a' gis fis e d cis h
-% 		a c h a gis a f e dis dis dis dis dis dis dis dis
-% 		e4 d'!-! cis-! d,8 e %20
-% 		a4 r8 d cis r d, e
-% 		a4 r r8 a h gis
-% 		a4 r8 e a4 r
-% 		r8 a\fE h gis a4 r8 e
-% 		a4 r r2 %25
-% 		a8 cis16 d e8 e e e e e
-% 		e16 a gis fis e d cis h cis a e'8 e e
-% 		e e e e e16 a gis fis e d cis h
-% 		cis8 a r4 r r8 e'
-% 		cis cis \tuplet 3/2 8 { cis16[ d e] d e fis } \appoggiatura fis8 e4 r8 fis %30
-% 		e16( d) d( cis) \tuplet 3/2 8 { cis[ d e] d e fis } e4 r8 fis
-% 		e8.( d16) d8.( cis16) cis4 r
-% 		R1*2
-% 		r2 r4 r8 h'\fE %35
-% 		gis gis \tuplet 3/2 8 { gis16[-! a-! h-!] a h cis } h4 r8 cis
-% 		h16( a) a( gis) \tuplet 3/2 8 { gis16[-! a-! h-!] a h cis } h8 e,-! h-! gis
-% 		e4 r e'8 d cis h16 cis
-% 		d8 a d2 cis4
-% 		dis e2 dis8.\trill e16 %40
-% 		e4 r e8 d16 cis h8 gis
-% 		cis8 fis dis8.\trill e16 e8 gis16 a h8-! h-!
-% 		h h h h h4 r
-% 		gis16 e h'8 h h h h h h
-% 		h4 r r16 g fis e dis e c h %45
-% 		ais ais ais ais ais ais ais ais h4-! a'-!
-% 		gis-! a,8 h e,4 r8 a'-!
-% 		gis4-! a,8 h \tuplet 3/2 8 { e,16[-! fis-! gis-!] fis gis a gis[ a h] a h cis }
-% 		h8 e fis dis e gis, a h
-% 		e,4 r r8 e'\f fis dis %50
-% 		e gis, a h e,4 r
-% 		R1
-% 		r2 r4 dis'8\pE dis
-% 		e4^\tenuto fis8( e) \appoggiatura e dis4 r
-% 		R1*5 %59
-% 		\tuplet 3/2 8 { h16[-!\fE cis-! dis-!] cis dis e dis[ e fis] e fis gis } fis8 ais h e, %60
-% 		dis ais' h e, dis4 cis
-% 		h4-! r r2
-% 		r2 r16 h'\fE ais gis fis e dis cis
-% 		h4-! r r2
-% 		r4 e!-! dis-! e,8 fis %65
-% 		h,4 r8 e' dis4-! e,8 fis
-% 		r h dis fis r dis fis h
-% 		r gis, h e r ais, cis fis
-% 		r fis, h dis r gis, h e
-% 		r e, ais cis r fis, ais dis %70
-% 		r dis fis h r gis, eis' gis
-% 		r cis, fis a r fis, d' fis
-% 		eis16 eis eis eis fis fis fis fis gis gis gis gis fis fis fis fis
-% 		eis eis eis eis fis fis fis fis fis fis fis fis eis eis eis eis
-% 		fis fis e d cis h a gis fis4 r %75
-% 		r2 r4 h-!
-% 		r8 a h8 cis fis,4 r8 h
-% 		r a h cis r fis gis, eis'
-% 		fis4 r r2
-% 		R1*2 %81
-% 		r2 \tuplet 3/2 8 { a,16[-!\fE h-! cis-!] h cis d cis[ d e] d e fis }
-% 		e8 a, cis e r cis e a
-% 		r fis, a d r gis, h e
-% 		r e, a cis r fis, a d %85
-% 		r d, fis h r e, gis-\critnote cis
-% 		r cis e a r fis, dis' fis
-% 		r h, e g r e, c' e
-% 		dis16 dis dis dis e e e e fis fis fis fis g g g g
-% 		a a a a g g g g fis fis fis fis fis fis fis fis %90
-% 		e4 r r2
-% 		R1*3
-% 		r2 r8 g,\fE h d %95
-% 		r h d g r e, g c
-% 		r fis, a d r d, g h
-% 		r e, g c r c fis a
-% 		r d, fis h r h, e g
-% 		r cis,! e a r a, d fis %100
-% 		r d g h cis,!16 cis cis cis d d d d
-% 		e e e e fis fis fis fis g g g g fis fis fis fis
-% 		e e e e e e e e d8 fis16 g a8 a
-% 		a a a a a16 d cis h a g fis e
-% 		d f( e d cis d b a) gis!-! gis-! gis-! gis gis gis gis gis %105
-% 		a4-! r r2
-% 		R1*2
-% 		r2 a8\fE cis16 d e8 e
-% 		e e e e e16 a gis fis e d cis h %110
-% 		a c h a gis a f e dis dis dis dis dis dis dis dis
-% 		e8 e gis h r gis h e
-% 		r cis e a r dis, fis h
-% 		r h, e gis r cis, e a
-% 		r a, cis fis r h, dis gis %115
-% 		r gis, h e r ais, cis fis
-% 		dis16 dis dis dis e e e e fis fis fis fis e e e e
-% 		dis dis dis dis e e e e e e e e d d d d
-% 		d d d d cis cis cis cis h h h h cis cis cis cis
-% 		d d d d cis cis cis cis h4 r8 e %120
-% 		cis cis \tuplet 3/2 8 { cis16[-! d-! e-!] d e fis } e4 r8 fis
-% 		e16( d) d( cis) \tuplet 3/2 8 { cis16[ d e] d e fis } e4 r8 fis
-% 		e8.( d16) d8.( cis16) cis8 a a'4~
-% 		a gis fis8 gis16 a h4~
-% 		h a gis8 e a4~ %125
-% 		a16 fis d' h gis8.\trill a16 a4 r
-% 		r8 cis,16 d e8 e e r r4
-% 		r8 cis16 d \tuplet 3/2 8 { e16[ fis e] e fis e } e8 e4 e8~
-% 		e e4 e e e8~
-% 		e e4 e gis8 a d, %130
-% 		cis!4 h8.\trill a16 \tuplet 3/2 8 { a16[-! h-! cis-!] h-! cis-! d cis[ d e] d e fis }
-% 		e8 gis a d, cis4-! h-!
-% 		\tuplet 3/2 8 { a16[-! h-! cis-!] h-! cis-! d-! cis[ d e] d e fis } e8 gis a d,
-% 		cis4-! h-! a16 a' gis fis e d cis h
-% 		a c h a gis a f e dis dis dis dis dis dis dis dis %135
-% 		e4-! d'!-! cis-! d,8 e
-% 		a4 r8 d cis4 d,8 e
-% 		a4 r r8 e' d h
-% 		cis a d, e a r r4
-% 		r8 a h gis a cis d e %140
-% 		a,4 r r2 \bar "||" %141 finis
-% 	}
-% }
-% 
+GloriaOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoGloria
+		
+	}
+}
+
 % QuoniamIOboeI = {
 % 	\relative c' {
 % 		\clef treble

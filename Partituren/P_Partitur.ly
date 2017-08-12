@@ -104,57 +104,58 @@
 % % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.2 CHRISTE" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Flauto I, II" } }
-						\ChristeFlautoI
-					}
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
-						\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-						\ChristeOboeI
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ChristeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\ChristeViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\ChristeViola
-					}
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \ChristeAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \ChristeAltoLyrics
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi ed Organo"
-						\ChristeBassiOrgano
-					}
-				>>
-				\new FiguredBass { \ChristeBassFigures }
-			>>
-% 			\midi { \tempo 8 = 100 }
-		}
-	}
+% 	\bookpart {
+% 		\header {
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.2 CHRISTE" }
+% 			composer = \markup { \larger " " }
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Flauto I, II" } }
+% 						\ChristeFlautoI
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
+% 						\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+% 						\ChristeOboeI
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ChristeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+% 							\ChristeViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\ChristeViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Alto"
+% 					\new Voice = "Alto" { \dynamicUp \ChristeAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \ChristeAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Bassi ed Organo"
+% 						\ChristeBassiOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ChristeBassFigures }
+% 			>>
+% % 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.3 KYRIE II" }
@@ -228,83 +229,80 @@
 % % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
-% }
-% 	
-% \book {
-% 	\bookpart {
-% 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.1 GLORIA" }
-% 			composer = \markup { \larger " " }
-% 		}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.1 GLORIA" }
+			composer = \markup { \larger " " }
+		}
 % 		\paper { systems-per-page = #2 }
-% 		\score {
-% 			<<
-% 				\new StaffGroup {
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe I"
-% 							\GloriaOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe II"
-% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\GloriaOboeII
-% 						}
-% 					>>
-% 				}
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\GloriaViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\GloriaViolinoII
-% 						}
-% 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\GloriaViola
-% 					}
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\GloriaBassiOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass { \GloriaBassFigures }
-% 			>>
-% % 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
+		\score {
+			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\GloriaOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\GloriaOboeII
+						}
+					>>
+				}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\GloriaViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\GloriaViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\GloriaViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Bassi ed Organo"
+						\GloriaBassiOrgano
+					}
+				>>
+				\new FiguredBass { \GloriaBassFigures }
+			>>
+% 			\midi { \tempo 4 = 80 }
+		}
+	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.2 QUI TOLLIS" }

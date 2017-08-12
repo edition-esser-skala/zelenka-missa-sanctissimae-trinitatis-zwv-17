@@ -69,333 +69,152 @@ KyrieITenoreLyrics = \lyricmode {
 	%20 finis
 }
 
+KyrieIITenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #102
+		\mvTr a4.\fE^\tuttiE a8 a4 a
+		gis d' cis g
+		fis c' h f
+		e e'4. a,8 d4~ %105
+		d c h8[ e,] e'[ dis16 e]
+		fis8.[ e16] dis8.[ cis16] h8[ e,] e'4~
+		e8.[ d16] cis8.[ h16] a4 d~
+		d g8[ g,] c4 h
+		cis d a8. h16 c?8 d %110
+		e[ d16 c] h8[ e] a,[ h cis a]
+		d[ c16 h] a8[ d] g,[ a h g]
+		c[ h a g] f4 fis
+		gis a4. g?8 h4~
+		h a h r8 gis %115
+		a4( g) a r8 fis
+		g4( a) g c
+		h1
+		h4 r r2
+		R1*2 %121
+		c4. c8 c4 c
+		h f' e b
+		a es' d as
+		g g'4. c,8 f4~ %125
+		f es d2~
+		d4 c d r8 h!
+		c4( b) c4 r8 a
+		b4( a8[ g] f f'4 d8)
+		e4 r r2 %130
+		R1*2
+		r2 a,8. h16 c8 d
+		e[ d16 c] h8[ e] a,[ h cis a]
+		d[ c16 h] a8[ c] d[ c h a] %135
+		g4 cis d c?8 a
+		d2( e4. d8
+		cis[ e] a,[ h16 cis] d8.[ c?16] b4)
+		a4 r r2
+		d4. d8 d4 d %140
+		cis( g' fis c
+		h f' e b)
+		a r c8. c16 d8 e
+		f[( es16 d] c8[ a] b4 c8[ d]
+		es4) b g8. a16 h8 c %145
+		d[ c16 b] a8[ d] g,[ a h g]
+		c[ b16 a] g8[ c] f,[ g a f]
+		b[ a16 g] f8[ g] a4 r
+		a8. h16 c8 d e[( d16 c] h8[ e]
+		a,[ h cis a] d[ c16 h] a8[ c] %150
+		d4) gis,8 gis' g[( f] e4
+		a,8[ d,] a'4 g8[ h] d4~
+		d c) h2
+		r8 fis' dis4( e8[ h]) h4
+		r8 e cis4( d8[ a)] a4 %155
+		r8 d h4( c8[ g)] g4
+		f8. g16 a8 a gis4( a~
+		a8[ g] \once\stemUp h2) h8 h
+		h4 e, r8 e' cis4
+		d4. c8 h[ a gis e] %160
+		e'4. cis8 dis2
+		e8[ d c d] e2
+		c4 r8 c d4( h)
+		c r8 e d4( h)
+		c r r2\fermata \bar "|." %165 FINIS
+	}
+}
 
-% KyrieIITenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
-% 			\set Score.currentBarNumber = #82
-% 		R1*9 %90
-% 		r2 \mvTr e4.\fE^\tuttiE e8
-% 		e4 e e, e'8 e
-% 		f,4( d' fis,) d'8 d
-% 		gis,4( d'~ d8[ c] c[ h16 a]
-% 		h8[ e,] e'2 d4) %95
-% 		e8 h e d c([ h)] c4
-% 		r8 a fis' e dis([ d c h]
-% 		a[ h] c[ h16 a] g4) fis
-% 		r8 h cis dis e([ h] e4~
-% 		e d2 c4 %100
-% 		d4. c16[ h] c8[ h]) a r
-% 		r a d c h8.([ a16)] g4
-% 		r2 r8 d' g f
-% 		e([ d] c4) d e
-% 		h( c) d8 h e d %105
-% 		c4 d8 e f4.( e16[ d]
-% 		c4 d4. c16[ h] a4)
-% 		g8 d' e e a,4( h
-% 		e d) d r
-% 		r2 r8 a f' e16([ d]) %110
-% 		e8[ c b a] g4. a8
-% 		b[ c] d4 c2
-% 		f, c'
-% 		g r8 h! e d
-% 		cis([ c b a] g[ a] b[ a16 g] %115
-% 		f4) e r8 a h cis
-% 		d([ a] d4. c8 c8[ b16 a]
-% 		b2) a
-% 		r4 r8 d e d16([ c)] h8([ a)]
-% 		g4 r r8 a d c %120
-% 		b([ d)] g,4 r8 c f e
-% 		d([ cis)] d e cis a d4~
-% 		d c2 b4~
-% 		b a b es~
-% 		es d2 c4~ %125
-% 		c( d) g,( a~
-% 		a b c) a
-% 		e'4. e8 e4 e
-% 		e, e'8 e f,4( d'
-% 		fis,) d'8 d gis,4( d'~ %130
-% 		d8[ c] c[ h16 a] h8[ e,] e'4~
-% 		e dis) e8 h e d
-% 		c([ h)] a4 r8 a f' e16([ d)]
-% 		cis8([ c h a)] gis h c h16([ a)]
-% 		g4 fis r8 h cis dis %135
-% 		e([ h] e2 d4~
-% 		d c h2~
-% 		h a)
-% 		h4 r8 h d c h4~
-% 		h8[( e,] h'4. a8 a[ gis16 fis] %140
-% 		gis8[ a16 h] c8[ a] f'2)
-% 		e8 h e4. d16[( c]) h4~
-% 		h a d2~
-% 		d4 c2 h4
-% 		e,( e'2) d8 f %145
-% 		h,4( c8[ d16 e] f4 e)
-% 		e2\fermata \tempoKyrieIIB r4 c!(\ffE
-% 		h) a2( gis4)
-% 		a a a2
-% 		\tempoKyrieIIFinis a1 \bar "|." %150 FINIS
-% 	}
-% }
-% 
-% KyrieIITenoreLyrics = \lyricmode {
-% 	Ky -- ri -- %91
-% 	e e -- lei -- son, e --
-% 	lei -- son, e --
-% 	lei --
-% 	%95
-% 	son. Chri -- ste e -- lei -- son,
-% 	Chri -- ste e -- lei --
-% 	son,
-% 	Chri -- ste e -- lei --
-% 	%100
-% 	son,
-% 	Chri -- ste e -- lei -- son,
-% 	Chri -- ste e --
-% 	lei -- son, e --
-% 	lei -- son, Chri -- ste e -- %105
-% 	[lei] -- son, e -- lei --
-% 	
-% 	son, Chri -- ste e -- lei --
-% 	son,
-% 	Chri -- ste e -- %110
-% 	lei -- _ _
-% 	_ _ _
-% 	_ _
-% 	son, Chri -- ste e -- %114
-% 	lei -- %115
-% 	son, Chri -- ste e --
-% 	lei --
-% 	son,
-% 	Chri -- ste e -- lei --
-% 	son, Chri -- ste e -- %120
-% 	lei -- son, Chri -- ste e --
-% 	lei -- son, e -- lei -- son, Chri --
-% 	ste e --
-% 	lei -- son, Chri --
-% 	ste e -- %125
-% 	lei --
-% 	son.
-% 	Ky -- ri -- e e --
-% 	lei -- son, e -- lei --
-% 	son, e -- lei -- %130
-% 	
-% 	son. Chri -- ste e --
-% 	lei -- son, Chri -- ste e --
-% 	lei -- son, Chri -- ste e --
-% 	lei -- son, Chri -- ste e -- %135
-% 	lei --
-% 	
-% 	son, Chri -- ste e -- lei -- %139
-% 	
-% 	son, Chri -- ste e -- lei -- %142
-% 	son, Chri --
-% 	ste e --
-% 	lei -- son, e -- %145
-% 	lei --
-% 	son, e --
-% 	lei --
-% 	son, e -- lei --
-% 	son. %150 FINIS
-% }
-% 
-% GloriaTenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key a \major \time 4/4 \autoBeamOff \tempoGloria
-% 		R1*24
-% 		\mvTr cis8\fE^\tuttiE cis16 d e8 cis d d d4 %25
-% 		cis r r2
-% 		cis8 cis cis h cis4 r
-% 		h r e8 e e e
-% 		e a, e cis a4 r
-% 		cis' r cis8 cis cis d %30
-% 		cis h cis fis e4 r8 fis
-% 		e([ a,)] h e e4 r
-% 		R1*3 %35
-% 		r2 \mvTr e8\fE^\tuttiE e e e
-% 		e4^\critnote r r8 e h gis
-% 		e4 r r2
-% 		d'8 cis h cis16 h a4 cis
-% 		h h cis( h) %40
-% 		h2 e4. e8
-% 		e fis dis4 e r
-% 		R1*8 %50
-% 		r2 r4 \mvTr h\pE^\solo
-% 		e8 dis16([ cis)] h8 a gis8.([ fis16)] e4
-% 		R1
-% 		r2 r4 dis'8 dis
-% 		e4 fis8 e dis4 r %55
-% 		r2 r4 e~
-% 		e dis cis8([ dis16 e] fis4~)
-% 		fis e dis8 h e e
-% 		e4( dis cis4.) cis8
-% 		h4 r r2 %60
-% 		R1*6 %66
-% 		\mvTr h4.\fE^\tuttiE h8 h2
-% 		h4 h8 h cis4 cis
-% 		dis8 fis fis dis e8. e16 e4
-% 		cis8 e e cis dis8. dis16 dis4 %70
-% 		h8 dis dis h cis8. cis16 cis4
-% 		cis8 cis16([ h)] a8 cis d8. d16 d4
-% 		gis,4 r8 a h4 r8 a
-% 		eis'8. eis16 fis4 cis2
-% 		cis4 r r2 %75
-% 		R1*3
-% 		\mvTr cis4\pE^\solo cis8 h a([ gis)] fis4
-% 		r fis'8 e d16([ cis h cis] d[ e fis gis] %80
-% 		a8[ gis16 fis] e[ d cis h] cis[ a cis e] fis8[ e]
-% 		\afterGrace d2)( cis8) cis4 r
-% 		\mvTr e4\fE^\tuttiE e8 e e4 e
-% 		d fis e2
-% 		e4 r r8 fis4 e16 fis %85
-% 		d4 d r8 e4 d16([ e)]
-% 		cis4 cis r8 dis4 cis16([ dis)]
-% 		h4 h c?4. e8
-% 		dis4 e fis e
-% 		dis h8 h h4. h8 %90
-% 		h4 r \mvTr h\pE^\solo h8 a
-% 		g([ fis)] e4 r e'8 d
-% 		c16([ h a h] c[ d e fis] g8[ fis16 e] d[ c h a]
-% 		h[ g h d] e8[ d] c4.) c8
-% 		h4 r \mvTr h\fE^\tuttiE h8 h %95
-% 		h4 h c e
-% 		d4. d8 d4 r
-% 		r8 e4 d16 e c4 c
-% 		r8 d4 c16([ d)] h8. h16 h4
-% 		r8 cis4 h16([ cis)] a8. a16 a4 %100
-% 		h4. d8 cis8. cis16 d4
-% 		e d cis d
-% 		e2 d4 r
-% 		R1*2 %105
-% 		\mvTr e4\pE^\solo e8 d cis([ h)] a4
-% 		r a'8 g fis16([ e d e] fis[ d fis gis]
-% 		a8[ gis16 fis] e[ d cis h] cis[ a cis e] fis8) e
-% 		d2 cis4 r
-% 		R1*2 %111
-% 		\mvTr e4\fE^\tuttiE e8 e e4 e
-% 		e e fis2
-% 		e4 r r8 cis4 h16 cis
-% 		a4 a r8 h4 a16([ h)] %115
-% 		gis4 gis r8 e'4 dis16([ e)]
-% 		dis8 h r4 dis4 e8 e
-% 		fis4( e fis h,)
-% 		h8 h4 a16 a gis4( a
-% 		h8[ e16 d] e8[ a,] e4 e') %120
-% 		e r r2
-% 		r e4 e8 d
-% 		cis4 cis8 h a4( e'~)
-% 		e e8 e d4( fis~)
-% 		fis fis8 fis e([ d cis a] %125
-% 		fis'4 e) e r
-% 		R1
-% 		cis4 cis8 cis h[ h c d]
-% 		c8[ h16 c] d8[ c] h[ h c d]
-% 		c8[ h16 c] d8[ c] h4 r %130
-% 		r8 fis'[ h, e] cis4 r
-% 		cis8([ d)] e fis e2
-% 		e4 r a,8.^\critnote h16 cis4
-% 		d( h) cis r
-% 		R1*7 \bar "||" %141 finis
-% 	}
-% }
-% 
-% GloriaTenoreLyrics = \lyricmode {
-% 	[Glo -- ri -- a in ex -- cel -- sis De -- %25
-% 	o.]
-% 	[Et in ter -- ra pax,
-% 	pax,] [et in ter -- ra
-% 	pax, in ter -- ra pax,
-% 	pax, et in ter -- ra] %30
-% 	pax, in ter -- ra pax, pax
-% 	ho -- mi -- ni -- bus.
-% 	
-% 	[Et in ter -- ra %36
-% 	pax, in ter -- ra
-% 	pax,]
-% 	pax ho -- mi -- ni -- bus bo -- nae
-% 	vo -- lun -- ta -- %40
-% 	tis, bo -- nae
-% 	vo -- lun -- ta -- tis.
-% 	
-% 	Lau -- %51
-% 	da -- mus te, lau -- da -- mus,
-% 	
-% 	be -- ne --
-% 	di -- ci -- mus te, %55
-% 	ad --
-% 	o -- ra --
-% 	mus te, glo -- ri -- fi --
-% 	ca -- mus
-% 	te. %60
-% 	
-% 	[Gra -- ti -- as %67
-% 	a -- gi -- mus ti -- bi
-% 	pro -- pter ma -- gnam glo -- ri -- am,
-% 	pro -- pter ma -- gnam glo -- ri -- am, %70
-% 	pro -- pter ma -- gnam glo -- ri -- am,
-% 	pro -- pter ma -- gnam glo -- ri -- am,]
-% 	glo -- _ _ _
-% 	_ ri -- am tu --
-% 	am. %75
-% 	
-% 	Do -- mi -- ne De -- us, %79
-% 	Rex coe -- les -- %80
-% 	
-% 	tis,
-% 	[Do -- mi -- ne De -- us,
-% 	Rex coe -- les] --
-% 	tis, Do -- mi -- ne %85
-% 	De -- us, Rex coe --
-% 	les -- tis, De -- us __
-% 	Pa -- ter, De -- us
-% 	Pa -- ter, De -- us
-% 	Pa -- ter o -- mni -- pot -- %90
-% 	ens. Do -- mi -- ne
-% 	Fi -- li u -- ni --
-% 	ge --
-% 	ni --
-% 	te, [Do -- mi -- ne %95
-% 	Fi -- li u -- ni] --
-% 	ge -- ni -- te,
-% 	Do -- mi -- ne Fi -- li
-% 	u -- ni -- ge -- ni -- te,
-% 	u -- ni -- ge -- ni -- te, %100
-% 	u -- ni -- ge -- ni -- te,
-% 	Je -- su, Je -- su
-% 	Chri -- ste.
-% 	
-% 	Do -- mi -- ne De -- us, %106
-% 	A -- gnus, A --
-% 	gnus
-% 	De -- i,
-% 	
-% 	Do -- mi -- ne De -- us, %112
-% 	A -- gnus De --
-% 	i, Do -- mi -- ne
-% 	De -- us, A -- gnus %115
-% 	De -- i, A -- gnus
-% 	De -- i, Fi -- li -- us
-% 	Pa --
-% 	tris, Fi -- li -- us Pa --
-% 	%120
-% 	tris,
-% 	Fi -- li -- us,
-% 	Fi -- li -- us, Fi --
-% 	li -- us, Fi --
-% 	li -- us Pa -- %125
-% 	tris,
-% 	Fi -- li -- us
-% 	Pa --
-% 	_ _ _
-% 	_ _ _ %130
-% 	_ tris,
-% 	Fi -- li -- us Pa --
-% 	tris, Fi -- li -- us
-% 	Pa -- tris. %134 finis
-% }
-% 
+KyrieIITenoreLyrics = \lyricmode {
+	Ky -- ri -- e e -- %102
+	lei -- _ _ _
+	_ _ _ _
+	_ _ _ _ %105
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ son. Ky -- ri -- e e -- %110
+	lei -- _ _
+	_ _ _
+	_ _ _
+	_ _ _ _
+	_ son, e -- %115
+	lei -- son, e --
+	lei -- son, e --
+	lei --
+	son.
+	
+	Ky -- ri -- e e -- %122
+	lei -- _ _ _
+	_ _ _ _
+	_ _ _ _ %125
+	_ _
+	_ son, e --
+	lei -- son, e --
+	lei --
+	son. %130
+	
+	Ky -- ri -- e e -- %133
+	lei -- _ _
+	_ _ _ %135
+	_ _ _ son, e --
+	lei --
+	
+	son.
+	Ky -- ri -- e e -- %140
+	lei --
+	
+	son. Ky -- ri -- e e --
+	lei --
+	son. Ky -- ri -- e e -- %145
+	lei -- _ _
+	_ _ _
+	_ _ son.
+	Ky -- ri -- e e -- lei --
+	%150
+	son, e -- lei --
+	
+	son,
+	e -- lei -- son,
+	e -- lei -- son, %155
+	e -- lei -- son.
+	Ky -- ri -- e e -- lei --
+	son, e --
+	lei -- son, e -- lei --
+	_ _ _ %160
+	_ _ _
+	_ _
+	son, e -- lei --
+	son, e -- lei --
+	son. %165 finis
+}
+
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	
+}
+
 % QuoniamITenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

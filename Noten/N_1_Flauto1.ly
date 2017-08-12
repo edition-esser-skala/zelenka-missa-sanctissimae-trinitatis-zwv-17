@@ -16,7 +16,7 @@ ChristeFlautoI = {
 			\set Staff.timeSignatureFraction = 3/8
 			\set Score.currentBarNumber = #21
 		e'8\fE a64([ h cis16.)] h32 a16. gis16( a) a4
-		\appoggiatura { fis16[ gis] } a8.\trill gis32[ fis] e16 d cis16. d64 e \appoggiatura cis8 h4
+		\appoggiatura { fis16[ gis] } a8.\trill gis32[ fis] e16 d cis16.( d64 e) \appoggiatura cis8 h4
 		e32( a16.) f32([ e16.)] dis32( e16.) r4 r8
 		c32(\f a'16.) c,32([ h16.)] a16( h32 c) c16(\trill h) h4
 		\appoggiatura { h16[ cis] } d8 d8.([\trill cis32 d)] cis32([ d e16)]~ e16 cis([ h a)] %25
@@ -32,18 +32,18 @@ ChristeFlautoI = {
 		e r16 gis \noBeam a8~ \tuplet 3/2 8 { \stemDown a16 gis(-. fis-. e-.[ d-. cis-.] h-. a-. gis-.) \stemNeutral } %35
 		a16.-! fis32-! d8[ e] a4 r8
 		R2.
-		a'8.\f\trill gis32[ fis] e16 d cis16. d64 e h4
+		a'8.\f\trill gis32[ fis] e16 d cis16.( d64 e) h4
 		r8 e\pE a, h16 a a([ cis)] d8
-		\tempoChristeB cis4.^\adlibitum \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
+		\tempoChristeB cis4.^\adlibitumE \tempoChristeC h8\f e64([ fis gis16.)] fis32 e16. %40
 		dis16([ e)] e8 r e8.\trill( dis32 cis) h16[ a]
-		gis16.[ a64 h] fis8 r r4 r8
+		gis16.[( a64 h]) fis8 r r4 r8
 		R2.*5 %47
 		r4 r8 dis'32(\p fis16.) gis32([ h,16.)] ais32( e'16.)
 		dis32( cis h16)~ h4 \tuplet 3/2 8 { h16( dis fis gis[ e dis] cis fis e) }
 		dis8 cis16( h) ais( gis) ais8.[ h16] cis8~ %50
 		cis h16 cis dis8~ dis cis16 dis e8~
 		e dis16 e fis8~ fis e16 fis gis8~
-		gis fis16 fis ais8~ ais gis16 ais h8
+		gis fis16 gis ais8~ ais gis16 ais h8
 		cis, ais' h~ h16  cis ais8.\trill h16
 		\tuplet 3/2 8 { h16(\f-. ais-. gis-. fis[-. e-. dis?-.] cis h ais) } \appoggiatura ais8 h4 r8 %55
 		gis16.[ e'32] e8.(\trill dis32 e) h16.[ eis32] eis8.(\trill dis32 eis)

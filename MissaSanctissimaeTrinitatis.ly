@@ -34,7 +34,7 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #1 % K: 1
+	first-page-number = #29 % K: 1   G: 29
 	print-first-page-number = ##t
 }
 
@@ -119,6 +119,9 @@ tempoChriste = \tempoMarkup "Spirituoso"
 	tempoChristeG = \tempoMarkup "[a tempo]"
 	tempoChristeFinis = \tempoMarkup "Adagio"
 
+tempoKyrieII = \tempoMarkup "Vivace"
+
+tempoGloria = \tempoMarkup "[Tempo deest]"
 
 
 

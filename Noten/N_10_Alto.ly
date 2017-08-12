@@ -184,311 +184,149 @@ ChristeAltoLyrics = \lyricmode {
 	son. %94 finis
 }
 
-% KyrieIIAltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
-% 			\set Score.currentBarNumber = #82
-% 		R1*5 %86
-% 		\mvTr a'4.\fE^\tuttiE a8 a4 a
-% 		h, h'8 h c,4( a'
-% 		cis,) a'8 a dis,4 a'~
-% 		a8[ g] g[ fis16 e] fis8[ h,] \stemUp h'4~ %90
-% 		h \stemNeutral a2 gis4~
-% 		gis a h r8 e,
-% 		f! g a2 gis8 a
-% 		h4 a8 h e,2
-% 		e r %95
-% 		r8 h' c h a([ gis] a4)
-% 		e r r r8 fis
-% 		a g! fis([ g] a4. c8
-% 		h[ a16 g] fis2) e8 fis16([ g])
-% 		a8[( g)] fis([ e16 fis] gis4 a) %100
-% 		h2 a4 r8 e
-% 		a g! f![ fis] g2
-% 		a h
-% 		c g
-% 		g r %105
-% 		r r8 f a g
-% 		f4.( e16[ f] g4 c,
-% 		g'2) fis4 g
-% 		c4.( h16[ a] h4. a8)
-% 		g4 r r8 f a g16([ f]) %110
-% 		e8[( e d c] b[ c d c]
-% 		b[ a]) g4 r8 c d e
-% 		f([ c] f2) e4
-% 		g4. g8 g4 g
-% 		g, g'8 g b,4( g' %115
-% 		h,) g'8 g cis,4( g'~
-% 		g8[ f] f[ e16 d] e8[ a,] a'4~
-% 		a g) a r
-% 		r8 d, g f e([ f)] g4
-% 		r8 g g g g4 f %120
-% 		r8 b b b b4 a~
-% 		a g a2
-% 		b4 a2 g4~
-% 		g8 f16([ g)] a2 g4~
-% 		g f2 es4~ %125
-% 		es d~ d8[ c16 d] es8[ g]
-% 		fis4 g8 g a2
-% 		gis4 r r8 e c' h16([ a)]
-% 		gis8([ g f e]) d e f([ e16 d]
-% 		c8[ h)] a4 r8 e' fis gis %130
-% 		a([ e] a4. g8 g4
-% 		fis2 g8[ fis]) e4
-% 		a4.\f a8 a4 a
-% 		a, a'8 a h,4( a'
-% 		cis,) a'8 a dis,4( a'~ %135
-% 		a8[ g] g[ fis16 e] fis8[ h, h' a]
-% 		gis4 a2) gis4~
-% 		gis8 a h([ a16 h] c4) c,
-% 		d8([ e)] fis([ gis)] a4 gis8([ a)]
-% 		h([ a]) gis h e,2~ %140
-% 		e4 a,8 a' gis a h([ a)]
-% 		gis4 r e2~
-% 		e4 fis2 gis4~
-% 		gis a r8 fis h a
-% 		gis([ e c' h] a2) %145
-% 		gis4 a f!( g?)
-% 		g2\fermata \tempoKyrieIIB r4 fis\ffE
-% 		e e8 e e2
-% 		e4 e f!2~
-% 		\tempoKyrieIIFinis f4( e8[ d]) e2 \bar "|." %150 FINIS
-% 	}
-% }
-% 
-% KyrieIIAltoLyrics = \lyricmode {
-% 	Ky -- ri -- e e -- %87
-% 	lei -- son, e -- lei --
-% 	son, e -- lei -- _
-% 	_ _ _ %90
-% 	_ _
-% 	_ son. Chri -- ste e --
-% 	lei -- son, e --
-% 	lei -- son, e -- lei --
-% 	son, %95
-% 	Chri -- ste e -- lei --
-% 	son, Chri --
-% 	ste e -- lei --
-% 	son, Chri --
-% 	ste __ e -- %100
-% 	lei -- son, Chri --
-% 	ste e -- lei -- _
-% 	_ _
-% 	_ _
-% 	son, %105
-% 	Chri -- ste e --
-% 	lei --
-% 	son, e --
-% 	lei --
-% 	son, Chri -- ste e -- %110
-% 	[lei] --
-% 	son, Chri -- ste e --
-% 	lei -- son.
-% 	Ky -- ri -- e e --
-% 	lei -- son, e -- lei -- %115
-% 	son, e -- lei --
-% 	
-% 	son.
-% 	Chri -- ste e -- lei -- son,
-% 	Chri -- ste e -- lei -- son, %120
-% 	Chri -- ste e -- lei -- son, __
-% 	e -- lei --
-% 	son, Chri -- ste __
-% 	e -- lei -- _
-% 	_ _ %125
-% 	_ _
-% 	_ son, e -- lei --
-% 	son, Chri -- ste e --
-% 	lei -- son, e -- lei --
-% 	son, Chri -- ste e -- %130
-% 	lei --
-% 	son.
-% 	Ky -- ri -- e e --
-% 	lei -- son, e -- lei --
-% 	son, e -- lei -- %135
-% 	
-% 	[son,] __
-% 	e -- lei -- son,
-% 	Ky -- ri -- e e --
-% 	[lei -- son, e -- lei] -- %140
-% 	son. Chri -- ste e -- [lei] --
-% 	son, Chri --
-% 	ste, Chri --
-% 	ste, Chri -- ste e --
-% 	lei -- %145
-% 	son, e -- lei --
-% 	son, e --
-% 	lei -- son, e -- lei --
-% 	son, e -- lei --
-% 	son. %150 FINIS
-% }
-% 
-% GloriaAltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \major \time 4/4 \autoBeamOff \tempoGloria
-% 		R1*24
-% 		\mvTr a'8\fE^\tuttiE a16 a a8 a a h gis4 %25
-% 		a r r2
-% 		a8 a a gis a4 r
-% 		h r a8 a a gis
-% 		a a e cis a4 r
-% 		a' r a8 a a a %30
-% 		a gis a a a r r a~
-% 		a a a gis a r \mvTr a4~\pE^\solo
-% 		a gis fis8([ gis16 a] h4~)
-% 		h a gis8 e a4~
-% 		a gis fis2 %35
-% 		e4 r \mvTr gis8\fE^\tuttiE gis gis a
-% 		gis4^\critnote r r8 e' h gis
-% 		e4 h'8 a gis fis16 gis a4~
-% 		a8 a h h e,4.( d16[ e]
-% 		fis4 gis) a r %40
-% 		h8 a gis fis16 gis a4 h
-% 		a8 a fis4 gis r
-% 		R1*14 %56
-% 		\mvTr fis2.\pE^\soloE gis8([ a)]
-% 		\appoggiatura a gis4 gis r r8 gis
-% 		ais cis h2( ais8.\trill) ais16
-% 		h4 r r2 %60
-% 		R1*6 %66
-% 		\mvTr fis4.\fE^\tuttiE fis8 fis2
-% 		gis4 gis8 gis fis2
-% 		fis4 fis8 fis gis gis gis8. gis16
-% 		fis8 r e e fis fis fis8. fis16 %70
-% 		e8 r dis dis eis eis eis8. eis16
-% 		cis8 fis4 fis8 fis4 fis
-% 		eis fis eis fis
-% 		gis fis8 fis fis4( eis)
-% 		fis r r2 %75
-% 		R1*7 %82
-% 		\mvTr a4\fE^\tuttiE a8 a a4 a
-% 		a a h2
-% 		a4 r r8 a4 gis16 a %85
-% 		h4 h r8 gis4 fis16([ gis)]
-% 		a4 a r8 fis4 e16([ fis)]
-% 		g4 g r8 e4 e8
-% 		fis4 e fis g
-% 		a g8 g fis4. fis8 %90
-% 		e4 r r2
-% 		R1*3
-% 		r2 \mvTr g4\fE^\tuttiE g8 g %95
-% 		g4 g g g
-% 		a4. a8 g4 r
-% 		r8 g4 fis16 g a4 a
-% 		r8 fis4 e16([ fis)] g8. g16 g4
-% 		r8 e4 d16([ e)] fis8. fis16 fis4 %100
-% 		r8 d4 d8 e4( fis
-% 		g fis e) fis
-% 		a2 a4 r
-% 		R1*8 %111
-% 		\mvTr gis4\fE^\tuttiE gis8 gis gis4 gis
-% 		a a a2
-% 		gis8 h4 a16 gis a4 a
-% 		r8 a4 gis16([ fis)] gis4 gis %115
-% 		r8 gis4 fis16([ e)] fis4 fis
-% 		r8 fis4( gis8 a4) gis8 gis
-% 		fis4( gis fis4. e16[ fis]
-% 		gis4 a h a
-% 		gis a2 gis4) %120
-% 		a r r2
-% 		R1
-% 		a4 a8 gis a4 r8 cis
-% 		h4 r8 cis d4 r8 h
-% 		a4 r8 a gis4 a~ %125
-% 		a gis a r
-% 		R1
-% 		a4 a8 a gis[ gis a h]
-% 		a[ gis16 a] h8[ a] gis[ gis a h]
-% 		a[ gis16 a] h8[ a] gis[ h cis! a]~ %130
-% 		a[ gis16 fis] gis4 a r
-% 		a a8 a a4( gis)
-% 		a r a8. a16 a4
-% 		a( gis) a r
-% 		R1*7 \bar "||" %141 finis
-% 	}
-% }
-% 
-% GloriaAltoLyrics = \lyricmode {
-% 	[Glo -- ri -- a in ex -- cel -- sis De -- %25
-% 	o.]
-% 	[Et in ter -- ra pax,
-% 	pax,] [et in ter -- ra
-% 	pax, in ter -- ra pax,
-% 	pax, et in ter -- ra] %30
-% 	pax, in ter -- ra pax, pax __
-% 	ho -- mi -- ni -- bus bo --
-% 	nae, bo --
-% 	nae, bo -- nae vo --
-% 	lun -- ta -- %35
-% 	tis. [Et in ter -- ra
-% 	pax, in ter -- ra
-% 	pax,] pax ho -- mi -- ni -- bus bo --
-% 	nae vo -- lun -- ta --
-% 	tis, %40
-% 	pax ho -- mi -- ni -- bus bo -- nae
-% 	vo -- lun -- ta -- tis.
-% 	
-% 	Ad -- o -- %57
-% 	ra -- mus, glo --
-% 	ri -- fi -- ca -- mus
-% 	te. %60
-% 	
-% 	[Gra -- ti -- as %67
-% 	a -- gi -- mus ti --
-% 	bi pro -- pter ma -- gnam glo -- ri --
-% 	am, pro -- pter ma -- gnam glo -- ri -- %70
-% 	am, pro -- pter ma -- gnam glo -- ri --
-% 	am, pro -- pter ma -- gnam,]
-% 	pro -- pter ma -- gnam
-% 	glo -- ri -- am tu --
-% 	am. %75
-% 	
-% 	[Do -- mi -- ne De -- us, %83
-% 	Rex coe -- les] --
-% 	tis, Do -- mi -- ne %85
-% 	De -- us, Rex coe --
-% 	les -- tis, De -- us __
-% 	Pa -- ter, De -- us
-% 	Pa -- ter, De -- us
-% 	Pa -- ter o -- mni -- pot -- %90
-% 	ens.
-% 	
-% 	[Do -- mi -- ne %95
-% 	Fi -- li u -- ni] --
-% 	ge -- ni -- te,
-% 	Do -- mi -- ne Fi -- li
-% 	u -- ni -- ge -- ni -- te,
-% 	u -- ni -- ge -- ni -- te, %100
-% 	Je -- su, Je --
-% 	su
-% 	Chri -- ste.
-% 	
-% 	Do -- mi -- ne De -- us, %112
-% 	A -- gnus De --
-% 	i, Do -- mi -- ne De -- us,
-% 	A -- gnus De -- i, %115
-% 	A -- gnus De -- i,
-% 	Fi -- li -- us
-% 	Pa --
-% 	
-% 	tris, %121
-% 	
-% 	Fi -- li -- us Pa -- _
-% 	_ _ _ _
-% 	_ _ _ _ %125
-% 	_ tris,
-% 	
-% 	Fi -- li -- us Pa --
-% 	_ _ _
-% 	_ _ _ %130
-% 	_ tris,
-% 	Fi -- li -- us Pa --
-% 	tris, Fi -- li -- us
-% 	Pa -- tris. %134 finis
-% }
-% 
+KyrieIIAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #102
+		R1*4 %105
+		r2 \mvTr e8.\fE^\tuttiE fis16 g8 a
+		h[ a16 g] fis8[ h] e,[ fis gis e]
+		a[ g16 fis] e8[ a] d,[ e fis d]
+		g[ f16 e] d8 g4 fis8 g f
+		e4( f2) e4 %110
+		r8 h' gis4( a8[ e)] e4
+		r8 a fis4( g8[ d)] d4
+		r8 g c([ h)] a2
+		e4. e8 e4 e
+		dis a' gis d %115
+		cis g' fis c
+		h h'4. e,8 a4~
+		a g fis2
+		e8. fis16 g8 a h[ a16 g] fis8[ h]
+		e,[ fis? gis e] a[ g16 fis] e8[ a] %120
+		d,[ e fis d] g[ f16 e] d8[ g]
+		e[ c] e4. f8 g[ f16 e]
+		d8.[ c16] h8 g g'2
+		c,( f)
+		b, r %125
+		g'4. g8 g4 g
+		fis c' h f
+		e b' a es
+		d r d8. e16 f8 g
+		a[ g16 f] e8[ a] d,[ e fis d] %130
+		g[ f16 e] d8[ g] c,[ d e c]
+		f[ e16 d] cis8[ a] b4 h8[ e]
+		cis[ a] d2 c?4
+		h gis' a( e)
+		fis d4. d8 g, g'~ %135
+		g[( f] e4. d8 g[ a])
+		g[( a] h[ a16 h] c4) h8 gis
+		a4.( g8 f[ d] g4~)
+		g f8 f e2(
+		a8[ g f e] f4. \once\stemUp b8 %140
+		e,[ d]) cis4 a'2
+		d, g
+		c,8 c'4 b16[ a] g8[ d] g4~
+		g f4. b,8 f'4
+		g( as) d,8 g4 g8 %145
+		fis4 c' h f
+		e b' a es
+		d8 a'4 g16[ f] e4 f
+		e2 r
+		a4. a8 a4 a %150
+		gis d' cis g
+		fis c' h f
+		e r8 g4 g8 g g
+		fis[ h,] fis'2 e4~
+		e8[ a,] e'2 d4~ %155
+		d8[ g,] d'2 \once \tieDashed c4~
+		c f h, r
+		e8. fis16 g8 a h[ a16 g] fis8[ h]
+		e,[ fis gis e] a[ g16 fis] e8[ a]
+		a,[ a' f e] e4 r8 h' %160
+		g!4( e a2
+		gis4 a2 gis4)
+		a4 r8 a f4( e)
+		e r8 a h4( gis)
+		a r r2\fermata \bar "|." %165 FINIS
+	}
+}
+
+KyrieIIAltoLyrics = \lyricmode {
+	Ky -- ri -- e e -- %106
+	lei -- _ _
+	_ _ _
+	_ _ _ _ son, e --
+	lei -- son, %110
+	e -- lei -- son,
+	e -- lei -- son,
+	e -- lei -- son.
+	Ky -- ri -- e e --
+	lei -- _ _ _ %115
+	_ _ _ _
+	_ _ _ _
+	_ son.
+	Ky -- ri -- e e -- lei -- _
+	_ _ _ %120
+	_ _ _
+	_ _ _ _
+	_ _ son, e --
+	lei --
+	son. %125
+	Ky -- ri -- e e --
+	lei -- _ _ _
+	_ _ _ _
+	son. Ky -- ri -- e e --
+	lei -- _ _ %130
+	_ _ _
+	_ _ _ _
+	_ _ _
+	son, e -- lei --
+	son. Ky -- ri -- e e -- %135
+	
+	lei -- son, e --
+	[lei] --
+	son, e -- lei --
+	%140
+	son, e --
+	[lei] -- _
+	_ _ _ _ _
+	_ son, e --
+	lei -- son. Ky -- ri -- %145
+	e e -- lei -- _
+	_ _ _ _
+	_ _ _ _ _
+	son.
+	Ky -- ri -- e e -- %150
+	lei -- _ _ _
+	_ _ _ _
+	son. Ky -- ri -- e e --
+	lei -- _ _
+	_ _ %155
+	_ _
+	_ [son.]
+	Ky -- ri -- e e -- lei -- _
+	_ _ _
+	_ son, e -- %160
+	lei --
+	
+	son, e -- lei --
+	son, e -- lei --
+	son. %165 FINIS
+}
+
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
+
 % QuoniamIAltoNotes = {
 % 	\relative c' {
 % 		\clef treble
