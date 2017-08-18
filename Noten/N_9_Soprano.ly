@@ -315,8 +315,8 @@ GloriaSopranoNotes = {
 		a2.~ %200
 		a4 b?8[ fis g a]
 		g2.~
-		g4 a8[ e f g]
-		f4 d d'~
+		g4 a8[ e f! g]
+		f!4 d d'~
 		d c8([ h)] c4 %205
 		c2.
 		h4 h h

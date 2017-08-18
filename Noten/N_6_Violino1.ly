@@ -395,10 +395,10 @@ GloriaViolinoI = {
 		c4 a b~
 		b8 a a4.\trill a8
 		g d g4 g8 f
-		e!8 e4 e e8~
-		e\trill d16 e f8 cis d e %200
-		d d4 d d8~
-		d\trill cis16 d e8 h! cis d
+		e!8 e4 e e8~\trill
+		e d16 e f8 cis d e %200
+		d d4 d d8~\trill
+		d cis16 d e8 h! cis d
 		cis cis4 cis cis8
 		d16( a8.) f'16([ e8.)] d16( c8.)
 		h8 e[-! h-! gis-!] e4 %205
