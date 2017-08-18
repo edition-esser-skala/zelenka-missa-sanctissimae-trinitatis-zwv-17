@@ -201,7 +201,241 @@ GloriaViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 3/4 \tempoGloria
-		
+		\mvTr a'8\fE-\markup{ \anmerkung staccato } a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis %5
+		e d16 c h8 a gis a
+		\kneeBeam h16 e' d c h8 a gis a
+		h gis h gis h gis
+		a8 a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %10
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis a
+		\kneeBeam h16 e' d c h8 a gis fis %15
+		e4 r r
+		e'16 c' h c a gis a gis a f e f
+		d h' a h g fis g fis g e d e
+		c a' g a f e f e f d cis d
+		h gis' fis gis e dis e dis e c h c %20
+		a f' e f d cis d c h c a h
+		gis8 e'4 e e8~
+		e e4 e \once\tieDashed e8~
+		e e4 e e8~
+		e e4 e e8 %25
+		<gis h, e,>4^\tenuto r r
+		a16-! gis-! a gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e
+		a'16(\p gis a gis a gis a gis) a8 e
+		a,16-!\ff gis-! a-! gis a gis a gis a8 e %30
+		a4 d,\trill e\trill
+		a r r
+		R2.
+		c16 a' gis a h, a' gis a h,8 gis'
+		a \noBeam c,\p d([ c) d( c)] %35
+		r h c([ h) c( h)]
+		a\f h16-! c-! d e fis gis a4-!
+		r8 c,, d4\trill e\trill
+		a8 c a c a c
+		a a, a' a, a' a, %40
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis a-\critnote %45
+		\kneeBeam h16 e' d c h8 a gis fis
+		gis h gis h gis h
+		gis h gis h gis h
+		gis h gis h gis h
+		e4-! h16 e, gis h d8 h %50
+		cis e a, e' cis e
+		d4 a16 d, fis a d8 a
+		h d h d h d
+		c16 e d e c h c h c a g a
+		fis d' c d h a h a h g fis g %55
+		e c' h c a g a g a f e f
+		d h' a h g f g f g e d e
+		c a' g a f e f e d e c d
+		h8 g''4 g g8~
+		g g4 g g8~ %60
+		g g4 g g8~
+		g g4 g g8
+		\mvTr <g h, d, g,>4\fermata^\tenuto r r
+		c,16-! h c h c h c h c8 c,
+		g'16-! fis-! g fis g fis g fis g8 g, %65
+		c'16(\p h c h c h c h c8) c,
+		g'16-!\f fis-! g fis g fis g fis g8 g,
+		c es' d,4 h'!
+		c r r
+		R2. %70
+		es16 c' h c d, c' h c d,8 h'
+		c8 \noBeam es,\p f([ es) f( es)]
+		r d es([ d) es( d)]
+		c16 c,\f d e! f g a h c4-!
+		r8 e,! f4-!\trill g-!\trillE %75
+		c, r r
+		R2.*5 %81
+		g'8\f fis16 e d8 c h a
+		gis( h) d([ f)] h( gis)
+		a-! a,-! a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a a, %85
+		g( cis) e([ g)] e'( cis)-\critnote
+		d-! d,-! d'-! d, d' d,
+		\appoggiatura { d'16[ e] } f8 d d d d d,
+		c( fis) a( dis) fis([ a)]
+		r h,4 h h8~ %90
+		h h4 h h8~
+		h h4 h h8~
+		h h4 e8 g4-!
+		fis-! r8 dis e[ h']
+		c, a' fis,?4 dis' %95
+		e16 g fis g e dis e dis e c h c
+		a fis' e fis d cis d cis d h a h
+		g e' d e c h c h c a g a
+		fis dis' cis? dis h ais h ais h g fis g
+		e c' h c a h g a fis g e fis %100
+		dis8 h''4 h h8~
+		h h4 h h8~
+		h h4 h h8~
+		h h4 h h8
+		dis,4\fermata r r %105
+		e16-! dis-! e-! dis e dis e dis e8 h
+		e,16-! dis-! e dis e dis e dis e8 h
+		e'16(\pE dis e dis e dis e dis e8) h
+		e,16\ff dis e dis e dis e dis e8 h
+		e4 a\trill h\trill %110
+		e, r r8 h'\p
+		e,( fis) fis4. e16 fis
+		g8 h e4 r
+		R2.
+		r4 h\p h %115
+		e4. d8( c h)
+		a8. g16 a8 fis'4\f g16( a)
+		d,,4-\tenuto d'16(\p c8.) h16( a8.)
+		g8([ fis]) g8 e'4\f fis16( g)
+		c,,4-\tenuto c'\p c %120
+		c8 a'~ a16 g fis e d8 c
+		h g'~ g16 fis e d c8 h
+		a fis'~ fis16 e d c h8 a
+		g e'~ e16 d c h a8 g
+		fis4. fis8 g4 %125
+		c h2\trill
+		d8\f c16 h a8 g fis e
+		d\p c16 h a8 g fis'32( g a8.)
+		fis8 d r4 r
+		d8-\markup { \anmerkung "piano un poco" } d fis fis a a %130
+		d, d g g h h
+		d, d fis fis c' c
+		d, d h' h d d
+		d,4 fis'8( g) a( fis)
+		g\f fis16 e d8 c h a %135
+		g fis16 e d8 c h a
+		g4 d'' g,
+		e'2 d4
+		r c c
+		h8 g h c d h %140
+		e4.\trill fis16 g a8-! d,-!
+		d4.\trill e16 fis g8-! c,-!
+		c4.\trill h16 c d8 c
+		h16 g a h c d e fis g8 \noBeam g~
+		g g4 fis?16 e d8 c %145
+		h16 a g8 a2
+		g8 e'([\f d c h a)]
+		<g' h, d, g,>4-! r <a c, d,>-!
+		r r8 e,(\p d c)
+		<g'' h, d, g,>4-!\f r <a c, d,> %150
+		r8 d,(\pE c a h g)]
+		<fis' c>4-! q-! <g h, d, g,>
+		<a c, d,> r <g h, d, g,>
+		d,2.^\adlibitum
+		g16\f h' a h g fis g fis g e d e %155
+		c a' g a fis e fis e fis d c d
+		h g' fis g e d e d e c h c
+		fis,4 d\pE c
+		h8-!\f gis'-! h4 gis\p
+		a8\f e' a4 a,8\p g %160
+		f4 f e
+		d d c
+		h a dis
+		e8 e'4\f e e8~
+		e e4 e e8~ %165
+		e e4 e e8
+		gis,4 e\p d
+		cis a cis
+		d8\f a' d4 d,\p
+		b g8\f b g'4 %170
+		a g f
+		e d gis
+		a8 a'4\fE a a8~
+		a a4 a a8~
+		a a4 a a8 %175
+		a,4 fis\p d
+		g gis e
+		a,8-!\f e'-! a4 g\p
+		f8-!\f a-! f'4 f,\p
+		cis8-!\f e-! a4 cis,\p %180
+		d b b'
+		a8\f g16 f e8 d cis h
+		a16 a' g f e8 d cis h
+		a8-! cis-! g'4 f\p
+		b,8-!\f d-! b'4 cis,\p %185
+		d'8\f c16 b a8 g f e
+		d16 d' c b? a8 g f e
+		d4 <g' b, d, g,>-!\p q-!
+		<g cis, e, a,>2\f f,4\trill
+		g\trill a\trill a, %190
+		d'8 d'4\f d d8~
+		d d4 d d8~
+		d d4 d d8~
+		d d4 d \once\tieDashed d8~
+		d d4 d d8 %195
+		c4 a b~
+		b8 a a4.\trill a8
+		g d g4 g8 f
+		e!8 e4 e e8~
+		e\trill d16 e f8 cis d e %200
+		d d4 d d8~
+		d\trill cis16 d e8 h! cis d
+		cis cis4 cis cis8
+		d16( a8.) f'16([ e8.)] d16( c8.)
+		h8 e[-! h-! gis-!] e4 %205
+		r8 e' c a e4
+		r8 e' h gis e4
+		r8 e' a, c e,4
+		<gis' h, d,> r <a c, e, a,>
+		<gis h, d,> r <a c, e, a,> %210
+		\tempoGloriaB c, c4. h8
+		h4 \tempoGloriaC r r
+		e16 c' h c a gis a gis a f e f
+		d h' a h g fis g fis g e d e
+		c a' g a f e f e f d c d %215
+		h gis' fis? gis e dis e dis e c h c
+		a f' e f d e c d h c a h
+		gis8 e e' d c4~
+		c8 f gis,4.\trill a8
+		a a'4 a a8~ %220
+		a a4 a a8~
+		a a4 a a8~
+		a a4 a e8
+		cis16 a h cis d e f g a( g8.)
+		f32( e d8.) cis4.\trill d8 %225
+		d32( e f8.) d16([ c8.)] h16( a8.)
+		\appoggiatura a8 gis4 e' e8 d
+		c4 r cis
+		d r16 a h c d4~
+		d c8 h c-![ a'-!] %230
+		r f h,4 gis'
+		a,8 a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %235
+		e8 d16 c h8 a gis fis?
+		e d16 c h8 a gis a
+		\kneeBeam h16 e' d c d8 d d d
+		d2\fermata r4 \bar "||" %239 finis
 	}
 }
 
