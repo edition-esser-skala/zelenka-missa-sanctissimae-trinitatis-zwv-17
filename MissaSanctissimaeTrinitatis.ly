@@ -76,6 +76,7 @@ fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
+kneeBeam = \once \override Beam.auto-knee-gap = #0
 
 
 ff = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "ff")))
@@ -122,6 +123,8 @@ tempoChriste = \tempoMarkup "Spirituoso"
 tempoKyrieII = \tempoMarkup "Vivace"
 
 tempoGloria = \tempoMarkup "[Tempo deest]"
+	tempoGloriaB = \tempoMarkup "Adagio"
+	tempoGloriaC = \tempoMarkup "[a tempo]"
 
 
 

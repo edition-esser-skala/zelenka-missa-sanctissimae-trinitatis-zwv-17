@@ -208,11 +208,253 @@ GloriaTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		r4 \mvTr c8\fE^\tuttiE c16 c c8 c
+		e4 e e~ %10
+		e8 e e4 e
+		a,( c e~)
+		e8 e d([ c h)] a
+		e'4 r r
+		R2.*25 %39
+		r4 c8 c16 c c8 c %40
+		e4 e e~
+		e8 e e4 e
+		a, c e~
+		e4(^\critnote d8[ c h)] a
+		e'4 r r %45
+		R2.*2
+		r4 e h
+		gis e r
+		h' r r %50
+		a cis a
+		d, r r
+		g h g
+		c, r r
+		d' h g %55
+		c r r
+		h g e
+		a a a
+		d8. d16 g,4 r
+		c2. %60
+		h4. h8 h h
+		c4.( d8) e4
+		h\fermata r r
+		r c g'
+		d8([ c)] h!4 r %65
+		r c\pE g'
+		d4. c8 h!4\fE
+		es d2
+		c4 r r
+		R2.*12 %81
+		r4^\critnote \mvTr d\fE^\tutti d
+		d4. d8 d4
+		c r r
+		r e e %85
+		e2 e4
+		f r r
+		r f f
+		fis2 fis4
+		fis? r r %90
+		e g,8 e h'4
+		h r r
+		r8 e h e e h
+		c4. c8 h4
+		c h4. h8 %95
+		h4 r r
+		R2.*61 %157
+		\mvTr a4.\pE^\solo h8 c4
+		d4. f!8 e d
+		c([ h)] a4 r %160
+		r d c
+		h( a8[ gis]) a4
+		h c4. h8
+		h4 r r
+		R2.*2 %166
+		h4. a8 h4
+		e4. cis8 a e'
+		f e d4 f~
+		f es( d) %170
+		cis2( d4)
+		e f2
+		e4 r r
+		R2.*2 %175
+		d4 a8 c4 d16[ c]
+		h8 e4 h8 d[ e16 d]
+		cis8.[ h16] cis8 cis4 d16[ e]
+		d8.[( cis16)] d8 d4 e16[ f]
+		e8.[ d16] e8 e4 f16[ g] %180
+		a8[ g f g a b?]
+		a4 a, r
+		R2.
+		e'4 cis d4~
+		d8 g, e'2\trill %185
+		d4 r r
+		r f2~
+		f4( e8[ g16 f] e8[ d]
+		cis4) a d~
+		d8 h? cis4.\trill( d8) %190
+		<< { d4^\markup { \anmerkung "ste." \critnote } r r } \\ \context Voice = "Tenore" { \mvTrr d4._\fE_\tuttiE c8 b?([ c)] } >>
+		d([ c)] d2
+		d d4
+		d8([ c)] d2
+		d4. d8 d4 %195
+		c a d
+		es( a, d)
+		d r r
+		r r c~
+		c8 b? a4 r %200
+		r r b~
+		b8([ a)] g4 r
+		e'4. e8 a,4~
+		a d( f)
+		h,? r e~ %205
+		e8 e e4 e~
+		e e, e'~
+		e e e~
+		e e, e'(
+		d) h e %210
+		\tempoGloriaB fis2.
+		e4 \tempoGloriaC r r
+		r c d8 d
+		d4 e r
+		c d r %215
+		h c r
+		a h4. a8
+		gis4 e e'
+		f e2
+		e4 r r %220
+		R2.*7 %227
+		r4 e e8 e
+		d2 a4
+		gis h a %230
+		f' h, e
+		e r r
+		R2.*6 %238
+		R2.\fermataMarkup \bar "||" %239 finis
 	}
 }
 
 GloriaTenoreLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- %9
+	cel -- sis, in __ %10
+	ex -- cel -- sis
+	De --
+	o, glo -- ri --
+	a.
 	
+	[Glo -- ri -- a in ex] -- %40
+	cel -- sis, in __
+	ex -- cel -- sis
+	De -- o, glo --
+	ri --
+	a. %45
+	
+	Et in %48
+	ter -- ra
+	pax, %50
+	in ter -- ra
+	pax,
+	in ter -- ra
+	pax,
+	in ter -- ra %55
+	pax,
+	in ter -- ra
+	pax, pax ho --
+	mi -- ni -- bus,
+	pax, %60
+	bo -- nae vo -- lun --
+	ta -- tis,
+	pax,
+	bo -- nae,
+	bo -- nae, %65
+	bo -- nae,
+	bo -- nae vo --
+	lun -- ta --
+	tis.
+	
+	Be -- ne -- %82
+	di -- ci -- mus
+	te,
+	[ad -- o -- %85
+	ra -- mus
+	te,]
+	[ad -- o --
+	ra -- mus
+	te,] %90
+	glo -- ri -- fi -- ca --
+	mus,
+	glo -- ri -- fi -- ca -- mus
+	te, glo -- ri --
+	fi -- ca -- mus %95
+	te.
+	
+	Do -- mi -- ne %158
+	De -- us, Rex coe --
+	le -- stis, %160
+	De -- us
+	Pa -- ter
+	o -- mni -- pot --
+	ens.
+	
+	Do -- mi -- ne %167
+	Fi -- li u -- ni --
+	ge -- ni -- te, Je --
+	su, __ %170
+	Je --
+	su Chri --
+	ste,
+	
+	Je -- _ _ _ %176
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %180
+	_
+	_ su,
+	
+	Je -- su, Je --
+	su Chri -- %185
+	ste,
+	Je --
+	
+	su, Je --
+	su Chri -- %190
+	Do -- mi -- ne __
+	De -- us,
+	A -- gnus
+	De -- i.
+	Fi -- li -- us, %195
+	Fi -- li -- us
+	Pa --
+	tris.
+	Do --
+	mi -- ne %200
+	De --
+	us,
+	Fi -- li -- us __
+	Pa --
+	tris. Do -- %205
+	mi -- ne De --
+	us, A --
+	gnus De --
+	i, Fi --
+	li -- us %210
+	Pa --
+	tris,
+	Fi -- li -- us
+	Pa -- _
+	_ _ %215
+	_ _
+	_ _ _
+	_ _ _
+	_ _
+	tris, %220
+	
+	Fi -- li -- us %228
+	Pa -- _
+	_ _ _ %230
+	_ _ _
+	tris. %232 finis
 }
 
 % QuoniamITenoreNotes = {

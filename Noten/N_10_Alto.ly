@@ -320,11 +320,202 @@ GloriaAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		r4 \mvTr a'8\fE^\tuttiE a16 a a8 e
+		a a a4. a8 %10
+		gis4 a a~
+		a8 e a4. a8
+		gis2.~
+		gis4 r r
+		R2.*25 %39
+		r4 a8 a16 a a8 e %40
+		a a a4. a8
+		gis4 a a~
+		a8 e a4. a8
+		gis2.
+		gis4 r r %45
+		R2.*2
+		h4 r r
+		e, r r
+		e r r %50
+		a e g!
+		fis r r
+		g d f
+		e a2~
+		a8 d,4 e16[ fis?] g4~ %55
+		g8 c,4 d16[ e] f4~
+		f8 h,4 c16[ d] e4~
+		e8[ d16 e] f4 a
+		g2 e8([ f)]
+		g2.~ %60
+		g~
+		g2 g4
+		g\fermata r r
+		r g g
+		g g r %65
+		r g\pE g
+		g4. g8 g4\fE
+		g g2
+		g4 r r
+		R2.*6 %75
+		\mvTr g4\pE^\solo e c
+		a'4.( h8) c4~
+		c8([ a)] f2
+		e4 d2~
+		d4 c( d %80
+		e fis2)\trill
+		g4 \mvTr g\fE^\tutti g
+		f!4. f8 f4
+		e r r
+		r a a %85
+		a2 a4
+		a r r
+		r a a
+		a2 a4
+		a8 a h h h4 %90
+		g r8 g e g
+		fis?4 h, r
+		r r8 h' g g
+		fis2( g4
+		fis2) fis4 %95
+		e r r
+		R2.*94 %190
+		\mvTr fis4\fE^\tuttiE a g
+		g2.
+		fis4 a fis
+		g2.
+		fis4 fis g8 g %195
+		a2( g4~
+		g fis8[ e]) fis4
+		r g g8 f
+		e2.~
+		e4 f8[ cis d e] %200
+		d2.~
+		d4 e8[ h! cis d]
+		cis2.
+		d4 h' h8 a
+		gis4 h a %205
+		a2.
+		gis4 h gis
+		a2.
+		gis4 gis a8 a
+		gis4 h a %210
+		\tempoGloriaB a2.
+		gis4 \tempoGloriaC r r
+		a4. a8 a4
+		a g2~
+		g4 f2~ %215
+		f4 e2~
+		e4 d f
+		e h' a~
+		a gis4.\trill a8
+		a4 r r %220
+		R2.*7 %227
+		r4 a a8 a
+		a2.
+		h2 a4~ %230
+		a8[ h] a4 gis
+		a r r
+		R2.*6 %238
+		R2.\fermataMarkup \bar "||" %239 finis
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- %9
+	cel -- sis, in ex -- %10
+	cel -- sis De --
+	o, glo -- ri --
+	a. __
 	
+	Glo -- ri -- a in ex -- %40
+	cel -- sis, in ex --
+	cel -- sis, in __
+	ex -- cel -- sis
+	De --
+	o. %45
+	
+	Pax, %48
+	pax,
+	pax, %50
+	in ter -- ra
+	pax,
+	in ter -- ra
+	pax bo --
+	_ _ _ %55
+	_ _ _
+	_ _ _
+	_ nae
+	vo -- lun --
+	ta -- %60
+	
+	tis,
+	pax,
+	bo -- nae,
+	bo -- nae, %65
+	bo -- nae,
+	bo -- nae vo --
+	lun -- ta --
+	tis.
+	
+	Lau -- da -- mus %76
+	te, __ lau --
+	da --
+	mus, lau --
+	da -- %80
+	
+	mus. Be -- ne --
+	di -- ci -- mus
+	te,
+	[ad -- o -- %85
+	ra -- mus
+	te,]
+	[ad -- o --
+	ra -- mus]
+	te, glo -- ri -- fi -- ca -- %90
+	mus, glo -- ri -- fi --
+	ca -- mus,
+	glo -- ri -- fi --
+	ca --
+	mus %95
+	te.
+	
+	[Do -- mi -- ne %191
+	De --
+	us, A -- gnus
+	De --
+	i, Fi -- li -- us] %195
+	Pa --
+	tris,
+	Fi -- li -- us
+	Pa --
+	_ %200
+	_
+	_
+	_
+	tris. Do -- mi -- ne,
+	Do -- mi -- ne %205
+	De --
+	us, A -- gnus
+	De --
+	i, Fi -- li -- us,
+	Fi -- li -- us %210
+	Pa --
+	tris,
+	Fi -- li -- us
+	Pa -- _
+	_ %215
+	_
+	_ _
+	_ _ _
+	_ _
+	tris, %220
+	
+	Fi -- li -- us %228
+	Pa --
+	_ _ %230
+	_ _
+	tris. %232 finis
 }
 
 % QuoniamIAltoNotes = {

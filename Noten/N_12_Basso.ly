@@ -178,11 +178,189 @@ GloriaBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		r4 \mvTr a'8\fE^\tuttiE a16 a a8 a
+		c4 a c8 a %10
+		e' e, a4 a,
+		a'8[( c16 h] a8[ c a c]
+		e[ d16 c] h8[ a gis]) fis
+		e4 r r
+		R2.*25 %39
+		r4 a8 a16 a a8 a %40
+		c4 a c8 a
+		e' e, a4 a,
+		a'8([ c16 h] a8[ c a c]
+		e[ d16 c] h8[ a gis)] fis?
+		e4 r r %45
+		R2.*3
+		r4 e' h
+		gis e r %50
+		R2.
+		d4 fis d
+		g, r r
+		c' a fis
+		h g e %55
+		a8. a16 f!8. e16 d4
+		g( e) c
+		f( d) f
+		g h c
+		g c e %60
+		g, h f'
+		g,2 g4
+		f\fermata r r
+		r c es
+		g g, r %65
+		r c\pE es
+		<< \context Voice = "Basso" { \oneVoice g2. } \\ { s4 s s^\f } >>
+		c,4 g2
+		c4 r r
+		R2.*12 %81
+		r4 \mvTr g'\fE^\tutti g
+		gis4. gis8 gis4
+		a r r
+		r a a %85
+		g!2 g4
+		f r r
+		r d' d
+		c2 c,4
+		h8 h' fis? dis h4 %90
+		h r r
+		r8 h' fis dis h4
+		h r8 g' h h
+		a2( g4
+		a h) h, %95
+		e r r
+		R2.*94 %190
+		\mvTr d'4.\fE^\tuttiE d8 d4
+		d2 d,4
+		r d' d
+		d2 d,4
+		c'4. c8 b4 %195
+		a fis g
+		c,( d2)
+		g, r4
+		c'4. c8 c4
+		f,2 f4 %200
+		b2 b4
+		e,2 e4
+		a4. a8 a4
+		d,2.
+		e4 e' e8 e %205
+		e2 e,4
+		r e' e
+		e2 e,4
+		d'4. d8 c4
+		h( gis a %210
+		\tempoGloriaB dis,2.)
+		e4^\critnote \tempoGloriaC r r
+		a4. f8 d4
+		g r8 e c4
+		f r8 d h4 %215
+		e r8 c a4
+		d h d
+		e gis a
+		d, e2
+		a,4 r r %220
+		R2.*7 %227
+		r4 a' a8 g
+		f4 r fis
+		r gis a %230
+		r d, e
+		a, r r
+		R2.*6 %238
+		R2.\fermataMarkup \bar "||" %239 FINIS
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- %9
+	cel -- sis, in ex -- %10
+	cel -- sis De -- o,
+	glo --
+	ri --
+	a.
 	
+	Glo -- ri -- a in ex -- %40
+	cel -- sis, in ex --
+	cel -- sis De -- o,
+	glo --
+	ri --
+	a. %45
+	
+	Et in %49
+	ter -- ra, %50
+	
+	in ter -- ra
+	pax,
+	in ter -- ra,
+	in ter -- ra %55
+	pax ho -- mi -- ni -- bus
+	bo -- nae
+	vo -- lun --
+	ta -- _ _
+	_ _ _ %60
+	_ _ _
+	_ tis,
+	pax,
+	bo -- nae,
+	bo -- nae, %65
+	bo -- nae
+	vo --
+	lun -- ta --
+	tis.
+	
+	Be -- ne -- %82
+	di -- ci -- mus
+	te,
+	ad -- o -- %85
+	ra -- mus
+	te,
+	ad -- o --
+	ra -- mus
+	te, glo -- ri -- fi -- ca -- %90
+	mus,
+	glo -- ri -- fi -- ca --
+	mus, glo -- ri -- fi --
+	ca --
+	mus %95
+	te.
+	
+	Do -- mi -- ne %191
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us %195
+	Fi -- li -- us
+	Pa --
+	tris.
+	Do -- mi -- ne
+	De -- us, %200
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	tris. Do -- mi -- ne %205
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us,
+	Pa -- %210
+	
+	[tris,]
+	Fi -- li -- us
+	Pa -- _ _
+	_ _ _ %215
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _
+	tris, %220
+	
+	Fi -- li -- us %228
+	Pa -- _
+	_ _ %230
+	_ _
+	tris. %232 finis
 }
 
 % QuoniamIBassoNotes = {

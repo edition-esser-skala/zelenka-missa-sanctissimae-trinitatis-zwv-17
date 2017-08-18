@@ -197,12 +197,294 @@ GloriaSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 3/4 \autoBeamOff \tempoGloria
-		
+		R2.*7 %7
+		\mvTr e'2.~\fE^\tutti
+		e4. e16 e e8 e
+		e4 c a8 c %10
+		h4( c8[ a16 h] c8[ d]
+		e4.) d8 c4
+		h h4. h8
+		h4 r r
+		R2.*24 %38
+		e2.~
+		e4. e16 e e8 e %40
+		e4 c c8 c
+		h4( c8[ a16 h] c8[ d]
+		e4.) d8 c4
+		h h4. h8
+		h4 r r %45
+		R2.
+		r4 e h
+		gis e r
+		h' r r
+		e h d %50
+		cis r r
+		d a c
+		h r r
+		e c a
+		fis r r %55
+		c' a f
+		d g c~
+		c d8. c16 d4
+		h d g,
+		e'2 c4 %60
+		f d4.(\trill c16[ d])
+		e2 c4
+		d\fermata r r
+		r es d8([ c)]
+		h!([ c)] d4 r %65
+		r es?\p d8([ c)]
+		h!4. h8 d4\f
+		c8([ d)] h!4.( c8)
+		c4 r r
+		R2.*9 %78
+		\mvTr c4\pE^\solo h g
+		e'4.( fis?8) g4~ %80
+		g8([ e)] c2\trill
+		h4 \mvTr h\fE^\tutti h
+		h4. h8 h4
+		c r r
+		r c c %85
+		cis2 cis4
+		d r r
+		r d d
+		dis2 dis4
+		dis r8 fis dis fis %90
+		g4 h, r
+		dis r8 fis dis fis
+		g4 e2
+		dis4. dis8 e4~
+		e8 fis dis4. e8 %95
+		e4 r r
+		R2.*14 %110
+		\mvTr h4.\pE^\solo a8 g4
+		a4. c8 h([ a)]
+		g([ fis?)] e4 r
+		R2.
+		r4 h' h %115
+		e4.( d8) c([ h)]
+		a8. g16 a4 r
+		r d h
+		g8([ fis)] g4 r
+		r c c %120
+		c8[ a']~ a16[ g fis e] d8[ c]
+		h[ g']~ g16[ fis e d] c8[ h]
+		a[ fis']~ fis16[ e d c] h8[ a]
+		g[ e']~ e16[ d c h] a8[ g]
+		fis4. fis8 g4( %125
+		c) h2\trill
+		a4 r r
+		r d d
+		d2.~
+		d~ %130
+		d~
+		d~
+		d2~ d8[ e]
+		fis[ e fis g a fis]
+		g4 g, r %135
+		R2.
+		r4 d' g,
+		e'2 d4
+		r c c
+		h8[ g h c d h] %140
+		e4.\trill fis16[ g] a8-![ d,-!]
+		d4.\trill e16[ fis] g8-![ c,-!]
+		c4.\trill h16[ c] d8[ c]
+		h16[ g a h] c[ d e fis] g4~
+		g4.\trill fis?16[ e] d8 c %145
+		h16[( a g8)] a2
+		g4 r r
+		r e' d
+		fis, \appoggiatura fis g2
+		r4 e' d %150
+		fis,4. fis8 g4
+		r c h
+		c4. a8 h4~
+		h8([^\adlibitum a)] a2
+		g4 r r %155
+		R2.*35 %190
+		\mvTr a4.\fE^\tuttiE a8 b4
+		b2.
+		a4 a a
+		b2.
+		a4 a b8 b %195
+		c2 b4
+		r d d8 c
+		b2.~
+		b4 c8[ g a b]
+		a2.~ %200
+		a4 b?8[ fis g a]
+		g2.~
+		g4 a8[ e f g]
+		f4 d d'~
+		d c8([ h)] c4 %205
+		c2.
+		h4 h h
+		c2.
+		h4 h c8 c
+		d4. d8 c4 %210
+		\tempoGloriaB c2~ c8([ h)]
+		h4 \tempoGloriaC e4. e8
+		e4 a,8[ c] f4~
+		f8 h,4 c16[ d] e4~
+		e8 a,4 h16[ c] d4~ %215
+		d8 gis,4 a16[ h] c4~
+		c8[ h] d2~
+		d4 c8[ h] c4
+		h h2\trill
+		a4 r r %220
+		R2.*6 %226
+		r4 e' e8 d
+		c4 r cis
+		d a d~
+		d c8[ h] c4~ %230
+		c8[ d] h2\trill
+		a4 r r
+		R2.*6 %238
+		R2.\fermataMarkup \bar "||" %239 finis
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- %8
+	ri -- a in ex --
+	cel -- sis, in ex -- %10
+	cel --
+	sis De --
+	o, glo -- ri --
+	a.
 	
+	Glo -- %39
+	ri -- a in ex -- %40
+	cel -- sis, in ex --
+	cel --
+	sis De --
+	o, glo -- ri --
+	a. %45
+	
+	Et in
+	ter -- ra
+	pax,
+	in ter -- ra %50
+	pax,
+	in ter -- ra
+	pax,
+	et in ter --
+	ra, %55
+	in ter -- ra
+	pax, pax ho --
+	mi -- ni -- bus,
+	pax, bo -- nae,
+	bo -- nae %60
+	vo -- lun --
+	ta -- tis,
+	pax,
+	bo -- nae
+	bo -- nae, %65
+	bo -- nae
+	bo -- nae vo --
+	lun -- ta --
+	tis.
+	
+	Lau -- da -- mus %79
+	te, __ lau -- %80
+	da --
+	mus. Be -- ne --
+	di -- ci -- mus
+	te,
+	ad -- o -- %85
+	ra -- mus
+	te,
+	ad -- o --
+	ra -- mus
+	te, glo -- ri -- fi -- %90
+	ca -- mus
+	te, glo -- ri -- fi --
+	ca -- mus
+	te, glo -- ri --
+	fi -- ca -- mus %95
+	te.
+	
+	Gra -- ti -- as %111
+	a -- gi -- mus
+	ti -- bi
+	
+	pro -- pter %115
+	ma -- gnam
+	glo -- ri -- am,
+	pro -- pter
+	ma -- gnam,
+	ma -- gnam %120
+	glo -- _
+	_ _
+	_ _
+	_ _
+	_ ri -- am __ %125
+	tu --
+	am,
+	pro -- pter
+	ma --
+	
+	_ %134
+	_ gnam, %135
+	
+	pro -- pter
+	ma -- gnam,
+	ma -- gnam
+	glo -- %140
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ ri -- %145
+	am __ tu --
+	am,
+	pro -- pter
+	ma -- gnam,
+	ma -- gnam %150
+	glo -- ri -- am,
+	ma -- gnam
+	glo -- ri -- am __
+	[tu --
+	am.] %155
+	
+	Do -- mi -- ne %191
+	De --
+	us, A -- gnus
+	De --
+	i, Fi -- li -- us %195
+	Pa -- tris,
+	Fi -- li -- us
+	Pa --
+	_
+	_ %200
+	_
+	_
+	_
+	_ tris. Do --
+	mi -- ne %205
+	De --
+	us, A -- gnus
+	De --
+	i, Fi -- li -- us,
+	Fi -- li -- us %210
+	[Pa] --
+	tris, Fi -- li --
+	us Pa -- _
+	_ _ _
+	_ _ _ %215
+	_ _ _
+	_
+	_ _
+	_ _
+	tris, %220
+	
+	Fi -- li -- us %227
+	Pa -- _
+	_ _ _
+	_ _ %230
+	_
+	tris. %232 finis
 }
 
 % QuiTollisSopranoNotes = {

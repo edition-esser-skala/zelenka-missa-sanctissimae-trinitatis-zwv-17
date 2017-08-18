@@ -386,12 +386,488 @@ GloriaBassiOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 3/4 \tempoGloria
-		\mvTr a'8\fE-\markup{ \anmerkung "Tutti Registri" }^\markup{ \anmerkung staccato } a, a' a, a' a,
+		a'8\fE -\tweak X-offset #2 -\markup{ \anmerkung "Tutti registri" }^\markup{ \anmerkung staccato } a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis %5
+		e d16 c h8 a gis fis
+		\kneeBeam e16 e'' d c h8 a gis fis
+		e4 r r
+		a8-\markup{ \anmerkung "Registri soliti" } a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %10
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis fis
+		\kneeBeam e16 e'' d c h8 a gis fis %15
+		e4 r r
+		a8-\solo a f f d d
+		g g e e c c
+		f f d d h h
+		e e c c a a %20
+		d d h h d d
+		e e gis gis a a
+		e e a a c c
+		e, e gis gis d' d
+		e, e c' c e e %25
+		d4^\tenuto r r
+		c a c
+		a16-! gis-! a-! gis a gis a gis a8 e
+		c'4\p a c
+		a16-!\ff gis-! a gis a gis a gis a8 e %30
+		a4 d,\trill e\trill
+		a, r r
+		gis' r r
+		a d, e
+		a\p r r %35
+		gis r r
+		a,8\f h16 c d e fis gis a4-!
+		r8 c, d4\trill e\trill
+		a, r r
+		a'8-\tutti a, a' a, a' a, %40
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis fis %45
+		\kneeBeam e16 e'' d c h8 a gis fis
+		e4 r r8 e
+		e, e e4 r8 e'
+		e, e e4 r8 e'
+		e, e gis'4 e %50
+		a8 a, a4 r
+		d fis r8 d
+		g, g g4 r16 g' a h
+		c8 c a a fis fis
+		h h g g e e %55
+		a a f! f d d
+		g g e e c c
+		f f d d f f
+		g, g h h c c
+		g g c c e e %60
+		g, g h h f' f
+		g, g e' e g g
+		f4\fermata-\tenuto r r
+		es c es
+		g16-! fis-! g-! fis g fis g fis g8 g, %65
+		es'4\p c es
+		g16-! fis-! g-! fis g fis g fis g8\f g,
+		c4 g' g,
+		c-\solo r r
+		h'! r r %70
+		c f, g
+		c, r r
+		h!\p r r
+		c8\f d16 e! f g a h c4-!
+		r8 e,! f4\trill g\trill %75
+		c, \mvTr c'\p-\org e,
+		f f, e'
+		f g g,
+		c g' h
+		c c, h' %80
+		c d d,
+		g \mvTr g\fE-\tutti g
+		gis4. gis8 gis4
+		a8 a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a a %85
+		g2 g4
+		f8 d d' d, d' d,
+		\appoggiatura { d'16[ e] } f8 d d d d d
+		c2 c,4
+		h8 h dis dis fis fis %90
+		h, h e e g g
+		h, h dis dis a' a
+		h, h g' g h h
+		a2 g4
+		a h h, %95
+		e'8-\solo e c c a a
+		d d h h g g
+		c c a a fis fis
+		h h g g e e
+		a a fis fis a a %100
+		h, h dis dis e e
+		h h e e g g
+		h, h dis dis a' a
+		h, h g' g h h
+		a4\fermata r r %105
+		g e g
+		e'16-! dis-! e-! dis e dis e dis e8 h
+		g4\p e g
+		e'16\ff dis e dis e dis e dis e8 h
+		e,4 a\trill h\trill %110
+		e, \mvTr g\p-\org e
+		cis dis dis
+		e r r
+		dis r r
+		e g e %115
+		c a c
+		d d, c'
+		h h' g
+		c c, h'
+		a a, g' %120
+		fis d fis
+		g c, e
+		fis h, d
+		e a, c
+		d c h %125
+		a g g'
+		\mvTr d'8\f-\rip c16 h a8 g fis e
+		d\p c16 h a8 g fis e
+		d4 r r
+		r8 \mvTr d''\pE-\org  a fis d4 %130
+		r8 d' h g d4
+		r8 d' a fis d4
+		r8 d' h g d4
+		c' c c
+		h16 \mvTr g\fE-\rip fis e d8 c h a %135
+		g16 g' fis? e d8 c h a
+		g4 \mvTr g'\pE-\org h
+		c c, h'
+		a e fis
+		g r r %140
+		c8 c a a fis fis
+		h h g g e e
+		a a fis fis d d
+		g4 r e
+		h c d %145
+		g c d
+		r8 e(\fE d c h a)
+		g4-! c,\p d
+		r r8 e( d c)
+		h-!\f g-! c4-!\p d-! %150
+		r8 d'( c a h g)
+		a4-! a, g'
+		fis d g
+		d2.-\adlibitumE
+		\mvTr g8\f-\rip g e e c c %155
+		fis fis d d h h
+		e e c c a a
+		d4 \mvTr d,\pE-\org c'
+		h h' gis
+		a c8 h a g %160
+		f!4 f, e'
+		d d, c'
+		h a dis
+		\mvTr e8\f-\rip e gis gis a a
+		e e a a c c %165
+		e, e gis gis h h
+		e,4 \mvTr e,\p-\org d'
+		cis a cis
+		d f d
+		g g, g' %170
+		a g f
+		e d gis
+		\mvTr a,8\f-\rip a cis cis d d
+		a a d d f f
+		a, a cis cis g' g %175
+		f4 \mvTr fis\p-\org d
+		g gis e
+		a a, g'
+		f f, f'
+		cis a' cis, %180
+		d b b'
+		\mvTr a8\f-\rip g16 f e8 d cis h
+		a16 a' g f e8 d cis h
+		a4 \mvTr g'\pE-\org f
+		b g a %185
+		\mvTr d8\f-\rip c16 b? a8 g f e
+		d c16 b? a8 g f e
+		d4 \mvTr g\p-\org g'
+		a g f\trill
+		g\trill a\trill a, %190
+		\mvTr d8\fE-\tutti d fis fis g g
+		d d g g b b
+		d, d fis fis c' c
+		d, d b' b d d
+		c4. c8 b?4 %195
+		a fis g
+		c, d d,
+		g' g, g'
+		c c, c'
+		f, f, f' %200
+		b b, b'
+		e, e, e'
+		a a, a'
+		d, d, d'
+		e8 e gis gis a a %205
+		e e a a c c
+		e, e gis gis d' d
+		e, e c' c e e
+		d4. d8 c4
+		h gis a %210
+		\tempoGloriaB dis,2.
+		e4 \tempoGloriaC r r16 e fis gis?
+		a8 a f f d d
+		g g e e c c
+		f f d d h h %215
+		e e c c a a
+		d d h h d d
+		e4 gis a
+		d, e e,
+		a8 a cis cis d d %220
+		a a d d f f
+		a, a cis cis g' g
+		a, a f' f a a
+		g4. g8 f4
+		g a a, %225
+		d h d
+		e \clef treble e'' e8 d
+		c4 \clef bass a, a8 g
+		f4 r fis
+		r gis a %230
+		r d, e
+		a8-\markup{ \anmerkung "Tutti registri" } a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %235
+		e8 d16 c h8 a gis fis?
+		e d16 c h8 a gis fis?
+		\kneeBeam e16 e'' d c h8 a gis fis?
+		e2\fermata r4 \bar "||" %239 finis
 	}
 }
 
 GloriaBassFigures = \figuremode {
-	
+	r2.
+	<6>
+	<_+>
+	<[6]>
+	<5 _+>2 \bassFigureExtendersOn q8 q %5
+	<5\! _+\!>2 <5 _+>8 q
+	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff
+	<_+>2.
+	r
+	<6> %10
+	<5 _+>
+	<6>
+	<5 _+>2 \bassFigureExtendersOn q8 q
+	<5\! _+\!>2 <5 _+>8 q
+	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff %15
+	<[_+]>2.
+	r
+	r
+	r2 <5!>4
+	<5 _+>8 <\t \t> <6>2 %20
+	r4 <5+> <_+>
+	q r <5>
+	<_+> <5 3> <6>
+	<5 _+> <6> <6 4\+ 2>
+	<5 _+> <6> <5 _+> %25
+	<6 4\+ 2>2.
+	<6>
+	r
+	<6>
+	r %30
+	r
+	r
+	<[6]>
+	r2 <_+>4
+	r2. %35
+	<[6]>
+	<5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r2.
+	r
+	r %40
+	<6>
+	<5 _+>
+	<6>
+	<5 _+>2 \bassFigureExtendersOn q8 q
+	<5\! _+\!>2 <5 _+>8 q %45
+	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff
+	<[_+]>2 r8 <5 _+> \bassFigureExtendersOn
+	q4. q8 r8 <5\! _+\!>
+	<5 _+>4. q8 r <5\! _+\!>
+	<5 _+>8 q \bassFigureExtendersOff <6>4 <_+> %50
+	<5 _+>4 \bassFigureExtendersOn q \bassFigureExtendersOff r
+	<_+> <6>4. <_+>8
+	r2.
+	r2 <5>4
+	<[5+] _+>2. %55
+	r4 <5> <_!>
+	r <5> r
+	r2.
+	r4 <6> <5>
+	r2 <6>4 %60
+	<5 3>2 \bassFigureExtendersOn q8 q
+	<6 4>2 q8 q \bassFigureExtendersOff
+	<6 4 2>2.
+	<6>4 <_-> <[6]>
+	<5 _!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %65
+	<6>4 <_-> <[6]>
+	<_!>2.
+	<_->
+	r
+	<6> %70
+	<_->4 q <_!>
+	<_->2.
+	<[6]>
+	<_!>
+	r %75
+	r2 <6>4
+	r2 <6>4
+	r <7>2
+	r2.
+	r2 <6>4 %80
+	r <_+>2
+	r2.
+	<7 3>2 \bassFigureExtendersOn q4
+	<_!>2 q8 q
+	<6>2 q8 q \bassFigureExtendersOff %85
+	<6 4\+ 2>2 <\t \t \t>4
+	<6>2 \bassFigureExtendersOn q8 q
+	<6\!>2 <6>8 q \bassFigureExtendersOff
+	<6 4\+ 2\+>2 <\t \t \t>4
+	<5 _+>2 \bassFigureExtendersOn q8 q %90
+	<6 4>2 q8 q
+	<5+ _+>2 q8 q
+	<5\! _+\!>4 <6 3>4. q8 \bassFigureExtendersOff
+	<6\\ 4\+ 2>2 <6>4
+	<6\\ 5> <[5+] _+>2 %95
+	r4 <5> q
+	<_+> <5+> r
+	r2 <6 5>4
+	<5+ [_+]>2.
+	<5>2 <6\\>4 %100
+	<[5+] [_+]> <[6] [_+]> <5>
+	<[5+] _+> <5> <6>
+	<[5+] _+> <6 [_+]> <6\\ 4\+ 2>
+	<[5+] _+> <6> <[5+] _+>
+	<6\\ 4\+ 2>2. %105
+	<6>
+	r
+	<6>
+	r
+	r2 <[5+] _+>4 %110
+	r <[6]> r
+	<6> <5 [_+]> <\t \t>
+	r2.
+	<6 [_+]>
+	r4 <6> r %115
+	r2.
+	<_+>
+	<6>
+	r2 q4
+	r2 q4 %120
+	q2.
+	r2.
+	<7>4 <5+ 3> <6 _+>
+	<7> <5 3> <6>
+	<_+> <4\+ 2> <6> %125
+	<5>8 <6\\> r2
+	<5 _+>2 \bassFigureExtendersOn q8 q
+	<5\! _+\!>2 q8 q \bassFigureExtendersOff
+	<_+>2.
+	r8 <5 _+>4. \bassFigureExtendersOn q4 \bassFigureExtendersOff %130
+	r4 <6> <6 4>
+	r8 <5 _+>4. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	r8 <5> <6>4 <5 _+>
+	<4\+ 2>2.
+	r2. %135
+	r
+	r
+	r2 <6>4
+	<7>8 <6\\> <6>2
+	r2. %140
+	r2 <5>4
+	<5+>2.
+	r2 <_+>4
+	r2.
+	<6> %145
+	r4 <6 5> <_+>
+	r8 <5 3>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2.
+	r4. <5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <_+>4 %150
+	r2.
+	<6\\>4 q r
+	r <_+>2
+	r2.
+	r4 <5> q %155
+	q <_+> <5+>
+	<5> r q
+	<_+>2 <6>4
+	<6\\> <\t> r
+	r <6>2 %160
+	<5>4 <6> q
+	<6> <\t> <6>
+	<6\\>2.
+	<5 _+>4 r <5>
+	<5 _+> r <6> %165
+	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<5 _+>4 <\t \t> <6 4\+>
+	<6> <_+> <6>
+	<5> <6> r
+	<7 _-> <6- \t> <5 _-> %170
+	<5 _+> r <6>
+	<6\\> r r
+	<[_+]> <[6]> r
+	<_+> <5> <6>
+	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %175
+	<6>2.
+	r
+	<_+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6>2.
+	q4 <_+> <6> %180
+	r2.
+	<5 _+>2 \bassFigureExtendersOn q8 q
+	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff
+	<5 _+>4 <\t \t> <6>
+	r <_-> <_+> %185
+	<5 3>2 \bassFigureExtendersOn q8 q
+	<5\! 3\!>2 <5 _+>8 q \bassFigureExtendersOff
+	r4 <5 _-> <\t \t>
+	<7 _+> <6 4\+> <6>
+	<[_!]> <_+> r %190
+	<[_+]> <[6]> <_->
+	<6- 4> <\t \t> <6>
+	<5 _+>2 \bassFigureExtendersOn q8 q
+	<6- 4>2 q8 q \bassFigureExtendersOff
+	<6 4\+ 2>4. <\t \t \t>8 <6>4 %195
+	<6\\> <[6]> <_->
+	q <_+>2
+	<_->2.
+	<7 3>2 \bassFigureExtendersOn q8 q
+	<7\! 3\!>2 <7 3>4 %200
+	<7\! 3\!>2 <7 3>4
+	<7\! 3\!>2 <7 3>4 \bassFigureExtendersOff
+	<7 _+>2.
+	<5 3>4 <6!>2
+	<5 _+>2 \bassFigureExtendersOn q8 q %205
+	<6 4>2 q8 q
+	<5 _+>2 q8 q
+	<6 4>2 q8 q\bassFigureExtendersOff
+	<6 4\+ 2>4. <\t \t \t>8 <6>4
+	<6\\> <[6]> r %210
+	<7 [_+]>2 r8 <6>
+	<_+>2 r16 <5 _+>8 \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	r2.
+	<9 7>4 <3> r
+	<9 [7]> <3> r %215
+	<9 7+> r <3>
+	r <5! 3> r
+	<_+> <[6]> r
+	r <_+> r
+	<5 _+> <\t \t> <5 3> %220
+	<_+> r <6>
+	<_+> <[6]> <4\+ 2>
+	<_+> <6> <_+>
+	<4\+ 2>4. <\t \t>8 <6>4
+	<_-> <_+> r %225
+	r <5+> <6 _+>
+	<_+>2.
+	r2 <_+>4
+	r2 <6>4
+	r <6 5>2 %230
+	r4 <6 5> <_+>
+	r2.
+	<6>
+	<_+>
+	<[6]> %235
+	<[_+]>
+	q
+	q
+	q %239 finis
 }
 
 % QuiTollisBassiOrgano = {
