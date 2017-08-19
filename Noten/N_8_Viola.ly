@@ -201,8 +201,8 @@ KyrieIIViola = {
 
 GloriaViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 3/4 \tempoGloria
 		\mvTr a'8\fE-\markup{ \anmerkungE staccato } a, a' a, a' a,
 		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
@@ -229,7 +229,7 @@ GloriaViola = {
 		<h gis>4 r8 c a c
 		<h gis>4 r8 h gis e
 		<h' gis>4 r8 a gis h %25
-		e,4-\tenutoE r r
+		e,4^\tenutoE r r
 		r8 e c a e'4
 		a16 gis a gis a gis a gis a8 e
 		r8 e'\p c a e4
@@ -266,7 +266,7 @@ GloriaViola = {
 		g g c c e e %60
 		g, g h h f' f
 		g, g e' e g g
-		f4\fermata-\tenuto r r
+		\mvTrr f4\fermata^\tenuto r r
 		c'16-! h c h c h c h c8 c,
 		g'16-! fis-! g fis g fis g fis g8 g, %65
 		c'16(\p h c h c h c h c8) c,
@@ -425,95 +425,16 @@ GloriaViola = {
 	}
 }
 
-% QuiTollisViola = {
-% 	\relative c' {
-% % 		\clef treble
+QuiTollisViola = {
+	\relative c' {
+		\clef treble
 % 		\clef alto
-% 		\key e \minor \time 6/4 \tempoQuiTollis
-% 			\set Staff.timeSignatureFraction = 3/4
-% 			\set Score.currentBarNumber = #142
-% 		e4\p e e e e d %142
-% 		c8 a dis4 h e e d?
-% 		c h8 a g fis e g a4 a
-% 		d,8 fis g4 g c,8 e fis4 fis8 e %145
-% 		dis4 r dis' h h8 c d4
-% 		e c c fis, fis'\fE fis
-% 		e h' a c8( a) a4 g
-% 		h8 g g4 e \tempoQuiTollisB e( fis) r
-% 		\tempoQuiTollisC h,\f r r <h dis> r r %150
-% 		cis cis' cis h8-! fis-!\ffE dis-! fis dis h
-% 		\mvTr h4-\tenuto\p r cis h8 h'(\f a g fis e)
-% 		dis4 r h'-! h8 g( fis e d c)
-% 		r e'( d c h a) r \once \slurDashed h( a g fis e)
-% 		dis4 h' h cis r h %155
-% 		h8.-! c16-! a4 h e, e\p e
-% 		e e d c8 a dis4 h
-% 		e, e' d c h8 a g fis
-% 		e g a4 a d,8 fis g4 g
-% 		c,8 e fis4 fis8 e dis4 r dis' %160
-% 		h h8 c d4 e c c8 e
-% 		dis dis(\f e fis g4~) g e e
-% 		dis8 h'-! fis-! h dis, fis h,4 d\pE c
-% 		h h' h gis?8 h gis? h gis? h
-% 		h4 r r gis8 h gis h gis e %165
-% 		a,4 a'\f h c8\ffE e a, c fis, a
-% 		d,4 r r r1*3/4
-% 		a'8\fE fis a fis a fis a4 r r
-% 		a8\p fis a fis a fis d4 r r
-% 		h'8\fE d g, h e, g c,4 r r %170
-% 		r d d, e e' e,
-% 		a fis' e d e fis
-% 		g a,\f h c fis gis
-% 		a fis d e c d
-% 		g8 d' fis, d' g, d' <fis, a>4\ff r r %175
-% 		q r r e e e
-% 		d8 a' fis a fis d d4\p r e
-% 		r8 fis(\fE e d c h) a4 r d
-% 		d8 h'([ a g fis e)] r g( fis e d c)
-% 		r d'( c h a g) fis4 r d %180
-% 		e r d d8.-! e16-! c4 d
-% 		e8. h16 c4 d g, g'\pE fis
-% 		e d8 c h g c4 fis, a
-% 		g a h c a ais
-% 		h r h' h e, dis %185
-% 		e2 dis4 cis cis'? h
-% 		ais fis ais h e, eis
-% 		fis r fis g r g
-% 		a cis a h8 d g, h fis d'
-% 		g,4 a a, d'8 fis a, d fis, a %190
-% 		h4 g gis a8 a, g'? a, fis' a,
-% 		h g a4 a' <fis a>\f r r
-% 		q r r e e e
-% 		d8-! a'-! fis-! a fis d d4\p r e
-% 		d8 d'\f( c h a g) fis\p d' d, d' fis, d' %195
-% 		g, d' h d g, d' gis, e' e, e' gis, e'
-% 		e, e' gis, e' e, e' a,4 c a
-% 		d,2 r4 d2 r4
-% 		gis2.\f h4\ff r e,
-% 		\tempoQuiTollisD fis2.\p \tempoQuiTollisE gis8 h\f gis h gis e %200
-% 		gis4 gis\p h c r f,
-% 		dis? e e, a r ais'
-% 		h8 fis dis fis dis h h4 h fis'
-% 		g g, dis' e c c
-% 		h\f r r dis r r %205
-% 		cis' cis cis h8-! fis-! dis-! fis dis h
-% 		h4 r cis\p h dis h
-% 		e g e fis a fis
-% 		g h g a c a
-% 		h, h'\fE a g c c %210
-% 		fis, h h e, \tempoQuiTollisF e e
-% 		e( dis) r \tempoQuiTollisG dis\pE r r
-% 		dis r r cis cis cis
-% 		h8\f fis' dis fis dis h h4 r cis\p
-% 		h a' a g e2 %215
-% 		r1*3/4 e8 h'\f( a g fis e)
-% 		fis4 r h, h8 g'( fis e d c)
-% 		h-! e( d c h a) g-! h'( a g fis e)
-% 		dis4-! h' h cis r h
-% 		h8. c16 a4 h e, r r \bar "||" %220 finis
-% 	}
-% }
-% 
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+		
+	}
+}
+
 % QuoniamIViola = {
 % 	\relative c' {
 % % 		\clef treble

@@ -288,6 +288,15 @@ GloriaOboeII = {
 	}
 }
 
+QuiTollisOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+		
+	}
+}
+
 % QuoniamIOboeII = {
 % 	\relative c' {
 % 		\clef treble

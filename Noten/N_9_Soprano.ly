@@ -487,145 +487,18 @@ GloriaSopranoLyrics = \lyricmode {
 	tris. %232 finis
 }
 
-% QuiTollisSopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \minor \time 6/4 \autoBeamOff \tempoQuiTollis
-% 			\set Staff.timeSignatureFraction = 3/4
-% 			\set Score.currentBarNumber = #142
-% 		r4 r \mvTr h'\pE^\solo e2.~ %142
-% 		e8([ c)] \appoggiatura c h4. a8 g([ fis)] e4 r
-% 		r r h' g'8([ e)] c4. eis8
-% 		fis([ d)] h4. dis8 e([ c a gis)] a4 %145
-% 		r8 c h([ a g fis] g[ e g a] h4~)
-% 		h8 c a4.( h8) h4 r r
-% 		R1.*8 %155
-% 		r1*3/4 r4 r h
-% 		e2.~ e8([ c)] h4. a8
-% 		g([ fis)] e4 r r r h'
-% 		g'8([ e)] c4. e8 fis([ d)] h4. dis8
-% 		e([ c a gis)] a4 r8 c h([ a g fis] %160
-% 		g[ e g a] h4~) h8 c a4.( h8)
-% 		h4 r r r1*3/4
-% 		r r4 h c
-% 		d8[ c h c d e] f2.~
-% 		f4 e d8.[ e16] f?4 e( d) %165
-% 		c8([ h)] a4 r r1*3/4
-% 		r4 a h c8[ h a h c d]
-% 		e2.~\f e4 c8[ h] c4
-% 		e\pE d( c) h8([ a)] g4 r
-% 		r1*3/4 r4 a g %170
-% 		fis8 a4 h16[ c] d8[ fis,] g h4 c16[ d] e8[ g,]
-% 		a d4 e16[ fis] g8[ cis,] d4. c16[ h] a8[ d]
-% 		h g'4 f16[ e] d8[ g] e4. d16[ c] h8[ d]
-% 		c4 h8[ a] h4~ h8([ c)] a2\trill
-% 		g4 r r r1*3/4 %175
-% 		R1.*6 %181
-% 		r1*3/4 r4 r d'
-% 		g2.~ g8([ e)] d4. c8
-% 		h([ a)] g4 g' e( f) e
-% 		dis8([ cis?)] h4 r c4. c8 h4 %185
-% 		c4. c8 h4 r e e
-% 		e( g) fis8([ e)] d([ cis)] cis([ h)] h([ cis)]
-% 		ais cis4 d16[ e] fis8[ ais,] h d4 e16[ fis] g8[ h,]
-% 		cis e4 fis16[ g] a8[ cis,] d2.~
-% 		d4 cis8[ d e cis] fis2.~ %190
-% 		fis8[ e16 fis] g8[ fis e d] cis2 d4~
-% 		d8 h cis4.( d8) d4 r r
-% 		R1.*2
-% 		r4 r a d2.~ %195
-% 		d~ d4 h8([ c)] d4
-% 		d4. c8 h4 c8([ h)] a4 r
-% 		c b( a) gis8[ a h? c d e]
-% 		f2.~\f f4\ff e8[ d] c4~
-% 		\tempoQuiTollisD c8 a c2\trill \tempoQuiTollisE h4 r r %200
-% 		r h h e( a,8[ gis] a4~)
-% 		a8 h h2 a4 e' fis
-% 		dis8([ cis)] h4 r r fis' dis
-% 		e4.( d16[ c] h8[ a]) g8[( a]) a2
-% 		h4 r r r1*3/4 %205
-% 		R1.
-% 		r1*3/4 r4 h a
-% 		g8 h4 cis16[ d] e8[ g,] a cis4 d16[ e] fis8[ a,]
-% 		h d4 e16[ fis] g8[ h,] c e4 fis16[ g] a8[ cis,]
-% 		dis[ cis?] h4 r r1*3/4 %210
-% 		R1.
-% 		r1*3/4 r4 dis e
-% 		fis( e dis) e e4.( dis8)
-% 		dis4 r r r1*3/4
-% 		r4 fis dis e2.~ %215
-% 		e8^\adlibitumE cis dis4.(\trill e8) e4 r r
-% 		R1.*4 \bar "||" %220 finis
-% 	}
-% }
-% 
-% QuiTollisSopranoLyrics = \lyricmode {
-% 	Qui tol -- %142
-% 	lis pec -- ca -- ta,
-% 	qui tol -- lis pec --
-% 	ca -- ta, pec -- ca -- ta, %145
-% 	pec -- ca --
-% 	ta mun -- di.
-% 	
-% 	Qui %156
-% 	tol -- lis pec --
-% 	ca -- ta, qui
-% 	tol -- lis pec -- ca -- ta, qui
-% 	tol -- lis pec -- ca -- %160
-% 	ta mun --
-% 	di:
-% 	Mis -- se --
-% 	re -- _
-% 	_ _ _ re __ %165
-% 	no -- bis,
-% 	mi -- se -- re --
-% 	_ _ _
-% 	_ re __ no -- bis,
-% 	mi -- se -- %170
-% 	re -- _ _ _ _ _ _ _
-% 	_ _ _ _ _ _ _
-% 	_ _ _ _ _ _ _
-% 	_ _ re __ no --
-% 	bis. %175
-% 	
-% 	Qui %182
-% 	tol -- lis pec --
-% 	ca -- ta, pec -- ca -- ta
-% 	mun -- di: Sus -- ci -- pe, %185
-% 	sus -- ci -- pe de -- pre --
-% 	ca -- ti -- o -- _ _
-% 	_ _ _ _ _ _ _ _
-% 	_ _ _ _ _
-% 	_ _ %190
-% 	_ _ _
-% 	nem no -- stram.
-% 	
-% 	Qui se -- %195
-% 	des __ ad
-% 	dex -- te -- ram Pa -- tris_
-% 	Mi -- se -- re --
-% 	_ _ _
-% 	re no -- bis, %200
-% 	mi -- se -- re --
-% 	re no -- bis, mi -- se --
-% 	re -- re, mi -- se --
-% 	re -- re __ no --
-% 	bis, %205
-% 	
-% 	mi -- se --
-% 	re -- _ _ _ _ _ _ _
-% 	_ _ _ _ _ _ _ _
-% 	_ re, %210
-% 	
-% 	mi -- se --
-% 	re -- re no --
-% 	bis,
-% 	mi -- se -- re -- %215
-% 	re no -- bis.
-% 	
-% 	%220 finis
-% }
-% 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	
+}
+
 % QuoniamISopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

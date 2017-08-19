@@ -650,7 +650,7 @@ GloriaBassFigures = \figuremode {
 	r2 <5!>4
 	<5 _+>8 <\t \t> <6>2 %20
 	r4 <5+> <_+>
-	q r <5>
+	q <[6]> <5>
 	<_+> <5 3> <6>
 	<5 _+> <6> <6 4\+ 2>
 	<5 _+> <6> <5 _+> %25
@@ -683,7 +683,7 @@ GloriaBassFigures = \figuremode {
 	<_+> <6>4. <_+>8
 	r2.
 	r2 <5>4
-	<[5+] _+>2. %55
+	<5+>2. %55
 	r4 <5> <_!>
 	r <5> r
 	r2.
@@ -707,7 +707,7 @@ GloriaBassFigures = \figuremode {
 	r2 <6>4
 	r2 <6>4
 	r <7>2
-	r2.
+	r2 <[6]>4
 	r2 <6>4 %80
 	r <_+>2
 	r2.
@@ -718,7 +718,7 @@ GloriaBassFigures = \figuremode {
 	<6>2 \bassFigureExtendersOn q8 q
 	<6\!>2 <6>8 q \bassFigureExtendersOff
 	<6 4\+ 2\+>2 <\t \t \t>4
-	<5 _+>2 \bassFigureExtendersOn q8 q %90
+	<[5+] _+>2 \bassFigureExtendersOn <5+ _+>8 q %90
 	<6 4>2 q8 q
 	<5+ _+>2 q8 q
 	<5\! _+\!>4 <6 3>4. q8 \bassFigureExtendersOff
@@ -749,14 +749,14 @@ GloriaBassFigures = \figuremode {
 	<6>
 	r2 q4
 	r2 q4 %120
-	q2.
+	q <[_+]> r
 	r2.
 	<7>4 <5+ 3> <6 _+>
 	<7> <5 3> <6>
 	<_+> <4\+ 2> <6> %125
 	<5>8 <6\\> r2
 	<5 _+>2 \bassFigureExtendersOn q8 q
-	<5\! _+\!>2 q8 q \bassFigureExtendersOff
+	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff
 	<_+>2.
 	r8 <5 _+>4. \bassFigureExtendersOn q4 \bassFigureExtendersOff %130
 	r4 <6> <6 4>
@@ -765,7 +765,7 @@ GloriaBassFigures = \figuremode {
 	<4\+ 2>2.
 	r2. %135
 	r
-	r
+	r2 <[6]>4
 	r2 <6>4
 	<7>8 <6\\> <6>2
 	r2. %140
@@ -773,15 +773,15 @@ GloriaBassFigures = \figuremode {
 	<5+>2.
 	r2 <_+>4
 	r2.
-	<6> %145
+	<6>2 <[_+]>4 %145
 	r4 <6 5> <_+>
 	r8 <5 3>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-	r2.
+	r2 <[_+]>4
 	r4. <5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-	r2 <_+>4 %150
+	<[6]>2 <_+>4 %150
 	r2.
 	<6\\>4 q r
-	r <_+>2
+	<[6]> <_+>2
 	r2.
 	r4 <5> q %155
 	q <_+> <5+>
@@ -800,12 +800,12 @@ GloriaBassFigures = \figuremode {
 	<5> <6> r
 	<7 _-> <6- \t> <5 _-> %170
 	<5 _+> r <6>
-	<6\\> r r
+	<6\\> r <[7]>
 	<[_+]> <[6]> r
 	<_+> <5> <6>
 	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %175
 	<6>2.
-	r
+	r4 <[6]> <[_+]>
 	<_+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
 	<6>2.
 	q4 <_+> <6> %180
@@ -815,7 +815,7 @@ GloriaBassFigures = \figuremode {
 	<5 _+>4 <\t \t> <6>
 	r <_-> <_+> %185
 	<5 3>2 \bassFigureExtendersOn q8 q
-	<5\! 3\!>2 <5 _+>8 q \bassFigureExtendersOff
+	<5\! 3\!>2 <5 3>8 q \bassFigureExtendersOff
 	r4 <5 _-> <\t \t>
 	<7 _+> <6 4\+> <6>
 	<[_!]> <_+> r %190
@@ -827,13 +827,13 @@ GloriaBassFigures = \figuremode {
 	<6\\> <[6]> <_->
 	q <_+>2
 	<_->2.
-	<7 3>2 \bassFigureExtendersOn q8 q
+	<[7-] 3>2 \bassFigureExtendersOn <7- 3>8 q
 	<7\! 3\!>2 <7 3>4 %200
 	<7\! 3\!>2 <7 3>4
 	<7\! 3\!>2 <7 3>4 \bassFigureExtendersOff
 	<7 _+>2.
 	<5 3>4 <6!>2
-	<5 _+>2 \bassFigureExtendersOn q8 q %205
+	<5 _+>4. \bassFigureExtendersOn q8 r4 %205
 	<6 4>2 q8 q
 	<5 _+>2 q8 q
 	<6 4>2 q8 q\bassFigureExtendersOff
@@ -844,8 +844,8 @@ GloriaBassFigures = \figuremode {
 	r2.
 	<9 7>4 <3> r
 	<9 [7]> <3> r %215
-	<9 7+> r <3>
-	r <5! 3> r
+	<9 7 _+> r <3>
+	<[9] [7]> <5! 3> r
 	<_+> <[6]> r
 	r <_+> r
 	<5 _+> <\t \t> <5 3> %220
@@ -857,7 +857,7 @@ GloriaBassFigures = \figuremode {
 	r <5+> <6 _+>
 	<_+>2.
 	r2 <_+>4
-	r2 <6>4
+	<[6]>2 <6>4
 	r <6 5>2 %230
 	r4 <6 5> <_+>
 	r2.
@@ -870,188 +870,21 @@ GloriaBassFigures = \figuremode {
 	q %239 finis
 }
 
-% QuiTollisBassiOrgano = {
-% 	\relative c {
-% 		\clef bass
-% 		\key e \minor \time 6/4 \tempoQuiTollis
-% 			\set Staff.timeSignatureFraction = 3/4
-% 			\set Score.currentBarNumber = #142
-% 		\mvTr e4\pE-\solo-\org g fis e8 d c4 h %142
-% 		a dis h e e' d
-% 		c h8 a g fis e4 a a
-% 		d, g g c, fis fis8 e %145
-% 		dis4 r h e2 d?4
-% 		c2. h4 \mvTr h'\f-\rip a
-% 		g c-! c-! fis, h-! h-!
-% 		e, e'-! e-! \tempoQuiTollisB e( dis) r
-% 		\tempoQuiTollisC h,-!\f r r h-! r r %150
-% 		ais' ais ais h8-! fis-!\ff dis-! fis-! dis-! h-!
-% 		a!4^\tenuto\p r ais h8-! h'\f( a g fis e)
-% 		dis4 r h' e,8 e'( d c h a)
-% 		g c( h a g fis) e[ \appoggiatura { e'16 fis } g8( fis e dis cis)]
-% 		h4 h, e' ais, h h, %155
-% 		e8. e'16 a,4-\critnote h e, \mvTr g\p-\org fis
-% 		e8 d c4 h a dis h
-% 		e e' d! c h8 a g fis
-% 		e4 a a d, g g
-% 		c, fis fis8 e dis4 r h %160
-% 		e2 d?4 c2.
-% 		h4 r \mvTr g\f-\rip c2.
-% 		h8 h' fis h dis, h' h,4 \mvTr h'\p-\org a
-% 		gis gis gis gis8 d' gis, d' gis, d'
-% 		gis,4 r r gis8 d' gis, d' gis, e' %165
-% 		a,,4 \mvTr a'\fE-\rip h c8\ffE e a, c fis, a
-% 		d,4 \mvTr d'\pE-\org g, fis fis fis
-% 		fis8 c' fis, c' fis, c' fis,4 r r
-% 		fis8 c' fis, c' fis, d' g,,4 g' a
-% 		\mvTr h8\f-\rip d g, h e, g c,4 \mvTr a\p-\org cis %170
-% 		d d' d, e e' e,
-% 		fis fis' e d e, fis
-% 		g a h c fis, gis
-% 		a fis g? e c d
-% 		g8 d' fis, d' g, d' \mvTr d,4\ff-\rip r r %175
-% 		d r r cis' cis cis
-% 		d8 a fis a fis d c!4 r cis\p
-% 		d8 d'(\fE c h a g) fis4 r d'
-% 		g,,8 g'( fis e d c) h e( d c h a)
-% 		g[ \appoggiatura { g'16 a } h8( a g fis e)] d4 d' g, %180
-% 		cis, d d, g8. e'16 c?4 d
-% 		e8. h16 c4 d g, \mvTr g'\p-\org fis
-% 		e d8 c h  g c4 fis d
-% 		g a h c a ais
-% 		h cis dis e e, dis %185
-% 		e e' dis cis cis, h'
-% 		ais fis ais h e, eis
-% 		fis fis' fis, g g' g,
-% 		a cis a h8 d g, h fis d'
-% 		g,4 a a, d'8 fis a, d fis, a %190
-% 		h4 g gis a8 a, g'? a, fis' a,
-% 		h g a4 a' \mvTr d,\f-\rip r r
-% 		d r r cis' cis cis
-% 		d8-! a-! fis-! a fis d c!4 r cis\p
-% 		d8 d'\f( c h? a g) \mvTr fis\p-\orgE d' d, d' fis, d' %195
-% 		g, d' h d g, d' gis, e' e, e' gis, e'
-% 		e, e' gis, e' e, e' a,4 c a
-% 		d,2 r4 d2 r4
-% 		d4 d'8 c h a gis4 r a
-% 		\tempoQuiTollisD dis,2. \tempoQuiTollisE e'8 \mvTr h\f-\rip gis h gis e %200
-% 		d4 \mvTr d'\p-\org d c r f
-% 		dis e e, a r ais
-% 		h8 fis dis fis dis h a4 a' a
-% 		g g, dis' e c c
-% 		\mvTr h\f-\rip r r h r r %205
-% 		ais' ais ais h8-! fis-! dis-! fis dis h
-% 		a!4 r ais\p h dis-\orgE h
-% 		e g e fis a fis
-% 		g h g a c a
-% 		h, \mvTr h'\fE-\rip a g c c %210
-% 		fis, h h e, \tempoQuiTollisF e' e
-% 		e dis r \tempoQuiTollisG \mvTr h,\pE-\orgE r r
-% 		h r r ais' ais ais
-% 		\mvTr h8\f-\rip fis dis fis dis h a4 r ais\p
-% 		h a'-\orgE a g e c' %215
-% 		a-\adlibitum h2 e,8 \mvTr h'\f-\rip( a g fis e)
-% 		dis4 r h' e,8 e'( d c h a)
-% 		g c( h a g fis) e[ \appoggiatura { e'16 fis } g8( fis e dis cis)]
-% 		h4 h, e' ais, h h,
-% 		e8. c'16 a4 h e, r r \bar "||" %220 finis
-% 	}
-% }
-% 
-% QuiTollisBassFigures = \figuremode {
-% 	r4 <6> r <5 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff %142
-% 	<5> <6> <_+> <_!> r <[6]>
-% 	<5> <5 _+> <6>8 <\t> r4 <9> <8>
-% 	<9> q <8> <9> <[9] 3> <5> %145
-% 	<7> r <_+> r2 <6>4
-% 	<7 5> <6>2 <5 _+> \bassFigureExtendersOn q4 \bassFigureExtendersOff
-% 	<6> <7> <6> <7> q <6>
-% 	<5> <6> q <[6\\] 4\+ _!> <6 5 3> r
-% 	<5 _+>2. q %150
-% 	<7 _+>2 \bassFigureExtendersOn q4 <5 _+\!>2 <5 _+>8 q \bassFigureExtendersOff
-% 	<6 4\+ 2>4 r <7 _+> <5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-% 	<6 5 3>4 r <_+> <5 3>2 \bassFigureExtendersOn q8 q
-% 	<8 6>2 q8 q <5 3>4. q8 \bassFigureExtendersOff <5 _+>4
-% 	<7 _+>2. <7 _+>4 <5 _+> <\t \t> %155
-% 	r8. <5>16 <6 5>4 <_+> <5 3>2 \bassFigureExtendersOn q4
-% 	<5\! 3\!>2 <5 3>4 \bassFigureExtendersOff <5> <6> <_+>
-% 	<5 3>4 <\t \t> <[6]> r <_+> <6>
-% 	<5> <9 3> <8> <[9]> q <[8]>
-% 	<9> <9 3> <8> <7> r <_+> %160
-% 	r2 <6>4 <7> <6>2
-% 	<_+>4 r <6> <7> <6>2
-% 	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <5 [_+]>4 <6\\> <8>
-% 	<6 5>2. <[7!] 5>2 \bassFigureExtendersOn <7! 5>8 q \bassFigureExtendersOff
-% 	<[7!] 3>2. <[7!] 3>4 <6> <5>8 <\t> %165
-% 	r2 <6\\>4 <6> r q
-% 	r2. <6 5>
-% 	<7 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <7 5>2.
-% 	<7>4 <6> <5> r2 <6>4
-% 	q <5> q q r <6 5> %170
-% 	r r <6> <5> r <6>
-% 	q <\t> r <5 3> <7 3> <6>
-% 	r <7 _!> <6> r <7> <6 5>
-% 	<5> <6 5> r <5> <6 5> <5 3>
-% 	<5 3>2\bassFigureExtendersOn q8 q r2. %175
-% 	r <7 5 3>2 q4
-% 	<5\! 3\!>2 <5 3>8 q \bassFigureExtendersOff <4\+ 2>4 r <7->
-% 	<5 3>2. <6>
-% 	<8 3>2 \bassFigureExtendersOn q8 q <6 3\!>2 <6 3>8 q
-% 	<8 3\!>4. <8 3>8 \bassFigureExtendersOff <5 3>8 <\t \t> <7>2. %180
-% 	q4 <5 3> <\t \t> r8. <5>16 <6 5>2
-% 	<5>8. <6>16 <6 5>2 r4 <5 3> <\t \t>
-% 	<7 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <5>4 <6> r
-% 	<5> <6> q <5> <6!> <5 _+>
-% 	<5 _+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <6 3> <\t \t> <6 3> %185
-% 	q r <6> <6\\> r <8>
-% 	<6 5 [_+]> <\t \t \t> r r <6\\> <6\\ _+>
-% 	<5+ _+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <9 5 3>4 <8> <6>
-% 	<5 [_+]> <6> <_+> <5 3>8 <\t \t> <5 3> <\t \t> <6>4
-% 	<6 5> <5 _+> r <5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %190
-% 	<5>4 q <6> <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6> <\t>
-% 	<6>4 <_+> r r2.
-% 	q <7- 5>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
-% 	r2. <6 4\+ 2>4 r <7- 3>
-% 	<5 3>2 \bassFigureExtendersOn q8 q <6 3\!>2 <6 3>8 q %195
-% 	<5 3\!>2 <5 3>8 q <6 3\!>2 <6 3>8 q
-% 	<5 _+>2 q8 q \bassFigureExtendersOff <_!>4 <6> r
-% 	<7 [5]> <6- [4]> <5 [_+]> <4\+ 2>2.
-% 	<6 4\+ _!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <[7!] 5>4 r <_!>
-% 	<7>2. <5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %200
-% 	<6 4\+ _!>4 <6 4\+ 2> <\t \t \t> <6> r <5>
-% 	<7 _+> <5 _+> r r r <6 _+>
-% 	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <4\+ 2>4 <6 4\+ 2> <\t \t \t>
-% 	<6> r q <5> <7> <6>
-% 	<_+>2. q %205
-% 	<7 _+>2 \bassFigureExtendersOn q4 <5 _+\!>2 <5 _+>8 q \bassFigureExtendersOff
-% 	<4\+ 2>4 r <7! _+> <_+> <6> <_+>
-% 	r <6> r <9> <6> q
-% 	<9> <6> q <9> <6> <_+>
-% 	q2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <6> <5> r %210
-% 	<7> <5> r <7> <6 3> <5 \t>
-% 	<4\+ 2> <6> r <_+>2.
-% 	q <7 5 _+>2 \bassFigureExtendersOn q4
-% 	<5\! _+\!>2 <5 _+>8 q \bassFigureExtendersOff <4\+ 2>4 r <7 [_+]>
-% 	<5 _+>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <6> r <5> %215
-% 	<_+> q2 <5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-% 	<6>4 r <_+> <5 3>2 \bassFigureExtendersOn q8 q
-% 	<8 6>2 q8 q <5 3>4. q8 \bassFigureExtendersOff <5 3>8 <\t \t>
-% 	<7 _+>2. <7 [_+]>4 <_+> r
-% 	r8. <5>16 <6 5>4 <_+> r2. %220 finis
-% }
-% 
-% QuiTollisChords = {
-% 	\clef treble
-% 	\key e \minor \time 6/4 \tempoQuiTollis
-% 			\set Staff.timeSignatureFraction = 3/4
-% 	<< \relative c' {
-% 		
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% 	
-% }
-% 
+QuiTollisBassiOrgano = {
+	\relative c {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+		\mvTr a''2\fE-\tuttiE c4 h8 a
+		f'2 gis,8 h e4
+		fis,8 a d2 c4
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	
+}
+
 % QuoniamIBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

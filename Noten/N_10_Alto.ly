@@ -518,6 +518,19 @@ GloriaAltoLyrics = \lyricmode {
 	tris. %232 finis
 }
 
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+		
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	
+}
+
 % QuoniamIAltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -439,94 +439,15 @@ GloriaViolinoI = {
 	}
 }
 
-% QuiTollisViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \minor \time 6/4 \tempoQuiTollis
-% 			\set Staff.timeSignatureFraction = 3/4
-% 			\set Score.currentBarNumber = #142
-% 		\mvTr h'4\p-\vv h h h h h %142
-% 		c fis, h h g' fis
-% 		e dis e e e e
-% 		e d d d c c %145
-% 		c h8 a g fis g e g a h4~
-% 		h8 c a4. h8 h4 r \mvTr fis'\f-\tutti
-% 		h8( g) \appoggiatura fis e4. gis8 a fis \appoggiatura e d4. fis8
-% 		g e \appoggiatura d c4. h8 \tempoQuiTollisB ais( h) h4 r
-% 		\tempoQuiTollisC r fis'(\fE g) a( g) fis %150
-% 		g g4.\trill fis8 fis4 r r
-% 		\mvTr fis,8.(\p-\vv g16) g4.\trill fis8 fis4 r r
-% 		\mvTr a'8-!\f-\tutti c( h a g fis) g2.~
-% 		g~ g2 a4~
-% 		a g8 fis g4~ g8 a fis4.\trill e8 %155
-% 		e8.-! c16-! a4 h e, \mvTr h'\p-\vv h
-% 		h h h c fis, h
-% 		h g' fis e dis e
-% 		e e e e d d
-% 		d c c c h8 a g fis %160
-% 		g e g a h4~ h8 c a4. h8
-% 		h \mvTr fis'\f-\tuttiE g( dis) e( h) e( g,) a4.\trill h8
-% 		h h-!-\vv fis-! h-! dis, fis h,4 h'\p c
-% 		d8 c h c d e f2.~\f
-% 		f4\piuF e d8.( e16) f4 e d8 h %165
-% 		c4 a\f h c8\ff e a, c fis, a
-% 		d,4 a'\p h c8 h a h c d
-% 		e2.~\f e4\piuF c8 h c4
-% 		e\p d c h g a
-% 		h8\f d g, h e, g c,4 a'\p g %170
-% 		fis8 a4 h16 c d8 fis, g h4 c16 d e8 g,
-% 		a d4 e16 fis g8 cis, d4. c16 h a8 d
-% 		h g'4\f f16 e d8 g e4. d16 c h8 d
-% 		c4 h8 a h4~ h8 c a4. g8
-% 		g4 r r r \mvTr fis'(\ffE-\tutti g) %175
-% 		a( g) fis g g4.\trill fis8
-% 		fis8 \mvTr a,\f-\vv fis a fis d a'\p b8 b4.\trill a8
-% 		a4 r r \mvTr c8\fE-\tutti e( d c h a)
-% 		h2.~ h~\piuF
-% 		h2 c4~ c h8 a h4~ %180
-% 		h8 c a4.\trillE g8 g8.-! e16-! c4 d
-% 		e8. h16-\vv c4 d g, d''\p d
-% 		d d d e a, d~
-% 		d c d g, c cis
-% 		h cis dis e g, fis %185
-% 		g4. g8 fis4 e e' e
-% 		e4. g8 fis e d( cis) cis( h) h( cis)
-% 		ais cis4 d16 e fis8 ais, h d4 e16 fis g8 h,
-% 		cis e4 fis16 g a8 cis, d2.~
-% 		d4 cis8 d e cis fis2.~ %190
-% 		fis8 e16 fis g8 fis e d cis2 d4~
-% 		d8 h cis4. d8 d4 \mvTr fis(\f-\tutti g)
-% 		a( g) fis g g4. fis8
-% 		fis a,-!-\vv fis-! a-! fis d a'(\p b) b4. a8
-% 		a d(\f c h a g) fis\p d' d, d' fis, d' %195
-% 		g, d' h d g, d' gis, e' e, e' gis, e'
-% 		e, e' gis, e' e, e' a,4 e' c
-% 		a g fis e8 fis gis a h c
-% 		d2.~\f d4\ff c8 h a4~
-% 		\tempoQuiTollisD a\p a4.\trill a8 \tempoQuiTollisE gis h\f gis h gis e %200
-% 		f4 gis\p gis a c8 h c4~
-% 		c8 h h4.\trill h8 a4 c cis
-% 		h8 fis dis fis dis h dis4 dis h'
-% 		h h h h8 c a4.\trill a8
-% 		h4 \mvTr fis'(\f-\tutti g) a( g) fis %205
-% 		g g4.\trill fis8 fis4 r r
-% 		\mvTr dis8\p-\vv e e4. dis8 dis4 h a
-% 		g8 h4 cis16 d e8 g, a cis4 d16 e fis8 a,
-% 		h d4 e16 fis g8 h, c e4 fis16 g a8 cis,
-% 		dis cis? h4 \mvTr fis'\f-\tutti h8 g e4. gis8 %210
-% 		a fis d4. fis8 g e \tempoQuiTollisF c4( h)
-% 		ais8 h h4 r \tempoQuiTollisG r \mvTr dis\p-\vv e
-% 		fis e dis e e4. dis8
-% 		dis8\f fis, dis fis dis h fis'\p g g4. fis8
-% 		fis4 dis' fis h, g e %215
-% 		R1.
-% 		r8 \mvTr c''\f-\tutti( h a g fis) g2.~
-% 		g~\piuF g2 a4~
-% 		a g8 fis g4~ g8 fis fis4.\trill e8
-% 		e8.-! c16-! a4 h e, r r \bar "||" %220 finis
-% 	}
-% }
-% 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #240
+		
+	}
+}
+
 % QuoniamIViolinoI = {
 % 	\relative c' {
 % 		\clef treble

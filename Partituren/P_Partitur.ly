@@ -229,24 +229,98 @@
 % % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.1 GLORIA" }
+% 			composer = \markup { \larger " " }
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup {
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\GloriaOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+% 							\GloriaOboeII
+% 						}
+% 					>>
+% 				}
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GloriaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+% 							\GloriaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\GloriaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Bassi ed Organo"
+% 						\GloriaBassiOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \GloriaBassFigures }
+% 			>>
+% % 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.1 GLORIA" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.2 QUI TOLLIS" }
 			composer = \markup { \larger " " }
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\GloriaOboeI
+							\QuiTollisOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\GloriaOboeII
+							\QuiTollisOboeII
 						}
 					>>
 				}
@@ -254,96 +328,55 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
+							\QuiTollisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\GloriaViolinoII
+							\QuiTollisViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\GloriaViola
+						\QuiTollisViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi ed Organo"
-						\GloriaBassiOrgano
+						\QuiTollisBassiOrgano
 					}
 				>>
-				\new FiguredBass { \GloriaBassFigures }
+				\new FiguredBass { \QuiTollisBassFigures }
 			>>
 % 			\midi { \tempo 4 = 120 }
 		}
 	}
-% 	\bookpart {
-% 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.2 QUI TOLLIS" }
-% 			composer = \markup { \larger " " }
-% 		}
-% 		\paper { max-systems-per-page = #3 }
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-% 							\QuiTollisViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\QuiTollisViolinoII
-% 						}
-% 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\QuiTollisViola
-% 					}
-% 				>>
-% 				\new Staff {
-% 					\set Staff.instrumentName = "Soprano"
-% 					\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
-% 				}
-% 				\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\QuiTollisBassiOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass { \QuiTollisBassFigures }
-% 			>>
-% % 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM I" }

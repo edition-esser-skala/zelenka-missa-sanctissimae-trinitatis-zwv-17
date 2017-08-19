@@ -126,6 +126,7 @@ tempoGloria = \tempoMarkup "[Tempo deest]"
 	tempoGloriaB = \tempoMarkup "Adagio"
 	tempoGloriaC = \tempoMarkup "[a tempo]"
 
+tempoQuiTollis = \tempoMarkup "Vivace"
 
 
 % modify the Scheme function 'format-bass-figure'
