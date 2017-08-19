@@ -420,8 +420,8 @@ GloriaBassiOrgano = {
 		a, r r
 		gis' r r
 		a d, e
-		a\p r r %35
-		gis r r
+		a r r %35
+		gis\p r r
 		a,8\f h16 c d e fis gis a4-!
 		r8 c, d4\trill e\trill
 		a, r r

@@ -204,6 +204,224 @@ GloriaViola = {
 		\clef treble
 % 		\clef alto
 		\key a \minor \time 3/4 \tempoGloria
+		\mvTr a'8\fE-\markup{ \anmerkungE staccato } a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis %5
+		e d16 c h8 a gis fis
+		\kneeBeam e16 e'' d c h8 a gis fis
+		gis e gis e gis e
+		a a, a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %10
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis fis
+		\kneeBeam e16 e'' d c h8 a gis fis %15
+		e4 r r
+		a r8 c f, a
+		g4 r8 h e, g
+		f4 r8 a d, f
+		e4 r8 a c, e %20
+		d4 r8 fis r fis
+		e4 r8 e' c a
+		<h gis>4 r8 c a c
+		<h gis>4 r8 h gis e
+		<h' gis>4 r8 a gis h %25
+		e,4-\tenutoE r r
+		r8 e c a e'4
+		a16 gis a gis a gis a gis a8 e
+		r8 e'\p c a e4
+		a16-!\ff gis-! a gis a gis a gis a8 e %30
+		a4 d,\trillE e\trillE
+		a, r r
+		R2.
+		a'4 d, e
+		a, r r %35
+		R2.
+		a8\fE h16 c d e fis gis a4
+		r8 c, d4\trill e\trill
+		c8 a c a c a
+		a' a, a' a, a' a, %40
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis
+		e d16 c h8 a gis fis %45
+		\kneeBeam e16 e'' d c h8 a gis fis
+		e4 r r
+		h' r r
+		h r r
+		h r r %50
+		a, cis a
+		d, r r
+		g h g
+		c, a''2~
+		a8 d,4 e16 fis? g4~ %55
+		g8 c,4 d16 e f4~
+		f8 h,4 c16 d e4~
+		e8 d16 e f4 a
+		g8 g, h h c c
+		g g c c e e %60
+		g, g h h f' f
+		g, g e' e g g
+		f4\fermata-\tenuto r r
+		c'16-! h c h c h c h c8 c,
+		g'16-! fis-! g fis g fis g fis g8 g, %65
+		c'16(\p h c h c h c h c8) c,
+		g'16-!\f fis-! g fis g fis g fis g8 g,
+		c4 g' g,
+		c r r
+		R2. %70
+		g'4 r g
+		g r r
+		R2.
+		c,8\fE d16 e! f g a h c4
+		r8 e,! f4\trill g\trill %75
+		c, r r
+		R2.*5 %81
+		g'8\f fis16 e d8 c h a
+		gis( h) d([ f)] h( gis)
+		a-! a,-! a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a a, %85
+		g( cis) e( g) e[ a]
+		d, d, d' d, d' d,
+		f' d d d d d
+		c( fis) a( fis) dis? fis
+		h, h dis dis fis fis %90
+		h, h e e g g
+		h, h dis dis a' a
+		h, h g' g h h
+		a2 g4
+		a h h, %95
+		e r8 g c, e
+		d4 r8 fis h, d
+		c4 r8 e a, c
+		h4 r8 dis? g, h
+		a a fis fis a a %100
+		fis4 r8 h' g e
+		dis4 r8 h' g h
+		dis,4 r8 fis? dis h
+		dis4 r8 e dis fis?
+		h,4\fermata r r %105
+		r8 h' g e h4
+		e16 dis e dis e dis e dis e8 h
+		r h'(\pE g e h4)
+		e16\ff dis e dis e dis e dis e8 h
+		e,4 a\trill h\trill %110
+		e-\critnote r r
+		R2.*3
+		e4\p g e %115
+		c c c
+		d d d
+		r8 g g,4 r8 d'
+		e4 r r
+		r8 e c4 r8 e %120
+		d4 r r8 d~
+		d h c e r c~
+		c a h d r h~
+		h g a c a4
+		a r r %125
+		R2.
+		d'8\f c16 h a8 g fis e
+		d\p c16 h a8 g fis e
+		d4 r r
+		r r8 a'' fis d %130
+		fis4 r8 h, g' g,
+		fis4 r8 a' fis d
+		fis4 r8 g fis g
+		a4 d, d
+		d16\f g fis e d8 c h a %135
+		g16 g' fis e d8 c h a
+		g4 r r
+		R2.*3 %140
+		r8 g'\p a a, d[ a']
+		r fis g g, c[ g']
+		r e fis d fis[ a]
+		g4 r e
+		h c d %145
+		g e fis?
+		r8 e(\f d c h a)
+		<h d>4-! r <d fis>-!
+		r r8 e(\p d c)
+		<h d>4 r <d fis> %150
+		r8 d( c a h g)
+		<fis' a>4 q <d h'>
+		<d a'> r <h g'>
+		d2.^\adlibitumE
+		g,4\f r8 h' e, g %155
+		r4 r8 a d, fis
+		r4 r8 g c, e
+		d4 r r
+		R2.*5 %163
+		gis4\f r8 e' c a
+		<h gis>4 r8 c a c %165
+		<h gis>4 r8 h gis e
+		<gis h>4 r r
+		R2.*5 %172
+		r4 r8 a\fE f d
+		<cis e>4 r8 f d f
+		<cis e>4 r8 e cis e %175
+		f4 r r
+		R2.*5 %181
+		a8\f g16 f e8 d cis h
+		a16 a' g f e8 d cis h
+		a4 r r
+		R2. %185
+		d'8\f c16 b? a8 g f e
+		d c16 b? a8 g f e
+		d4 r r
+		R2.*2 %190
+		fis'4\fE r8 d' b g
+		b4 r8 b g b
+		<a fis>4 r8 a fis d
+		b'4 r8 g b d
+		fis,4 r8 a g g %195
+		a4 r8 c b? g
+		es c d4 d
+		g d g,
+		g'8 g4 g g8
+		f4 a, f %200
+		f'8 f4 f f8
+		e4 g, e
+		e'8 e4 e e8
+		d4 a' d,
+		e8 e gis gis a a %205
+		e e a a c c
+		e, e gis gis d' d
+		e, e c' c e e
+		d h gis e a,[ a']
+		h d, h gis e'[ c] %210
+		\tempoGloriaB fis2.
+		h,4 \tempoGloriaC r r16 e fis gis?
+		a8 a f f d d
+		g g e e c c
+		f f d d h h %215
+		e e c c a a
+		d d h h d d
+		e4 gis a
+		d, e e,
+		a4 r8 e' f d %220
+		cis4 r8 f a d,
+		cis4 r8 e cis e
+		cis4 r8 d e cis
+		<e a>4 q d
+		b' e,4.\trill e8 %225
+		f d fis[-\critnote h] fis fis,
+		h4 r r
+		r a' a8 a
+		a4 r a
+		r e e %230
+		d <d f> h
+		c8-! a-! a' a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d
+		e8 e, a a, a' a,
+		\appoggiatura { a'16[ h] } c8 a a a a16 h c d %235
+		e8 d16 c h8 a gis fis?
+		e d16 c h8 a gis fis?
+		\kneeBeam e16-\critnote e'' d c h8 a gis gis
+		gis?2\fermata r4 \bar "||" %239 finis
 	}
 }
 

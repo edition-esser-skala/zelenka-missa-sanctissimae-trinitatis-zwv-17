@@ -103,7 +103,188 @@ GloriaOboeII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 3/4 \tempoGloria
-		
+		a'4\fE r r
+		\appoggiatura { a16[ h] } c8 a a a a16 h c d
+		e4 r r
+		\appoggiatura { a,16[ h] } c8 a a a a16 h c d
+		e8 d16 c h8 a gis fis %5
+		e4 r r
+		e r r
+		e'2.~
+		e4. e16 e e8 e
+		e4 c a8 c %10
+		h4 c8 a16 h c8 d
+		e4. d8 c4
+		h h4. h8
+		gis4 r r
+		R2.*2 %16
+		c4 r r8 d
+		h4 r r8 c
+		a4 r r8 h
+		gis4 r r8 a %20
+		f4 r d'8 c
+		h e h gis e4
+		r8 e' c a e4
+		r8 e' h gis e4
+		r8 e' a, c h4 %25
+		gis'4^\tenuto r r
+		a16-! gis-! a gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e
+		R2.
+		a16-!\ff gis-! a-! gis a gis a gis a8 e %30
+		a4 d,\trill e\trill
+		a8 \noBeam c-\solo d([ c) d( c)]
+		r h c([ h) c( h)]
+		a c f4 r8 h,
+		a4 r r %35
+		R2.
+		\mvTr a8\f-\tuttiE h16-! c-! d e fis gis a4-!
+		r8 c,, d4\trill e\trill
+		a8 c a c a c
+		e2.~ %40
+		e4 c c
+		h c8 a16 h c8 d
+		e4. d8 c4
+		h h4. h8
+		h4 r r %45
+		R2.*2
+		r4 e h
+		gis e h'
+		gis r r %50
+		a' e g!
+		fis r r
+		g d f
+		e r r
+		d h g %55
+		c r r
+		h g e
+		a a-\critnote a
+		h8-\critnote g' d h g4
+		r8 g' e c g4 %60
+		r8 g' d h g4
+		r8 g' c, e d4
+		\mvTr g\fermata^\tenutoE r r
+		c,16-! h c h c h c h c8 c,
+		g'16-! fis-! g fis g fis g fis g8 h! %65
+		R2.
+		g16-!\f fis-! g fis g fis g fis g8 h!
+		c d h!4 r
+		r8 es-\soloE f([ es) f( es)]
+		r d es?([ d) es( d)] %70
+		c4-\tuttiE d r8 d
+		c4 r r
+		R2.
+		c,8\fE d16 e! f g a h c4
+		r8 e,! f4\trill g\trill %75
+		c, r r
+		R2.*5 %81
+		r4 h' h
+		d4. d8 d4
+		c r r
+		r c c %85
+		cis4. cis8 cis4
+		d r r
+		r d d
+		dis4. dis8 dis4
+		dis?4 r r %90
+		r r8 g e g
+		fis dis h4 r
+		r r8 e g e
+		dis fis? dis4 e-!
+		e8-! fis-! dis4. e8 %95
+		e h e e, c'4
+		r8 a d d, h'4
+		r8 g c c, a'4
+		r8 fis h4 r
+		r8 e, a4 r %100
+		r8 h'[ fis? dis] h4
+		r8 h' g e h4
+		r8 h' fis? dis h4
+		r8 h' e, h g4
+		fis4\fermata r r %105
+		e'16-! dis-! e-! dis e dis e dis e8 h
+		e,16 dis e dis e dis e dis e8 h'
+		R2.
+		e,16\ff dis e dis e dis e dis e8 h'
+		e,4 a\trill h\trill %110
+		e,-\critnote r r
+		R2.
+		r8 \mvTr h'\pE-\soloE c([ h) c( h)]
+		r a h([ a) h( a)]
+		g4 r r %115
+		R2.*11 %126
+		\mvTr d'8\f-\tuttiE c16 h a8 g fis e
+		d4 r r
+		R2.*6 %134
+		g'8\f fis16 e d8 c h a %135
+		g4 r r
+		R2.*18 %154
+		r8 d'\f g g, e'[ c] %155
+		a c fis[ fis,] d' h
+		g h e[ e,] c' a
+		\appoggiatura g8 fis4 r r
+		R2.*5 %163
+		r8 e'[\f h gis] e4
+		r8 e' c a e4 %165
+		r8 e' h gis e4
+		R2.*6 %172
+		r8 a'[\fE e cis] a4
+		r8 a' f d a4
+		r8 a' e cis a4 %175
+		R2.*10 %185
+		d8\f c16 b a8 g f e
+		d16 d' c b? a8 g f e
+		d4 r r
+		R2.*2 %190
+		d'8\fE d a fis d4
+		r8 d' b g d4
+		r8 d' a fis d4
+		r8 d' g, b g4
+		r8 d' a fis d4 %195
+		r8 fis' c a d,[ d']
+		es4-! fis,-! d'8 c
+		b b4 b b8~\trill
+		b a16 b? c8 g a b
+		a a4 a a8~\trill %200
+		a g16 a b8 fis g a
+		g g4 g g8~\trill
+		g fis16 g a8 e f? g
+		f!4 d h'8 a
+		gis e'4 e e8~ %205
+		e e4 e e8~
+		e e4 e e8~
+		e e4 e e8
+		gis4 r a
+		gis r a %210
+		\tempoGloriaB a, a4. gis8
+		gis?4 \tempoGloriaC e'4. e8
+		e4 a,8 c f4~
+		f8 h,4 c16 d e4~
+		e8 a,4 h16 c d4~
+		d8 gis,4 a16 h c4~
+		c8 h d2~
+		d4 c8 h a4~
+		a gis4.\trill a8
+		a a'[ e cis] a4 %220
+		r8 a' f d a4
+		r8 a' e cis a4
+		r8 a' d, f a,4
+		r16 a h cis d e f g a( g8.)
+		f32( e d8.) cis4.\trill d8 %225
+		d32( e f8.) d16([ c8.)] h16( a8.)
+		\appoggiatura a8 gis4 e' e8 d
+		c4 r cis
+		d r16 a h c d4~
+		d c8 h c-![ a'-!] %230
+		r f h,4 gis'
+		a4 r r
+		\appoggiatura { a,16[ h] } c8 a a a a16 h c d
+		e4 r r
+		\appoggiatura { a,16[ h] } c8 a a a a16 h c d %235
+		e8 d16 c h8 a gis fis?
+		e4 r r
+		r16 e' d c h4 h
+		h2\fermata r4 \bar "||" %239 finis
 	}
 }
 

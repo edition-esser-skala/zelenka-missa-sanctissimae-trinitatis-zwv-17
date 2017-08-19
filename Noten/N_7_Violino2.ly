@@ -295,7 +295,7 @@ GloriaViolinoII = {
 		r8 h e e, c'[ a]
 		fis a d d, h'[ g]
 		e g c c, a'[ fis]
-		d fis h h, g'[ e]
+		dis? fis h h, g'[ e]
 		c e a a, c c %100
 		h h''[ fis? dis] h4
 		r8 h' g e h4
