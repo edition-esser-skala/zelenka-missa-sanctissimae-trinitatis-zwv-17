@@ -924,7 +924,7 @@ QuiTollisBassiOrgano = {
 		e e c c a a %275
 		d d h h d d
 		e e gis gis a a
-		e e a a c c 
+		e e a a c c
 		e, e gis gis d' d
 		e, e c' c e e %280
 		d2 r4

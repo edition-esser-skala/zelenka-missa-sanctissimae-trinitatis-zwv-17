@@ -461,7 +461,41 @@ QuiTollisViola = {
 		g e a g
 		g2 a4 e %270
 		e f f e
-		\time 3/4
+		\time 3/4 c4 r8 c' f, a
+		g4 r8 h e, g
+		f4 r8 a d, f
+		e4 r8 a c, e %275
+		d d h h d d
+		e e gis gis a a
+		e e a a c c
+		e, e gis gis d' d
+		e, e c' c e e %280
+		h2^\tenutoE r4
+		e,4 c e
+		a16 gis a gis a gis a gis a8 e
+		e4 c e
+		a16 gis a gis a gis a gis a8 e %285
+		a4 d, e
+		a, r r
+		R2.
+		a'4 d, e
+		a, r r %290
+		R2.
+		a8\f h16 c d e fis gis a4
+		r8 c,-\critnote d4\trill e\trill
+		e4. e8 e4
+		e e e %295
+		r e e
+		e-! r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		a,4-.( a-. a-. a-. a-. a-.) a(-. a-. a-. a-. a'-. a-.)
+		fis(-. fis-. fis-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-. fis-. fis-.)
+		e(-. e-. e-. e-. d-. d-.) c(-. c-. d-. d-. c-. c-.) %300
+		h(-. h-. c-. c-. h-. h-.) a(-. a-. h-. h-. gis-. gis-.)
+		a(-. a-. e'-. e-. a,-. a-.) a(-. a-. a-. a-. h-. h-.)
+		h(-. h-. c-. c-. d-. d-.) \tempoMiserereFinis e2 e, e'~
+		e4 e(-. dis-. dis-. cis-. cis-.) dis1 r2 \bar "||" %304 finis
 	}
 }
 

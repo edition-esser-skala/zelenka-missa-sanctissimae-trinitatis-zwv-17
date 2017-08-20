@@ -476,7 +476,41 @@ QuiTollisViolinoI = {
 		h c2 h4
 		c8 g c2 h4~ %270
 		h a2 gis4
-		\time 3/4
+		\time 3/4 e'16 c' h c a gis a gis a f e f
+		d h' a h g fis g fis g e d e
+		c a' g a f e f e f d cis d
+		h gis' fis? gis e dis e dis e c h c %275
+		a f' e f d e c d h c a h
+		gis8 e'4 e \once\tieDashed e8~
+		e e4 e e8~
+		e e4 e e8~
+		e e4 e e8 %280
+		\mvTr <gis h, e, h>2^\tenuto r4
+		a16-! gis-! a-! gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e
+		a'16 gis a gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e %285
+		a4 d, e
+		a, r r
+		R2.
+		c'16 a' gis a h, a' gis a h,8 gis'
+		a \noBeam c,\p d([ c) d( c)] %290
+		r h c([ h) c( h)]
+		a8-!\f h16-! c-! d e fis gis a4-!
+		r8 c,, d4\trill e\trill
+		d'4. d8 c4
+		h <gis' h, e,> <a c, e, a,> %295
+		r q <gis h, e,>
+		<a c, e, a,>-! r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		cis,4(-. cis-. cis-. cis-. cis-. cis-.) d(-. d-. d-. d-. d-. d-.)
+		d(-. d-. d-. d-. d-. d-.) dis(-. dis-. dis-. dis-. dis-. dis-.)
+		e(-. e-. e-. e-. e-. e-.) e(-. e-. d-. d-. d-. d-.) %300
+		d(-. d-. c-. c-. c-. c-.) c(-. c-. h-. h-. h-. h-.)
+		h(-. h-. a-. h-. c-. c-.) c(-. c-. h-. h-. a-. a-.)
+		g(-. g-. g-. a-.) h2~ \tempoMiserereFinis h ais2.\trill ais4
+		h h,(-. h-. h-. h-. h-.) h1 r2 \bar "||" %304 finis
 	}
 }
 

@@ -318,7 +318,41 @@ QuiTollisOboeII = {
 		d c d2
 		e d %270
 		c h
-		\time 3/4
+		\time 3/4 c4 r r8 d
+		h4 r r8 c
+		a4 r r8 h
+		gis4 r r8 a %275
+		f4 d h'8 a
+		gis8 e'[-\critnote h gis] e4
+		r8 e' c a e4
+		r8 e' h gis e4
+		r8 e' a, c e,4 %280
+		h'2 r4
+		a'16-! gis-! a-! gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e
+		a'16 gis a gis a gis a gis a8 e
+		a,16 gis a gis a gis a gis a8 e %285
+		a4 h gis
+		a8 \noBeam c-\solo d([ c) d( c)]
+		r h c([ h) c( h)]
+		a-\tuttiE a' h,4 gis'
+		a r r %290
+		R2.
+		a,8-!\f h16-! c-! d e fis gis a4-!
+		r8 c,, d4\trill e\trill
+		h'4. h8 a4
+		gis r c %295
+		r c h
+		c r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		cis4(-. cis-. cis-. cis-. cis-. cis-.) d(-. d-. d-. d-. d-. d-.)
+		d(-. d-. d-. d-. d-. d-.) dis(-. dis-. dis-. dis-. dis-. dis-.)
+		e(-. e-. e-. e-. e-. e-.) e(-. e-. d-. d-. d-. d-.) %300
+		d(-. d-. c-. c-. c-. c-.) c(-. c-. h-. h-. h-. h-.)
+		h(-. h-. a-. h-. c-. c-.) c(-. c-. h-. h-. a-. a-.)
+		g(-. g-. g-. a-.) h2~ \tempoMiserereFinis h ais2.\trill ais4
+		h2^\critnote r r r1*3/2 \bar "||" %304 finis
 	}
 }
 
