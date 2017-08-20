@@ -492,11 +492,132 @@ QuiTollisSopranoNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #240
+		\mvTr a'2\fE^\tuttiE c4 h8 a
+		f'2( gis,8[ h] e4
+		fis,8[ a] d2) c4
+		h2 a8([ h c d]
+		e[ a,] e'4 fis e~)
+		e dis8 e h2( %245
+		a4 h8[ a]) g([ a)] h4
+		e,2 r
+		r4 d'2 cis4
+		c h8([ a)] gis4( a~
+		a gis8[ e] a4 gis) %250
+		a2 h(
+		a4.) g8 fis4 g
+		a2 g4 e'~
+		e dis d cis
+		dis( e2) d?4 %255
+		cis2( dis4) e
+		fis8([ fis, g a] h4 c)
+		fis, r h2
+		c4 h8 a f'!2(
+		gis,8[ h] e4 fis,8[ a] d4~) %260
+		d c h2
+		cis4( d4.) d8 cis4
+		d r r g~
+		g8 g fis4( f) e8([ d)]
+		cis4( d2 cis4 %265
+		dis e2 d?4)
+		e r r e~
+		e8 e dis4( d) c
+		h c2 h4
+		c8[ g] c2 h4~ %270
+		h a2 gis4
+		\time 3/4 a4 a8 c f4~
+		f8 h,4 c16[ d] e4~
+		e8 a,4 h16[ c] d4~
+		d8 gis,4 a16[ h] c4 %275
+		a d d
+		d2 c4
+		c2.
+		h4 h h
+		c2. %280
+		h4 e e
+		e2.~
+		e2 e,4
+		r c' c
+		c2~ c8([ h] %285
+		c4) d h
+		a r r
+		R2.*6 %293
+		d4. d8 c4
+		h r c %295
+		h h2
+		a4 r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		r2 cis cis d1 d2
+		r1*3/2 r2 dis dis
+		e1.~ e2 d1~ %300
+		d2 c1~ c4 h1~
+		h a4 h c2~ c h a
+		g2. a4 h2~ h( ais1)
+		h1.~ h1 r2 \bar "||" %304 finis
 	}
 }
 
 QuiTollisSopranoLyrics = \lyricmode {
+	Qui tol -- lis pec -- %240
+	ca --
+	ta,
+	pec -- ca --
 	
+	ta, pec -- ca -- %245
+	ta __ mun --
+	di:
+	Mi -- se --
+	re -- re __ no --
+	%250
+	bis, mi --
+	se -- re -- re
+	no -- bis, mi --
+	se -- re -- re,
+	mi -- se -- %255
+	re -- re
+	no --
+	[bis.] Qui
+	tol -- lis pec -- ca --
+	%260
+	ta, pec --
+	ca -- ta mun --
+	di: Mi --
+	se -- re -- re __
+	no -- %265
+	
+	bis, mi --
+	se -- re -- re
+	no -- _ _
+	_ _ _ %270
+	_ _
+	bis, mi -- se -- re --
+	_ _ _
+	_ _ _
+	_ _ _ %275
+	re, mi -- se --
+	re -- re
+	no --
+	bis, mi -- se --
+	re -- %280
+	re, mi -- se --
+	re --
+	re,
+	mi -- se --
+	re -- %285
+	re no --
+	bis.
+	
+	Mi -- se -- re -- %294
+	_ _ %295
+	re no --
+	bis.
+	Mi -- se -- re -- re,
+	mi -- se --
+	re -- _ %300
+	_ _
+	_ _ _ _ _
+	_ re no --
+	bis. __ %304 finis
 }
 
 % QuoniamISopranoNotes = {
