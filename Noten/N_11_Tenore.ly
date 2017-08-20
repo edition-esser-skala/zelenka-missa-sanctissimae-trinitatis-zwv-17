@@ -462,12 +462,115 @@ QuiTollisTenoreNotes = {
 		\clef "treble_8"
 		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		R1*7 %246
+		\mvTr a2\fE^\tuttiE c4 h8 a
+		f'2( gis,8[ h] e4
+		fis,8[ a] d2) c4
+		h2 a8([ h c d] %250
+		e[ a,] e'4 fis?8[ e d! h]
+		e[ d] c4 h4.) h8
+		a2 h
+		R1*2 %255
+		r2 r4 e~
+		e dis d( c~)
+		c8 a c4 h2
+		r r4 d~
+		d8 d cis4 c h8([ a)] %260
+		gis4( a4.) a8 g?4~
+		g f e2
+		d d'4. d8
+		e([ d c! a] d[ c] b4
+		a f' h, a8[ h] %265
+		c4) h r d~
+		d8 d cis4( c h~
+		h a2 e'4
+		d) c d2(
+		e d %270
+		c h)
+		\time 3/4 c4 c d
+		d e r
+		c d r
+		h c r %275
+		a h4. a8(
+		gis4) e' e
+		e2.~
+		e~
+		e %280
+		e2 r4
+		r c c
+		c2~ c8 h
+		r4 e e
+		e2 e4~ %285
+		e f e
+		e r r
+		R2.*6 %293
+		h4. h8 a4
+		h r e %295
+		a, a( gis)
+		a r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		r2 a a a1 a2
+		r1*3/2 r2 fis' fis
+		e1 d2 c( d) c %300
+		h( c h a h gis
+		a) e' a,~ a a h~
+		h( c) d \tempoMiserereFinis e1.~
+		e2( dis cis) dis1 r2 \bar "||" %304 finis
 	}
 }
 
 QuiTollisTenoreLyrics = \lyricmode {
+	Qui tol -- lis pec -- %247
+	ca --
+	ta,
+	pec -- ca -- %250
 	
+	ta
+	mun -- di:
+	
+	Mi -- %256
+	se -- re --
+	re no -- bis.
+	Sus --
+	ci -- pe de -- pre -- %260
+	ca -- ti -- o --
+	nem no --
+	stram. Mi -- se --
+	re --
+	%265
+	re, mi --
+	se -- re --
+	
+	re no --
+	
+	bis, mi -- se -- %272
+	re -- _
+	_ _
+	_ _ %275
+	_ _ re, __
+	mi -- se --
+	re --
+	
+	re, %281
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- _ %285
+	re no --
+	bis.
+	
+	Mi -- se -- re -- %294
+	_ _ %295
+	re no --
+	bis.
+	Mi -- se -- re -- re,
+	mi -- se --
+	re -- re, mi -- se -- %300
+	re --
+	re, mi -- se -- re --
+	re no --
+	bis. %304 finis
 }
 
 % QuoniamITenoreNotes = {

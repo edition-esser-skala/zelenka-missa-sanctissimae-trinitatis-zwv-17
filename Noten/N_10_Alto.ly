@@ -633,7 +633,7 @@ QuiTollisAltoLyrics = \lyricmode {
 	re no --
 	bis.
 	
-	Mi -- se -- re -- %294
+	[Mi -- se -- re] -- %294
 	_ _ %295
 	re no --
 	bis.
