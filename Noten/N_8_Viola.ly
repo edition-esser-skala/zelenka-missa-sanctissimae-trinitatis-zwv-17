@@ -427,8 +427,8 @@ GloriaViola = {
 
 QuiTollisViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #240
 		R1*3 %242

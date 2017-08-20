@@ -916,9 +916,9 @@ QuiTollisBassiOrgano = {
 		e4 a4. a8 gis4
 		g fis f e8 f
 		g4 a f g
-		c, e fis gis %270
+		c, e fis gis \noBreak %270
 		a f d e
-		\time 3/4 a8 a f f d d
+		\time 3/4 \newSpacingSection a8 a f f d d \noBreak
 		g g e e c c
 		f f d d h h
 		e e c c a a %275
@@ -942,11 +942,11 @@ QuiTollisBassiOrgano = {
 		r8 c d4\trill e\trill
 		gis,4-\tutti r a
 		r e a, %295
-		r e' e,
+		r e' e, \noBreak
 		a r r \bar "||"
-		\time 6/2 \tempoMiserere
+		\time 6/2 \tempoMiserere \newSpacingSection
 			\set Staff.timeSignatureFraction = 3/2
-		r2 g' g fis1 fis2
+		r2 g' g fis1 fis2 \noBreak
 		\clef treble r2 a'-! a-! a-! \clef bass h, h
 		c c, h' a h a %300
 		gis a g? fis gis e
@@ -963,26 +963,26 @@ QuiTollisBassFigures = \figuremode {
 	r
 	r4 <5 3> <6\\ 4\+> <[6]>
 	<6 4\+> <6\\>8 <8> <6 5 _+>4 <_!> %245
-	<4 2\+> <3>2 <5 _+>8 <\t \t>
+	<4 2\+> <[6] [_+]>2 <5 _+>8 <\t \t>
 	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6>
 	<5> <6> <7 _+> <6\\ _!>
-	<5 _+>8 <\t \t> <6 _+>4 <6 4\+> <6>
+	<[7] 5 _+>8 <\t \t \t> <6 _+>8 <[5]> <6 4\+>4 <6>
 	<5 4> <\t _+> <5> <_+> %250
 	<6>2 <6 3+>4 <6\\>
-	<6 5 3>8 <\t \t \t> <6\\>4 <4\+ 2> <6>
+	<6 5 3>8 <\t \t \t> <6\\> <[5]> <[6\\] 4\+ 2>4 <6>
 	<7> <6\\> r2
 	r1
 	r2 <5+ 4>4 <\l 3> %255
-	<6 4 2\+> <6 _+> <6 4\+ 2> <6>
+	<6 4 2\+> <6 _+> <[6\\] 4\+ 2> <6>
 	<7> <6\\> <7! _+>2
-	<7> <_+>
+	<7 [_+]> <_+>
 	r2. <5 3>4
 	<4\+> <6> <4\+> <6\\> %260
 	<6 5> <5 3> <4 2> <6>
 	<4\+ 2> <6> <7> <6\\>
-	<6> <6\\>8 <8> <5>2
-	<6 5>8 <\t \t> <6\\>4 <6 5!>8 <\t \t> <6 _->4
-	<4\+ 2> <6> <7 _+> q %265
+	<6> <6\\>8 <8> <5>4 <[6]>
+	<6 5>8 <\t \t> <6\\>4 <6 5!>8 <\t \t> <6 _->8 <[5]>
+	<4\+ 2>4 <6> <7 _+> q %265
 	<6\\ 4\+ 3!> <6> <7> <6>
 	<_+> q <_!>8 <\t> <6>4
 	<\t> <6\\> <6!> <6>
@@ -990,11 +990,11 @@ QuiTollisBassFigures = \figuremode {
 	<5> <6> <6 5> q %270
 	<9> <3> <6 5> <_+>
 	r <5> r
-	<9> <5 3> r
-	<9> <5 3> r
-	<9> <5+ 3> r %275
-	<9> <3> r
-	<7> <\t> r
+	<9 [7]> <5 3> r
+	<9 [7]> <5 3> r
+	<9 [7]> <5+ 3> r %275
+	<9 [7]> <3> r
+	<7 [_+]> <\t \t> r
 	<6 4>2 \bassFigureExtendersOn q8 q
 	<5 _+>2 q8 q
 	<6 4>2 q8 q \bassFigureExtendersOff %280
@@ -1016,7 +1016,7 @@ QuiTollisBassFigures = \figuremode {
 	r <6 4> <5 _+>
 	r2.
 	r2 <6 4\+ 2>1 <6>1.
-	r r2 <7 _+>1
+	r r2 <7 [5+] _+>1
 	<5 3> <\t \t>2 <6 5> <5 3> <6 4> %300
 	<6 5> <5 3> <6 4> <6 5> q <_+>
 	<9> <8> r <7 _+> \bassFigureExtendersOn <6 _+> <5 _+> \bassFigureExtendersOff
