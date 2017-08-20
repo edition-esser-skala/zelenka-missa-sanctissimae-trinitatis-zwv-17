@@ -875,14 +875,153 @@ QuiTollisBassiOrgano = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		\mvTr a''2\fE-\tuttiE c4 h8 a
+		\mvTr a''2\fE-\tuttiE c4 h8 a %240
 		f'2 gis,8 h e4
 		fis,8 a d2 c4
+		<< {
+			h2 a8 h c d
+			e[ a,]
+		} \\ {
+			e2 f4 e8 e
+			c'4 
+		} >> \clef bass a,2 gis4
+		g fis8 e dis4 e~ %245
+		e dis e8 e, e' d?
+		c d c h a4 c
+		d2 e
+		\clef "treble_8" d8 a' d2 c4
+		\clef bass e,2 f4 e8 e %250
+		c'2 dis,8 fis h4
+		cis,8 e a2 g4
+		fis2 e4 \clef treble << {
+			e''4~
+			e dis d cis
+			dis e
+		} \\ {
+			r4
+			r h2 ais4
+			a g
+		} >> \clef bass h,2~ %255
+		h4 ais a g
+		fis2 e4 a
+		dis,2 e4 \clef treble h''
+		c h8 a f'4 \clef "treble_8" d,~
+		d8 d cis4 c h8 a %260
+		gis4 a2 g?4~
+		g f4 \clef bass e2
+		f4 e8 d b'2
+		cis,8 e a4 h,?8 d g4~
+		g8 g f4 e a~ %265
+		a g f2
+		e4 a4. a8 gis4
+		g fis f e8 f
+		g4 a f g
+		c, e fis gis %270
+		a f d e
+		\time 3/4 a8 a f f d d
+		g g e e c c
+		f f d d h h
+		e e c c a a %275
+		d d h h d d
+		e e gis gis a a
+		e e a a c c 
+		e, e gis gis d' d
+		e, e c' c e e %280
+		d2 r4
+		c a c
+		a16-! gis-! a gis a gis a gis a8 e
+		c'4 a c
+		a16 gis a gis a gis a gis a8 e %285
+		a4 d, e
+		a, r r
+		gis'-\soloE r r
+		a d, e
+		a\p r r %290
+		gis r r
+		a,8\f h16 c d e fis gis a4
+		r8 c d4\trill e\trill
+		gis,4-\tutti r a
+		r e a, %295
+		r e' e,
+		a r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		r2 g' g fis1 fis2
+		\clef "treble_8" r2 a'-! a-! a-! \clef bass h, h
+		c c, h' a h a %300
+		gis a g? fis gis e
+		a a, a' dis, dis dis
+		e e, d' \tempoMiserereFinis c1.
+		h~ h1 r2 \bar "||" %304 finis
 	}
 }
 
 QuiTollisBassFigures = \figuremode {
-	
+	r1 %240
+	r
+	r
+	r
+	r2 <5 3>4 <6\\ 4\+>
+	<6 4\+> <6\\>8 <8> <6 5 _+>4 <_!> %245
+	<4 2\+> <3>2 <5 _+>8 <\t \t>
+	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6>
+	<5> <6> <7 _+> <6\\ _!>
+	<5 _+>8 <\t \t> <6 _+>4 <6 4\+> <6>
+	<5 4> <\t _+> <5> <_+> %250
+	<6>2 <6 3+>4 <6\\>
+	<6 5 3>8 <\t \t \t> <6\\>4 <4\+ 2> <6>
+	<7> <6\\> r2
+	r1
+	r2 <5+ 4>4 <\l 3> %255
+	<6 4 2\+> <6 _+> <6 4\+ 2> <6>
+	<7> <6\\> <7! _+>2
+	<7> <_+>
+	r2. <5 3>4
+	<4\+> <6> <4\+> <6\\> %260
+	<6 5> <5 3> <4 2> <6>
+	<4\+ 2> <6> <7> <6\\>
+	<6> <6\\>8 <8> <5>2
+	<6 5>8 <\t \t> <6\\>4 <6 5!>8 <\t \t> <6 _->4
+	<4\+ 2> <6> <7 _+> q %265
+	<6\\ 4\+ 3!> <6> <7> <6>
+	<_+> q <_!>8 <\t> <6>4
+	<\t> <6\\> <6!> <6>
+	<5>4 q <6 5> r
+	<5> <6> <6 5> q %270
+	<9> <3> <6 5> <_+>
+	r <5> r
+	<9> <5 3> r
+	<9> <5 3> r
+	<9> <5+ 3> r %275
+	<9> <3> r
+	<7> <\t> r
+	<6 4>2 \bassFigureExtendersOn q8 q
+	<5 _+>2 q8 q
+	<6 4>2 q8 q \bassFigureExtendersOff %280
+	<6 4\+ 2>2.
+	<6>
+	r2 r8 <_+>
+	<6>2.
+	r2 r8 <_+> %285
+	r4 <6> <_+>
+	r2.
+	<6 5>
+	r4 <6> <_+>
+	r2. %290
+	<[6] [5]>
+	<5 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	r2.
+	<6 5>
+	r4 <_+> r %295
+	r <6 4> <5 _+>
+	r2.
+	r2 <6 4\+ 2>1 <6>1.
+	r r2 <7 _+>1
+	<5 3> <\t \t>2 <6 5> <5 3> <6 4> %300
+	<6 5> <5 3> <6 4> <6 5> q <_+>
+	<9> <8> r <7 _+> \bassFigureExtendersOn <6 _+> <5 _+> \bassFigureExtendersOff
+	<9> <8> <6 _+> <7> <6\\>1
+	<6 4>2 <[5+] _+> <4 2\+> <5+ _+>1. %304 finis
 }
 
 % QuoniamIBassiOrgano = {
