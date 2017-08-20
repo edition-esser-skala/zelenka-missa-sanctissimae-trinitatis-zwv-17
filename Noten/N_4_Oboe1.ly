@@ -369,7 +369,39 @@ QuiTollisOboeI = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		a'2\fE c4 h8 a
+		f'2 gis,8 h e4
+		fis,8 a d2 c4
+		h2 a8 h c d
+		e a, e'4 fis e~
+		e dis8 e h2 %245
+		a4 h8 a g a h4
+		e,2 r
+		r4 d'2 cis4
+		c h8 a gis4 a~
+		a gis8 e a4 gis %250
+		a2 h
+		a4. g8 fis4 g
+		a2 g4 e'~
+		e dis d cis
+		dis e2 d?4 %255
+		cis2 dis4 e
+		fis8 fis, g a h4 c
+		fis, r h2
+		c4 h8 a f'!2
+		gis,8 h e4 fis,8 a d4~ %260
+		d c h2
+		cis4 d4. d8 cis4
+		d r r g~
+		g8 g fis4 f e8 d
+		cis4 d2 cis4 %265
+		dis e2 d?4
+		e r r e~
+		e8 e dis4 d c
+		h c2 h4
+		c8 g c2 h4~ %270
+		h a2 gis4
+		\time 3/4
 	}
 }
 

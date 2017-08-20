@@ -444,7 +444,32 @@ QuiTollisViolinoII = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		R1*7 %246
+		a'2\fE c4 h8 a
+		f'2 gis,8 h e4
+		fis,8 a d2 c4
+		h2 a8 h c d %250
+		e a, e'4 fis?8 e d! h
+		e d c4 h4. h8
+		a2 h
+		R1*2 %255
+		r2 r4 e~
+		e dis d c~
+		c8 a c4 h2
+		r r4 d~
+		d8 d cis4 c h8 a %260
+		gis4 a4. a8 g?4~
+		g f e2
+		d d'4. d8
+		e d c! a d c b4
+		a f' h, a8 h %265
+		c4 h r d~
+		d8 d cis4 c h~
+		h a2 e'4
+		d c d2
+		e d %270
+		c h
+		\time 3/4
 	}
 }
 

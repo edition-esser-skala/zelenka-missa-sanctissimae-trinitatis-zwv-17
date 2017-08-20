@@ -431,7 +431,37 @@ QuiTollisViola = {
 % 		\clef alto
 		\key a \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		R1*3 %242
+		e2\fE f4 e8 e
+		c'2 dis,8 fis? h4
+		cis,8 e a2 g4 %245
+		fis2 e8 fis gis fis16 gis
+		a8 a, c d e a, a'4~
+		a h2 g4
+		a4. h8 h4 e,
+		e2 r %250
+		r4 a2 gis4
+		g fis8 e dis4 e~
+		e dis e2
+		r4 h'2 ais4
+		a g fis2 %255
+		g4 fis2 g4
+		a2 gis4 a~
+		a8 fis a2 gis4
+		R1
+		r4 a4. a8 gis4 %260
+		e4. e8 d4 e~
+		e a g4. g8
+		a4 g8 a f4 d
+		a'2 g
+		a4. a8 gis4 g^\critnote %265
+		fis g! a2
+		gis8 fis e4 e2
+		r4 a4. a8 g4~
+		g e a g
+		g2 a4 e %270
+		e f f e
+		\time 3/4
 	}
 }
 
