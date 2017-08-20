@@ -550,8 +550,8 @@ QuiTollisSopranoNotes = {
 		r2 cis cis d1 d2
 		r1*3/2 r2 dis dis
 		e1.~ e2 d1~ %300
-		d2 c1~ c4 h1~
-		h a4 h c2~ c h a
+		d2 c1~ c2 h1~
+		h2 a4 h c2~ \tempoMiserereFinis c h a
 		g2. a4 h2~ h( ais1)
 		h1.~ h1 r2 \bar "||" %304 finis
 	}

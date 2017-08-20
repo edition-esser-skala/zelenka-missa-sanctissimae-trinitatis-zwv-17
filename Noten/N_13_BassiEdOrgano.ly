@@ -947,7 +947,7 @@ QuiTollisBassiOrgano = {
 		\time 6/2 \tempoMiserere
 			\set Staff.timeSignatureFraction = 3/2
 		r2 g' g fis1 fis2
-		\clef "treble_8" r2 a'-! a-! a-! \clef bass h, h
+		\clef treble r2 a'-! a-! a-! \clef bass h, h
 		c c, h' a h a %300
 		gis a g? fis gis e
 		a a, a' dis, dis dis

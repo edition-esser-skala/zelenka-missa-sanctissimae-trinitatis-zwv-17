@@ -523,12 +523,127 @@ QuiTollisAltoNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		R1*3 %242
+		\mvTr e2\fE^\tuttiE f4 e8 e
+		c'2( dis,8[ fis?] h4
+		cis,8[ e] a2) g4 %245
+		fis2 e8[ fis] gis[ fis16 gis]
+		a8[ a, c d] e[ a,] a'4~
+		a h2 g4
+		a4. h8 h4( e,)
+		e2 r %250
+		r4 a2 gis4
+		g fis8([ e)] dis4( e~
+		e dis) e2
+		r4 h'2 ais4
+		a g fis2 %255
+		g4 fis2 g4
+		a2( gis4 a~
+		a8[ fis] a2) gis4
+		R1
+		r4 a4. a8 gis4 %260
+		e4. e8 d4 e~
+		e a g4. g8
+		a4( g8[ a] f4) d
+		a'2 g
+		a4. a8 gis4 g^\critnote %265
+		fis( g! a2
+		gis8[ fis] e4) e2
+		r4 a4. a8 g4~
+		g e a( g)
+		g2 a4 e %270
+		e f f( e)
+		\time 3/4 e a2~
+		a4 g2~
+		g4 f2~
+		f4 e2~ %275
+		e4 d f
+		e h' a
+		a2.
+		gis4 e gis
+		a2. %280
+		gis2 r4
+		r a a
+		a2~ a8 gis
+		r4 a a
+		a2~ a8[( gis] %285
+		a4) h gis
+		a r r
+		R2.*6 %293
+		e4. e8 e4
+		gis r a %295
+		fis e2
+		e4 r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		r2 e e fis1 fis2
+		r a a a1.~
+		a2 g1 f!1. %300
+		e d
+		c2. d4 e2 fis1.~
+		fis2 e( fis) \tempoMiserereFinis e2.( fis4 g2~
+		g fis e) fis1 r2 \bar "||" %304 finis
 	}
 }
 
 QuiTollisAltoLyrics = \lyricmode {
+	Qui tol -- lis pec -- %243
+	ca --
+	ta, %245
+	pec -- ca -- _
+	_ _ _
+	_ _
+	_ ta mun --
+	di: %250
+	Mi -- se --
+	re -- re __ no --
+	bis,
+	mi -- se --
+	re -- re, mi -- %255
+	se -- re -- re
+	no --
+	bis.
 	
+	Sus -- ci -- pe, %260
+	sus -- ci -- pe de --
+	pre -- ca -- ti --
+	o -- nem
+	no -- stram.
+	Mi -- se -- re -- re %265
+	no --
+	bis,
+	mi -- se -- re --
+	re no --
+	bis, mi -- se -- %270
+	re -- re no --
+	bis, mi --
+	se --
+	re --
+	_ %275
+	_ _
+	re, mi -- se --
+	re --
+	re, mi -- se --
+	re -- %280
+	re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- %285
+	re no --
+	bis.
+	
+	Mi -- se -- re -- %294
+	_ _ %295
+	re no --
+	bis.
+	Mi -- se -- re -- re,
+	mi -- se -- re --
+	re, mi -- %300
+	se -- re --
+	_ _ _ _
+	re __ no --
+	bis. %304 finis
 }
 
 % QuoniamIAltoNotes = {
