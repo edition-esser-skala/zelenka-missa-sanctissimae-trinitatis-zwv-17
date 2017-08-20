@@ -910,7 +910,7 @@ QuiTollisBassiOrgano = {
 		gis4 a2 g?4~
 		g f4 \clef bass e2
 		f4 e8 d b'2
-		cis,8 e a4 h,?8 d g4~
+		cis,8 e a4 h,!8 d g4~
 		g8 g f4 e a~ %265
 		a g f2
 		e4 a4. a8 gis4

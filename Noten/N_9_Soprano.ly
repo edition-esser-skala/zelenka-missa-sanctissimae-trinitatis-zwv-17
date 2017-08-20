@@ -600,7 +600,7 @@ QuiTollisSopranoLyrics = \lyricmode {
 	bis, mi -- se --
 	re -- %280
 	re, mi -- se --
-	re --
+	[re] --
 	re,
 	mi -- se --
 	re -- %285

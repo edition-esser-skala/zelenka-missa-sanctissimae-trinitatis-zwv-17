@@ -368,12 +368,121 @@ QuiTollisBassoNotes = {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #240
-		
+		R1*4 %243
+		r4 \mvTr a'2\fE^\tuttiE gis4
+		g( fis8[ e] dis4 e~) %245
+		e dis e4.( d?8
+		c[ d c h] a2
+		d) e
+		R1
+		e2 f4 e8 e %250
+		c'2( dis,8[ fis] h4
+		cis,8[ e] a2) g4
+		fis2 e
+		R1
+		r2 r4 h'~ %255
+		h4 ais a g
+		fis2( e4 a
+		dis,2) e
+		R1*3 %261
+		r2 e
+		f4 e8 d b'2
+		cis,8 e a4( h,!8[ d] g4~)
+		g8 g f4 e( a~ %265
+		a g f2)
+		e4 a4. a8 gis4(
+		g fis f e8[ f]
+		g4) a f( g)
+		c, e( fis) gis %270
+		a f d( e)
+		\time 3/4 a, a'8 f d4
+		g r8 e c4
+		f r8 d h4
+		e r8 c a4 %275
+		d h d
+		e gis a
+		e a c
+		e, gis d'
+		e, c' e %280
+		d d, r
+		r a' c
+		a2~ a8 e
+		r4 a c
+		a2~ a8[( e] %285
+		a4) d, e
+		a, r r
+		R2.*6 %293
+		gis'4. gis8 a4
+		e r a %295
+		dis, e2
+		a,4 r r \bar "||"
+		\time 6/2 \tempoMiserere
+			\set Staff.timeSignatureFraction = 3/2
+		r2 g' g fis1 fis2
+		r1*3/2 r2 h h
+		c1 h2 a( h) a %300
+		gis a g fis gis e
+		a1. dis,
+		e1 d2 \tempoMiserereFinis c1.
+		h~ h1 r2 \bar "||" %304 finis
 	}
 }
 
 QuiTollisBassoLyrics = \lyricmode {
+	Mi -- se -- %244
+	re -- %245
+	re no --
 	
+	bis.
+	
+	Qui tol -- lis pec -- %250
+	ca --
+	ta
+	mun -- di:
+	
+	Mi -- %255
+	se -- re -- re
+	no --
+	bis.
+	
+	Qui %262
+	se -- des, qui se --
+	des ad dex --
+	te -- ram Pa -- %265
+	
+	tris: Mi -- se -- re --
+	
+	re no --
+	bis, mi -- se -- %270
+	re -- re no --
+	bis, mi -- se -- re --
+	_ _ _
+	_ _ _
+	_ _ _ %275
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %280
+	_ re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- %285
+	re no --
+	bis.
+	
+	Mi -- se -- re -- %294
+	_ _ %295
+	re no --
+	bis.
+	Mi -- se -- re -- re,
+	mi -- se --
+	re -- re, mi -- se -- %300
+	re -- _ _ _ _ _
+	_ _
+	_ re no --
+	bis. __ %304 finis
 }
 
 % QuoniamIBassoNotes = {
