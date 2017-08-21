@@ -514,25 +514,16 @@ QuiTollisViolinoI = {
 	}
 }
 
-% QuoniamIViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \tempoQuoniamI
-% 			\set Score.currentBarNumber = #221
-% 		r8 a''-!\fE e-! c-! a4-\tenuto r %221
-% 		\tempoQuoniamIA r16 a,( h c d e f d) gis,8 \tempoQuoniamI h''-! f!-! d-!
-% 		cis4^\tenuto r \tempoQuoniamIA r16 g,( a b cis d e cis)
-% 		g8 \tempoQuoniamI b''-! e,-! cis-! a4-\tenuto r
-% 		\tempoQuoniamIA r16 d,( es fis g a b g) cis,8 \tempoQuoniamI e?-! g-! e'-! %225
-% 		f-! a-! f e dis h' g e
-% 		h h, h' a gis e' c a
-% 		fis a c2 h8 a
-% 		h4 r \tempoQuoniamIA r16 e,( fis gis a h c a)
-% 		dis,-! h( cis dis e fis g e) ais,2\trill %230
-% 		h2\fermata r \bar "||" %231 finis
-% 	}
-% }
-% 
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 2/2 \tempoQuoniam
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #305
+		
+	}
+}
+
 % QuoniamIIViolinoI = {
 % 	\overrideTimeSignatureSettings
 % 			2/4

@@ -620,38 +620,19 @@ QuiTollisSopranoLyrics = \lyricmode {
 	bis. __ %304 finis
 }
 
-% QuoniamISopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoQuoniamI
-% 			\set Score.currentBarNumber = #221
-% 		\mvTr e'8.\fE^\tuttiE e16 e8 e f4 f %221
-% 		\tempoQuoniamIA r2 r8 \tempoQuoniamI f f f
-% 		e4 e \tempoQuoniamIA r2
-% 		r8 \tempoQuoniamI e e e d8. d16 d4
-% 		\tempoQuoniamIA r2 r8 \tempoQuoniamI g g g %225
-% 		f4 f8 e dis4( e~
-% 		e d2 c4~)
-% 		c8 a c2( h8[ a])
-% 		h4 r \tempoQuoniamIA r2
-% 		R1 %230
-% 		R1\fermataMarkup \bar "||" %231 finis
-% 	}
-% }
-% 
-% QuoniamISopranoLyrics = \lyricmode {
-% 	Quo -- ni -- am tu so -- lus, %221
-% 	tu so -- lus
-% 	San -- ctus,
-% 	tu so -- lus Do -- mi -- nus,
-% 	so -- lus Al -- %225
-% 	tis -- si -- mus, Je --
-% 	
-% 	su Chri --
-% 	ste.
-% 	%230
-% 	%231 finis
-% }
+QuoniamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 2/2 \autoBeamOff \tempoQuoniam
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #305
+		
+	}
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+	
+}
 % 
 % CumSanctoSopranoNotes = {
 % 	\relative c' {

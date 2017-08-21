@@ -1024,50 +1024,251 @@ QuiTollisBassFigures = \figuremode {
 	<6 4>2 <[5+] _+> <4 2\+> <5+ _+>1. %304 finis
 }
 
-% QuoniamIBassiOrgano = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \minor \time 4/4 \tempoQuoniamI
-% 			\set Score.currentBarNumber = #221
-% 		\mvTr a'8.\fE-\tutti a16 a8 a a4 a, %221
-% 		\tempoQuoniamIA r16 a(-\tasto^\solo h c d e f d) gis,8 \tempoQuoniamI gis'-\tutti gis gis
-% 		g4 g, \tempoQuoniamIA r16 g(^\solo-\tasto a b cis d e cis)
-% 		g8 \tempoQuoniamI g'-\tutti g g fis4 fis,
-% 		\tempoQuoniamIA r16 d'(-\tasto^\solo es fis g a b g) cis,8 \tempoQuoniamI cis'-\tutti cis cis %225
-% 		d d, d' c h2~
-% 		h8 h, h' a gis4 a
-% 		dis,2 e8 e e e
-% 		e4 r \tempoQuoniamIA r16 e(-\tasto^\solo fis gis a h c a)
-% 		dis,-! h( cis dis e fis g e) ais,8-! ais-! ais-! ais-! %230
-% 		h2\fermata r \bar "||" %231 finis
-% 	}
-% }
-% 
-% QuoniamIBassFigures = \figuremode {
-% 	r2 <6 4>4 <\t \t> %221
-% 	r2 r8 <7 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-% 	<6 4\+ _->1
-% 	r8 <6 4\+ _->4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2
-% 	r r8 <6 5>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %225
-% 	<9 3!>8 <\t \t> <8 3> <6 3> <7 _+>4 <6 4>
-% 	<5+ 4> <\l _!>8 <\l \t> <6 5>2
-% 	<7 [_+]> <6 4>8 <\t \t> <5 _+> <4 2\+>
-% 	<5 _+>1
-% 	r2 <7! 5 _+> %230
-% 	<5+ _+>1 %231 finis
-% }
-% 
-% QuoniamIChords = {
-% 	\clef treble
-% 	\key a \minor \time 4/4 \tempoQuoniamI
-% 	<< \relative c' {
-% 		
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% 	
-% }
-% 
+QuoniamBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #305
+		\mvTr e8\fE-\rip fis g fis e4 r8 e, %305
+		e'4 dis8 h e'8. dis16 e8. fis16
+		h,4 r r2
+		r4 r8 r16 h e8. dis16 e8. fis16
+		h,4 r r2
+		R1*3 %312
+		r4 r8 r16 h e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,8 a g~ g32 e fis g
+		a8 g fis e dis4 r8 h %315
+		e h e a h4 r8 r16 h,
+		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,8. h'16 g8. a16 h4 h,
+		\tuplet 3/2 4 { e8 fis g a[ h c] dis,[ e fis] fis g a }
+		dis,4 e h' h, %320
+		\tuplet 3/2 4 { c8 d e fis[ gis a] gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8[ ais h] h ais h }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8[( ais h] h ais h)
+		g\fE fis e c'[ h a] } h4 h,
+		e8 fis g fis e4 r8 \mvTr e,\p-\org %325
+		e'4 dis8 h c4 a
+		h r r2
+		r4 r8 r16 \mvTr h'\f-\rip e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,8 h, \mvTr h'\p-\org a
+		gis e fis gis a a, a' g %330
+		fis d e fis g g, g' h
+		c h a g d' c h~ h32 g a h
+		c8 h a~ a32 fis g a h8 a gis~ gis32 e fis gis
+		a8 g fis~ fis32 d e fis g8 fis e c
+		d d, d' d, d' d, d' d, %335
+		d'4 r d8 fis d fis
+		d,4 r g'8 h g h
+		fis c' fis, c' g h g h
+		fis c' fis, c' h g h g
+		h e, h' e, a c a c %340
+		gis d' gis, d' a c a c
+		gis d' gis, d' c a c a
+		cis fis, cis' fis, h8. ais16 h8. cis16
+		fis,8. ais16 h8. cis?16 fis,8 e d~ d32 h cis d
+		e8 d \tieDashed cis8~ cis32 a' h cis d8 cis h~ h32 g a h %345
+		cis8 h ais~ ais32 \tieSolid fis gis ais h8 a? g? e
+		fis fis, fis' fis, fis' fis, fis' fis,
+		fis'4 r8 gis ais4 fis
+		h r8 h, e4 r8 fis
+		gis4 e a r8 a, %350
+		d4 r8 e fis4 d
+		g r8 g, cis4 r8 e
+		fis d e4 fis g
+		ais,8 fis' d g fis d e4
+		fis g ais,8 fis' d g %355
+		e4 fis \tuplet 3/2 4 { \mvTr g8\f-\rip a h cis[ dis e]
+		dis e fis g[ fis e] } ais,8. fis16 h8. eis,16
+		\tuplet 3/2 4 { fis8 eis fis fis eis fis } ais8.\p fis16 h8. eis,16
+		\tuplet 3/2 4 { fis8( eis fis fis[ eis fis]) d\f-! cis-! h g'[ fis e?] }
+		fis4 fis, h8 cis d cis %360
+		h4 \mvTr h'\p-\org h ais8 fis
+		g4 e fis r
+		r2 r4 r8 r16 \mvTr fis\f-\rip
+		h8. ais16 h8. cis?16 fis,8. ais16 h8. cis16
+		fis,8 \mvTr fis,\p-\org fis' e dis h cis dis %365
+		e e, e' d cis a h cis
+		d d' d, c' h h, h'8. a16
+		gis8 e' e, gis a a, a' g?
+		fis g a g fis d' d, fis
+		g g g g a a a a %370
+		h h h h c c c c
+		cis cis cis cis d d d d
+		dis dis dis dis e e e e
+		e e, e e fis fis fis fis
+		fis fis fis fis g4 c %375
+		a d h c
+		\tuplet 3/2 4 { r8 g\f fis e d c } h4 c\p
+		g' h, c r8 r16 \mvTr d\f-\rip
+		g8. fis16 g8. a16 d,8. fis16 g8. a16
+		\tuplet 3/2 4 { d,8 d' c b[ a g] } fis8. d16 g8. cis,16 %380
+		\tuplet 3/2 4 { d8[ cis d] d cis d } fis8.(\p d16) g8.( cis,16)
+		\tuplet 3/2 4 { d8[( cis d] d cis d) h'!\f a g c[ h a] }
+		d4 d, g8 \mvTr a\p-\org h g
+		e4 fis g8 a h g
+		c4 a \tuplet 3/2 4 { h,8 cis dis e[ fis g] %385
+		c,[ d e] fis g a } dis,4 r8 h
+		r cis dis4 e8 fis g e
+		a g fis~ fis32 d e fis g8 fis e~ e32 cis d e
+		fis8 e \once\tieDashed dis~ dis32 h cis dis e8 d? c? a
+		h' h, h' h, h' h, h' h, %390
+		dis4 e a a,
+		\mvTr d8\p-\rip fis d fis cis g' cis, g'
+		d fis d fis cis g' cis, g'
+		fis d fis d fis h, fis' h,
+		e g e g dis a' dis, a' %395
+		e g e g dis a' dis, a'
+		g e g e gis d gis d
+		a' h c a cis g cis g
+		d' cis h d ais e ais e
+		h' c d h dis a dis a %400
+		e4 r8 e-\org a4 r8 a
+		cis4 r8 a d4 r8 d,
+		g4 r8 g e4 r8 e
+		a4 r8 a h g a4
+		h c dis,8 h' g c %405
+		h g a4 h c
+		dis,8 h' g c a4 r8 r16 \mvTr h\f-\rip
+		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,8 \mvTr a\pE-\org g~ g32 e fis g a8 g fis~ fis32 d e fis
+		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %410
+		e8 e'16 d c8 h a4 ais
+		h \tempoQuoniamB g a r8 r16 \mvTr h\f-\rip
+		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		ais,4 r \tuplet 3/2 4 { h8-![ a?-! g] g fis e
+		\time 2/4 c' h a a[ g fis] } %415
+		\time 4/4 h4 r8 r16 h, e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 \tuplet 3/2 4 { h,8[ cis dis] e fis g
+		c, d e fis[ gis a] gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8 ais h h[ ais h] }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8( ais h h[ ais h]) %420
+		g\fE-! fis-! e c'[-! h-! a] } h4 h,
+		e r r2 \bar "||" %422 finis
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+	r1 %305
+	<4 2>4 <6>8 <_+> <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<_+>1
+	r4.. q16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<_+>1
+	r1*3 %312
+	r4.. <_+>16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<_+>4 <5 3>8. <\t \t>16 <_+>8 <\t> <6>4
+	<9> <3> <6 5>4. <_+>8 %315
+	r q r4 q4.. q16
+	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_+>4 <5 3>8. <\t \t>16
+	<_+>4 <6> <6 4> <5 _+>
+	r <5 3>8 <\t \t> <6>4 <5+>
+	<6 5> r <6 4> <5 _+> %320
+	<5 3>8 <\t \t> <6\\> <\t> <6> <\t> <6>4
+	<6> r8. <6\\>16 <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>4 <5>8. <7 _+>16 <5 [_+]>4.. \bassFigureExtendersOn <5 _+>16 \bassFigureExtendersOff
+	<6>4 q <5 4> <\t _+>
+	r1 %325
+	<4 2>4 <6>8 <_+> r2
+	<_+>1
+	r4.. <_+>16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<_+>4 <5 3>8. <\t \t>16 <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2 %330
+	<6>1
+	r4 <6> r q
+	<9> <3> <7> <3>
+	<9> <3> <9> <3>
+	<5 3> <6 4> <5 3> <6 4> %335
+	<5 3>1
+	r
+	<6 3>4. \bassFigureExtendersOn q8 r2
+	<6 3>4. q8 \bassFigureExtendersOff <6>2
+	<6\\ 3>4. \bassFigureExtendersOn q8 r2 %340
+	<6 3>4. q8 r2
+	<6 3>4. q8 <6\!>2
+	<6\\\! 3>4. <6\\ 3>8 <5 3\!>4. <5 3>8 \bassFigureExtendersOff
+	<5 _+>8. <\t \t>16 <5 3>8. <\t \t>16 <_+>4 <6>
+	<9> <3>8.. \bassFigureExtendersOn q32 \bassFigureExtendersOff <9>4 <3> %345
+	<9> <_+> <9+> <3>
+	<[5+] _+> <6 4> <[5+] _+> <6 4>
+	<7 [5+] _+>4. <7>8 <6 [_+]>4 <7 [5+] _+>
+	r1
+	<6>4 <_+> q4. q8 %350
+	r4. <7>8 <6>2
+	r <6>
+	<_+>8 <6> <5> <6\\> <5+> <6> <5> <6>
+	<6 5> <\t \t> r4 <_+>8 <6> <5> <6\\>
+	<5+> <6> <5> <6> <5> <_+> <6>4 %355
+	<6 5> <[5+] _+> <5 3>8 <\t \t> <6> <\t>
+	<5! 3>4 <6> <6> <5>8. <7>16
+	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <5>8. <7>16
+	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 q
+	<6 4> <5 _+> r <6> %360
+	r2 <4 2\+>4 <6>8 <_+>
+	<5>4 <6\\> <_+>2
+	r2... <_+>16
+	r2 <5+ _+>8. <\t \t>16 <5 _!>8. <\t \t>16
+	<_+>2 <6>4 <7>8 <\t> %365
+	r2 <6>4 <7>8 <\t>
+	r4. <4\+>8 <6>2
+	r <_!>
+	<6>4 q r2
+	r4. <6>8 <5>4. <6>8 %370
+	<5> <6> <\t> r <9 5> <8 6> <\t \t> r
+	<6>2 <9 5>8 <8 6> <\t \t> r
+	<6>2 <9 5>8 <8 6> <\t \t> r
+	<6>2 <9 5>8 <8 6> <\t \t> r
+	<5>4 <\t> r2 %375
+	r1
+	r
+	r2... <7>16
+	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <5>8. <\t>16 <5 3>8. <\t \t>16
+	r2 <6>4 <_->8. <7>16 %380
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <_->8. <7->16
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
+	r1
+	<5>4 <6> r2
+	<5> <_+>4 <5 3>8 <\t \t> %385
+	<6 3> <\t \t> <5 3> <\t \t> <6 5>4. <_+>8
+	r <6> q4 r2
+	r <9>4 <3>
+	<9> <3> <9> <3>
+	<5 _+> <6 5> <5 _+> <6 4> %390
+	<6>2 <7 _+>
+	r2 <6 3>4. \bassFigureExtendersOn q8
+	r2 <6 3>4. q8
+	<6\! 3\!>4. <6 3>8 <6\\\! 3\!>4. <6\\ 3>8
+	<5 3\!>4. <5 3>8 <6 3\!>4. <6 3>8 %395
+	<5 3\!>4. <5 3>8 <6 3\!>4. <6 3>8
+	<6\! 3\!>4. <6 3>8 <6\! 3\!>4. <6 3>8
+	r2 <6 3>4. <6 3>8 \bassFigureExtendersOff
+	r4 <5 3>8 <\t \t> <6 3+>4. \bassFigureExtendersOn q8
+	r4 <6> <6\! 3>4. <6 3>8 \bassFigureExtendersOff %400
+	r1
+	r4. <_+>8 r2
+	r <5>4. <6>8
+	<5>2 <_+>8 <6> <5 _+> <6>
+	<5 _+> <6> <5> <6> <5> <_+> <6> r %405
+	<_+> <6> <5 _+> <6> <5 _+> <6> <5> <6>
+	<5> <_+> <6> r <5 _+>4.. <_+>16
+	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_+>4 <5 3>8. <\t \t>16
+	r2 <9>4 <3>
+	<9> <3> <9 5+> <3> %410
+	<9> <3> <7> <7 _+>8 <6>
+	<_+>4 <[6]> r4.. <_+>16
+	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <5 _+>8. <\t \t>16 <5 3>8. <\t \t>16
+	<7>2 <5 _+>8 <\t \t> <6>4
+	<6 5>8 <\t \t> <6>4 %415
+	<6 4>4.. <5 _+>16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<_+>4 <5 3>8. <\t \t>16 <_+>4 <5 3>8 <\t \t>
+	<5 3> <\t \t> <5+ 3> <\t \t> <6 3> <\t \t> <5 3> <\t \t>
+	<6>4 <5>8. <7>16 <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>4 <5>8. <7>16 <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %420
+	<6>4 <5> <6 4> <5 _+>
+	r1 %422 finis
+}
+
 % QuoniamIIBassiOrgano = {
 % 	\overrideTimeSignatureSettings
 % 			2/4

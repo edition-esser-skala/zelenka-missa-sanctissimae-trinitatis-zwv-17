@@ -110,7 +110,6 @@ tempoMarkup =
 %
 
 tempoKyrieI = \tempoMarkup "Adagio"
-
 tempoChriste = \tempoMarkup "Spirituoso"
 	tempoChristeB = \tempoMarkup "[Adagio]"
 	tempoChristeC = \tempoMarkup "[a tempo]"
@@ -119,16 +118,17 @@ tempoChriste = \tempoMarkup "Spirituoso"
 	tempoChristeF = \tempoMarkup "[Adagio]"
 	tempoChristeG = \tempoMarkup "[a tempo]"
 	tempoChristeFinis = \tempoMarkup "Adagio"
-
 tempoKyrieII = \tempoMarkup "Vivace"
 
 tempoGloria = \tempoMarkup "[Tempo deest]"
 	tempoGloriaB = \tempoMarkup "Adagio"
 	tempoGloriaC = \tempoMarkup "[a tempo]"
-
 tempoQuiTollis = \tempoMarkup "Vivace"
 	tempoMiserere = \tempoMarkup "Largo"
 	tempoMiserereFinis = \tempoMarkup "Adagio"
+tempoQuoniam = \tempoMarkup "[Tempo deest]"
+	tempoQuoniamB = \tempoMarkup "Adagio"
+	tempoQuoniamC = \tempoMarkup "[a tempo]"
 
 
 % modify the Scheme function 'format-bass-figure'
