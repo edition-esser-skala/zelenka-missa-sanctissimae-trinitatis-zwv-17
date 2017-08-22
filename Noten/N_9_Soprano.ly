@@ -623,15 +623,184 @@ QuiTollisSopranoLyrics = \lyricmode {
 QuoniamSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key e \minor \time 2/2 \autoBeamOff \tempoQuoniam
+		\key e \minor \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #305
-		
+		R1*20 %324
+		r2 \mvTr e'8.\pE^\soloE h16 h8 g' %325
+		\appoggiatura g fis4. g8 e8.([ dis16)] e8([ fis)]
+		dis([ cis)] h4 r2
+		R1
+		r2 r4 h
+		e4. d8 c([ h)] c a %330
+		d4. c8 h8. a16 h8 d
+		e4 fis8 g fis8. e16 d4
+		e2 d
+		c \afterGrace h( a8)
+		a4 r fis8.([ a16) g8.( h16)] %335
+		a8.([ c16) h8.( d16)] c2~
+		c16[ h a g] fis8[ d'] h g r4
+		r d'~ \afterGrace d2~ { \tuplet 3/2 4 { d8[( cis d]) } }
+		d,4 r r d'~
+		d16[( c h a] gis8[ e'] c) a r4 %340
+		r e'~ \afterGrace e2~ { \tuplet 3/2 4 { e8[( dis e]) } }
+		e,4 r r e'~
+		e16[( d cis h] ais8[ fis'] d) h r4
+		r2 r4 fis'~
+		fis e2 \appoggiatura e8 d4~ %345
+		d8.([\trill cis16)] cis4 r2
+		ais8.([ cis16)] h8.([ d16)] cis8.([ e16)] d8.([ fis16)]
+		e8.[ g16] fis4~\trill fis16[ cis d e] fis8[ e]
+		d16[ e cis d] h[ c a h] g8[ h] e4~\trill
+		e16[ h cis d] e8[ d] cis16[ d h cis] a[ h g a] %350
+		fis8[ a] d4~\trill d16[ a h cis] d8[ c]
+		h16[ c a h] g[ a fis g] e[ e' d e] cis[ d h cis]
+		ais8 h4 cis d e8~
+		e[ d16 e] fis8[ h,] ais h4\trill cis8~\trill
+		cis d4\trill e8~\trill e8.([ d32 e)] fis8 h, %355
+		cis4.(\trill h8) h4 r
+		R1*4 %360
+		h8. ais16 h8 d cis4. fis8
+		h,([ ais)] h([ cis?)] ais([ gis)] fis4
+		R1*2
+		r4 r8 fis h4. a8 %365
+		g8. fis16 g8 e a4 a8 g
+		fis8. g16 a4 r d~
+		d16[( c h a] gis8[ e'] c[ h)] a4
+		r c~ c16[ h a g] fis8[ d']
+		h[ g']~ g16[ fis e d] c8[ a']~ a16[ g fis e] %370
+		d8[ g,] \appoggiatura e' d4~\trill d8[ c16 d] e4~
+		e8[ a,] \appoggiatura fis' e4~\trill e8[ d16 e] fis4~
+		fis8[ h,] \appoggiatura g' fis4~\trill fis8[ e16 fis] g4~
+		g8[ c,] \appoggiatura a' g4~\trill g8[ fis16 g] \appoggiatura h8 a4~\trill
+		a16[ g fis e] d8[ c] \tuplet 3/2 4 { h8[ c d] e[ fis g] %375
+		c,[ d e] fis[ g a] d,[ g fis] e[ d c] }
+		h2~ \tuplet 3/2 4 { h8[ g' fis] e[ d c] }
+		h[ d] g g, \appoggiatura g4 a2\trill
+		g4 r r2
+		R1*3 %382
+		r2 d'8. g,16 g8 d'
+		g([ fis16 e] d8) c h([ a)] g g'
+		e([ dis)] e([ fis)] dis8. cis?16 h4 %385
+		r a r8 h fis'4
+		a, r8 h g8. fis16 e4
+		c'2 h
+		a \appoggiatura a8 \afterGrace g2(\trill fis8)
+		fis4 r h2~ %390
+		h \appoggiatura d8 cis4.\trill h16[ cis]
+		d8[ a] d4 \appoggiatura fis8 e4.\trill d16[ e]
+		\appoggiatura e8 \afterGrace fis2(\trill e8) e4 r
+		d2 \appoggiatura e8 dis4.\trill cis?16[ dis]
+		e8[ h] e4 \appoggiatura g8 fis4.\trill e16[ fis] %395
+		\appoggiatura fis8 \afterGrace g2(\trill fis8) fis4 r
+		r4 e~ e8[( d16 c] h8[ e]
+		c[ h)] a4 r2
+		r4 fis'~ fis8[( e16 d] cis8[ fis]
+		d[ cis?)] h4 r2 %400
+		r8 h e4~ e16[ fis d e] c[ d h c]
+		a8[ cis] e4 r8 a, d4~
+		d16[ e c d] h[ c a h] g8[ h] c4
+		r16 c[ h c] a[ h g a] fis8[ h] cis8.([\trill h32 cis)]
+		dis8.([\trill cis?32 dis)] e8.([\trill dis32 e)] fis8.([ e16)] e4 %405
+		r8 h cis4 dis e
+		fis e~ e8 cis dis4
+		e r r2
+		r4 h2 a4~
+		a g2 fis4~ %410
+		fis e8[ e']~ e[ dis16 e] fis8[ e]
+		dis[ h] \tempoQuoniamB e4~^\adlibitum e8 fis fis4
+		\tempoQuoniamC e4 r r2
+		R1
+		\time 2/4 R2 %415
+		\time 4/4 R1*7 \bar "||" %422 finis
 	}
 }
 
 QuoniamSopranoLyrics = \lyricmode {
+	Quo -- ni -- am tu %325
+	so -- lus, so -- lus __
+	San -- ctus,
 	
+	tu %329
+	so -- lus San -- ctus, tu %330
+	so -- lus Do -- mi -- nus, tu
+	so -- lus Al -- tis -- si -- mus,
+	Je -- _
+	_ _
+	su, Je -- %335
+	_ _
+	_ _ su,
+	Je --
+	su, Je --
+	su, %340
+	Je --
+	su, Je --
+	su,
+	Je --
+	_ _ %345
+	su,
+	Je -- _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ %350
+	_ _ _
+	_ _ _ _
+	_ _ _ _ _
+	_ _ _ _
+	_ _ _ su %355
+	Chri -- ste.
+	
+	Quo -- ni -- am tu so -- lus, %361
+	so -- lus __ San -- ctus,
+	
+	tu so -- lus %365
+	Do -- mi -- nus, tu so -- lus Al --
+	tis -- si -- mus, Je --
+	su,
+	Je -- _
+	_ _ %370
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ _ %375
+	_ _ _ _
+	_ _
+	_ _ su Chri --
+	ste.
+	
+	Quo -- ni -- am tu %383
+	so -- lus San -- ctus, tu
+	so -- lus __ Do -- mi -- nus, %385
+	tu, tu so --
+	lus Al -- tis -- si -- mus,
+	Je -- _
+	_ _
+	su, Je -- %390
+	_ _
+	_ _ _ _
+	_ su,
+	Je -- _ _
+	_ _ _ _ %395
+	_ su,
+	Je --
+	su,
+	Je --
+	su, %400
+	Je -- _ _
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ su, %405
+	Je -- _ _ _
+	_ _ su Chri --
+	ste,
+	Je -- _
+	_ _ %410
+	_ _
+	_ _ su Chri --
+	ste. %413 finis
 }
 % 
 % CumSanctoSopranoNotes = {

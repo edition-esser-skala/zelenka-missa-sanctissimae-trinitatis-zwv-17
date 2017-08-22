@@ -1067,8 +1067,8 @@ QuoniamBassiOrgano = {
 		h e, h' e, a c a c %340
 		gis d' gis, d' a c a c
 		gis d' gis, d' c a c a
-		cis fis, cis' fis, h8. ais16 h8. cis16
-		fis,8. ais16 h8. cis?16 fis,8 e d~ d32 h cis d
+		cis fis, cis' fis, h8.\fE ais16 h8. cis16
+		fis,8. ais16 h8. cis?16 fis,8\pE e d~ d32 h cis d
 		e8 d \tieDashed cis8~ cis32 a' h cis d8 cis h~ h32 g a h %345
 		cis8 h ais~ ais32 \tieSolid fis gis ais h8 a? g? e
 		fis fis, fis' fis, fis' fis, fis' fis,
@@ -1091,7 +1091,7 @@ QuoniamBassiOrgano = {
 		h8. ais16 h8. cis?16 fis,8. ais16 h8. cis16
 		fis,8 \mvTr fis,\p-\org fis' e dis h cis dis %365
 		e e, e' d cis a h cis
-		d d' d, c' h h, h'8. a16
+		d d' d, c'! h h, h'8. a16
 		gis8 e' e, gis a a, a' g?
 		fis g a g fis d' d, fis
 		g g g g a a a a %370
@@ -1124,7 +1124,7 @@ QuoniamBassiOrgano = {
 		g e g e gis d gis d
 		a' h c a cis g cis g
 		d' cis h d ais e ais e
-		h' c d h dis a dis a %400
+		h' cis? d h dis a dis a %400
 		e4 r8 e-\org a4 r8 a
 		cis4 r8 a d4 r8 d,
 		g4 r8 g e4 r8 e
@@ -1136,7 +1136,7 @@ QuoniamBassiOrgano = {
 		h,8 \mvTr a\pE-\org g~ g32 e fis g a8 g fis~ fis32 d e fis
 		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %410
 		e8 e'16 d c8 h a4 ais
-		h \tempoQuoniamB g a r8 r16 \mvTr h\f-\rip
+		h \tempoQuoniamB g-\adlibitumE a r8 r16 \mvTr h\f-\rip
 		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16
 		ais,4 r \tuplet 3/2 4 { h8-![ a?-! g] g fis e
 		\time 2/4 c' h a a[ g fis] } %415

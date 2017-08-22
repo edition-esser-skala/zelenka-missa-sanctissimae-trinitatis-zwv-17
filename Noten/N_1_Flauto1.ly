@@ -98,7 +98,8 @@ ChristeFlautoI = {
 QuoniamFlautoI = {
 	\relative c' {
 		\clef treble
-		\key e \minor \time 2/2 \tempoQuoniam
+		\key e \minor \time 4/4 \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #305
 		
