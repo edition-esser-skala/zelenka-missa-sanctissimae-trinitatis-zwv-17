@@ -1068,7 +1068,7 @@ QuoniamBassiOrgano = {
 		gis d' gis, d' a c a c
 		gis d' gis, d' c a c a
 		cis fis, cis' fis, h8.\fE ais16 h8. cis16
-		fis,8. ais16 h8. cis?16 fis,8\pE e d~ d32 h cis d
+		fis,8. ais16 h8. cis?16 fis,8 e d~\pE d32 h cis d
 		e8 d \tieDashed cis8~ cis32 a' h cis d8 cis h~ h32 g a h %345
 		cis8 h ais~ ais32 \tieSolid fis gis ais h8 a? g? e
 		fis fis, fis' fis, fis' fis, fis' fis,
