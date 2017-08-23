@@ -507,7 +507,124 @@ QuoniamViola = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #305
-		
+		g'8\fE a h a g8. fis16 g8. h16
+		a4. dis,8 e8. dis16 e8. fis16
+		dis4 r8 e\pE h4 r8 e
+		h4 r8 r16 h\fE e8. dis16 e8. fis16
+		dis4 r8 e\pE a,4 r8 d
+		g,4 r8 c fis,4 r8 h %310
+		e,4 r8 a' h h, h' h,
+		h' h, h' h, dis4 e
+		h' r8 r16 h,\fE e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 dis4 e~
+		e fis fis r8 fis %315
+		e h e a, h4 r8 h
+		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,8. h'16 g8. a16 h4 h,
+		\tuplet 3/2 4 { e8 fis g a[ h c] dis,[ e fis] fis g a }
+		dis,4 e h' h, %320
+		\tuplet 3/2 4 { c8 d e fis[ gis a] gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8[ ais h] h ais h }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8[( ais h] h ais h)
+		g\fE fis e c'[ h a] } h4 h,
+		g'8 a h a g8.\p fis16 g8. h16 %325
+		a4. dis,8 c!4 a
+		h8 h' g e h4 r8 e
+		h4 r8 r16 h\f e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,4 r8 a'\p
+		gis e fis gis a a, a' g %330
+		fis d e fis g g, g' h,
+		c h a g d' c h~ h32 g a h
+		c8 h a~ a32 fis g a h8 a gis~ gis32 e fis gis
+		a8 g fis~ fis32 d e fis g8 fis e c
+		d d' d, d' d, d' d, d' %335
+		d,4 r d'16-! fis([-. fis-. fis-.)] d-! \once\slurDashed fis([-. fis-. fis-.)]
+		d,8 d' d, fis' g,4 r
+		a8 a' d, a' d,4 r
+		a8 a' a, a' d,4 r
+		d8 gis d h' a4 r %340
+		h,8 h' e, h' e,4 r
+		h8 h' h, h' e,4 r
+		e8 ais e cis' h8.\fE ais16 h8. cis16
+		fis,8. ais16 h8. cis16 fis,8 e d~\pE d32 h cis d
+		e8 d cis8~ cis32 a h cis d8 cis h~ h32 g a h %345
+		cis8 h ais~ ais32 fis gis ais h8 a? g? e
+		fis fis' fis, fis' fis, fis' fis, fis'
+		fis,4 r8 gis' ais4 fis
+		h r8 h, e4 r8 fis
+		gis4 e a r8 a, %350
+		d4 r8 e fis4 d
+		g r8 g, cis4 r8 e
+		fis d e4 fis g
+		ais,8 fis' d g fis d e4
+		fis g ais,8 fis' d g %355
+		e4 fis \tuplet 3/2 4 { g8\fE a h cis,[ dis e]
+		dis e fis g[ fis e] } ais8. fis16 h8. eis,16
+		\tuplet 3/2 4 { fis8 eis fis fis eis fis } ais8.\p fis16 h8. eis,16
+		\tuplet 3/2 4 { fis8( eis fis fis[ eis fis]) d\f-! cis-! h g'[ fis e?] }
+		fis4 fis d8 e fis e %360
+		d\p fis fis fis e e e e
+		d8. d16 e8 d cis4 d8 h
+		fis' e d h fis' gis ais fis\f
+		h8. ais16 h8. cis16 fis,8. ais16 h8. cis16
+		fis,4 fis8\pE e dis h cis dis %365
+		e e, e' d cis a h cis
+		d d' d, c'! h h, h'8. a16
+		gis8 e' e, gis a a, a' g?
+		fis g a g fis d' d, fis
+		g g, g g a' a, a a %370
+		h' h, h h c' c, c c
+		cis cis cis cis d d, d d
+		dis' dis dis dis e e, e e
+		e' e, e e fis' fis, fis fis
+		fis' d fis fis g g g e %375
+		e a a fis g g g g
+		\tuplet 3/2 4 { g,8 g'\fE fis e d c } h4 c\pE
+		d8 h d d e e d d\f
+		g8. fis16 g8. a16 d,8. fis16 g8. a16
+		\tuplet 3/2 4 { d,8 d' c b[ a g] } fis8. d16 g8. cis,16 %380
+		\tuplet 3/2 4 { d8[ cis d] d cis d } fis8.(\p d16) g8.( cis,16)
+		\tuplet 3/2 4 { d8[( cis d] d cis d) h'!\f a g c[ h a] }
+		d4 d, g8 a\p h g
+		e e fis fis g a h g
+		c, c a a \tuplet 3/2 4 { h8 cis dis e[ fis g] %385
+		c,[ d e] fis g a } dis,4 r8 h
+		r cis dis4 e8 fis g e
+		a g fis~ fis32 d e fis g8 fis e~ e32 cis d e
+		fis8 e \once\tieDashed dis~ dis32 h cis dis e8 d? c? a
+		h h' h, h' h, h' h, h' %390
+		dis,4 e a-\critnote a,
+		d8\p fis d fis cis g' cis, g'
+		d fis d fis cis g' cis, g'
+		fis d fis d fis h, fis' h,
+		e g e g dis a' dis, a' %395
+		e g e g dis a' dis, a'
+		g e g e gis d gis d
+		a' h c a cis g cis g
+		d' cis h d ais e ais e
+		h' cis? d h dis a dis a %400
+		e8 e g g a a a, e'
+		r e cis e r fis fis, fis'
+		r g g, d' r e a g
+		r e a a, r g' a,16-! a'[(-. a-. a-.)]
+		h,-! h'([-. h-. h-.)] c,-! c'([-. c-. c-.)] dis,4 e %405
+		fis8 g a,16-! a'[(-. a-. a-.)] h,-! h'([-. h-. h-.)] c,-! c'([-. c-. c-.)]
+		dis,4 e a, r8 r16 h\fE
+		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,8 a'\pE g~ g32 e fis g a8 g fis~ fis32 d e fis
+		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %410
+		e8 e16 d c8 h a4 ais
+		h \tempoQuoniamB r^\adlibitumE r r8 r16 h'\fE
+		\tempoQuoniamC e,8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		ais4 r \tuplet 3/2 4 { h8-![ a?-! g] g fis e
+		\time 2/4 c' h a a[ g fis] } %415
+		\time 4/4 h4 r8 r16 h, e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 \tuplet 3/2 4 { h,8[ cis dis] e fis g
+		c, d e fis[ gis a] gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8 ais h h[ ais h] }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8( ais h h[ ais h]) %420
+		g\fE-! fis-! e c'[-! h-! a] } h4 h,
+		e r r2 \bar "||" %422 finis
 	}
 }
 

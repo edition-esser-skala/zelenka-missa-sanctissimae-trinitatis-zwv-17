@@ -592,7 +592,7 @@ QuoniamViolinoII = {
 		\tuplet 3/2 4 { d,8 d' c b[ a g] } fis8.-\markup { \anmerkungE "Ob. 8va" } d16 g8. cis,16 %380
 		\tuplet 3/2 4 { d8[ cis d] d cis d } fis8.(\p d16) g8.( cis,16)
 		\tuplet 3/2 4 { d8[( cis d] d cis d) \mvTr h'!\f-\markup { \anmerkungE "Ob. loco" } a g c[ h a] }
-		d4 d, \mvTr h'8\p-\vv c d h
+		d4 d, h'8 \mvTr c\p-\vv d h
 		h h a d d d d h
 		g g c c fis,4 r %385
 		e'\f^\tenuto r fis\f^\tenuto r
