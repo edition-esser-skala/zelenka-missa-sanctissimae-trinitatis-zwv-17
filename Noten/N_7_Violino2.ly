@@ -514,7 +514,124 @@ QuoniamViolinoII = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #305
-		
+		\mvTr e'8\fE-\tuttiE e, r16 h' cis dis e8.-! dis16-! e8. fis16
+		\appoggiatura g8 fis4. h8 e,8. dis16 e8. fis16
+		h,8 \mvTr a\p-\vv g e h' a g e
+		h' cis dis \mvTr h\f-\tutti e8. dis16 e8. fis16
+		h,8 \mvTr a\pE-\vv g~ g32 e fis g a8 g fis~ fis32 d e fis
+		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %310
+		e8 d c a' h h, h' h,
+		h' h, h' h, dis4 e
+		h' r8 r16 h, \mvTr e'8.\f-\tuttiE dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,4 r
+		c2 h4 r8 dis %315
+		e8. dis16 e8 fis fis4.\trill e8
+		e,8. dis16-\vv e8. fis16 h,8. dis16 e8. fis16
+		h,8. dis'16 e8 a, h4 h,
+		\tuplet 3/2 4 { e8[-! fis-! g] a h c dis,[ e fis] fis g a }
+		h,8. a'16 g8. e16 h'4 h, %320
+		\tuplet 3/2 4 { c8[ d e] fis gis a gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8[ ais h] h ais h }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8[( ais h] h ais h)
+		\mvTr g[\f-\tuttiE fis e] c' h a } h4 h,
+		e4 r16 h' cis dis e8 \mvTr h\p-\vvE h h %325
+		c c h h g g a a
+		fis a g e h' a g e
+		h' cis dis \mvTr h\f-\tutti e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,8 \mvTr dis,\p-\vv h fis'
+		h gis a h e, e e e %330
+		a fis g a d, d d16( g) g8
+		g g c h a4 h8 d
+		g,4 a8 c fis,4 gis8 e'
+		e,4 fis8 a d,4 h'8 e
+		a,4 r d8 d, d' d, %335
+		d'4 r fis,16 a([-. a-. a-.)] fis a([-. a-. a-.)]
+		<fis a> d'([-. d-. d-.)] a c([-. c-. c-.)] h8 d h g
+		r fis' a fis h d, h g
+		r fis a fis g16 h([-. h-. h-.)] g h([-. h-. h-.)]
+		\slurDashed d, h'([-. h-. h-.)] gis h([-. h-. h-.)] \slurSolid c8 e c a %340
+		r gis' h gis a e c a
+		r gis h gis a16-! c([-. c-. c-.)] e,-! c'[(-. c-. c-.)]
+		e, cis'([-.  cis-. cis-.)] ais cis([-. cis-. cis-.)] d8.\fE ais16 h8. cis16
+		fis,8. ais16 h8. cis16 fis,4 d'8\pE fis
+		h,4 cis8 e a,4 h8 d %345
+		gis,4 ais8 cis fis,4 r
+		ais8.( cis16) h8.( d16) cis8.( e16) d8.( fis16)
+		ais,8 ais ais h cis? h ais fis'
+		fis, fis' fis, fis' g g, g a
+		h a gis e' e, e' e, e' %350
+		fis fis, fis g a g fis d'
+		d, d' d, d' a16 e' d e cis d h cis
+		ais8 h4 cis d e8~
+		e d16 e fis8 h, ais h4\trill cis8~\trill
+		cis d4\trill e8~\trill e8.( d32 e) fis8 h, %355
+		cis4.\trill h8 \tuplet 3/2 4 { g,8-!\fE a-! h cis[ dis e]
+		dis e fis g[ fis e] } ais8. fis16 h8. eis,16-!
+		\tuplet 3/2 4 { fis8-! eis-! fis fis eis fis } ais8.\p fis16 h8. eis,16
+		\tuplet 3/2 4 { fis8( eis fis fis[ eis fis]) d\f-! cis?-! h g'[ fis e?] }
+		fis4 fis h, r16 fis' gis ais %360
+		h8.\p ais16 h8. d16 \appoggiatura d8 cis4. fis8
+		h,8.( ais16) h8.( cis16) fis,8 e d h
+		fis' e d h fis' gis ais \mvTr fis\f-\tutti
+		h8.-! ais16-! h8. cis16 fis,8. ais16 h8. cis16
+		fis,8 \mvTr fis\p-\vv fis e dis h cis dis %365
+		e e e d cis a h cis
+		d d' d, c'! h h, h'8. a16
+		gis8 e' e, gis a a, a' g?
+		fis g a g fis d' d, fis
+		g h h h e, c' c c %370
+		d g,4\trill fis16 g e'8 a,4\trill gis16 a
+		e'8 a,4\trill gis16 a fis'8 h,4\trill ais16 h
+		fis'8 h,4\trill ais16 h g'8 c,4\trill h16 c
+		g'8 c,4\trill h16 c a'8 d,4\trill cis?16 d
+		d,4 r8 c' \tuplet 3/2 4 { h8 c d e fis g %375
+		c, d e fis g a d, g fis e d c
+		h g\f fis e d c h g''\p fis e d c }
+		h d g g, \appoggiatura g4 a4 fis'8.(\trillE e32 fis)
+		\mvTr g,8.\fE-\tutti fis16 g8. a16 d,8. fis16 g8. a16
+		\tuplet 3/2 4 { d,8 d' c b[ a g] } fis8.-\markup { \anmerkungE "Ob. 8va" } d16 g8. cis,16 %380
+		\tuplet 3/2 4 { d8[ cis d] d cis d } fis8.(\p d16) g8.( cis,16)
+		\tuplet 3/2 4 { d8[( cis d] d cis d) \mvTr h'!\f-\markup { \anmerkungE "Ob. loco" } a g c[ h a] }
+		d4 d, \mvTr h'8\p-\vv c d h
+		h h a d d d d h
+		g g c c fis,4 r %385
+		e'\f^\tenuto r fis\f^\tenuto r
+		r8 a, a fis\p h, h h g''
+		e8.(\trill fis32 g) a8 d, d8.(\trill e32 fis) g8 cis,
+		cis?8.(\trill d32 e) fis8 h, h h, c a
+		h4 r r2 %390
+		R1
+		r8 a''\p fis d r cis e cis
+		r d fis d r cis e cis
+		d16 a'([-. a-. a-.)] d,, fis'([-. fis-. fis-.)] dis a'([-. a-. a-.)] a, fis'([-. fis-. fis-.)]
+		e8 h'[ g e] r dis fis dis %395
+		r e g e r dis fis dis
+		e16-! h'[(-. h-. h-.)] e,,-! g'([-. g-. g-.)] e-! h'([-. h-. h-.)] h, \once\slurDashed gis'([-. gis-. gis-.)]
+		a,8 h c a e16-! e'([-. e-. e-.)] e,-! e'([-. e-. e-.)]
+		d,8 cis h d fis16-! fis'[(-. fis-. fis-.)] fis,-! fis'([-. fis-. fis-.)]
+		h,8 cis? d h fis16-! h([-. h-. h-.)] h, dis'([-. dis-. dis-.)] %400
+		e8 h e4~ e16 fis d e c d h c
+		a8 cis e4 r8 a, d4~
+		d16 e c d h c a h g8 h c4
+		r16 c h c a h g a fis8 h cis8.(\trill h32 cis)
+		dis8.(\trill cis?32 dis) e8.(\trill dis32 e) fis8.( e16) e4 %405
+		r8 h cis4 dis e
+		fis e~ e8 cis dis4
+		\mvTr e8.\f-\tutti dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,4 \mvTr h'~\p-\vv h8( e) a,4~\trill
+		a8( d) g,4~\trill g8 c fis,4~\trill %410
+		fis8 h e,4~\trill e8 dis16 e cis8 fis
+		dis h \tempoQuoniamB r4^\adlibitumE r r8 r16 \mvTr h\f-\tutti
+		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		ais,4 r \tuplet 3/2 4 { h8-![ a?-! g] g fis e
+		\time 2/4 c' h a a[ g fis] } %415
+		\time 4/4 h4 r8 r16 h,-\vvE e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 \tuplet 3/2 4 { h,8[ cis dis] e fis g
+		c, d e fis[ gis a] gis[ a h] c h a }
+		dis8. h16 e8. ais,16 \tuplet 3/2 4 { h8 ais h h[ ais h] }
+		dis8.\p h16 e8. ais,16 \tuplet 3/2 4 { h8( ais h h[ ais h]) %420
+		\mvTr g\fE-!-\tuttiE fis-! e c'[-! h-! a] } h4 h,
+		e r r2 \bar "||" %422 finis
 	}
 }
 
