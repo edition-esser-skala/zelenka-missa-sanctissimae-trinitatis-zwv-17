@@ -129,6 +129,7 @@ tempoQuiTollis = \tempoMarkup "Vivace"
 tempoQuoniam = \tempoMarkup "[Tempo deest]"
 	tempoQuoniamB = \tempoMarkup "Adagio"
 	tempoQuoniamC = \tempoMarkup "[a tempo]"
+tempoCumSancto = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'

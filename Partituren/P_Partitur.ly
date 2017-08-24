@@ -377,136 +377,133 @@
 % % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
-			composer = \markup { \larger " " }
-		}
-		\paper { systems-per-page = #3 }
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\QuoniamFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Flauto II"
-							\QuoniamFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\QuoniamViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\QuoniamViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\QuoniamViola
-					}
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "Soprano"
-					\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi ed Organo"
-						\QuoniamBassiOrgano
-					}
-				>>
-				\new FiguredBass { \QuoniamBassFigures }
-			>>
-% 			\midi { \tempo 4 = 80 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.5 CUM SANCTO SPIRITU" }
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
 % 			composer = \markup { \larger " " }
 % 		}
-% 		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #3 }
 % 		\score {
 % 			<<
-% 				\new StaffGroup {
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe I"
-% 							\CumSanctoOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe II"
-% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\CumSanctoOboeII
-% 						}
-% 					>>
-% 				}
 % 				\new StaffGroup <<
 % 					\new GrandStaff <<
 % 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\CumSanctoViolinoI
+% 							\set Staff.instrumentName = "Flauto I"
+% 							\QuoniamFlautoI
 % 						}
 % 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
+% 							\set Staff.instrumentName = "Flauto II"
+% 							\QuoniamFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\QuoniamViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
 % 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\CumSanctoViolinoII
+% 							\QuoniamViolinoII
 % 						}
 % 					>>
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Viola"
-% 						\CumSanctoViola
+% 						\QuoniamViola
 % 					}
 % 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \CumSanctoSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
-% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Soprano"
+% 					\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\CumSanctoBassiOrgano
+% 						\QuoniamBassiOrgano
 % 					}
 % 				>>
-% 				\new FiguredBass { \CumSanctoBassFigures }
+% 				\new FiguredBass { \QuoniamBassFigures }
 % 			>>
-% % 			\midi { \tempo 4 = 90 }
+% % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
-% }
-
-% \book {
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 CUM SANCTO SPIRITU" }
+			composer = \markup { \larger " " }
+		}
+% 		\paper { systems-per-page = #2 }
+		\score {
+			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\CumSanctoOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\CumSanctoOboeII
+						}
+					>>
+				}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\CumSanctoViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\CumSanctoViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\CumSanctoViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \CumSanctoSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \CumSanctoSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Bassi ed Organo"
+						\CumSanctoBassiOrgano
+					}
+				>>
+				\new FiguredBass { \CumSanctoBassFigures }
+			>>
+% 			\midi { \tempo 4 = 90 }
+		}
+	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 CREDO" }

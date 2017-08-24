@@ -356,121 +356,16 @@ QuiTollisOboeII = {
 	}
 }
 
-% QuoniamIOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \tempoQuoniamI
-% 			\set Score.currentBarNumber = #221
-% 		c'8.\fE c16 c8 c d4 d %221
-% 		\tempoQuoniamIA r2 r8 \tempoQuoniamI d d d
-% 		cis4 cis \tempoQuoniamIA r2
-% 		r8 \tempoQuoniamI cis cis cis d4 a
-% 		\tempoQuoniamIA r2 r8 \tempoQuoniamI e' e e %225
-% 		e4 d8 e fis4 h,
-% 		r h2 a8 g
-% 		fis4 a2 gis8 fis
-% 		gis4 r \tempoQuoniamIA r2
-% 		R1 %230
-% 		R1\fermataMarkup \bar "||" %231 finis
-% 	}
-% }
-% 
-% CumSanctoOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \major \time 6/2 \tempoCumSancto
-% 			\set Staff.timeSignatureFraction = 3/2
-% 			\set Score.currentBarNumber = #413
-% 		r4 cis'\fE a cis r2 r4 d h d r2 %413
-% 		r4 gis, a cis r2 r4 gis e gis r2
-% 		r4 cis a cis r2 r4 a fis a r2 %415
-% 		r4 e' \tempoCumSanctoFinis e2 dis e1.\fermata \bar "||" %416 finis
-% 		\time 4/4 \newSpacingSection \tempoCumSanctoFuga
-% 			\unset Staff.timeSignatureFraction
-% 			R1*3 %419
-% 		r8 a,\fE a a a8. a16 a8 a %420
-% 		a a16 a a8 a a e gis h
-% 		a e a cis h fis h a
-% 		gis4 e r8 cis' h a
-% 		gis cis h a gis16 e fis gis a8 gis
-% 		r16 fis gis a h8 a gis4 r8 e %425
-% 		a cis e d cis fis e d
-% 		cis fis e d cis4 h
-% 		R1
-% 		r16 h cis dis e8 dis r16 cis dis e fis8 e
-% 		dis4 h r8 h8 a gis %430
-% 		fis h a gis r16 fis gis a h8 dis
-% 		r16 e, gis h cis8 h16 cis dis8 fis dis h
-% 		e4 r8 h dis4 e
-% 		dis8 h dis fis e h e gis
-% 		fis4 h, gis'4. e8 %435
-% 		dis h dis fis e h e gis
-% 		fis h, fis' a gis4 fis
-% 		r8 e dis cis h e dis cis
-% 		r16 h cis dis e8 dis r16 cis dis e fis8 e
-% 		dis e a, h e,4 r %440
-% 		cis'1
-% 		h
-% 		a
-% 		gis2 fis4.\trill fis8
-% 		e4 r r2 %445
-% 		R1
-% 		r2 r8 e' e e
-% 		e8. e16 e8 e e e16 e e8 e
-% 		e h e gis fis h, fis' a
-% 		gis gis, gis' fis e e, e' dis %450
-% 		cis dis16 e dis8 cis his4 gis
-% 		R1*12 %463
-% 		gis'2. fis4~
-% 		fis8 h, fis'2 e4~ %465
-% 		e8 a, e'2 dis4~
-% 		dis8 gis, dis'2 cis4~
-% 		cis his cis r
-% 		R1*8 %476
-% 		d1
-% 		cis
-% 		h
-% 		a2-\critnote gis %480
-% 		fis4 r16 a h cis dis8 cis r16 h cis dis
-% 		e8 d r16 cis d e fis8 e r16 d e fis
-% 		e8 h e2 d4~
-% 		d8 gis, d'2 cis4~
-% 		cis8 fis, cis'2 h4~ %485
-% 		h8 e, h'2 a4
-% 		gis8 cis h a gis cis h a
-% 		gis e r4 e'8 a, cis e
-% 		d a d fis e cis e d
-% 		cis a16 h cis8 a gis h r cis %490
-% 		h e d cis h e d cis
-% 		h e cis4 r2
-% 		R1*6 %498
-% 		r8 a' g fis e a g fis
-% 		e4 r16 cis d e fis8 e r16 d e fis %500
-% 		g8 fis e2 d8. cis16
-% 		cis4 r h16 h h h h h h h
-% 		h h h h h h h h a a a a a a-\critnote a a
-% 		a a a a a a a a g g g g g g-\critnote g g
-% 		g g g g g g g g fis fis fis fis fis fis fis fis %505
-% 		e4 r r2
-% 		cis'8 a cis e d a d fis
-% 		gis4.\trill gis8 fis4.\trill fis8
-% 		e4 r r2
-% 		r8 d cis h a d cis h %510
-% 		a4 r r2
-% 		a4 r16 a fis a h4 r8 h
-% 		gis!4 r16 gis e gis a4 r8 a
-% 		fis4 r16 fis d fis gis4 r8 gis
-% 		e r r fis h4 r %515
-% 		r8 cis h a gis cis h a
-% 		gis a cis e d a d fis
-% 		e h e d cis16 a e' e fis fis fis fis
-% 		h, h h h cis e e e d d d d d d d d
-% 		cis4\fermata r \tempoCumSanctoFugaFinis a8 a a a %520
-% 		a a a a a4 gis8.\trill gis16
-% 		a2-\critnote r \bar "|." %522 FINIS
-% 	}
-% }
-% 
+CumSanctoOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/2 \tempoCumSancto
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #423
+		
+	}
+}
+
 % CredoOboeII = {
 % 	\relative c' {
 % 		\clef treble
