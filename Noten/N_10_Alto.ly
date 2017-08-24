@@ -652,11 +652,150 @@ CumSanctoAltoNotes = {
 		\key a \minor \time 6/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
+		\mvTr g'2\fE^\tuttiE g g g2. g4 g2
+		g g fis g r r
+		r g e a1. %425
+		g2 e g a1.~
+		\tempoCumSanctoB a2 gis fis gis1\fermata r2 \bar "||"
+		\clef treble \time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		R1*3 %430
+		r8 a a a g g h h
+		fis fis16 fis h8 h e,[( fis g a]
+		h[ a] g[ fis16 e] fis8[ h, h' a]
+		g4) e a( c
+		gis g f2) %435
+		e4 a2 gis4
+		a4. gis16[ a] h2
+		a4 h8[ a] g2
+		fis4 g a( fis
+		g gis a2 %440
+		\once\stemUp h) a
+		gis4( a) e r
+		e( g dis d
+		c2) h4 cis
+		d a'4.( g8[ fis a] %445
+		g2) d4 f
+		g4. a16[ g] fis4 g
+		a4. h16[ a] gis4 a
+		h4. a16[ g] a4. g16[ fis]
+		g8[ a] h[ a16 g] fis8 dis[ fis a] %450
+		g e[ g h] h, dis[ fis a]
+		g e[ g h] h,[ fis' h g]
+		fis2 g8[ fis16 e] d8[ h']
+		a4 fis g8[( fis e fis]
+		dis[ fis g h] a4. fis8) %455
+		h4 r a( c
+		gis g f!2)
+		e4 a2 g!4~
+		g8[ f e a,] a'4. g16[ f]
+		g4 a4. g8[ f] e %460
+		r a a a g8. g16 g8 a
+		a a16 a r4 g4( h
+		fis f e2)
+		d4 g2 fis4
+		g8[ f16 e] d8[ g,] g'4. f16[ e] %465
+		f4 g4. f8[ e a]
+		d,4 r8 h' c4 r8 c
+		h4 r8 h c4 r8 c
+		h8.[ a16] g4 g g~
+		g8[( d] g4) e8 c[ e g] %470
+		f c[ f a] g c,[ e g]
+		f c[ f a] g4 a
+		e8[ g] f2 e4
+		a2.( g4
+		a8[ g f d] a'4) d, %475
+		a' e8[ f] f4 d
+		e a g8[ f] e[ f16 g]
+		a8[ a,] d8.([\trill cis32 d)] e8.([\trill d32 e)] f8[ a]
+		b4 a2 g4~
+		g a g f %480
+		e2 e4 r
+		a c gis g
+		f fis gis a~
+		a gis a h8[ a]
+		gis4 a h8 gis[ h gis] %485
+		a a[ c a] e gis[ h gis]
+		a a[ c a] e2
+		d8[ a'] h2 a4~
+		a gis a8 cis,[ e g?]
+		f d[ f a] a, cis[ e g] %490
+		f d[ f a] cis,[ e a g]
+		f2. e8[ d]
+		e2 r \bar "|." %493 FINIS
 	}
 }
 
 CumSanctoAltoLyrics = \lyricmode {
+	Cum San -- cto Spi -- ri -- tu %423
+	in glo -- ri -- a
+	De -- i Pa -- %425
+	_ _ _ _
+	_ _ tris.
 	
+	Cum San -- cto Spi -- ri -- tu in %431
+	glo -- ri -- a De -- i Pa --
+	
+	tris, a --
+	%435
+	men, a -- men,
+	a -- _ _
+	_ _ _
+	_ men, a --
+	%440
+	men,
+	a -- men,
+	a --
+	men, a --
+	men, a -- %445
+	men, a --
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ [men,] a -- %450
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ men, a --
+	%455
+	men, a --
+	
+	men, a -- _
+	_ _
+	_ _ _ men. %460
+	Cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, a --
+	
+	men, a -- _
+	_ _ _ _ %465
+	_ _ _
+	men, a -- _ _
+	_ _ _ _
+	_ _ men, [a] --
+	men, a -- %470
+	_ _ _ _
+	_ _ _ _
+	_ _ men,
+	a --
+	men, %475
+	a -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _
+	_ _ men, %480
+	a -- men,
+	a -- _ _ _
+	_ _ _ _
+	_ _ _
+	_ _ men, a -- %485
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ men, a --
+	_ _ _ _ %490
+	_ _ _
+	_ _
+	men. %493 FINIS
 }
 
 % CredoAltoNotes = {

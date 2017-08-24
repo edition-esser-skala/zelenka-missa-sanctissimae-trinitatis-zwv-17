@@ -813,7 +813,7 @@ CumSanctoSopranoNotes = {
 		c c2. c4 h2 d h
 		e1. c1 d2~ %425
 		d c4 d e2~ e d1
-		e1.~ e1\fermata r2 \bar "||"
+		\tempoCumSanctoB e1.~ e1\fermata r2 \bar "||"
 		\clef treble \time 4/4 \tempoCumSanctoFuga
 			\unset Staff.timeSignatureFraction
 		R1*6 %433

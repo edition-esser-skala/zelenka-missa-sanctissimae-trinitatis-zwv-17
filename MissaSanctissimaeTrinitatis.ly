@@ -130,6 +130,7 @@ tempoQuoniam = \tempoMarkup "[Tempo deest]"
 	tempoQuoniamB = \tempoMarkup "Adagio"
 	tempoQuoniamC = \tempoMarkup "[a tempo]"
 tempoCumSancto = \tempoMarkup "Andante"
+	tempoCumSanctoB = \tempoMarkup "Adagio"
 	tempoCumSanctoFuga = \tempoMarkup "Allegro assai"
 	tempoCumSanctoFinis = \tempoMarkup "Adagio"
 

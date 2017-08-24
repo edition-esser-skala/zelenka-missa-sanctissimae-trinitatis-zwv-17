@@ -1279,7 +1279,7 @@ CumSanctoBassiOrgano = {
 		e a2. a4 g2 r r
 		r e c f1. %425
 		e2 a g f1.
-		\once\tieDashed e~ e1\fermata r2 \bar "||"
+		\tempoCumSanctoB \once\tieDashed e~ e1\fermata r2 \bar "||"
 		\clef treble \time 4/4 \tempoCumSanctoFuga
 			\unset Staff.timeSignatureFraction
 		r8 e'-! e-! e-! c c e e
@@ -1370,7 +1370,7 @@ CumSanctoBassiOrgano = {
 }
 
 CumSanctoBassFigures = \figuremode {
-	r1. <5 4>2. <\t 3>4 <4 2>2 %423
+	r1. <5 4>2. <\t [\t]>4 <4 2>2 %423
 	<6> <7> <6\\> r1.
 	r2 <5> r <5>1 <6>2 %425
 	<7> <3> <6> <7> <6> r
