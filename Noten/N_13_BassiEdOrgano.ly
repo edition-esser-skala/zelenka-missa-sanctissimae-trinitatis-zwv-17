@@ -1272,15 +1272,175 @@ QuoniamBassFigures = \figuremode {
 CumSanctoBassiOrgano = {
 	\relative c {
 		\clef bass
-		\key c \major \time 6/2 \tempoCumSancto
+		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
 		\mvTr c2\fE-\tutti c c g'2. g4 f2
+		e a2. a4 g2 r r
+		r e c f1. %425
+		e2 a g f1.
+		\once\tieDashed e~ e1\fermata r2 \bar "||"
+		\clef treble \time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		r8 e'-! e-! e-! c c e e
+		h h e e a, h c d
+		e d c h16 a h8 e, e' d %430
+		<< {
+			r8 a' a a g g h h
+			fis fis h h e, fis g a
+			h a g fis16 e fis8 fis h a
+			g4 e
+		} \\ {
+			c8 a r4 e' g
+			dis d c2
+			h4 e2 dis4
+			e8. d16 c8 h
+		} >> \clef "treble_8" a2
+		e'4 cis d8.c16 h8 a %435
+		gis4 a e'2
+		\clef bass r8 a, a a g g h h
+		fis fis h h e, fis g a
+		h a g fis16 e fis8 h, h' a
+		g e r4 a c %440
+		gis g f2
+		e4 a2 gis4
+		a e h'2
+		\clef treble << { a'4 c gis g } \\ { c,2 h4 cis } >>
+		\clef "treble_8" d4 f cis c %445
+		\clef bass g b fis f
+		es2 d4 g~
+		g fis e a~
+		a g fis2
+		e8 fis? g a h4 h %450
+		h h h h
+		h h h8 a g e
+		r8 h' h h g g h h
+		fis fis h h e, fis g a
+		h a g fis16 e fis8 h, h' a %455
+		gis4 e a a,
+		e' \clef treble << {
+			e''8 e a, h c d
+			e d c h16 a h8 h e d
+			cis
+		} \\ {
+			g!4 f2
+			e4 a2 g!4~
+			g8
+		} >> \clef bass a, a a f f a a
+		e e a a d, e f g %460
+		a g f e16 d e8 a, a' g
+		fis4 d \clef "treble_8" g2
+		d'4 \clef treble << { d'8 d g, a h cis
+			d c h4 a d8 c
+			h
+		} \\ {
+			f!4 e2
+			d4 g2 fis4
+			g8
+		} >> \clef bass g, g g e e g g %465
+		d d g g c, d e f
+		g4 g g g
+		g g g g
+		g8 f e f g4 c
+		g g, c c %470
+		c c c c
+		c c c8 b a f
+		c'4 d b c
+		f8 e d c b2
+		a4 r d' f %475
+		cis c b2
+		a4 d2 cis4
+		c b a d
+		g, a fis g
+		e fis g gis %480
+		a a, e' e
+		e e e e
+		e e e a
+		d, e f d
+		e8 d c a r e' gis h %485
+		a e a c gis e[ gis h]
+		a e a c gis4 a
+		d,2 e4 a
+		e e, a a
+		a a a a %490
+		a a a'8 g f e
+		d2 \tempoCumSanctoFinis a'
+		a, r \bar "|." %493 FINIS
 	}
 }
 
 CumSanctoBassFigures = \figuremode {
-	
+	r1. <5 4>2. <\t 3>4 <4 2>2 %423
+	<6> <7> <6\\> r1.
+	r2 <5> r <5> <6> r %425
+	<7> <3> <6> <7> <6> r
+	<6 4> <5 [_+]> <4 [2\+]> <_+>1.
+	r1
+	r
+	r %430
+	r
+	r
+	r
+	r2 <5>
+	<_+>4 <6 5!> <5 _->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %435
+	<6>2 <5 4>4 <\t _+>
+	r8 <5 3>4. <6>4 <6 _+>
+	<6\\> <5+ _!> <6 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5 _+>4 <6> <7 3>8 <\t \t> <5+ _+>4
+	<6>2. <6>4 %440
+	<6> <\t> <7> <6>
+	<7 _+> <5 3> <\t 2> <6>
+	r2 <5+ _+>4 <6\\ 3!>
+	r1
+	<5>4 <6> <6> <4\+ 2> %445
+	<_-> <6> q q
+	<7> <6> <7 _+> <_!>
+	<4\+ 2> <6> <7 _+> <_+>
+	<4\+ 2> <6> <7> <6\\>
+	r2 <5 _+>4 <\t \t> %450
+	<6 4> <\t \t> <5 _+> <\t \t>
+	<6 4> <\t \t> <_+> <6>
+	r8 <5+ 4> <\t _+>4 <6> q
+	<6\\> <5+ _!> <6 3> <6 4>
+	<[5+] _+> <6> <7> <_+> %455
+	<6> <_+> r2
+	<_+>1
+	r
+	r8 <5 _+>4. <6>4 <_+>
+	<6\\> <_!> <6- 3>8 <\t \t> <6 4-> <6 3-> %460
+	<_+> <\t> <6>4 <7> <_+>
+	<6> <_+> <5>2
+	<_+>1
+	r
+	r2 <6>4 q %465
+	q <_-> <5 3> <6 4>8 <\t \t>
+	r2 <6 4>4 <\t \t>
+	<5 3> <\t \t> <6 4> <\t \t>
+	<5> <6> <4>8 <3> r4
+	<5 4> <\t 3> r <7-> %470
+	<6 4> <\t \t> <5 3> <7->
+	<6 4> <\t \t> <5>8 <\t> <6>4
+	<5> q <6 5>2
+	r <7>4 <6>
+	<_+>2. <6>4 %475
+	q q <7> <6>
+	<_+> r <4 2> <6>
+	<4\+ 2> <6> <7 _+> r
+	<6- 5 _-> <5-> <6 5> <_->
+	<6 5-> <6 5> <5 4> <7 5> %480
+	<9 _!> <8> <5 4> <\l _+>
+	<6 4> <\t \t> <5 _+> <5 _!>
+	<7 4 2> <7+ 4 2\+> <8 _+> r
+	<7> <_+> <5> <6>
+	<_+> <6> r8 <5 _+>4 \bassFigureExtendersOn q8 %485
+	<5\! 3>4. <5 3>8 <6 3\!>4. <6 3>8
+	<5 3\!>4. <5 3>8 \bassFigureExtendersOff <6 5>2
+	<5>4 <6> <5 _+> r
+	<4> <_+> <5 _+> <\t \t>
+	<6 4> <\t \t> <5 _+> <\t \t> %490
+	<6 4> <\t \t> <_+> <6>
+	r2 <6 4>4 <5 _+>8 <4 2>
+	<5 _+>1
 }
 
 % CredoBassiOrgano = {

@@ -130,6 +130,8 @@ tempoQuoniam = \tempoMarkup "[Tempo deest]"
 	tempoQuoniamB = \tempoMarkup "Adagio"
 	tempoQuoniamC = \tempoMarkup "[a tempo]"
 tempoCumSancto = \tempoMarkup "Andante"
+	tempoCumSanctoFuga = \tempoMarkup "Allegro assai"
+	tempoCumSanctoFinis = \tempoMarkup "Adagio"
 
 
 % modify the Scheme function 'format-bass-figure'

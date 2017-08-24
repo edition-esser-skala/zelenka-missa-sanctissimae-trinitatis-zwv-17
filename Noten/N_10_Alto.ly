@@ -649,7 +649,7 @@ QuiTollisAltoLyrics = \lyricmode {
 CumSanctoAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 6/2 \autoBeamOff \tempoCumSancto
+		\key a \minor \time 6/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
 	}

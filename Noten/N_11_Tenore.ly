@@ -577,7 +577,7 @@ QuiTollisTenoreLyrics = \lyricmode {
 CumSanctoTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \major \time 6/2 \autoBeamOff \tempoCumSancto
+		\key a \minor \time 6/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
 	}
