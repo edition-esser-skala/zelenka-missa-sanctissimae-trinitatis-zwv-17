@@ -427,7 +427,7 @@
 				>>
 				\new FiguredBass { \QuoniamBassFigures }
 			>>
-			\midi { \tempo 8 = 80 }
+% 			\midi { \tempo 4 = 80 }
 		}
 	}
 % 	\bookpart {

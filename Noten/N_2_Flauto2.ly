@@ -54,7 +54,7 @@ QuoniamFlautoII = {
 		e4. ais8 h h, r4
 		r2 r4 fis'~
 		fis 8 h e,4. a8 d,4~ %345
-		d8( g) \appoggiatura d cis4. fis8 h,16 g'([-. g-. g-.)]
+		d8( gis?) \appoggiatura d cis4. fis8 h,16 g'([-. g-. g-.)]
 		fis4-\critnote r r2
 		R1
 		r8 fis\p h4~ h16 c a h g a fis g

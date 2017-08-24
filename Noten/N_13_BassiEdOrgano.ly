@@ -1151,7 +1151,7 @@ QuoniamBassiOrgano = {
 }
 
 QuoniamBassFigures = \figuremode {
-	r1 %305
+	r4 <[6]> r2 %305
 	<4 2>4 <6>8 <_+> <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
 	<_+>1
 	r4.. q16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
@@ -1160,7 +1160,7 @@ QuoniamBassFigures = \figuremode {
 	r4.. <_+>16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
 	<_+>4 <5 3>8. <\t \t>16 <_+>8 <\t> <6>4
 	<9> <3> <6 5>4. <_+>8 %315
-	r q r4 q4.. q16
+	r q r <[_+]> q4.. q16
 	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_+>4 <5 3>8. <\t \t>16
 	<_+>4 <6> <6 4> <5 _+>
 	r <5 3>8 <\t \t> <6>4 <5+>
@@ -1169,7 +1169,7 @@ QuoniamBassFigures = \figuremode {
 	<6> r8. <6\\>16 <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	<6>4 <5>8. <7 _+>16 <5 [_+]>4.. \bassFigureExtendersOn <5 _+>16 \bassFigureExtendersOff
 	<6>4 q <5 4> <\t _+>
-	r1 %325
+	r4 <[6]> r2 %325
 	<4 2>4 <6>8 <_+> r2
 	<_+>1
 	r4.. <_+>16 <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
@@ -1177,7 +1177,7 @@ QuoniamBassFigures = \figuremode {
 	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2 %330
 	<6>1
 	r4 <6> r q
-	<9> <3> <7> <3>
+	<9> <3> <[9]> <3>
 	<9> <3> <9> <3>
 	<5 3> <6 4> <5 3> <6 4> %335
 	<5 3>1
@@ -1188,53 +1188,53 @@ QuoniamBassFigures = \figuremode {
 	<6 3>4. q8 r2
 	<6 3>4. q8 <6\!>2
 	<6\\\! 3>4. <6\\ 3>8 <5 3\!>4. <5 3>8 \bassFigureExtendersOff
-	<5 _+>8. <\t \t>16 <5 3>8. <\t \t>16 <_+>4 <6>
+	<[5+] _+>8. <\t \t>16 <5 3>8. <\t \t>16 <[5+] _+>4 <6>
 	<9> <3>8.. \bassFigureExtendersOn q32 \bassFigureExtendersOff <9>4 <3> %345
-	<9> <_+> <9+> <3>
+	<9 [5+]> <_+> <9+> <3>
 	<[5+] _+> <6 4> <[5+] _+> <6 4>
 	<7 [5+] _+>4. <7>8 <6 [_+]>4 <7 [5+] _+>
 	r1
 	<6>4 <_+> q4. q8 %350
 	r4. <7>8 <6>2
 	r <6>
-	<_+>8 <6> <5> <6\\> <5+> <6> <5> <6>
-	<6 5> <\t \t> r4 <_+>8 <6> <5> <6\\>
-	<5+> <6> <5> <6> <5> <_+> <6>4 %355
-	<6 5> <[5+] _+> <5 3>8 <\t \t> <6> <\t>
-	<5! 3>4 <6> <6> <5>8. <7>16
-	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <5>8. <7>16
+	<[5+] _+>8 <6> <5 [_+]> <6\\> <5+ [_+]> <6> <5> <6>
+	<6 5 [_+]> <\t \t \t> <[6]> r <[5+] _+>8 <6> <5 [_+]> <6\\>
+	<5+ [_+]> <6> <5> <6> <5 [_+]> <[5+] _+> <6>4 %355
+	<[6\\] 5> <[5+] _+> <5 3>8 <\t \t> <6> <\t>
+	<5! 3>4 <6> <6 [_+]> <5>8. <7 [_+]>16
+	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 [_+]>4 <5>8. <7 [_+]>16
 	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 q
-	<6 4> <5 _+> r <6> %360
-	r2 <4 2\+>4 <6>8 <_+>
-	<5>4 <6\\> <_+>2
-	r2... <_+>16
+	<6 4> <[5+] _+> r <6> %360
+	r2 <4 2\+>4 <6 [_+]>8 <[5+] _+>
+	<5>4 <6\\> <[5+] _+>2
+	r2... <[5+] _+>16
 	r2 <5+ _+>8. <\t \t>16 <5 _!>8. <\t \t>16
-	<_+>2 <6>4 <7>8 <\t> %365
+	<[5+] _+>2 <6>4 <7>8 <\t> %365
 	r2 <6>4 <7>8 <\t>
 	r4. <4\+>8 <6>2
-	r <_!>
-	<6>4 q r2
+	<[6]>4 <[_+]> <_!>2
+	<6>4 q <[6]>2
 	r4. <6>8 <5>4. <6>8 %370
 	<5> <6> <\t> r <9 5> <8 6> <\t \t> r
 	<6>2 <9 5>8 <8 6> <\t \t> r
 	<6>2 <9 5>8 <8 6> <\t \t> r
 	<6>2 <9 5>8 <8 6> <\t \t> r
 	<5>4 <\t> r2 %375
-	r1
-	r
-	r2... <7>16
+	r2 <[6]>
+	r <[6]>
+	r4 <[6]> r4.. <7>16
 	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <5>8. <\t>16 <5 3>8. <\t \t>16
-	r2 <6>4 <_->8. <7>16 %380
+	r4 <[6]> <6>4 <_->8. <[7-]>16 %380
 	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <_->8. <7->16
-	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
-	r1
-	<5>4 <6> r2
-	<5> <_+>4 <5 3>8 <\t \t> %385
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <[6]>2
+	<[6] [4]>4 <[5] [3]> r <[6]>
+	<5>4 <6> r <[6]>
+	<5>2 <_+>4 <5 3>8 <\t \t> %385
 	<6 3> <\t \t> <5 3> <\t \t> <6 5>4. <_+>8
-	r <6> q4 r2
-	r <9>4 <3>
-	<9> <3> <9> <3>
-	<5 _+> <6 5> <5 _+> <6 4> %390
+	r <6> q4 r4 <[6]>
+	r <[6]> <9> <3>
+	<9 [5+]> <3> <9> <3>
+	<5 _+> <6 [4]> <5 _+> <6 4> %390
 	<6>2 <7 _+>
 	r2 <6 3>4. \bassFigureExtendersOn q8
 	r2 <6 3>4. q8
@@ -1246,14 +1246,14 @@ QuoniamBassFigures = \figuremode {
 	r4 <5 3>8 <\t \t> <6 3+>4. \bassFigureExtendersOn q8
 	r4 <6> <6\! 3>4. <6 3>8 \bassFigureExtendersOff %400
 	r1
-	r4. <_+>8 r2
+	<[6]>4. <_+>8 r2
 	r <5>4. <6>8
 	<5>2 <_+>8 <6> <5 _+> <6>
 	<5 _+> <6> <5> <6> <5> <_+> <6> r %405
 	<_+> <6> <5 _+> <6> <5 _+> <6> <5> <6>
 	<5> <_+> <6> r <5 _+>4.. <_+>16
 	<5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_+>4 <5 3>8. <\t \t>16
-	r2 <9>4 <3>
+	<[_+]>4 <[6]> <9> <3>
 	<9> <3> <9 5+> <3> %410
 	<9> <3> <7> <7 _+>8 <6>
 	<_+>4 <[6]> r4.. <_+>16

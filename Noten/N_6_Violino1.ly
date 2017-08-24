@@ -562,7 +562,7 @@ QuoniamViolinoI = {
 		ais,-! e'([-. e-. e-.)] e,-! e'([-. e-. e-.)] d8.\f ais16 h8. cis16
 		fis,8. ais16 h8. cis16 fis,4 fis'~\pE
 		fis8 h e,4. a8 d,4~ %345
-		d8( g) \appoggiatura d cis4. fis8 h,16 g'([-. g-. g-.)]
+		d8( gis?) \appoggiatura d cis4. fis8 h,16 g'([-. g-. g-.)]
 		ais,8.( cis16) h8.( d16) cis8.( e16) d8.( fis16)
 		e8. g16 fis4~\trill fis16 cis d e fis8 e
 		d16 e cis d h c a h g8 h e4~\trill
@@ -626,7 +626,7 @@ QuoniamViolinoI = {
 		fis e~ e8 cis dis4
 		\mvTr e8.\f-\tutti dis16 e8. fis16 h,8. dis16 e8. fis16
 		h,4 \mvTr h'~\p-\vv h8( e) a,4~\trill
-		a8( d) g,4~\trill g8 c fis,4~\trill %410
+		a8( d) g,4~\trill g8 cis? fis,4~\trill %410
 		fis8 h e,4~\trill e8 dis16 e cis8 fis
 		dis h \tempoQuoniamB r4^\adlibitumE r r8 r16 \mvTr h\f-\tutti
 		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16
