@@ -612,7 +612,7 @@ QuoniamViola = {
 		dis,4 e a, r8 r16 h\fE
 		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
 		h,8 a'\pE g~ g32 e fis g a8 g fis~ fis32 d e fis
-		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %410
+		g8 fis e~ e32 cis? d e fis8 e dis~ dis32 h cis dis %410
 		e8 e16 d c8 h a4 ais
 		h \tempoQuoniamB r^\adlibitumE r r8 r16 h'\fE
 		\tempoQuoniamC e,8. dis16 e8. fis16 h,8. dis16 e8. fis16

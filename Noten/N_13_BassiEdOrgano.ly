@@ -1134,7 +1134,7 @@ QuoniamBassiOrgano = {
 		dis,8 h' g c a4 r8 r16 \mvTr h\f-\rip
 		e8. dis16 e8. fis16 h,8. dis16 e8. fis16
 		h,8 \mvTr a\pE-\org g~ g32 e fis g a8 g fis~ fis32 d e fis
-		g8 fis e~ e32 c d e fis8 e dis~ dis32 h cis dis %410
+		g8 fis e~ e32 cis? d e fis8 e dis~ dis32 h cis dis %410
 		e8 e'16 d c8 h a4 ais
 		h \tempoQuoniamB g-\adlibitumE a r8 r16 \mvTr h\f-\rip
 		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16

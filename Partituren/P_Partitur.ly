@@ -382,18 +382,21 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 ragged-last-bottom = ##f }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup {
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Flauto I, II"
-							\new Voice { \QuoniamFlautoI }
-							\new Voice { \QuoniamFlautoII }
+							\set Staff.instrumentName = "Flauto I"
+							\QuoniamFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Flauto II"
+							\QuoniamFlautoII
 						}
 					>>
-				}
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
@@ -424,7 +427,7 @@
 				>>
 				\new FiguredBass { \QuoniamBassFigures }
 			>>
-% 			\midi { }
+			\midi { \tempo 8 = 80 }
 		}
 	}
 % 	\bookpart {
