@@ -1372,7 +1372,7 @@ CumSanctoBassiOrgano = {
 CumSanctoBassFigures = \figuremode {
 	r1. <5 4>2. <\t 3>4 <4 2>2 %423
 	<6> <7> <6\\> r1.
-	r2 <5> r <5> <6> r %425
+	r2 <5> r <5>1 <6>2 %425
 	<7> <3> <6> <7> <6> r
 	<6 4> <5 [_+]> <4 [2\+]> <_+>1.
 	r1
@@ -1382,7 +1382,7 @@ CumSanctoBassFigures = \figuremode {
 	r
 	r
 	r2 <5>
-	<_+>4 <6 5!> <5 _->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %435
+	<_+>4 <6 5!> <5 _!>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %435
 	<6>2 <5 4>4 <\t _+>
 	r8 <5 3>4. <6>4 <6 _+>
 	<6\\> <5+ _!> <6 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
@@ -1440,7 +1440,7 @@ CumSanctoBassFigures = \figuremode {
 	<6 4> <\t \t> <5 _+> <\t \t> %490
 	<6 4> <\t \t> <_+> <6>
 	r2 <6 4>4 <5 _+>8 <4 2>
-	<5 _+>1
+	<5 _+>1 %493 FINIS
 }
 
 % CredoBassiOrgano = {
