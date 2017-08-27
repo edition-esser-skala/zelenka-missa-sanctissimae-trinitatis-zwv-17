@@ -34,7 +34,7 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #29 % K: 1   G: 29
+	first-page-number = #75 % K: 1   G: 29   C: 75
 	print-first-page-number = ##t
 }
 
@@ -133,6 +133,8 @@ tempoCumSancto = \tempoMarkup "Andante"
 	tempoCumSanctoB = \tempoMarkup "Adagio"
 	tempoCumSanctoFuga = \tempoMarkup "Allegro assai"
 	tempoCumSanctoFinis = \tempoMarkup "Adagio"
+
+tempoCredo = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'
