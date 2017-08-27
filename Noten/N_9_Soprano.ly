@@ -814,7 +814,7 @@ CumSanctoSopranoNotes = {
 		e1. c1 d2~ %425
 		d c4 d e2~ e d1
 		\tempoCumSanctoB e1.~ e1\fermata r2 \bar "||"
-		\clef treble \time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga
 			\unset Staff.timeSignatureFraction
 		R1*6 %433
 		r8 e e e c c e e

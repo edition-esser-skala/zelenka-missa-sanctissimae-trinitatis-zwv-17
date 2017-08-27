@@ -580,11 +580,152 @@ CumSanctoTenoreNotes = {
 		\key a \minor \time 6/2 \autoBeamOff \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
+		\mvTr e2\fE^\tuttiE e e d2. d4 d2
+		e e a, d r r
+		r h c a f' d %425
+		h c h c a c~
+		\tempoCumSanctoB c h a h1\fermata r2 \bar "||"
+		\time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		r8 e e e c c e e
+		h h16 h e8 e a,[( h c d]
+		e[ d] c[ h16 a] h8[ e, e' d] %430
+		c4) a e'( g
+		dis d c2)
+		h4 e2( dis4
+		e8.[ d16] c8[ h] a2
+		e'4) cis d8.[( c?16] h8[ a] %435
+		gis4) a e'2
+		a,4 e'2( dis8[ e]
+		fis2 e8[ c] e4)
+		dis h( a h)
+		e,8 e' e e c8. c16 e8 e %440
+		h h16 h e8 e a,[ h c d]
+		e4. d16[ c] h8[ e, e' d]
+		c[ d] e dis16[ e] fis4 h,
+		R1
+		d4( f! cis c %445
+		b2) a
+		b4( c d2
+		e4 fis) h, cis8([ e]
+		fis4 g cis,) a
+		h2 h4 r8 dis %450
+		e4 r8 e dis4 r8 dis
+		e4 r8 e dis4 e
+		h r e( g
+		dis d c2)
+		h4 e2( dis4 %455
+		e8[ e, gis h] a[ e]) e r
+		R1*2
+		r2 d'4( f
+		cis c b2) %460
+		a4 d2( cis4
+		d) fis, g2
+		d'4 r r2
+		R1
+		r2 c4( e %465
+		h b a2)
+		g8 h[ d f] e-! c[ e g]
+		g, h[ d f] e c[ e g]
+		g,[ d'] e4 d4. c8~
+		c[ h16 a] h4 c8 e,[ g b] %470
+		a f[ a c] c, e[ g b]
+		a f[ a c] c,4 c'~
+		c a d( \once\tieDashed c~
+		c d8[ e] f[ e] d4)
+		e r d f %475
+		cis c b8[ g b d]
+		cis4 d2 e4
+		d2 cis4 d~
+		d8[ g,] c4. a8 b4~
+		b8[ c16 b] a8[ d,] d'2 %480
+		c! h8 e e e
+		c c e e h h16 h e8 e
+		a,2( h4) a
+		f'( e8[ d] c4 f
+		e a, gis e') %485
+		c r8 a h4 r8 h
+		c4 r8 c h4 r8 cis
+		d[ c h a] gis[ h c d]
+		e4 h cis r8 cis
+		d4 r8 d cis4 r8 cis %490
+		d4 r8 d a4 a
+		a1
+		a2 r \bar "|." %493 FINIS
 	}
 }
 
 CumSanctoTenoreLyrics = \lyricmode {
+	Cum San -- cto Spi -- ri -- tu %423
+	in glo -- ri -- a
+	De -- i Pa -- _ _ %425
+	_ _ _ _ _ _
+	_ _ tris.
+	Cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa --
+	%430
+	tris, a --
 	
+	men, a --
+	
+	men, a -- %435
+	men, a --
+	men, a --
+	
+	men, a --
+	men. Cum San -- cto Spi -- ri -- tu in %440
+	glo -- ri -- a De -- i Pa --
+	_ _ _
+	_ _ [tris, a] -- men,
+	
+	a -- %445
+	men,
+	[a] --
+	men, a --
+	men,
+	a -- [men, a] -- %450
+	_ _ _ _
+	_ _ _ _
+	men, a --
+	
+	men, a -- %455
+	men,
+	
+	a -- %459
+	%460
+	men, a --
+	men, a --
+	[men,]
+	
+	a -- %465
+	
+	[men,] a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, a -- %470
+	_ _ _ _
+	_ _ men, a --
+	men, a --
+	
+	men, a -- _ %475
+	_ _ _
+	_ _ _
+	_ men, a --
+	_ _ _
+	_ _ %480
+	_ men. Cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	[Pa] -- tris,
+	a --
+	%485
+	men, a -- _ _
+	_ _ _ _
+	_ _
+	_ _ men, a --
+	_ _ _ _ %490
+	_ _ _ men,
+	a --
+	men. %493 FINIS
 }
 
 % CredoTenoreNotes = {

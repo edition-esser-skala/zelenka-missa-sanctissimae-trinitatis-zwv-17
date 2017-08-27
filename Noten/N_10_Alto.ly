@@ -657,7 +657,7 @@ CumSanctoAltoNotes = {
 		r g e a1. %425
 		g2 e g a1.~
 		\tempoCumSanctoB a2 gis fis gis1\fermata r2 \bar "||"
-		\clef treble \time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga
 			\unset Staff.timeSignatureFraction
 		R1*3 %430
 		r8 a a a g g h h
@@ -727,8 +727,8 @@ CumSanctoAltoNotes = {
 }
 
 CumSanctoAltoLyrics = \lyricmode {
-	Cum San -- cto Spi -- ri -- tu %423
-	in glo -- ri -- a
+	[Cum San -- cto Spi -- ri -- tu %423
+	in glo -- ri -- a]
 	De -- i Pa -- %425
 	_ _ _ _
 	_ _ tris.
