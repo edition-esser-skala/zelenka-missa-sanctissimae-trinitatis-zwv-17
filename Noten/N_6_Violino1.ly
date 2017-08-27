@@ -648,7 +648,79 @@ CumSanctoViolinoI = {
 		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
-		
+		r4 g''\fE e g e c d g d g d h
+		c g' c, g' c, fis g d h d g, h
+		c g' c, g' e g a f c f a, f %425
+		g g' c, e h g a a' f a d, a'
+		\tempoCumSanctoB c2 h a h1\fermata r2 \bar "||"
+		\time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		r8 e, e e c c e e
+		h h16 h e8 e a, h c d
+		e d c h16 a h8 e, e' d %430
+		c a r4 e4 g
+		dis d c2
+		h4 e2 dis4
+		e8 g c h a e c a
+		e' e' cis a d, d'16 c? h8 a %435
+		gis h a c e,4 r
+		r2 e'4 g
+		dis d c2
+		h4 e2 dis4
+		r8 e e e c8. c16 e8 e %440
+		h h16 h e8 e a, h c d
+		e4. d16 c h8 e, e' d
+		c d e8.(\trill d32 e) fis8.(\trill e32 fis) gis8.(\trill fis32 gis)
+		<a c, e, a,>4 c, gis g
+		f2 e4 a %445
+		b8 c d4. a8 d4~
+		d c4 d8 d, d'8.(\trill cis32 d)
+		e8.(\trill dis32 e) fis8.(\trill e32 fis) gis8.(\trill fis32 gis) a8.(\trill gis32 a)
+		h4.\trill a16 g a4.\trill g16 fis
+		g8 a h a16 g dis8 h[ dis fis] %450
+		e h[ e g] fis h,[ dis fis]
+		e h[ e g] fis4 e~
+		e dis e g
+		dis d c2
+		h4 e2 dis4 %455
+		e r a, c
+		gis g f!2
+		e4 a2 g8 f
+		e4 r d' f
+		cis c b2 %460
+		a4 d2 cis4
+		r8 d d d h! h d d
+		a a16 a d8 d g, a h cis
+		d c h a16 g a8 d, d' c
+		h4. a16 h c4 e %465
+		h b a2
+		<g' h, d, g,>8 q q q c, g c e
+		<g h, d, g,> q q q c, g c e
+		d g, c4. h8 e4
+		d4.\trill c8 c c[ e g] %470
+		f c[ f a] g c,[ e g]
+		f c[ f a] g4-! a-!
+		e8 c f2 e4
+		a8 d, a'2 g4
+		r8 a a a f f a a %475
+		e e16 e a8 a d, e f g
+		a g f e16 d e8 a, a' g
+		fis d g2 f?4
+		es16 es es es es es c' es, d d d d d d b' d,
+		c c c c c c a' c, c c c c h! h f' h, %480
+		h h h h a a c a a a e' a, gis8 e
+		a'4\f c gis g
+		f8.(\trill e32 f) fis8.(\trill e32 fis) gis8.(\trillE fis32 gis) a4~
+		a8 gis16 fis? gis8. a16 a8 c-! h-! a-!
+		gis4-! a-! <gis h, d,>8 q q q %485
+		<a c, e, a,> q q q <gis h, d,> q q q
+		<a c, e,>[ q q] a, e' d cis e
+		f e d16 d d d d d h' d, c c a' c,
+		h h e a, gis4 <a' cis, e, a,>8 q q q
+		d, a d f <a cis, e, a,> q q q %490
+		d, a d f e cis d g
+		<< { \oneVoice f d f2 e8 d } \\ { s2 \tempoCumSanctoFinis s } >>
+		e2 r \bar "|." %493 FINIS
 	}
 }
 
