@@ -1447,12 +1447,262 @@ CredoBassiOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoCredo
-		\mvTr c'8\fE-\tuttiE-! c,-! c c c' c, c16 d32 e f g a h
+		\mvTr c'8\fE-\solo-! c,-! c c c' c, c16 d32 e f g a h
+		c8 c, r4 r8 c' h a
+		g f e d c c' h16 c h
+		a g a g f e f e d c8 e16 d c d e f
+		g8 g, r \appoggiatura { d'16[ e] } f8\p e16 c e c \tuplet 3/2 8 { e16-! d-! c-! e[-! d-! c] } %5
+		g'8 g, r16 g' a h c8 c h g
+		c\p c h g c\f c h g
+		c h a g f e \once \tieDashed d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c }
+		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e } %10
+		f8 e d c h a g f
+		e d c e g f e c
+		g' f e d c e f g
+		es\p d c es g f es c
+		g' f es d c as' f g %15
+		e!16\f e e e e e e e f f f f f f f f
+		fis fis fis fis fis fis fis fis g g g g g g g g
+		gis gis gis gis gis gis gis gis a a a a a a a a
+		a b g a f g e f d e c d h? g c c'
+		a b g a f g e f d e c d h? c a h %20
+		g4-! g-! g-! r8 g'
+		c es, f g c\p es, f g
+		c c,-\tasto c'16( b) b( as) as( g) g( fis) \slurDashed fis( c') c( es) \slurSolid
+		es?( d) d( cis) cis( d) d( c) c( h) h( d) g16 f32-! e?-! d-! c h a
+		g4 g g r16 e f g %25
+		a8 e f g c e,(\p f g)
+		a e-!\f f-! g-! c e,(\p f g)
+		c16\f h32 a g f e d c8 c' r e,\p f a
+		g c r e,\f f4 g
+		c8-\tuttiE c, c c c' c, c16 d32 e f g a h %30
+		c8 c, r4 r8 c' h a
+		g f e d c c' h a
+		g f e d c e16 d c d e f
+		g8 g, r f' e16 c e c \tuplet 3/2 8 { e16 d c e[ d c] }
+		g'8 g, r16 g' a h c8 c h g %35
+		c c h g c c h g
+		c h a g f e \tieDashed d16~ \hideTn \tuplet 7/6 8. { d32 e f g a h c }
+		d8 c h a g f e16~ \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~ \hideTn \tuplet 7/6 8. { f32 g a h c d e } \tieSolid
+		f8 e d c h a g f %40
+		e d c e g f e c
+		g' f e d c e f g
+		es-\solo d c es g f es c
+		g' f\p es d c as'\f f g
+		e!16-\tutti e e e e e e e f f f f f f f f %45
+		fis fis fis fis fis fis fis fis g g g g g g g g
+		gis gis gis gis gis gis gis gis a a a a a a a a
+		a b g a f g e f d e c d h? g c c'
+		a b g a f g e f d e c d h? c a h
+		g4 g g16 g' d h c8 g' %50
+		c es, f g c es, f g
+		c c, \slurDashed c'16(-\tasto-\solo b) b( as) as( g) g( fis) fis( d) d'( c)
+		b( a) a( g) g( f) f( es) es( d) d( cis) \slurSolid cis a a' g
+		f-! d-! b'8 g a fis16-! d-! g8 c, d
+		h!16 h' h h h h h h c c c c c c c c %55
+		cis cis cis cis cis cis cis cis d d d d d d d d
+		dis dis dis dis dis dis dis dis e e e e e e e e
+		e f! d e c d h c a h g a fis d g g,
+		e' f d e c d h c a' h g a fis d g g,
+		d'4-! d-! d16 d' a fis d8 d' %60
+		g, b c d\p g, b, c d\f
+		g c d d, r e r c
+		d4 r8 d' h4 c
+		r8 g c d g, e c d
+		g \mvTr h\pE-\solo fis d g,16 g' d h g8 g'16 fis %65
+		e8 h' e d c h16 a g8 fis
+		e c' a ais h,16 h' fis dis h8 h'\fE
+		e g, a h\p e, g, a h\f
+		e e, e''16(-\tasto d) d( c) c( h) h( ais) ais e e g
+		g f!([ e dis)] e c'([ h ais)] h8 a? gis e %70
+		a,16-\tutti a' e c a a' e c a8 a'16-\solo gis a8 ais
+		h,16-\tutti h' fis dis h h' fis dis h8 \mvTr cis?\p-\solo dis h
+		e c'16 h a8 fis? h a gis e
+		a g fis d g fis e c
+		fis e dis h \mvTr e16\fE-\tutti e' h g e e' h g %75
+		a4 h e,8 fis g e
+		h' a g e h' a g fis?
+		e c' a h r e, r a,-\solo
+		h4 r8 h' g r a r
+		r e a h e, c' a h %80
+		e, \mvTr fis\pE-\org g h16 a g8 fis16 e dis8 h
+		e fis g fis e d c g'
+		a g fis e \mvTr d16\f-\rip d' a fis d d' a fis
+		d8 \mvTr c\pE-\org h g c4 d
+		g,16 \mvTr g'\f-\rip d h g g' e c d4 \mvTr e\p-\org %85
+		a,16 \mvTr a'\f-\rip e c a a' e c d4 r8 \mvTr h\p-\org
+		e4 r8 d c4 r8 a
+		d4 r8 c h4 e8 d
+		c h a d \tempoCredoB e2^\adlibitumE
+		\tempoCredoC \mvTr a8\fE-\tutti a, a a a' a, a16 h32 c d e fis gis %90
+		a8 a, r4 r16 a' e c a a' e c
+		a8 a a a a16 a' e c a a' h g
+		c8 c, c c c' c, c16 d32 e f g a h
+		c8 c, r4 r16 c' g e c c' g e
+		c8 c c c c16 c' g e c c' g e %95
+		c8 c' h a g f e d
+		c c' h a g f e d
+		c e16 d c d e f g8 g, g' f
+		e c e c g' g, r16 g' a h
+		c8 c h g c c h g %100
+		c c h g c h a g
+		f e \once \tieDashed d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c } d8 c h a
+		g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d } e8 d c h
+		a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e } f8 e d c
+		h a g f e d c e %105
+		g f e c g' f e d
+		c e f g es d-\solo c es
+		g f es c g' f\p es d\f
+		c as' f g e!16-\tutti e e e e e e e
+		f f f f f f f f fis fis fis fis fis fis fis fis %110
+		g g g g g g g g gis gis gis gis gis gis gis gis
+		a a a a a a a a a b g a f g e f
+		d e c d h! g c c' a b g a f g e f
+		d e c d h! c a h g4 g
+		g16 g' d h g8 g' c es, f g %115
+		c es, f g c as f g
+		c,16 c' g es c8 \mvTr g'\p-\solo c es, f \mvTr g\f-\tutti
+		c es, f g c as f g
+		c c, c'16(-\tasto-\solo b) b( as) as( g) g( fis) fis( c') c( es)
+		es?( d) d( cis) cis( d) d( c) c( h) h( d) g16-! f32-! e?-! d-! c h a %120
+		g4 g g r16 e f g
+		a8 e f g c e,([\pE f g)]
+		a-! e-!\fE f-! g c e,([\pE f g)]
+		c16 h32 a g f e d c8-! c'-! r e,-! f a
+		g-! c-! r e, f4 g %125
+		c, r r2 \bar "||" %126 finis
 	}
 }
 
 CredoBassFigures = \figuremode {
-	
+	r1
+	r
+	r
+	r
+	r4. <4 2>8 <6>2 %5
+	r1
+	r
+	r
+	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8>4 <5>
+	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8>4 <5> %10
+	q q <6>2
+	r1
+	r
+	r
+	r %15
+	r
+	<6 5>2. <6>4
+	<6 5>2. <6>4
+	<6>8 q q q q <8> r4
+	<6>8 q q q q <8> <6> <5> %20
+	<7>4 <\t> <\t> r
+	<_->2 q
+	q1
+	r
+	<7>2. r16 <6>8. %25
+	<5>1
+	r
+	r
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r %35
+	r
+	r4 <5> q2
+	<_+>4 <5+ 3> <5 3> <5>
+	<7 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
+	r1 %40
+	r
+	r
+	r
+	r
+	<6>2 <5> %45
+	<6> <5>
+	<6> <5>
+	<6>8 q q q q <8> <6> r
+	q q q q q <8> <6> r
+	<7>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff r4 %50
+	<_->4 q q q
+	q1
+	r2. <6>4
+	q4. <_+>8 r4 <_->8 <_+>
+	<6>2. q4 %55
+	q2. q4
+	q2 <5>4 <6>
+	q8 q q q <6\\> <8> <6> r
+	q q q q <6\\> <8> <6>4
+	<7 _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff r4 %60
+	<_->4 q8 <_+> <_->4 q8 <_+>
+	<_!> q <_+>4 r8 <6> r q
+	<5 _+> <6 4> r <_+> <6>4 q
+	r4. <_+>8 r2
+	r <5 3>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff r4 %65
+	r8 <[5+] _+> r4 r8 <[5+] _+> <6> r
+	r4 <6\\>8 <5> <5+ _+>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <[5+] _+>4
+	r8 <6> r <[5+] _+> r2
+	r1
+	r2 <[5+] _+>4 <6> %70
+	r1
+	r
+	r4 <6\\ 3> <9 _+> <3>
+	<9> <3> <9> <3>
+	<9> <3> <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff %75
+	<5>4 <[5+] 4>8. <\l _+>16 r2
+	<6 4>8 <4\+> <6> r <6 4> <4\+> <6>4
+	r <6\\>8 <_+> r4. <6\\>8
+	<5 _+> <6 4> r <[5+] _+> <6>4 q
+	r4. <[5+] _+>8 r4. q8 %80
+	r1
+	r2.. <5>8
+	q4. <6\\>8 <5 _+>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	r4 <6> r <_+>
+	r1 %85
+	r2 <_!>4. <5+>8
+	<_+>4. <4\+>8 <6>2
+	<_+>4. <4\+>8 <6>4 <_+>8 <\t>
+	<6> <6\\> r4 <4> <_+>
+	r1 %90
+	r
+	<6 4>4. \bassFigureExtendersOn q8 <5 3>4 q16 q \bassFigureExtendersOff <6>8
+	r1
+	r2 r16 <5 3>8. \bassFigureExtendersOn q8. q16
+	<6 4>4. q8 <5 3>4.. q16 \bassFigureExtendersOff %95
+	r4 <6> r q
+	r2. <6>4
+	r1
+	r
+	r %100
+	r2. <5>4
+	q q <5 _+> q
+	<5> q <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<5>4 q q2
+	<6>2 q %105
+	r1
+	r2 <6>
+	<_!>4 <6> r2
+	r4 <_->8 <_!> <6>4 <5->
+	r <6> <6> <5> %110
+	<5> <6> <6 5> <\t \t>
+	<5> <6> q8 q q q
+	q <8> <6> r q q q q
+	q <8> <6> q <7>2
+	<7 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_-> r q <_!> %115
+	<_->4 q r <_->8 <_!>
+	<5 _->8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_->8 <_!> <_-> r <_-> <_!>
+	r4 <_->8 <_!> r8 <[5-]> <_-> <_!>
+	r1
+	r %120
+	<7>2. r16 <6>8.
+	<5>1
+	r
+	r
+	r %125
+	r %126 finis
 }
 
 % SanctusBassiOrgano = {

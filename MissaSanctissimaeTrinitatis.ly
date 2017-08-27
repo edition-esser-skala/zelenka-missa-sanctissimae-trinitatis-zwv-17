@@ -99,6 +99,7 @@ piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "pi
 
 mvTr = \once \override TextScript.X-offset = #2
 mvTrr = \once \override TextScript.X-offset = #3
+hideTn = \once \override TupletNumber.stencil = ##f
 
 tempoMarkup =
 	#(define-music-function
@@ -135,6 +136,8 @@ tempoCumSancto = \tempoMarkup "Andante"
 	tempoCumSanctoFinis = \tempoMarkup "Adagio"
 
 tempoCredo = \tempoMarkup "Allegro"
+	tempoCredoB = \tempoMarkup "Adagio"
+	tempoCredoC = \tempoMarkup "[a tempo]"
 
 
 % modify the Scheme function 'format-bass-figure'
