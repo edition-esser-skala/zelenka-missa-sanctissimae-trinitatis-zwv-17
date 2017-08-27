@@ -496,7 +496,7 @@ CumSanctoBassoNotes = {
 		r e c f1. %425
 		e2 a g f1.
 		\tempoCumSanctoB e~ e1\fermata r2 \bar "||"
-		\time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga \newSpacingSection
 			\unset Staff.timeSignatureFraction
 		R1*9 %436
 		r8 a a a g g h h

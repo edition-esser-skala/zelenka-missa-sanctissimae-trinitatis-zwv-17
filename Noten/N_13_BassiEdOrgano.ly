@@ -1280,7 +1280,7 @@ CumSanctoBassiOrgano = {
 		r e c f1. %425
 		e2 a g f1.
 		\tempoCumSanctoB \once\tieDashed e~ e1\fermata r2 \bar "||"
-		\clef treble \time 4/4 \tempoCumSanctoFuga
+		\clef treble \time 4/4 \tempoCumSanctoFuga \newSpacingSection
 			\unset Staff.timeSignatureFraction
 		r8 e'-! e-! e-! c c e e
 		h h e e a, h c d

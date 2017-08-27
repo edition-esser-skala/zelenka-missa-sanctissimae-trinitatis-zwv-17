@@ -362,7 +362,79 @@ CumSanctoOboeII = {
 		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
-		
+		r4 g''\fE e g e c d g d g d h
+		c g' c, g' c, fis g d h d g, h
+		c g' c, g' e g a f c f a, f %425
+		g g' c, e h g a a' f a d, f
+		\tempoCumSanctoB a2 gis fis gis1\fermata r2 \bar "||"
+		\time 4/4 \tempoCumSanctoFuga \newSpacingSection
+			\unset Staff.timeSignatureFraction
+		R1*6 %433
+		r8 e e e c c e e
+		h h16 h e8 e a, h c d %435
+		e d c h16 a h8 e, e' d
+		c4 a e' g
+		dis d c2
+		h4 e2 dis4
+		e1~\fE %440
+		e2. d4~
+		d c8 d e d16 c h8 e
+		c d e8.(\trill d32 e) fis8.(\trill e32 fis) gis8.(\trill fis32 gis)
+		a4 c, gis g
+		f2 e4 a %445
+		b8 c d4. a8 d4~
+		d c2 h4
+		cis d2 cis4
+		dis e2 dis4
+		e2 dis8 h[ dis fis] %450
+		e h[ e g] fis h,[ dis fis]
+		e h[ e g] fis4 e~
+		e dis e g
+		dis d c2
+		h4 e2 dis4 %455
+		r8 e e e c8. c16 e8 e
+		h h16 h e8 e a, h c d
+		e d c h16 a h8 e, e' d
+		cis4.\trill h16 cis d4 cis8. d16
+		e4.\trill d16 e f8 e d e %460
+		cis4 a r2
+		r8 d d d h h d d
+		a a16 a d8 d g, a h cis
+		d c h a16 g a8 d, d' c
+		h4. a16 h c4 h8 c %465
+		d4. c16 d e8 d c4
+		h8 g h d c-! g c e
+		h g h d c g c e
+		d g, c4. h8 e4
+		d2\trill c4 r8 e %470
+		f4 r8 f e4 r8 e
+		f4 r8 f e4 r8 f
+		g e f a, g2
+		f8 c' f e d2
+		cis8 a' a a f f a a %475
+		e e16 e a8 a d, e f g
+		a g f e16 d e8 a, a' g
+		fis d g2 f?4
+		es2 d
+		c2. h4~ %480
+		h a h8 e[ e e]
+		c c e e h h e e
+		d4^\tenuto dis e8-! d?-! c h16 a
+		h4.\trill h8 a c d c
+		h e4 e e e8~ %485
+		e e4 e e e8~
+		e e4 e8~ e d cis e
+		f e d2 c4
+		h e e8 a,[ cis e]
+		d a[ d f] e a,[ cis e] %490
+		<< {
+			\oneVoice  d a[ d f] e cis d4~
+			d8 a d2 cis8 h
+		} \\ {
+			s1
+			s2 \tempoCumSanctoFinis s
+		} >>
+		cis2 r \bar "|." %493 FINIS
 	}
 }
 

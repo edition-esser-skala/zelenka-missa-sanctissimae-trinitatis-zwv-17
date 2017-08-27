@@ -450,7 +450,7 @@ CumSanctoOboeI = {
 		c g' c, g' e g a f c f a, f %425
 		g g' c, e h g a a' f a d, a'
 		\tempoCumSanctoB c,2 e e e1\fermata r2 \bar "||"
-		\time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga \newSpacingSection
 			\unset Staff.timeSignatureFraction
 		r8 e e e c c e e
 		h h16 h e8 e a, h c d

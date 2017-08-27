@@ -630,8 +630,8 @@ QuoniamViola = {
 
 CumSanctoViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
@@ -640,7 +640,7 @@ CumSanctoViola = {
 		c, e g e g e c f a f d' a %425
 		g e e' c, e g c, c' a f a d,
 		\tempoCumSanctoB e2 e e e1\fermata r2 \bar "||"
-		\time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga \newSpacingSection
 			\unset Staff.timeSignatureFraction
 		R1*3 %430
 		r8 a a a g g h h
@@ -668,7 +668,7 @@ CumSanctoViola = {
 		r8 h h h g g h h
 		fis fis h h e, fis g a
 		h a g fis16 e fis8 h, h' a %455
-		g e r4 a c
+		gis? e r4 a c
 		gis g f!2
 		e4 a2 g8 f
 		e a[ a a] f f a a

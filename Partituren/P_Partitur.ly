@@ -435,7 +435,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 CUM SANCTO SPIRITU" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {
@@ -501,7 +501,7 @@
 				>>
 				\new FiguredBass { \CumSanctoBassFigures }
 			>>
-% 			\midi { \tempo 4 = 90 }
+% 			\midi { \tempo 4 = 110 }
 		}
 	}
 % 	\bookpart {

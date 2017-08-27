@@ -646,7 +646,7 @@ CumSanctoViolinoII = {
 		c g' c, g' e g a f c f a, f %425
 		g g' c, e h g a a' f a d, f
 		\tempoCumSanctoB a2 gis fis gis1\fermata r2 \bar "||"
-		\time 4/4 \tempoCumSanctoFuga
+		\time 4/4 \tempoCumSanctoFuga \newSpacingSection
 			\unset Staff.timeSignatureFraction
 		R1*6 %433
 		r8 e e e c c e e
