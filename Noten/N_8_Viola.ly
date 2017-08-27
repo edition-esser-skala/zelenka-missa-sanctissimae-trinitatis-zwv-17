@@ -635,6 +635,77 @@ CumSanctoViola = {
 		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
+		r4 e\fE g e c e d d g d h d
+		e c e c fis c h h' g h d g,
+		c, e g e g e c f a f d' a %425
+		g e e' c, e g c, c' a f a d,
+		\tempoCumSanctoB e2 e e e1\fermata r2 \bar "||"
+		\time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		R1*3 %430
+		r8 a a a g g h h
+		fis fis16 fis h8 h e, fis g a
+		h a g fis16 e fis8 h, h' a
+		g4 e a c
+		gis g f2 %435
+		e4 a2 gis4
+		a4. gis16 a h2
+		a4 h8 a g2
+		fis4 g a fis
+		g gis a c %440
+		gis g f8 g a4
+		gis a e r
+		e g dis d
+		c2 h4 cis
+		d a'4. g8 fis a %445
+		g2 d4 f
+		g4. a16 g fis4 g
+		a4. h16 a h4-! a-!
+		fis g cis, a'
+		h8 a g fis16 e h8 dis[ fis a] %450
+		g e[ g h] h, dis[ fis a]
+		g e[ g h] h,[ fis' h g]
+		r8 h h h g g h h
+		fis fis h h e, fis g a
+		h a g fis16 e fis8 h, h' a %455
+		g e r4 a c
+		gis g f!2
+		e4 a2 g8 f
+		e a[ a a] f f a a
+		e e a a d, e f g %460
+		a g f e16 d e8 a, a' g
+		fis4 d g h
+		fis f e2
+		d4 g2 fis4
+		g8 f16 e d8 g, g'4. f16 e %465
+		f4 g4. f8 e a
+		d,4 r8 h' c4 r8 c
+		h4 r8 h c4 r8 c
+		h8. a16 g4 g g~
+		g8 d g8. g16 g8 e[ g b] %470
+		a f[ a c] c, e[ g b]
+		a f[ a c] c,4 c'~
+		c a d c
+		c, d8 e f e d b'
+		e,4 r d f %475
+		cis c b'2
+		a4. a8 g f e f16 g
+		a8 a, d8.(\trill cis32 d) e8.(\trill d32 e) f8 a
+		b16 b b b a a a a a a d a g g g g
+		g g c g a a d, d d d g d d d d d %480
+		c c e e c c a' c, h4 r8 h
+		e e4 e e e8
+		a2 h4 a8 g
+		f4 e8 d c4 f
+		e e e r8 e %485
+		c' e r e, h' e r e,
+		c' e r e, h' e r cis
+		d c h a gis4-! a-!
+		e e, r8 cis' e g
+		f d[ f a] a, cis[ e g] %490
+		f d[ f a] cis, e a4
+		a4. a8 \tempoCumSanctoFinis a2
+		a r \bar "|."
 	}
 }
 
