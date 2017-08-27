@@ -445,7 +445,79 @@ CumSanctoOboeI = {
 		\key a \minor \time 6/2 \tempoCumSancto
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #423
-		
+		r4 g''\fE e g e c d g d g d h
+		c g' c, g' c, fis g d h d g, h
+		c g' c, g' e g a f c f a, f %425
+		g g' c, e h g a a' f a d, a'
+		\tempoCumSanctoB c,2 e e e1\fermata r2 \bar "||"
+		\time 4/4 \tempoCumSanctoFuga
+			\unset Staff.timeSignatureFraction
+		r8 e e e c c e e
+		h h16 h e8 e a, h c d
+		e d c h16 a h8 e, e' d %430
+		c a[ a a] g g h h
+		fis fis h h e, fis g a
+		h a g fis16 e fis8 fis h a
+		g e r4 r2
+		r8 e' cis a d, d'16 c? h8 a %435
+		gis h a c e,4 r
+		r2 e'4 g
+		dis d c2
+		h4 e2 dis4
+		e1~\f %440
+		e2. d4~
+		d c8 d e d16 c h8 e
+		c d e8.(\trill d32 e) fis8.(\trill e32 fis) gis8.(\trill fis32 gis)
+		a4 c, gis g
+		f2 e4 a %445
+		b8 c d4. a8 d4~
+		d c4 d8 d, d'8.(\trill cis32 d)
+		e8.(\trill dis32 e) fis8.(\trill e32 fis) gis8.(\trill fis32 gis) a8.(\trill gis32 a)
+		h4.\trill a16 g a4.\trill g16 fis
+		g8 a h a16 g dis8 h[ dis fis] %450
+		e h[ e g] fis h,[ dis fis]
+		e h[ e g] fis4 e~
+		e dis e g
+		dis d c2
+		h4 e2 dis4 %455
+		r8 e e e c8. c16 e8 e
+		h h16 h e8 e a, h c d
+		e d c h16 a h8 e, e' d
+		cis4.\trill h16 cis d4 cis8. d16
+		e4.\trill d16 e f8 e d e %460
+		cis4 a r2
+		r8 d d d h h d d
+		a a16 a d8 d g, a h cis
+		d c h a16 g a8 d, d' c
+		h4. a16 h c4 h8 c %465
+		d4. c16 d e8 d c4
+		h8 g h d c-! g c e
+		h g h d c g c e
+		d g, c4. h8 e4
+		d2\trill c4 r8 e %470
+		f4 r8 f e4 r8 e
+		f4 r8 f e4 r8 f
+		g e f a, g2
+		f8 c' f e d2
+		cis8 a' a a f f a a %475
+		e e16 e a8 a d, e f g
+		a g f e16 d e8 a, a' g
+		fis d g2 f?4
+		es2 d
+		c2. h4~ %480
+		h a h r
+		a' c gis g
+		f8.(\trill e32 f) fis8.(\trill e32 fis) gis8.(\trillE fis32 gis) a4~
+		a8 gis16 fis? gis8. a16 a8 a, d c
+		h e4 e e e8~ %485
+		e e4 e e e8~
+		e e4 e8~ e d cis e
+		f e d2 c4
+		h e e8 a,[ cis e]
+		d a[ d f] e a,[ cis e] %490
+		d a[ d f] e cis d g
+		<< { \oneVoice f d f2 e8 d } \\ { s2 \tempoCumSanctoFinis s } >>
+		e2 r \bar "|." %493 FINIS
 	}
 }
 
