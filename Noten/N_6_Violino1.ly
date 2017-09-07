@@ -728,7 +728,151 @@ CredoViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		c'8-!\fE c,-! c-! c c' c, c16\trill d32 e f g a h
+		c8 c, r4 r8 c' h16 c a c
+		g c f, c' e, c' d, c' c,8 c' h16 c h a
+		g a g f e f e d c8 e16 d c d e f
+		g8 g, r \appoggiatura { d'16[ e] } f8\p e16 c e c \tuplet 3/2 8 { e16[-! d-! c] e-! d-! c } %5
+		g'8 g, r16 g'\f a h c g' g g d g, f' d
+		\tuplet 3/2 8 { e16[\p f g] } g g d16 g, \tuplet 3/2 8 { f'[ e d] } e32-!\f g-! fis-! g-! fis g fis g d( g,16.) f'?32( d16.)
+		<< {
+			e16 e e e e e e e f f f f f f f f
+			fis fis fis fis fis fis fis fis g g g g g g g g
+			gis gis gis gis gis gis gis gis a a a a a a a a %10
+		} \\ {
+			c, c c c c c c c a a a a a a a a
+			a a a a a a a a h h h h h h h h
+			h h h h h h h h c c c c c c c c %10
+		} >>
+		a' b g a f g e f d e c d h? c a h
+		g8 h c4. d16 h \appoggiatura h8 c4~
+		c8 d16 h c8-! f-! e4-! d-!
+		g,8(\p h) c4~ c16( g') g( h,) \appoggiatura h8 c4~
+		c16( g') g( h,) c8 f es32( d c8.) d8-! h-! %15
+		c\f h a g f e d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c }
+		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e }
+		f8-! e-! d g h,16-! g c-! g d'-! g, e'-! g,
+		f'8-! e-! d g h,16-! g c-! g d'-! g, e'-! g, %20
+		<f' h, d, g,>4-! q-! q-! r16 f es d
+		es32( d c8.)~ c16 f([\p es d)] es32( d c8.)~ c16 f[\f-! es-! d-!]
+		es( d) d( c) c( b) b) as) as( g) g( fis) fis( c') c( es)
+		es( d) d( cis) cis( d) d( c) c( h) h( d) g f32-! e-! d-! c-! h-! a
+		<f' h, d, g,>8-! q-! q-! q-! q4 r16 e, f g %25
+		a8 e f g c e,(\p f g)
+		a e-!\f f-! g-! c e,(\p f g)
+		c16\f h32 a g f e d c8 c' r e,\p f a
+		g c r e,\f f4 g
+		c8 c, c c c' c, c16 d32 e f g a h %30
+		c8 c, r4 r8 c' h16 c a c
+		g c f, c' e, c' d, c' c,8 c' h16 c h a
+		g a g f e f e d c8 e16 d c d e f
+		g8 g, r \appoggiatura { d'16[ e] } f8 e16 c e c \tuplet 3/2 8 { e16[-\critnote d c] e d c }
+		g'8 g, r16 g' a h c g' g g d g, f' d %35
+		\tuplet 3/2 8 { e16[ f g] } g g d16 g, \tuplet 3/2 8 { f'[ e d] } e32 g-! fis-! g-! fis-! g-! fis-! g-! d( g,16.) f'?32( d16.)
+		<< {
+			e16-! e-! e-! e e e e e f f f f f f f f
+			fis fis fis fis fis fis fis fis g g g g g g g g
+			gis gis gis gis gis gis gis gis a a a a a a a a
+		} \\ {
+			c, c c c c c c c a a a a a a a a
+			a a a a a a a a h h h h h h h h
+			h h h h h h h h c c c c c c c c
+		} >>
+		a' b g a f g e f d e c d h? c a h %40
+		g8 h c4. d16 h \appoggiatura h8 c4~
+		c8 d16 h c8 f e4-! d-!
+		g,8 h c4~ c16 g' g h, \appoggiatura h8 c4~
+		c16 g'\p g h, c8 f\f es32( d c8.) d8( h)
+		c-!\ff h-! a-! g-! f e d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c } %45
+		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e }
+		f8-! e-! d g h,16 g c g d' g, e' g,
+		f'8-! e-! d g h,16 g c g d' g, e' g,
+		<f' d d, g,>4-! q-! q-! r16 f es d %50
+		es32 d c8.~ c16 f([ es d)] es32 d c8.~ c16 f[-! es-! d-!]
+		es( d) d( c) c( b) b) as) as( g) g( fis) fis( d) d'( c)
+		b( a) a( g) g( f) f( es) es( d) d( cis) cis a a' g
+		f-! d-! b'8 g a fis16 d g8 c, d
+		g'-! fis-! e d c h a16~\trill \hideTn \tuplet 7/6 8. { a32 h c d e fis g } %55
+		<a cis, e,>8 g[ fis e] d c? h16~\trill \hideTn \tuplet 7/6 8. { h32 c d e fis g a }
+		<h dis, fis,>8 a[ g fis] e d? c16~\trill \hideTn \tuplet 7/6 8. { c32 d e fis g a h }
+		c8-! h-! a d fis,16-! d g-! d a' d, h' d,
+		c'8-! h-! a d fis,16 d g d a' d, h' d,
+		<c' fis, d,>4-! q-! q-! r16 c b a %60
+		b16 a g8~ g16 c,\p b a b32 a g8.~ g16 c'\f h a
+		h! g a e fis8.\trill g16 c,4-! a'-!
+		r8 h, a[ fis'] r <g h, d, g,> r a
+		<fis a, d,>[ <g h, d, g,>] c, d g, e c d
+		g,4 r r16 g'\p d h g8 g'16 fis %65
+		e8 h' e16 f? d e c8 h16 a g a fis g
+		e8-! c'-! a ais r16 h fis dis h a''?\f g fis
+		g32 fis e8.~ e16 a,\p g fis g32 fis \once\tieDashed e8.~ e16 a'\f g fis
+		g( fis) fis( e) e( d) d( c) \slurDashed c( h) h( ais) ais( e') e( g) \slurSolid
+		g f([ e dis)] e \once\slurDashed c[( h ais)] h8 a? gis e %70
+		a16 a' e c a a' e c a4 r8 ais
+		h,16 h' fis dis h h' fis dis h4 r
+		r c''2\p h4~
+		h a2 g4~
+		g fis8 dis e,16\fE e' h g e e' h g %75
+		c4-! h8 dis e h e4~
+		e16 h' h dis, \appoggiatura dis8 e4~ e16 h' h dis, e8 a
+		g32( fis? e8.) fis?8 dis <e h e,>-! r <fis a,> r
+		r g, fis? dis' r <e h e,> r <fis a,>
+		<dis fis,?> <e h e,> a,[ h] e, c a h %80
+		e fis\p g h16 a g8 fis16 e dis8 h
+		e fis g16 a fis g e8 h' e16 f? d e
+		c d h c a h g cis r d\f a fis d d' a fis
+		d e c d h8 d'\mf e,16 g c a fis a d a
+		h g-!\f d-! h-! g g' e c fis?(\p a) d( fis,) gis( h) e( h) %85
+		c a\f-! e-! c-! a a' e c f'!32(\mf e16.) d32( c16.) h16 d-! d-! d-!
+		gis, d' d d gis, h h h e32( d16.) c32( h16.) a16 c c c
+		fis, c' c c fis, a a a d32( c16.) h32( a16.) gis16 h h h
+		e, d' d d c8 d, \tempoCredoB e2^\adlibitumE
+		\tempoCredoC a8\fE a, a a a' a, a16 h32 c d e fis gis %90
+		a8 a, r4 r16 a' e c a a' e c
+		a8 a a a a16 a' e c a a' h g
+		c8 c, c c c' c, c16 d32 e f g a h
+		c8 c, r4 r16 c' g e c c' g e
+		c8 c c c c16 c' g e c c' g e %95
+		c8 c' h16 c a c g c f, c' e, c' d, c'
+		c,8 c' h16 c h a g a g f e f e d
+		c8 e16 d c d e f g8 g, g' f
+		e c e c g' g, r16 g' a h
+		c g' g g d g, f' d \tuplet 3/2 8 { e[( f g]) } g g d g, \tuplet 3/2 8 { f'([ e d)] } %100
+		e32-! g-! fis-! g fis g fis g d32[ g,16.] f'32 d16. << {
+			e16 e e e e e e e
+			f f f f f f f f fis fis fis fis fis fis fis fis
+			g g g g g g g g gis gis gis gis gis gis gis gis
+			a a a a a a a a
+		} \\ {
+			c, c c c c c c c
+			a a a a a a a a a a a a a a a a
+			h h h h h h h h h h h h h h h h
+			c c c c c c c c
+		} >> a' b g a f g e f
+		d e c d h c a h g8 h c4~ %105
+		c8 d16 h c4~ c8 d16 h c8 f
+		e4-! d-! g,8 h c4~
+		c16 g' g h, \appoggiatura h8 c4~ c16 g'\p g h, c8 f\f
+		es32( d c8.) d8 h c h a g
+		f e \once\tieDashed d16~\trillE \hideTn \tuplet 7/6 8. { d32 e f g a h c } d8 c h a %110
+		g f \once\tieDashed e16~\trillE \hideTn \tuplet 7/6 8. { e32 f g a h c d } e8 d c h
+		a g \once\tieDashed f16~\trillE \hideTn \tuplet 7/6 8. { f32 g a h c d e } f8 e d g
+		h,16 g c g d' g, e' g, f'8 e d g
+		h,16 g c g d' g, e' g, <f' d d, g,>4 q
+		q r16 f es d es32( d c8.)~ c16 f es d %115
+		es32( d c8.)~ c16 f es d es32 d c8. d8 h
+		c4 r16 f,\p es d es32 d c8.~ c16 f'\f es d es32( d c8.)~
+		c16 f, es d es8 c' d, h'
+		c16 es es( d) c( b) b( as) as( g) g( fis) \once\slurDashed fis( c') c( es)
+		es( d) d( cis) cis( d) d( c?) c( h) h( d) g-! f32-! e-! d-! c h a %120
+		<f' d d, g,>8-! q-! q-! q-! q4 r16 e, f g
+		a8 e f g c-! e,([\p f g)]
+		a-! e-![\f f-! g-!] c-! e,([\p f g)]
+		c16\f h32 a g f e d c8-! c'-! r e,-! f-! a-!
+		g-! c-! r e, f4 g %125
+		c, r r2 \bar "||" %126 FINIS
 	}
 }
 

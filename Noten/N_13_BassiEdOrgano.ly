@@ -1452,7 +1452,7 @@ CredoBassiOrgano = {
 		g f e d c c' h16 c h
 		a g a g f e f e d c8 e16 d c d e f
 		g8 g, r \appoggiatura { d'16[ e] } f8\p e16 c e c \tuplet 3/2 8 { e16-! d-! c-! e[-! d-! c] } %5
-		g'8 g, r16 g' a h c8 c h g
+		g'8 g, r16 g'\fE a h c8 c h g
 		c\p c h g c\f c h g
 		c h a g f e \once \tieDashed d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c }
 		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
