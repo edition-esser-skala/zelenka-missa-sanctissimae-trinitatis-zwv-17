@@ -951,12 +951,147 @@ CredoSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*29 %29
+		\mvTr e'4\fE^\tuttiE e e2~ %30
+		e e8 e d d
+		d d e4 e8 e d d
+		d d e4 e8 e e e
+		d4 d8 d c c c c16 c
+		h8 h d d e e16 e d8 d16 d %35
+		e8 e d d e8. e16 d4
+		r4 c8 c c c d8. d16
+		d4 d4. d8 e4
+		e e e8 e f4~
+		f8 f f([ e)] d([ c)] h a %40
+		g4 c8 c h h e4
+		d c8 h c c16 c c8 h
+		c4 r r2
+		R1
+		c8([ h)] a g f([ e)] d a' %45
+		d([ c)] h([ a)] g8. f16 e4
+		e'8([ d)] c([ h)] a([ g)] f c'
+		f([ e)] d([ g)] h,([ c d e]
+		f[ e d g] h,[ c d e]
+		f2) f4 r8 d %50
+		es es r d es es d4
+		c r r2
+		R1*12 %64
+		\mvTr d8.\pE^\solo d16 d8 c h([ a)] h4 %65
+		r g'8 fis e dis e4~
+		e8([ fis?16 g] fis8) e dis8.([ cis?16)] h4
+		R1*2
+		r2 r4 \mvTr e8\fE^\solo d %70
+		c8.^\tutti c16 c4 r e8^\solo fis
+		dis8.^\tutti dis16 dis4 r \mvTr fis8\pE^\solo a
+		g4 fis8 e dis16[ h cis dis] e[ fis d? e]
+		cis[ a h cis] d[ e c d] h[ g a h] c[ d h c]
+		a[ fis g a] h[ c a h] \mvTr g8[\fE^\tuttiE e g h] %75
+		c4 h h r8 e~
+		e dis e4. dis8 e([ dis)]
+		e4( fis?8) dis e4 r
+		R1*12 %90
+		\mvTr c2\fE^\tuttiE c4 c8 c
+		d4. d8 c4 r
+		R1
+		e2 e4 e8 e
+		f4. f8 e4 r %95
+		r8 e d d d4 e8 e
+		e4 d8 d d4 e8 e
+		e2( d
+		c) h8 d d d
+		e4 d8 d e4 d8 d %100
+		c4 d8 d c2~
+		c4 d2.~
+		d4 e2.~
+		e4 f2~ f8[ e]
+		d[ c h a] g4 r8 c %105
+		h g r e' d4 c8 h
+		c4.( h8) c4 r
+		R1
+		r4 r8 h c([ h)] a g
+		f[ e] d16[ a' h c] d8[ c h a] %110
+		g[ f] e16[ h' c d] e8[ d c h]
+		a[ g] f16[ c' d e] f8[ e d g]
+		h,[ c d e] f[ e d g]
+		h,[ c d e] f2
+		f4 r8 f es c r d %115
+		es c r d es( c4 h8)
+		c4 r r r8 d
+		es es r d es( c4 h8)
+		c4 r r2
+		R1*7 \bar "|." %126 finis
 	}
+	
 }
 
 CredoSopranoLyrics = \lyricmode {
+	Cre -- do, cre -- %30
+	do, [cre -- do in
+	u -- num De -- um. Pa -- trem o --
+	mni -- po] -- ten -- tem, fa -- cto -- rem
+	coe -- li, fa -- cto -- rem coe -- li et
+	ter -- rae, vi -- si -- bi -- li -- um o -- mni -- um %35
+	et in -- vi -- si -- bi -- li -- um.
+	Et in u -- num Do -- mi --
+	num Je -- sum Chri --
+	stum, Fi -- li -- um De --
+	i u -- ni -- ge -- ni -- %40
+	tum, et ex Pa -- tre na --
+	tum an -- te o -- mni -- a sae -- cu --
+	la.
 	
+	De -- um de De -- o, lu -- %45
+	men __ de __ lu -- mi -- ne,
+	De -- us __ ve -- rus de
+	De -- o __ ve --
+	
+	ro, de %50
+	De -- o, [de De -- o ve --
+	ro.]
+	
+	Ge -- ni -- tum, non fa -- ctum %65
+	con -- sub -- stan -- ti -- a --
+	lem Pa -- tri:
+	
+	Per quem %70
+	o -- mni -- a, per quem
+	o -- mni -- a, per quem
+	o -- mni -- a fa -- _
+	_ _ _ _
+	_ _ _ %75
+	_ cta sunt, per 
+	quem o -- mni -- a __
+	fa -- cta sunt.
+	
+	[Qui pro -- pter nos %91
+	ho -- mi -- nes,]
+	
+	[qui pro -- pter nos
+	ho -- mi -- nes] %95
+	et pro -- pter no -- stam sa --
+	lu -- tem de -- scen -- dit, de
+	coe --
+	lis, et pro -- pter
+	no -- stram sa -- lu -- tem de -- %100
+	scen -- dit de coe --
+	_
+	_
+	_
+	_ lis, de -- %105
+	scen -- dit, de -- scen -- dit de
+	coe -- lis,
+	
+	de -- scen -- dit de
+	coe -- _ _ %110
+	_ _ _
+	_ _ _
+	_ _
+	_ _
+	lis, de -- scen -- dit, de -- %115
+	scen -- dit de coe --
+	lis, de --
+	scen -- dit de coe --
+	lis. %119 FINIS
 }
 
 % SanctusSopranoNotes = {
