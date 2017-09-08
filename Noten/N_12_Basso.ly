@@ -626,11 +626,153 @@ CredoBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
 		R1*29 %29
+		\mvTr c'4\fE^\tuttiE c c2~ %30
+		c c,8 c' h a
+		g f e([ d)] c c' h a
+		g f e([ d] c[ e16 d] c[ d e f]
+		g4) g8 f e c e c16 c
+		g'8 g, r4 c'8 c h g16 g %35
+		c8 c16 c h8 g c c h g16 g
+		c8 h a g f e d4
+		d'8([ c)] h([ a)] g([ f)] e4
+		e'8 d c([ h)] a([ g)] f4
+		f'8([ e)] d([ c)] h a g4 %40
+		e8 d c e g f e c
+		g' f e([ d)] c([ e f)] g
+		c,4 r r2
+		R1
+		r8 e e e f4 f %45
+		r8 fis fis fis g8. g16 g4
+		r8 gis4 gis8 a4 a8 a
+		a([ g)] f([ e)] d[ c] h16[ g' c8]
+		a[ g f e] d'[ c h a]
+		g2 g4 r8 g %50
+		c c r g c es, f([ g)]
+		c,4 r r2
+		R1*18 %70
+		\mvTr a'8.\fE^\tuttiE a16 a4 r2
+		\mvTr h8.\fE^\tuttiE h16 h4 r2
+		R1*2
+		r2 \mvTr e8\fE^\tuttiE e e e16 e %75
+		a,4 h e, r
+		h'8[( a)] g([ e)] h' a g([ fis?)]
+		e([ c' a)] h e,4 r
+		R1*2 %80
+		r4 \mvTr h'\pE^\solo e h8. a16
+		g8. fis16 e4 r8 h' e d
+		c([ h)] a g d'4 d,
+		r r8 d' e,[( c' fis, d']
+		h) g, r e'' fis,?([ d' gis, e'] %85
+		c) a, r c' f![ d h d]
+		gis,[ h e, h'] e[ c a c]
+		fis,[ a d, a'] d[ h gis h]
+		e,[ gis] a f' \tempoCredoB e,2^\adlibitum
+		\tempoCredoC a,4^\critnote r r2 %90
+		\mvTr a'2\fE^\tuttiE a4 a8 a
+		a4. a,8 a4 r
+		R1
+		c'2 c4 c8 c
+		c4. c,8 c4 r %95
+		r8 c' h([ a)] g([ f)] e([ d)]
+		c c' h([ a)] g f e([ d]
+		c[ e16 d] c[ d e f] g8[ g, g' f]
+		e[ c)] e c g' g, r4
+		r8 c' h g r c h g %100
+		r c h g16 g c8[ h a g]
+		f8[ e] d16[ e32 f g a h c] d8[ c h a]
+		g[ f] e16[ f32 g a h c d] e8[ d c h]
+		a[ g] f16[ g32 a h c d e] f8[ e d c]
+		h[ a g f] e[ d] c e %105
+		g g, r c' g([ f)] e d
+		c([ e f g)] c,4 r
+		R1
+		r2 r8 e e4(
+		f8[ a16 g] f8) f, r fis' fis4( %110
+		g8[ h16 a] g8) g, r gis' gis4(
+		a8[ c16 h] a8) a,16 a' a8([ g)] f e
+		d[( c h c] a'[ g f e]
+		d[ c h a] g2)
+		g4 r8 g' c c, r g' %115
+		c c, r g' c([ as f g)]
+		c,4 r r r8 g'
+		c c, r g' c([ as f g)]
+		c,4 r r2
+		R1*7 \bar "||" %126 finis
 	}
 }
 
 CredoBassoLyrics = \lyricmode {
+	Cre -- do, [cre -- %30
+	do,] cre -- do in
+	u -- num De -- um. Pa -- trem o --
+	mni -- po -- ten --
+	tem, fa -- cto -- rem coe -- li et
+	ter -- rae, vi -- si -- bi -- li -- um %35
+	o -- mni -- um et in -- vi -- si -- bi -- li -- um.
+	Et in u -- num Do -- mi -- num
+	Je -- sum __ Chri -- stum,
+	Fi -- li -- um __ De -- i
+	u -- ni -- ge -- ni -- tum, %40
+	et ex Pa -- tre na -- tum an -- te
+	o -- mni -- a __ sae -- cu --
+	la.
 	
+	De -- um de De -- o, %45
+	lu -- men de lu -- mi -- ne,
+	De -- um ve -- rum de
+	De -- o __ ve -- _
+	_ _
+	_ [ro,] de %50
+	De -- o, de De -- o ve --
+	ro.
+	
+	O -- mni -- a, %71
+	o -- mni -- a,
+	
+	per quem o -- mni -- a %75
+	fa -- cta sunt,
+	per __ quem o -- mni -- a __
+	fa -- cta sunt.
+	
+	Qui pro -- pter nos %81
+	ho -- mi -- nes et pro -- pter
+	no -- stram sa -- lu -- tem
+	de -- scen --
+	dit, de -- scen -- %85
+	dit, de -- scen --
+	_ _
+	_ _
+	_ dit de coe --
+	[lis.] %90
+	Qui pro -- pter nos
+	ho -- mi -- nes,
+	
+	qui pro -- pter nos
+	ho -- mi -- nes %95
+	et pro -- pter __ no --
+	stram sa -- lu -- tem de -- scen --
+	
+	dit de coe -- lis,
+	[de -- scen -- dit, de -- scen -- dit, %100
+	de -- scen -- dit de coe --
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ lis, de %105
+	coe -- lis, de -- scen -- dit de
+	coe -- lis,]
+	
+	de -- scen --
+	dit, de -- scen -- %110
+	dit, de -- scen --
+	dit, de -- scen -- dit de
+	coe --
+	
+	lis, de -- scen -- dit, de -- %115
+	scen -- dit de coe --
+	lis, de --
+	scen -- dit [de coe --
+	lis.] %119 FINIS
 }
 
 % SanctusBassoNotes = {

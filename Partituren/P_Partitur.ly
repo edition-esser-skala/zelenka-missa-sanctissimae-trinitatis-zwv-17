@@ -575,7 +575,8 @@
 				>>
 				\new FiguredBass { \CredoBassFigures }
 			>>
-% 			\midi { }
+			\layout { }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 % 	\bookpart {

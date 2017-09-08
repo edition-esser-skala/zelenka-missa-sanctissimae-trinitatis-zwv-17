@@ -970,9 +970,9 @@ CredoSopranoNotes = {
 		c8([ h)] a g f([ e)] d a' %45
 		d([ c)] h([ a)] g8. f16 e4
 		e'8([ d)] c([ h)] a([ g)] f c'
-		f([ e)] d([ g)] h,([ c d e]
+		f([ e)] d([ g)] h,[ c d e]
 		f[ e d g] h,[ c d e]
-		f2) f4 r8 d %50
+		f2 f4 r8 d %50
 		es es r d es es d4
 		c r r2
 		R1*12 %64
@@ -1044,8 +1044,8 @@ CredoSopranoLyrics = \lyricmode {
 	men __ de __ lu -- mi -- ne,
 	De -- um __ ve -- rum de
 	De -- o __ ve --
-	
-	ro, de %50
+	_ _
+	_ ro, de %50
 	De -- o, [de De -- o ve --
 	ro.]
 	

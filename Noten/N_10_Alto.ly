@@ -821,8 +821,8 @@ CredoAltoNotes = {
 		r8 g g g a4 a %45
 		r8 a a a h8. h16 h4
 		r8 h4 h8 c4 c8 c
-		c([ b?)] a([ g)] f4 g8 g
-		c([ b?)] a([ g)] f4( g~
+		c([ h!)] a([ g)] f4 g8 g
+		c([ h!)] a([ g)] f4( g~
 		g8[ a] \once\stemUp h4) h r8 g %50
 		g g r g g g as([ g)]
 		g4 r r2
@@ -856,8 +856,8 @@ CredoAltoNotes = {
 		r2 r8 g g4(
 		a) a, r8 a' a4( %110
 		h) h, r8 h' h4(
-		c) c,8 c' c([ b?)] a g
-		f([ g)] g g c([ b?)] a g
+		c) c,8 c' c([ h!)] a g
+		f([ g)] g g c([ h!)] a g
 		f4( g4. a8 h4)
 		h8 h h g r g as g %115
 		r g as g r es^\critnote as([ g)]
