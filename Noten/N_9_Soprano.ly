@@ -1019,7 +1019,7 @@ CredoSopranoNotes = {
 		c4 r r r8 d
 		es es r d es( c4 h8)
 		c4 r r2
-		R1*7 \bar "|." %126 finis
+		R1*7 \bar "||" %126 finis
 	}
 	
 }
@@ -1068,8 +1068,8 @@ CredoSopranoLyrics = \lyricmode {
 	
 	[qui pro -- pter nos
 	ho -- mi -- nes] %95
-	et pro -- pter no -- stam sa --
-	lu -- tem de -- scen -- dit, de
+	et pro -- pter no -- stram sa --
+	lu -- tem de -- scen -- dit de
 	coe --
 	lis, et pro -- pter
 	no -- stram sa -- lu -- tem de -- %100

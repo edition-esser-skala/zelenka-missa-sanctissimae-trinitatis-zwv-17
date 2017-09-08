@@ -732,7 +732,7 @@ CredoTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*29 %29
 	}
 }
 

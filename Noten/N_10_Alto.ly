@@ -802,12 +802,134 @@ CredoAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*29 %29
+		\mvTr g'4\fE^\tuttiE g g2~ %30
+		g g8 g g g
+		g g g4 g8 g g g
+		g g g4~^\critnote g8.([ f16] e[ f g a]
+		\once\stemUp h4) h8 h c g g g16 g
+		g8 g r4 g8 g g g16 g %35
+		g8 g16 g g8 g g g g8. g16
+		g4 a8 a a a a8. a16
+		a4 h4. h8 h4
+		h h8. h16 c8([ h)] a a
+		a4. a8 h8. h16 h4 %40
+		c8 c, g' g g g g g
+		g4 g8 g g4( a8) g
+		g4 r r2
+		R1
+		r8 g g g a4 a %45
+		r8 a a a h8. h16 h4
+		r8 h4 h8 c4 c8 c
+		c([ b?)] a([ g)] f4 g8 g
+		c([ b?)] a([ g)] f4( g~
+		g8[ a] \once\stemUp h4) h r8 g %50
+		g g r g g g as([ g)]
+		g4 r r2
+		R1*18 %70
+		\mvTr a8.\fE^\tuttiE a16 a4 r2
+		fis8. fis16 fis4 r2
+		R1*2
+		r2 \mvTr h8\fE^\tuttiE g h g16 g %75
+		g4( fis8.) fis16 e4 r8 g~
+		g fis? g4. fis8 g([ a)]
+		g4( a8) fis e4 r
+		R1*12 %90
+		\mvTr e2\fE^\tuttiE e4 e8 e
+		f4. f8 e4 r
+		R1
+		g2 g4 g8 g
+		a4. a8 g4 r %95
+		r8 g g g g4 g8 g
+		g4 g8 g g4 g8 g
+		g8.([ f16] e[ f g a] h2)
+		c8 g g4 g8 h h h
+		g4 g8 g g4 g8 g %100
+		g2 g4 a^\critnote
+		a2.( h4~)
+		h h8 h h2(
+		c) a4 a
+		h2( c8) c, r g' %105
+		g d r g g4 g8 g
+		g4( a8[ g)] g4 r
+		R1
+		r2 r8 g g4(
+		a) a, r8 a' a4( %110
+		h) h, r8 h' h4(
+		c) c,8 c' c([ b?)] a g
+		f([ g)] g g c([ b?)] a g
+		f4( g4. a8 h4)
+		h8 h h g r g as g %115
+		r g as g r es^\critnote as([ g)]
+		g4 r r2
+		r8 g as g r es? as([ g)]
+		g4 r r2
+		R1*7 \bar "||" %126 finis
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	[Cre -- do, cre -- %30
+	do, cre -- do in
+	u -- num De -- um. Pa -- trem o --
+	mni -- po] -- ten --
+	tem, fa -- cto -- rem coe -- li et
+	ter -- rae, [vi -- si -- bi -- li -- um %35
+	o -- mni -- um et in -- vi -- si -- bi -- li --
+	um.] Et in u -- num Do -- mi --
+	num Je -- sum Chri --
+	stum, Fi -- li -- um __ De -- i
+	u -- ni -- ge -- ni -- tum, %40
+	et ex Pa -- tre na -- tum [an -- te
+	o -- mni -- a] sae -- cu --
+	la.
 	
+	De -- um de De -- o, %45
+	lu -- men de lu -- mi -- ne,
+	De -- us ve -- rus de
+	De -- o __ ve -- ro, de
+	De -- o __ ve --
+	ro, [de %50
+	De -- o, de] De -- o ve --
+	ro.
+	
+	O -- mni -- a, %71
+	o -- mni -- a,
+	
+	[per quem o -- mni -- a %75
+	fa -- cta sunt,] per __
+	quem o -- mni -- a __
+	fa -- cta [sunt.]
+	
+	[Qui pro -- pter nos %91
+	ho -- mi -- nes,]
+	
+	[qui pro -- pter nos
+	ho -- mi -- nes] %95
+	[et pro -- pter no -- stram sa --
+	lu -- tem de -- scen -- dit] de
+	coe --
+	lis, de coe -- lis, et pro -- pter
+	no -- stram sa -- lu -- tem de -- %100
+	scen -- dit de
+	coe --
+	lis, de -- scen --
+	dit, de --
+	scen -- dit, de -- %105
+	scen -- dit, de -- scen -- dit de
+	coe -- lis,
+	
+	de -- scen --
+	dit, de -- scen -- %110
+	dit, de -- scen --
+	dit, de -- scen -- dit de
+	coe -- lis, de -- scen -- dit [de
+	coe --
+	lis,] de -- scen -- dit, de -- scen -- dit, %115
+	de -- scen -- dit de coe --
+	lis,
+	de -- scen -- dit de coe --
+	lis. %119 FINIS
 }
 
 % SanctusAltoNotes = {
