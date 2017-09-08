@@ -828,10 +828,10 @@ CredoAltoNotes = {
 		g4 r r2
 		R1*18 %70
 		\mvTr a8.\fE^\tuttiE a16 a4 r2
-		fis8. fis16 fis4 r2
+		\mvTr fis8.\fE^\tuttiE fis16 fis4 r2
 		R1*2
 		r2 \mvTr h8\fE^\tuttiE g h g16 g %75
-		g4( fis8.) fis16 e4 r8 g~
+		a4(^\critnote fis8.) fis16 e4 r8 g~
 		g fis? g4. fis8 g([ a)]
 		g4( a8) fis e4 r
 		R1*12 %90
@@ -886,15 +886,15 @@ CredoAltoLyrics = \lyricmode {
 	
 	De -- um de De -- o, %45
 	lu -- men de lu -- mi -- ne,
-	De -- us ve -- rus de
+	De -- um ve -- rum de
 	De -- o __ ve -- ro, de
 	De -- o __ ve --
 	ro, [de %50
 	De -- o, de] De -- o ve --
 	ro.
 	
-	O -- mni -- a, %71
-	o -- mni -- a,
+	[O -- mni -- a,] %71
+	[o -- mni -- a,]
 	
 	[per quem o -- mni -- a %75
 	fa -- cta sunt,] per __

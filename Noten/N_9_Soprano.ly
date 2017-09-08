@@ -1042,7 +1042,7 @@ CredoSopranoLyrics = \lyricmode {
 	
 	De -- um de De -- o, lu -- %45
 	men __ de __ lu -- mi -- ne,
-	De -- us __ ve -- rus de
+	De -- um __ ve -- rum de
 	De -- o __ ve --
 	
 	ro, de %50
