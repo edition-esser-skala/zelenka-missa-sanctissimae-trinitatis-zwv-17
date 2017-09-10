@@ -798,7 +798,7 @@ CredoViolinoII = {
 		r8 h, a[ fis'] r <g h, d, g,> r a
 		<fis a, d,>[ <g h, d, g,>] c, d g, e c d
 		g,4 r r16 g'\p d h g8 g'16 fis %65
-		e8 h' e16 f? d e c8 h16 a g a fis g
+		e8 h' e16 fis? d e c8 h16 a g a fis g
 		e8-! c'-! a ais r16 h fis dis h fis''\f e dis
 		e8-! h'-! r16 fis,?16\p e dis e8 h' r16 fis'?\f e dis
 		e8 e, e'16( d) d( c) \slurDashed c( h) h( ais) ais( e') e( g) \slurSolid

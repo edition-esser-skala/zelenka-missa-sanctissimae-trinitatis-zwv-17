@@ -674,9 +674,9 @@ CredoBassoNotes = {
 		c'2 c4 c8 c
 		c4. c,8 c4 r %95
 		r8 c' h([ a)] g([ f)] e([ d)]
-		c c' h([ a)] g f e([ d]
+		c c' h([ a)] g f e[ d]
 		c[ e16 d] c[ d e f] g8[ g, g' f]
-		e[ c)] e c g' g, r4
+		e[ c] e c g' g, r4
 		r8 c' h g r c h g %100
 		r c h g16 g c8[ h a g]
 		f8[ e] d16[ e32 f g a h c] d8[ c h a]
@@ -690,8 +690,8 @@ CredoBassoNotes = {
 		f8[ a16 g] f8) f, r fis' fis4( %110
 		g8[ h16 a] g8) g, r gis' gis4(
 		a8[ c16 h] a8) a,16 a' a8([ g)] f e
-		d[( c h c] a'[ g f e]
-		d[ c h a] g2)
+		d[ c h c] a'[ g f e]
+		d[ c h a] g2
 		g4 r8 g' c c, r g' %115
 		c c, r g' c([ as f g)]
 		c,4 r r r8 g'
@@ -751,8 +751,8 @@ CredoBassoLyrics = \lyricmode {
 	ho -- mi -- nes %95
 	et pro -- pter __ no --
 	stram sa -- lu -- tem de -- scen --
-	
-	dit de coe -- lis,
+	_ _ _
+	_ dit de coe -- lis,
 	[de -- scen -- dit, de -- scen -- dit, %100
 	de -- scen -- dit de coe --
 	_ _ _
@@ -766,8 +766,8 @@ CredoBassoLyrics = \lyricmode {
 	dit, de -- scen -- %110
 	dit, de -- scen --
 	dit, de -- scen -- dit de
-	coe --
-	
+	coe -- _
+	_ _
 	lis, de -- scen -- dit, de -- %115
 	scen -- dit de coe --
 	lis, de --

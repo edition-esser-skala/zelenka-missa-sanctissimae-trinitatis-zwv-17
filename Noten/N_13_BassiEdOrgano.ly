@@ -1496,7 +1496,7 @@ CredoBassiOrgano = {
 		gis gis gis gis gis gis gis gis a a a a a a a a
 		a b g a f g e f d e c d h? g c c'
 		a b g a f g e f d e c d h? c a h
-		g4 g g16 g' d h c8 g' %50
+		g4 g g16 g' d h g8 g' %50
 		c es, f g c es, f g
 		c c, \slurDashed c'16(-\tasto-\solo b) b( as) as( g) g( fis) fis( d) d'( c)
 		b( a) a( g) g( f) f( es) es( d) d( cis) \slurSolid cis a a' g
@@ -1535,7 +1535,13 @@ CredoBassiOrgano = {
 		a,16 \mvTr a'\f-\rip e c a a' e c d4 r8 \mvTr h\p-\org
 		e4 r8 d c4 r8 a
 		d4 r8 c h4 e8 d
-		c h a d \tempoCredoB e2^\adlibitumE
+		<< {
+			\oneVoice c h a d \tempoCredoB e2^\adlibitumE
+		} \\ {
+			\once \override MultiMeasureRest.stencil = ##f
+			\once \override MultiMeasureRest.minimum-length = #40
+			R1
+		} >>
 		\tempoCredoC \mvTr a8\fE-\tutti a, a a a' a, a16 h32 c d e fis gis %90
 		a8 a, r4 r16 a' e c a a' e c
 		a8 a a a a16 a' e c a a' h g
@@ -1578,24 +1584,24 @@ CredoBassiOrgano = {
 
 CredoBassFigures = \figuremode {
 	r1
-	r
-	r
-	r
+	r2. <[6]>8 <[\t]>
+	r4 <[6]> r q
+	r q r2
 	r4. <4 2>8 <6>2 %5
-	r1
-	r
-	r
+	r2. <[6]>4
+	r q r q
+	r <[5]> q r
 	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8>4 <5>
 	<5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <8>4 <5> %10
 	q q <6>2
-	r1
-	r
-	r
-	r %15
-	r
+	<[6]>2. q4
+	r4 <[6]>8 q r q q r
+	<[6]>4 <[_-]>8 <[6]> r4 q8 <[_-]>
+	r4 <[6]>8 q <[_-]> <[5-]> <[6] [_-]>4 %15
+	<[6]>2. q4
 	<6 5>2. <6>4
 	<6 5>2. <6>4
-	<6>8 q q q q <8> r4
+	<6>8 q q q q <8> <[6]>4
 	<6>8 q q q q <8> <6> <5> %20
 	<7>4 <\t> <\t> r
 	<_->2 q
@@ -1607,20 +1613,20 @@ CredoBassFigures = \figuremode {
 	r
 	r
 	r %30
-	r
-	r
-	r
-	r
-	r %35
-	r
+	r2. <[6]>4
+	r q r q
+	r <[5]> r2
+	r4. <[2]>8 <[6]>2
+	r2. <[6]>4 %35
+	r q r q
 	r4 <5> q2
 	<_+>4 <5+ 3> <5 3> <5>
 	<7 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
-	r1 %40
-	r
-	r
-	r
-	r
+	r2 <[6]> %40
+	q4. q8 r4 q
+	r q r8 q q r
+	<[6]>4 <[_-]>8 <[6]> r4 <[6]>8 <[_-]>
+	r4 <[6]>8 q <[_-]> <[5-]> <[6] [_-]>4
 	<6>2 <5> %45
 	<6> <5>
 	<6> <5>
@@ -1630,38 +1636,38 @@ CredoBassFigures = \figuremode {
 	<_->4 q q q
 	q1
 	r2. <6>4
-	q4. <_+>8 r4 <_->8 <_+>
+	q4. <_+>8 <[6]>4 <_->8 <_+>
 	<6>2. q4 %55
 	q2. q4
 	q2 <5>4 <6>
 	q8 q q q <6\\> <8> <6> r
 	q q q q <6\\> <8> <6>4
 	<7 _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff r4 %60
-	<_->4 q8 <_+> <_->4 q8 <_+>
+	<_->8 <[6]> <_-> <_+> <_-> <[6]> <_->8 <_+>
 	<_!> q <_+>4 r8 <6> r q
 	<5 _+> <6 4> r <_+> <6>4 q
-	r4. <_+>8 r2
-	r <5 3>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff r4 %65
+	r4. <_+>8 r4. <[_+]>8
+	r4 <[6]>8 <[_+]> <5 3>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff r4 %65
 	r8 <[5+] _+> r4 r8 <[5+] _+> <6> r
-	r4 <6\\>8 <5> <5+ _+>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <[5+] _+>4
-	r8 <6> r <[5+] _+> r2
+	r4 <6\\>8 <5 [_+]> <5+ _+>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <[5+] _+>4
+	r8 <6> r <[5+] _+> r <[6]> r <[5+] [_+]>
 	r1
-	r2 <[5+] _+>4 <6> %70
-	r1
-	r
-	r4 <6\\ 3> <9 _+> <3>
+	r2 <[5+] _+>4 <6>8 <[_+]> %70
+	r2.. <[6\\] [_+]>8
+	<[5+] [_+]>2. <[6]>4
+	r4 <6\\ 3> <9 [5+] _+> <3>
 	<9> <3> <9> <3>
-	<9> <3> <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff %75
-	<5>4 <[5+] 4>8. <\l _+>16 r2
-	<6 4>8 <4\+> <6> r <6 4> <4\+> <6>4
-	r <6\\>8 <_+> r4. <6\\>8
-	<5 _+> <6 4> r <[5+] _+> <6>4 q
+	<9> <[_+]> <5 3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff %75
+	<5>4 <[5+] 4>8. <\l _+>16 r4 <[6]>
+	<6 4>8 <[6\\] 4\+> <6> r <6 4> <[6\\] 4\+> <6> <[6\\]>
+	r4 <6\\>8 <[5+] _+> r4. <6\\>8
+	<[5+] _+> <6 4> r <[5+] _+> <6>4 <[6\\]>
 	r4. <[5+] _+>8 r4. q8 %80
-	r1
-	r2.. <5>8
+	r4 <[6]> q <[6] [_+]>8 <[5+] [_+]>
+	r4 <[6]> r4. <5>8
 	q4. <6\\>8 <5 _+>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
-	r4 <6> r <_+>
-	r1 %85
+	<[_+]>4 <6> r <_+>
+	r2 <[_+]>4 q %85
 	r2 <_!>4. <5+>8
 	<_+>4. <4\+>8 <6>2
 	<_+>4. <4\+>8 <6>4 <_+>8 <\t>
@@ -1673,36 +1679,36 @@ CredoBassFigures = \figuremode {
 	r2 r16 <5 3>8. \bassFigureExtendersOn q8. q16
 	<6 4>4. q8 <5 3>4.. q16 \bassFigureExtendersOff %95
 	r4 <6> r q
-	r2. <6>4
+	r <[6]> r <6>
 	r1
-	r
-	r %100
-	r2. <5>4
+	<[6]>
+	r4 q r q %100
+	r q r <5>
 	q q <5 _+> q
 	<5> q <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	<5>4 q q2
 	<6>2 q %105
-	r1
-	r2 <6>
-	<_!>4 <6> r2
-	r4 <_->8 <_!> <6>4 <5->
+	r4 <[6]> r q8 q
+	r q q r <6>4 <[_-]>8 <[6]>
+	<_!>4 <6>8 <[_-]> <[_!]>4 <[6]>8 q
+	<[_-]> <[5-]> <_-> <_!> <6>4 <[5]>
 	r <6> <6> <5> %110
 	<5> <6> <6 5> <\t \t>
 	<5> <6> q8 q q q
 	q <8> <6> r q q q q
 	q <8> <6> q <7>2
-	<7 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_-> r q <_!> %115
-	<_->4 q r <_->8 <_!>
-	<5 _->8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_->8 <_!> <_-> r <_-> <_!>
-	r4 <_->8 <_!> r8 <[5-]> <_-> <_!>
+	<7 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_-> <[6]> <[_-]> <_!> %115
+	<_-> <[6]> <_-> r <[_-]> <[5-]> <_-> <_!>
+	<5 _->8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <_->8 <_!> <_-> <[6]> <_-> <_!>
+	<[_-]> <[6]> <_-> <_!> <[_-]> <[5-]> <_-> <_!>
 	r1
 	r %120
 	<7>2. r16 <6>8.
 	<5>1
 	r
 	r
-	r %125
-	r %126 finis
+	r4. <[6]>8 r2 %125
+	r1 %126 finis
 }
 
 % SanctusBassiOrgano = {

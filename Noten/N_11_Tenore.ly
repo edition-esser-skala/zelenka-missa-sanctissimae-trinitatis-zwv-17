@@ -775,9 +775,9 @@ CredoTenoreNotes = {
 		c2 h4 r8 d
 		e2 d4 r
 		r8 c d h r c d h %100
-		r c d h16 h e2(
+		r c d h16 h e2
 		f fis
-		g4) g, r2
+		g4 g, r2
 		r4 r8 a f'([ e)] d c
 		h([ c d g,] e'2) %105
 		d8 h c c r h c([ d]
@@ -842,8 +842,8 @@ CredoTenoreLyrics = \lyricmode {
 	coe -- lis,
 	de -- scen -- dit, de -- scen -- dit, %100
 	de -- scen -- dit de coe --
-	
-	lis,
+	_ _
+	_ lis,
 	de -- scen -- dit de
 	coe -- %105
 	lis, de -- scen -- dit de coe --
