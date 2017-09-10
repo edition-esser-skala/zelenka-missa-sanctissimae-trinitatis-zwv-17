@@ -748,7 +748,7 @@ CredoViolinoII = {
 		f8-! e-! d g h,16-! g c-! g d'-! g, e'-! g,
 		f'8-! e-! d g h,16-! g c-! g d'-! g, e'-! g, %20
 		<f' h, d, g,>4-! q-! q-! r16 d c h
-		c8 g' r h,\p g g' r g,
+		c8 g' r h,\p g g' r g,\fE
 		es'16( d) d( c) c( b) b( as) as( g) g( fis) fis( c') c( es)
 		es( d) d( cis) cis( d) d( c) c( h) h( d) g f32-! e-! d-! c-! h-! a
 		<f' h, d, g,>8-! q-! q-! q-! q4 r16 e, f g %25
@@ -784,7 +784,7 @@ CredoViolinoII = {
 		f'8-! e-! d g h,16 g c g d' g, e' g,
 		<f' d d, g,>4-! q-! q-! r16 d c h %50
 		c8 g' r h, g g' r h,
-		c c, c'16( b) b) as) as( g) g( fis) fis( d) d'( c)
+		c c, c'16( b) b( as) as( g) g( fis) fis( d) d'( c)
 		b( a) a( g) g( f) f( es) es( d) d( cis) cis a a' g
 		f-! d-! b'8 g a fis16 d g8 c, d
 		g'-! fis-! e d c h a16~\trill \hideTn \tuplet 7/6 8. { a32 h c d e fis g } %55

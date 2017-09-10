@@ -714,7 +714,132 @@ CredoViola = {
 		\clef treble
 % 		\clef alto
 		\key c \major \time 4/4 \tempoCredo
-		
+		c'8-!\fE c,-! c-! c c' c, c16\trill d32 e f g a h
+		c8 c, r4 r8 c' h16 c a c
+		g c f, c' e, c' d, c' c,8 c' h16 c h a
+		g a g f e f e d c8 e16 d c d e f
+		g8 g, r \appoggiatura { d'16[ e] } f8\p e16 c e c \tuplet 3/2 8 { e16[-! d-! c] e-! d-! c } %5
+		g'8 g, r16 g'\f a h c8-\critnote e, g16 d' h8
+		c\p e, g16-! d'-! h8 c\f e, g16-! d'-! h8
+		g16 g g g c c, c c c' c, c c d a' a a
+		a a a a d d, d d d' d, d d e h' h h
+		h h h h e e, e e e' e, e e f c' c c %10
+		c4-! d-! g, r8 d
+		e f e g d g, r e'
+		d g, g' a16 h c8 g r h,
+		c(\pE f) es([ g)] d g, r es'
+		d g, g' h, g' es as g %15
+		g16\fE g g g c, c c c c c c c a a a a
+		a' a a a d, d d d d d d d h h h h
+		h' h h h e, e e e e e e e c c c c
+		c'8-! h-! a-! g-! f e16 c g'8 g
+		c-! h-! a-! g-! f e16 c g'8 g %20
+		<h d, g,>4-! q-! q-! r8 g
+		g4-! as8( g) r es\pE as h,
+		c\fE g' c16( b) b( as) as( g) g( fis) \slurDashed fis( c') c( es) \slurSolid
+		es?( d) d( cis) cis( d) d( c) c( h) h( d) g,16 f32 e? d c h a
+		<g d' h'>8 q q q q4-\critnote r16 e' f g %25
+		a8 e f g c e,(\p f g)
+		a e-!\f f-! g-! c e,(\p f g)
+		c16\f h32 a g f e d c8 c' r e,\p f a
+		g c r e,\f f4 g
+		c8 c, c c c' c, c16 d32 e f g a h %30
+		c8 c, r4 r8 c' h a
+		g f e d c c' h a
+		g f e d c e16 d c d e f
+		g8 g, r f' e16 c e c \tuplet 3/2 8 { e16 d c e[ d c] }
+		g'8 g, r16 g' a h c8 e, g16-! d'-! h8 %35
+		c e, g16-! d'-! h8 c e, g16 d' h8
+		g16 g g g c c, c c c' c, c c d a' a a a
+		a a a d d, d d d' d, d d e h' h h
+		h h h h e e, e e e' e, e e f c' c c
+		c4 d g, r8 d %40
+		c f e g d g, r e'
+		d g, g' a16 h c8 g r h,
+		c([ f)] es( g) d g, r es'
+		d g,\p g' h, g' es\f as g
+		g16 g g g c, c c c c c c c a a a a %45
+		a' a a a d, d d d d d d d h h h h
+		h' h h h e, e e e e e e e c c c c
+		c'8 h a g f e16 c g'8 g
+		c h a g f e16 c g'8 g
+		<h d, g,>4 q q r8 g %50
+		g4 as8( g) r es as g
+		g4 \slurDashed c16( b) b( as) as( g) g( fis) fis( d) d'( c)
+		b( a) a( g) g( f) f( es) es( d) d( cis) \slurSolid cis a a' g
+		f-! d-! b'8 g a fis16-! d-! g8 c, d
+		h16 h' h h g g g g g g g g e e e e %55
+		e' e e e a, a a a a a a a fis fis fis fis
+		fis? fis fis fis h h h h h h h h g g g g
+		g8 fis e d c h16 g d'8-! d-!
+		g8 fis e d c h16 g d'8 d
+		<d a'>4-! q-! q-! r8 d' %60
+		d d, es d\p r d es d\f
+		d e d a' r g r e
+		fis g r a g d e4
+		r8 d e d g e c d
+		g,4 r r2 %65
+		R1
+		r2 r4 r8 h'\fE
+		h4 c8 h\pE r h, c h\fE
+		h4 e'16( d) d( c) c( h) h( ais) ais e e g
+		g f!([ e dis)] e c'([ h ais)] h8 a? gis e %70
+		a,16 a' e c a a' e c a8 a'16 gis a8 ais
+		h,16 h' fis dis h h' fis dis h8 cis?\p dis h
+		e c'16 h a8 fis? h a gis e
+		a g fis d g fis e c
+		fis e dis h e16\fE e' h g e e' h g %75
+		a4 h e,8 fis g e
+		h' a g e h' a g fis?
+		e c' a h r g r c
+		dis, e r fis h r c r
+		r g a h e, c a h %80
+		e fis\pE g h16 a g8 fis16 e dis8 h
+		e fis g fis e d c g'
+		a g fis e d16\f d' a fis d d' a fis
+		d8 c\pE h g c4 d
+		g,16 g'\f d h g g' e c d4 e\p %85
+		a,16 a'\fE e c a4 r8 d\pE d, fis'
+		r gis h e, r a c e,
+		r fis a d, r d h gis'
+		r h, a d \tempoCredoB e2^\adlibitumE
+		\tempoCredoC a8\fE a, a a a' a, a16 h32 c d e fis gis %90
+		a8 a, r4 r16 a' e c a a' e c
+		a8 a a a a16 a' e c a a' h g
+		c8 c, c c c' c, c16 d32 e f g a h
+		c8 c, r4 r16 c' g e c c' g e
+		c8 c c c c16 c' g e c c' g e %95
+		c8 c' h a g f e d
+		c c' h a g f e d
+		c e16 d c d e f g8 g, g' f
+		e c e c g' g, r16 g' a h
+		c8 c h g c c h g %100
+		c c h g c16 g g g c c, c c
+		c' c, c c d a' a a a a a a d d, d d
+		d' d, d d e h' h h h h h h e e, e e
+		e e e e f c' c c c4-! d-!
+		g,4 r8 f e d c e %105
+		g f e c g' f e d
+		c e f g c,( f) es g
+		d g, r es' d g,\p g' h,\f
+		g' es as g g16 g g g c, c c c
+		c c c c a a a a a' a a a d, d d d %110
+		d d d d h h h h h' h h h e, e e e
+		e e e e c c c c c'8 h a g
+		f e16-! c-! g'8 g c h a g
+		f e16-! c g'8-! g-! <h d, g,>4 q
+		q16 g[ d h] g8 g' c es, f g %115
+		c es, f g c as f g
+		c,16 c' g es c8 g'\p c es, f g\f
+		c es, f g c as f g
+		c c, c'16( b) b( as) as( g) g( fis) fis( c') c( es)
+		es?( d) d( cis) cis( d) d( c) c( h) h( d) g16-! f32-! e?-! d-! c h a %120
+		<h d, g,>8 q q q q4-! r16 e, f g
+		a8 e f g c e,([\pE f g)]
+		a-! e-!\fE f-! g c e,([\pE f g)]
+		c16 h32 a g f e d c8-! c'-! r e,-! f a
+		g-! c-! r e, f4 g %125
+		c, r r2 \bar "||" %126 finis
 	}
 }
 

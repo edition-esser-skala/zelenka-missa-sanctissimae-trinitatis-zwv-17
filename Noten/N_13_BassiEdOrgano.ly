@@ -1469,7 +1469,7 @@ CredoBassiOrgano = {
 		a b g a f g e f d e c d h? c a h %20
 		g4-! g-! g-! r8 g'
 		c es, f g c\p es, f g
-		c c,-\tasto c'16( b) b( as) as( g) g( fis) \slurDashed fis( c') c( es) \slurSolid
+		c\fE c,-\tasto c'16( b) b( as) as( g) g( fis) \slurDashed fis( c') c( es) \slurSolid
 		es?( d) d( cis) cis( d) d( c) c( h) h( d) g16 f32-! e?-! d-! c h a
 		g4 g g r16 e f g %25
 		a8 e f g c e,(\p f g)

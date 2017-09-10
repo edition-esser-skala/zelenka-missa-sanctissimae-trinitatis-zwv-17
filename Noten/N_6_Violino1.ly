@@ -791,7 +791,7 @@ CredoViolinoI = {
 		f'8-! e-! d g h,16 g c g d' g, e' g,
 		<f' d d, g,>4-! q-! q-! r16 f es d %50
 		es32 d c8.~ c16 f([ es d)] es32 d c8.~ c16 f[-! es-! d-!]
-		es( d) d( c) c( b) b) as) as( g) g( fis) fis( d) d'( c)
+		es( d) d( c) c( b) b( as) as( g) g( fis) fis( d) d'( c)
 		b( a) a( g) g( f) f( es) es( d) d( cis) cis a a' g
 		f-! d-! b'8 g a fis16 d g8 c, d
 		g'-! fis-! e d c h a16~\trill \hideTn \tuplet 7/6 8. { a32 h c d e fis g } %55

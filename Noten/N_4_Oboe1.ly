@@ -525,7 +525,123 @@ CredoOboeI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		c'8-!\fE c,-! c-! c c' c, c16\trill d32 e f g a h
+		c8 c, r4 r8 c' h a
+		g f e d c c' h16 c h a
+		g a g f e f e d c8 e16 d c d e f
+		g4 r r2 %5
+		r4 r16 g\fE a h c8 g' d f
+		e\p g d f e\f g d f
+		e e e8.(\trill d32 e) f8 f f32( e d8.)
+		fis8 fis fis8.(\trill e32 fis) g8 g g32( f? e8.)
+		gis8 gis gis8.(\trill fis32 gis) a8 a a4~ %10
+		a16 b g a f g e f d e c d h? c a h
+		g8 h c4. d16 h \appoggiatura h8 c4~
+		c8 d16 h c8-! f-! e4-! d-!
+		R1*2 %15
+		c8\f h a g f e d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c }
+		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e }
+		f8-! e-! d g h,16-! g c-! g d'-! g, e'-! g,
+		f'8-! e-! d g h,16-! g c-! g d'-! g, e'-! g, %20
+		f'8 d h g f'4 r16 f es d
+		es32( d c8.) r4 r r16 f\fE es d
+		es( d) d( c) c( b) b( as) as( g) g( fis) fis( c') c( es)
+		es( d) d( cis) cis( d) d( c) c( h) h( d) g f32-! e-! d-! c-! h-! a
+		f'8 d h g f'4 r16-\critnote e, f g %25
+		a8-! e-! f g c e,(\p f g)
+		a e-![\f f-! g-!] c e,([\p f g)]
+		c16\f h32 a g f e d c8 c' r e,\p f a
+		g c r e,\f f4 g
+		c8 c, c c c' c, c16 d32 e f g a h %30
+		c8 c, r4 r8 c' h a
+		g f e d c c' h16 c h a
+		g a g f e f e d c8 e16 d c d e f
+		g8 d' d d c c c e
+		d d r16 g, a h c8 g' d f %35
+		e g d f e c d g
+		e e e8.(\trill d32 e) f8 f f32( e d8.)
+		fis8 fis fis8.(\trillE e32 fis) g8 g g32( f e8.)
+		gis8 gis gis8.(\trill fis32 gis) a8 a a4~
+		a16 b g a f g e f d e c d h? c a h %40
+		g8 h c4. d16 h \appoggiatura h8 c4~
+		c8 d16 h c8 f e4-! d-!
+		c4-! r r2
+		r4 r8 f\fE es32( d c8.) d8( h)
+		c-!\ff h-! a-! g-! f e d16~\trill \hideTn \tuplet 7/6 8. { d32 e f g a h c } %45
+		d8 c h a g f e16~\trill \hideTn \tuplet 7/6 8. { e32 f g a h c d }
+		e8 d c h a g f16~\trill \hideTn \tuplet 7/6 8. { f32 g a h c d e }
+		f8-! e-! d g h,16 g c g d' g, e' g,
+		f'8-! e-! d g h,16 g c g d' g, e' g,
+		f'8 d h g f'4 r16 f es d %50
+		es32 d c8.~ c16 f([ es d)] es32 d c8.~ c16 f[-! es-! d-!]
+		es( d) d( c) c( b) b( as) as( g) g( fis) fis( d) d'( c)
+		b8 g r4 r2
+		R1
+		g'8-! fis-! e d c h a16~\trill \hideTn \tuplet 7/6 8. { a32 h c d e fis g } %55
+		a8 g fis e d c? h16~\trill \hideTn \tuplet 7/6 8. { h32 c d e fis g a }
+		h8 a g fis e d? c16~\trill \hideTn \tuplet 7/6 8. { c32 d e fis g a h }
+		c8-! h-! a d fis,16-! d g-! d a' d, h' d,
+		c'8-! h-! a d fis,16 d g d a' d, h' d,
+		c'8 a fis d a'4 r16 c b a %60
+		b16 a g8 r4 r r16 c\fE h a
+		h! g a e fis8.\trill g16 c,4-! a'-!
+		r8 h, a[ fis'] r g r a
+		fis g c, d g, e c d
+		g4 r r2 %65
+		R1
+		r2 r4 r16 a'\fE g fis
+		g32( fis e8.) r4 r r16 a\f g fis
+		g( fis) fis( e) e( d) d( c) \slurDashed c( h) h( ais) ais( e') e( g) \slurSolid
+		g f([ e dis)] e \once\slurDashed c[( h ais)] h4 r %70
+		r16 a' e c a a' e c a4 r
+		r16 h dis fis h h, dis fis h8 h, r4
+		R1*2
+		r2 \mvTr e,16\fE-\critnote e' h g e e' h g %75
+		c4-! h8 dis e h e4~
+		e16 h' h dis, \appoggiatura dis8 e4~ e16 h' h dis, e8 a
+		g32( fis? e8.) fis?8 dis e-! r fis r
+		r g, fis? dis' r e r fis
+		dis e a, h e,4 r %80
+		R1*8 %88
+		r2 \tempoCredoB r^\adlibitumE
+		\tempoCredoC R1 %90
+		e'2\fE e4 e
+		f4. f8 e4 r
+		R1
+		g2 g4 g
+		a4. a8 g4 r %95
+		r8 g g g g16 a g a g a g a
+		g8 e16 f g8 g g4 r
+		e2 d
+		c4. c8 h d d d
+		e g d f e g d f %100
+		e g d f e e e8.(\trill d32 e)
+		f8 f f32( e d8.) fis8 fis fis8.(\trill e32 fis)
+		g8 g g32( f? e8.) gis8 gis gis8.(\trill fis32 gis)
+		a8 a a4~ a16 b g a f g e f
+		d e c d h c a h g8 h c4~ %105
+		c8 d16 h c4~ c8 d16 h c8 f
+		e4-! d-! g,8 h c4~
+		c16 g' g h, c4 r r8 f\f
+		es32( d c8.) d8 h c h a g
+		f e \once\tieDashed d16~\trillE \hideTn \tuplet 7/6 8. { d32 e f g a h c } d8 c h a %110
+		g f \once\tieDashed e16~\trillE \hideTn \tuplet 7/6 8. { e32 f g a h c d } e8 d c h
+		a g \once\tieDashed f16~\trillE \hideTn \tuplet 7/6 8. { f32 g a h c d e } f8 e d g
+		h,16 g c g d' g, e' g, f'8 e d g
+		h,16 g c g d' g, e' g, f'8 g, h d
+		f4 r16 f es d es32( d c8.)~ c16 f es d %115
+		es32( d c8.)~ c16 f es d es32 d c8. d8 h
+		c4 r r r16 f\fE es d
+		es32( d c8.)~ c16 f, es d es8 c' d, h'
+		c16 es es( d) c( b) b( as) as( g) g( fis) \once\slurDashed fis( c') c( es)
+		es( d) d( cis) cis( d) d( c?) c( h) h( d) g-! f32-! e-! d-! c h a %120
+		f'8 d h g f'4 r16 e, f g
+		a8 e f g c r r4
+		r8 e,-!\fE f-! g c r r4
+		c16\f h32 a g f e d c8-! c'-! r e,-! f-! a-!
+		g-! c-! r e, f4 g %125
+		c-\critnote r r2 \bar "||" %126 FINIS
 	}
 }
 
