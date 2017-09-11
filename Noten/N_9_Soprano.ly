@@ -1099,11 +1099,40 @@ EtIncarnatusSopranoNotes = {
 		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
+			\mvTr c'2\fE^\tuttiE c c c2. c4 b2 %127
+		b a2. a4 g1 r2
+		\time 9/2 d'1. c2. c4 c2~ c b1
+		a2 c c d1 e2 f2. f4 f2~ %130
+		f es1~ es2 d e cis d1~
+		d2 cis cis d f e d1.~
+		d2 c4 h c2 h h2. h4 a2 \tempoEtIncarnatusB c h
+		a1 a2 gis \tempoEtIncarnatusC h h c1 cis2
+		\time 12/2 d2. d4 c2~ c h4( c) d2~ d c4 d e2~ e dis e~ %135
+		\time 9/2 e fis e dis h r c1.
+		c2. c4 h h h2( a) ais h2. a?4 g2
+		fis fis2. fis4 e2 e'1 e2. e4 d d
+		\time 12/2 c1 cis2 d2. d4 c?2 h h2. h4 c2 h2. h4
+		a2 \tempoEtIncarnatusD c1 cis1. d dis %140
+		\time 6/2 e2. d4 \tempoEtIncarnatusFinis c2~\p c4 h h2. h4 \bar "|" %141 finis
 	}
 }
 
 EtIncarnatusSopranoLyrics = \lyricmode {
-	
+	Et in -- car -- na -- tus, in -- %127
+	car -- na -- tus est
+	de Spi -- ri -- tu __ San --
+	cto ex Ma -- ri -- a Vir -- gi -- ne, __ %130
+	et __ ho -- mo fa -- _
+	_ ctus est, ho -- mo, ho --
+	_ _ _ mo fa -- ctus est, ho -- mo
+	fa -- ctus est. Cru -- ci -- fi -- xus
+	e -- ti -- am __ pro __ no -- _ _ _ _ _ %135
+	_ _ _ bis, sub
+	Pon -- ti -- o Pi -- la -- to pas -- sus et
+	se -- pul -- tus est, sub Pon -- ti -- o Pi --
+	la -- to pas -- sus et se -- pul -- tus, se -- pul -- tus
+	est, pas -- _ _ _ %140
+	_ sus et __ se -- pul -- tus %141 
 }
 
 % SanctusSopranoNotes = {
