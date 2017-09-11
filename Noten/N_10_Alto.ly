@@ -974,6 +974,19 @@ EtIncarnatusAltoLyrics = \lyricmode {
 	et __ se -- pul -- tus %141
 }
 
+EtResurrexitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		a'4 r r2 %142
+	}
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+	est. %142
+}
+
 % SanctusAltoNotes = {
 % 	\relative c' {
 % 		\clef treble

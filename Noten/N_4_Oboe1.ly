@@ -649,7 +649,7 @@ EtIncarnatusOboeI = {
 	\relative c' {
 		\clef treble
 		\key f \lydian \time 6/2 \tempoEtIncarnatus
-		\set Staff.timeSignatureFraction = 3/2
+			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
 		c'2\fE c c c2. c4 b2 %127
 		b a2. a4 g1 r2
@@ -666,6 +666,15 @@ EtIncarnatusOboeI = {
 		\time 12/2 c1 cis2 d2. d4 c?2 h h2. h4 c2 h2. h4
 		a2 \tempoEtIncarnatusD c1 cis1. d dis %140
 		\time 6/2 e2. d4 \tempoEtIncarnatusFinis c2~\p c4 h h2. h4 \bar "|" %141 finis
+	}
+}
+
+EtResurrexitOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		
 	}
 }
 

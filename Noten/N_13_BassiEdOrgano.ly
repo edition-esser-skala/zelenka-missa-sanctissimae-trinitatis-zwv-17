@@ -1753,6 +1753,19 @@ EtIncarnatusBassFigures = \figuremode {
 	<_+>2 <[6]>4 <[5]> r2 <7 [_+]>4 <[6]> <_+>1 %141 finis
 }
 
+EtResurrexitBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		\mvTr a'8\fE-\solo h cis h a h cis h
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	
+}
+
 % SanctusBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

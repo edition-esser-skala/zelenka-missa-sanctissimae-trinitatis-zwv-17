@@ -900,6 +900,15 @@ EtIncarnatusViolinoI = {
 	}
 }
 
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		
+	}
+}
+
 % SanctusViolinoI = {
 % 	\relative c' {
 % 		\clef treble

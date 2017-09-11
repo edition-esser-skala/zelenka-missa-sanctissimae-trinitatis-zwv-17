@@ -845,8 +845,8 @@ CredoViola = {
 
 EtIncarnatusViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key f \lydian \time 6/2 \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
@@ -865,6 +865,16 @@ EtIncarnatusViola = {
 		\time 12/2 a c4 d e2 f1 fis2~ fis e e e e2. e4
 		e2 \tempoEtIncarnatusD e e r e e r a, a r c c %140
 		\time 6/2 r << { \oneVoice e1 } \\ { s2 \tempoEtIncarnatusFinis s } >> fis2\p e2. e4 \bar "|" %141 finis
+	}
+}
+
+EtResurrexitViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key a \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		
 	}
 }
 

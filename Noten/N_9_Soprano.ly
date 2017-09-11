@@ -1135,6 +1135,19 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	_ sus et __ se -- pul -- tus %141
 }
 
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		a'4 r r2 %142
+	}
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+	est. %142
+}
+
 % SanctusSopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

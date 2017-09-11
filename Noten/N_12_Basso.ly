@@ -817,6 +817,19 @@ EtIncarnatusBassoLyrics = \lyricmode {
 	pas -- sus et se -- pul -- tus %141
 }
 
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #142
+		a'4 r r2 %142
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	est. %142
+}
+
 % SanctusBassoNotes = {
 % 	\relative c {
 % 		\clef bass
