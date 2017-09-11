@@ -876,6 +876,16 @@ CredoViolinoI = {
 	}
 }
 
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \lydian \time 6/2 \tempoEtIncarnatus
+		\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #127
+		
+	}
+}
+
 % SanctusViolinoI = {
 % 	\relative c' {
 % 		\clef treble

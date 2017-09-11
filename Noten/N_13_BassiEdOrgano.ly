@@ -1711,6 +1711,48 @@ CredoBassFigures = \figuremode {
 	r1 %126 finis
 }
 
+EtIncarnatusBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key f \lydian \time 6/2 \tempoEtIncarnatus
+		\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #127
+		\mvTr f2\fE-\tuttiE f f d1 e2
+		f f, f' c c'1~
+		\time 9/2 c2 b1~ b a2 g1.
+		f1 r2 r1*3/2 r2 f f %130
+		g1 a2 b2. a4 g2~ g f d
+		a'1 a,2 d1 r2 r b' a
+		gis1 a2 d, e e, a \tempoEtIncarnatusB a' g?
+		f1. << { \oneVoice e1 r2 } \\ { s2 \tempoEtIncarnatusC s1 } >> r2 e e
+		\time 12/2 f1 fis2 g2. g4 f?2 e a2. g4 fis2 h4 a g?2 %135
+		\time 9/2 c a a, h h'1 h2. h4 a a
+		g1 gis2 c1. h2 c1
+		a2 h h, e1 r2 r f1~
+		\time 12/2 f2. f4 e e d1 dis2 e2. e4 d?2 c4 d e2 e,
+		a \tempoEtIncarnatusD a' a r g g r fis fis r f f %140
+		\time 6/2 e gis \tempoEtIncarnatusFinis a\p dis, e1 \bar "|" %141 finis
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	r1. <7>1 <5->2 %127
+	<9 4-> <\t 3> <[8]> <5 4> <\l 3> r
+	<4 2> <5 3>1 <6 4 2> <6>2 <7 _->1 <6>2
+	r1. r r %130
+	<7 _->2 <6-> <5-> <9 3> r <6!> <4\+ 2> <6> r
+	<5 4> <\l _+> r r1. r2 <5>1
+	<7 5>1. r2 <4> <_+> r <5> <6 3>
+	<7> <6\\>1 <[_+]>1. r2 <6 _+> <6 _!>
+	r1. <4 2>1 <6 3>2 <7> <_!> r <7> <_+> <6> %135
+	r <6\\> r <_+>1. <4 2>1 <6\\ 4\+ 2>2
+	<6 4>1 <7 3>2 <7> <6> <6\\> <_+> <7>4 <6> <5>2
+	<6\\ 5> <4> <_+> r1. r2 <7> <6>
+	<5>1 <6\\>2 <_!>1 <7>2 <5 4> <\t _+> r <6> <4> <_+>
+	r1. r2 <6 4\+ _->1 r2 <6>1 r2 <6\\ 5 3>1 %140
+	<_+>2 r r <7> <_+>1 %141 finis
+}
+
 % SanctusBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

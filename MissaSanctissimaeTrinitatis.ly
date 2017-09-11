@@ -138,6 +138,11 @@ tempoCumSancto = \tempoMarkup "Andante"
 tempoCredo = \tempoMarkup "Allegro"
 	tempoCredoB = \tempoMarkup "Adagio"
 	tempoCredoC = \tempoMarkup "[a tempo]"
+tempoEtIncarnatus = \tempoMarkup "[Tempo deest]"
+	tempoEtIncarnatusB = \tempoMarkup "Adagio"
+	tempoEtIncarnatusC = \tempoMarkup "[a tempo]"
+	tempoEtIncarnatusD = \tempoMarkup "Adagio"
+	tempoEtIncarnatusFinis = \tempoMarkup "Adagissimo"
 
 
 % modify the Scheme function 'format-bass-figure'

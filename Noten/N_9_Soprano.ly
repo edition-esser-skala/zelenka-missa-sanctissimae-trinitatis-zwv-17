@@ -1021,7 +1021,6 @@ CredoSopranoNotes = {
 		c4 r r2
 		R1*7 \bar "||" %126 finis
 	}
-	
 }
 
 CredoSopranoLyrics = \lyricmode {
@@ -1092,6 +1091,19 @@ CredoSopranoLyrics = \lyricmode {
 	lis, de --
 	scen -- dit de coe --
 	lis. %119 FINIS
+}
+
+EtIncarnatusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
+		\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #127
+	}
+}
+
+EtIncarnatusSopranoLyrics = \lyricmode {
+	
 }
 
 % SanctusSopranoNotes = {
@@ -1546,4 +1558,15 @@ CredoSopranoLyrics = \lyricmode {
 % 	na no --
 % 	bis pa --
 % 	cem. %110 FINIS
+% }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
 % }
