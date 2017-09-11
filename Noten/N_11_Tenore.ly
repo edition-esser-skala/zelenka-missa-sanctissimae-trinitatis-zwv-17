@@ -868,11 +868,40 @@ EtIncarnatusTenoreNotes = {
 		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
+		\mvTr a2\fE^\tuttiE a a a2. a4 b?2 %127
+		c c2. c4 c1 r2
+		\time 9/2 r1*3/2 e1 f2 f4 f f2( e)
+		f1 r2 r1*3/2 r2 c c %130
+		b1 c2~ c b4 b b2~ b a a
+		a a2. a4 a1 r2 r d c
+		h!1 a2~ a a gis a1 e'2~
+		e( dis2.) dis4 e2 \tempoEtIncarnatusC r r r e e
+		\time 12/2 a,1 d2 d2. d4 d2 e e1( fis) e2 %135
+		\time 9/2 a, c1 h r2 r r dis
+		e2. e4d d e2( a,) e' dis e e,
+		c' h2. h4 h1 r2 r c d
+		\time 12/2 a c4 d e2 f1 fis2~ fis e e e e2. e4
+		e2 \tempoEtIncarnatusD e e r e e r a, a r c c %140
+		\time 6/2 r e1 fis2\p e2. e4 \bar "|" %141 finis
 	}
 }
 
 EtIncarnatusTenoreLyrics = \lyricmode {
-	
+	[Et in -- car -- na -- tus, in -- %127
+	car -- na -- tus est]
+	de Spi -- ri -- tu San --
+	cto ex Ma -- %130
+	ri -- a __ Vir -- gi -- ne, __ et ho --
+	mo fa -- ctus est, ho -- mo,
+	ho -- mo __ fa -- ctus est, fa --
+	ctus est. [Cru -- ci --
+	fi -- xus e -- ti -- am] pro no -- bis, %135
+	pro no -- bis, sub
+	Pon -- ti -- o Pi -- la -- to pas -- sus et
+	se -- pul -- tus est, pas -- _
+	_ _ _ _ _ _ sus et se -- pul -- tus
+	est, pas -- sus, pas -- sus, pas -- sus, pas -- sus %140
+	et se -- pul -- tus %141
 }
 
 % SanctusTenoreNotes = {

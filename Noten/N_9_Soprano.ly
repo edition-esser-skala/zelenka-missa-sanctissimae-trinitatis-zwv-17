@@ -1099,7 +1099,7 @@ EtIncarnatusSopranoNotes = {
 		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
-			\mvTr c'2\fE^\tuttiE c c c2. c4 b2 %127
+		\mvTr c'2\fE^\tuttiE c c c2. c4 b2 %127
 		b a2. a4 g1 r2
 		\time 9/2 d'1. c2. c4 c2~ c b1
 		a2 c c d1 e2 f2. f4 f2~ %130
@@ -1132,7 +1132,7 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	se -- pul -- tus est, sub Pon -- ti -- o Pi --
 	la -- to pas -- sus et se -- pul -- tus, se -- pul -- tus
 	est, pas -- _ _ _ %140
-	_ sus et __ se -- pul -- tus %141 
+	_ sus et __ se -- pul -- tus %141
 }
 
 % SanctusSopranoNotes = {
