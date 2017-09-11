@@ -875,7 +875,21 @@ EtIncarnatusViolinoII = {
 		\key f \lydian \time 6/2 \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
-		
+		f2\fE f f f2. f4 g2^\critnote %127
+		g g f2. f4 e2 r
+		\time 9/2 r1*3/2 g1 a2 d,4 d g1
+		c,2 a' a b a g a2. a4 a2 %130
+		b g g f1 g2 e f1
+		e e2 d a' g f1 f2~
+		f e1 f2 e2. e4 e2 \tempoEtIncarnatusB e1
+		f2 f2. f4 h,2 \tempoEtIncarnatusC r r r gis' g
+		\time 12/2 f a a a2. g4 a2 g a1~ a4 g fis2 g~ %135
+		\time 9/2 g a1 fis r2 r r fis
+		g2. g4 f f e2 e e fis e1
+		e2 e dis e1 r2 r a1
+		\time 12/2 a2. a4 g g f g a2 a a gis gis a a gis
+		a \tempoEtIncarnatusD a a r b b r a a r a a %140
+		\time 6/2 gis h \tempoEtIncarnatusFinis a2~\p a gis2. gis4 \bar "|" %141 finis
 	}
 }
 

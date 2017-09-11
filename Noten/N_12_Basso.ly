@@ -781,11 +781,40 @@ EtIncarnatusBassoNotes = {
 		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
+		\mvTr f2\fE^\tuttiE f f d2. d4 e2
+		f f2. f4 c2 c'1~
+		\time 9/2 c2 b1~ b2 b a g1.
+		f1 r2 r1*3/2 r2 f f %130
+		g1 a2 b2. a4 g2 g f d
+		a'1 a,2 d1 r2 r b' a
+		gis1( a2) d, e2. e4 a,2 \tempoEtIncarnatusB a' g?
+		f1 f2 e1 r2 r e e
+		\time 12/2 f1 fis2 g2. g4 f?2 e a2. g4 fis2 h4 a g?2 %135
+		\time 9/2 c a1 h2 h1 h2. h4 a a
+		g1 gis2 c1. h2 c1
+		a2 h h, e1 r2 r f1
+		\time 12/2 f2. f4 e e d1 dis2 e2. e4 d?2 c4( d) e2. e4
+		a,2 \tempoEtIncarnatusD a' a r g g r fis fis r f f %140
+		\time 6/2 e gis \tempoEtIncarnatusFinis a\p dis, e2. e4 \bar "|" %141 finis
 	}
 }
 
 EtIncarnatusBassoLyrics = \lyricmode {
-	
+	Et in -- car -- na -- tus, in -- %127
+	car -- na -- tus est de __
+	Spi -- ri -- tu San --
+	cto ex Ma -- %130
+	ri -- a Vir -- gi -- ne, et ho -- mo
+	fa -- ctus est, ho -- mo,
+	ho -- mo fa -- ctus est, ho -- mo
+	fa -- ctus est. Cru -- ci --
+	fi -- xus e -- ti -- am pro no -- _ _ _ _ _ %135
+	_ _ bis, sub Pon -- ti -- o Pi --
+	la -- to pas -- sus et
+	se -- pul -- tus est, sub
+	Pon -- ti -- o Pi -- la -- to pas -- sus et se -- pul -- tus
+	est, pas -- sus, pas -- sus, pas -- sus, pas -- sus, %140
+	pas -- sus et se -- pul -- tus %141
 }
 
 % SanctusBassoNotes = {

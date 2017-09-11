@@ -868,7 +868,7 @@ EtIncarnatusTenoreNotes = {
 		\key f \lydian \time 6/2 \autoBeamOff \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
-		\mvTr a2\fE^\tuttiE a a a2. a4 b?2 %127
+		\mvTr a2\fE^\tuttiE a a a2. a4 c2^\critnote %127
 		c c2. c4 c1 r2
 		\time 9/2 r1*3/2 e1 f2 f4 f f2( e)
 		f1 r2 r1*3/2 r2 c c %130

@@ -584,7 +584,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.2 ET INCARNATUS EST" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {
@@ -651,7 +651,7 @@
 				\new FiguredBass { \EtIncarnatusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 % 	\bookpart {

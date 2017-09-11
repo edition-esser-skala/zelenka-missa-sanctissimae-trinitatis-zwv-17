@@ -850,7 +850,21 @@ EtIncarnatusViola = {
 		\key f \lydian \time 6/2 \tempoEtIncarnatus
 		\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #127
-		
+		a'2\fE a a a2. a4 g2 %127
+		c, c2. c4 c1 r2
+		\time 9/2 r1*3/2 e1 f2 f4 f f2 e
+		f1 r2 r1*3/2 r2 c c %130
+		b1 c2~ c b4 b b2~ b a a
+		a a2. a4 a1 r2 r d c
+		h!1 a2~ a a gis << { \oneVoice a1 } \\ { s2 \tempoEtIncarnatusB s } >> e'2~
+		e dis2. dis4 e2 \tempoEtIncarnatusC r r r e e
+		\time 12/2 a,1 d2 d2. d4 d2 e e1 fis e2 %135
+		\time 9/2 a, c1 h r2 r r dis
+		e2. e4d d e2 a, e' dis e e,
+		c' h2. h4 h1 r2 r c d
+		\time 12/2 a c4 d e2 f1 fis2~ fis e e e e2. e4
+		e2 \tempoEtIncarnatusD e e r e e r a, a r c c %140
+		\time 6/2 r << { \oneVoice e1 } \\ { s2 \tempoEtIncarnatusFinis s } >> fis2\p e2. e4 \bar "|" %141 finis
 	}
 }
 
