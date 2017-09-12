@@ -911,11 +911,142 @@ EtResurrexitTenoreNotes = {
 			\set Score.currentBarNumber = #142
 		e4 r r2 %142
 		R1*12 %154
+		r8 \mvTr e\fE^\tuttiE e e e e e h16 h %155
+		cis8 cis r e d fis16 fis e4
+		e r cis4. d8
+		e4 e8 e gis4. fis8
+		e4 e8 d cis8. cis16 cis8 h
+		a8. a16 a4 fis' fis8 e %160
+		d8. d16 d8 cis h8. h16 h8([ a)]
+		gis4( a8[ cis] h4 a8[ cis]
+		h4 cis) h h~
+		h h h h8 h
+		cis cis16 cis h4 h r %165
+		R1*5 %170
+		r2 r4 r8 \mvTr h\fE^\tuttiE
+		cis d e e d e fis d
+		cis cis16 cis cis8 cis h[ fis' h, e]
+		r cis fis4 r8 fis, fis'4
+		r8 cis[ fis] d cis4 h8 h %175
+		\tempoEtResurrexitB ais2(\pE h4.) h8
+		\tempoEtResurrexitC ais4 r h8\fE h h([ e)]
+		cis cis h h ais h h([ ais)]
+		h4 r h r
+		d r8 d cis cis fis, cis' %180
+		h4 r8 h h4 r8 d
+		fis4 r r8 h, cis h
+		e h r h ais h h([ ais)]
+		h4 r r2
+		R1*2 %186
+		r4 \mvTr h8\pE^\solo d cis8. h16 cis4
+		r fis8 e d8. cis16 d4
+		e8 h e d cis[ a] cis16[ e d cis]
+		d8[ a] d16[ fis e d] e8[ a,] e'16[ g? fis e] %190
+		fis[ d fis g?] a8[ d,] cis16[ h] a8 r4
+		r e'8 cis fis e d c
+		h4 e8 d cis16[ d e d] cis[ h a g?]
+		fis8[ d fis a] d16[ e fis e] d[ cis h a]
+		gis!8[ e gis h] e16[ a gis fis] e[ d cis h] %195
+		a[ h cis a] d8[ g] fis16([ e d8)] e8.[\trill d16]
+		d4^\critnote r r2
+		R1*4 %201
+		r4 \mvTr d8\pE^\soloE fis h,4 h8 e
+		cis[ d16 e] fis8[ e] d16[ h cis d] e8[ d]
+		cis16[ a h cis] d8[ cis] h4 h8 a
+		gis8. fis16 e4 \mvTr gis8\fE^\tuttiE a h h %205
+		h h r h h h h h
+		h h r4 r2
+		r2 r4 \mvTr e8\pE^\soloE d!
+		cis4 fis8 e dis[ e16 fis] gis8[ fis]
+		e16[ cis dis? e?] fis8[ e] dis16[ h cis dis] e8 e16 d? %210
+		cis8. h16 a4 \mvTr cis8\fE^\tuttiE h a h
+		cis([ d)] e d cis h a e'
+		e e e2 e4~
+		e8 e e e fis2~
+		fis8[( d] fis4. e8[ d fis] %215
+		e2) e4 e
+		e e e e
+		dis8([ fis] h,4) h h
+		h h cis8 cis h4
+		h r r2 %220
+		R1
+		e8 d! cis d e4 a,8 a
+		a( h4 gis8) fis fis' e4~
+		e8([ fis)] e([ d] cis[ fis] e4)
+		e e r8 e fis([ e)] %225
+		e4 cis r8 cis h4
+		a r r2 \bar "||" %227 finis
 	}
 }
 
 EtResurrexitTenoreLyrics = \lyricmode {
 	est. %142
+	
+	[Et re -- sur -- re -- xit ter -- ti -- a %155
+	di -- e se -- cun -- dum Scri] -- ptu --
+	ras. Et a --
+	scen -- dit in coe -- lum,
+	se -- det ad dex -- te -- ram, ad
+	dex -- te -- ram, se -- det ad %160
+	dex -- te -- ram, ad dex -- te -- ram
+	Pa --
+	tris, se --
+	det, se -- det ad
+	dex -- te -- ram Pa -- tris. %165
+	
+	[Et %171
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a ju -- di] -- ca --
+	_ _ _ _
+	_ re vi -- vos et %175
+	mor -- tu --
+	[os: Cu -- ius re --
+	gni non, non, non e -- rit fi --
+	nis,] [non,]
+	[non, non, non, non e -- rit,] %180
+	non, non, non, non,
+	non, non, non, non
+	e -- rit, non e -- rit fi --
+	nis.
+	
+	Et in Spi -- ri -- tum %187
+	San -- ctum, Do -- mi -- num
+	et vi -- vi -- fi -- can -- _
+	_ _ _ _ %190
+	_ _ _ tem,
+	qui ex Pa -- tre Fi -- li --
+	o -- que pro -- ce -- _
+	_ _ _
+	_ _ _ %195
+	_ _ _ _
+	[dit,]
+	
+	qui cum Pa -- tre, cum %202
+	Pa -- _ _ _
+	_ _ _ tre et
+	Fi -- li -- o si -- mul ad -- o -- %205
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur,
+	qui cum
+	Pa -- tre, cum Pa -- _
+	_ _ _ _ tre et %210
+	Fi -- li -- o [si -- mul ad -- o --
+	ra -- tur et con -- glo -- ri -- fi] --
+	ca -- tur, et con --
+	glo -- ri -- fi -- ca --
+	%215
+	tur, et
+	con -- glo -- ri -- fi --
+	[ca] -- tur, et
+	con -- glo -- ri -- fi -- ca --
+	tur: %220
+	
+	Qui lo -- cu -- tus est per Pro --
+	[phe] -- tas, per Pro --
+	phe --
+	tas, per Pro -- phe -- %225
+	tas, per Pro -- phe --
+	tas. %227 finis
 }
 
 % SanctusTenoreNotes = {

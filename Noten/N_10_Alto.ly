@@ -998,8 +998,8 @@ EtResurrexitAltoNotes = {
 		e e16 e e8 fis fis4 r8 g?
 		fis4 h ais r8 h
 		cis4 h ais8([ gis)] fis fis %175
-		\tempoEtResurrexitB fis2( gis4.) gis8
-		\tempoEtResurrexitC fis4 r fis8 fis g?4
+		\tempoEtResurrexitB fis2(\pE gis4.) gis8
+		\tempoEtResurrexitC fis4 r fis8\fE fis g?4
 		fis8 fis fis fis fis fis fis4
 		fis r fis r
 		h r8 fis fis fis fis fis %180
@@ -1028,7 +1028,7 @@ EtResurrexitAltoNotes = {
 		a4. gis8 a4. gis8)
 		a4 a r8 a h([ gis)] %225
 		a4 a r8 a a([ gis)]
-		a4-! r r2 \bar "||" %227 finis
+		a4 r r2 \bar "||" %227 finis
 	}
 }
 

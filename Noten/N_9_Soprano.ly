@@ -1159,8 +1159,8 @@ EtResurrexitSopranoNotes = {
 		ais ais16 ais fis'8 e d4. h8
 		ais4 r8 d cis4 h
 		ais h cis d8 d %175
-		\tempoEtResurrexitB cis4( d4. h8 d8.) cis16
-		\tempoEtResurrexitC cis4 fis8 e d4 e8 e
+		\tempoEtResurrexitB cis4(\p d4. h8 d8.) cis16
+		\tempoEtResurrexitC cis4 fis8\fE e d4 e8 e
 		e4 d8 d cis d cis4
 		h r d r
 		fis4 h, ais8 fis cis'4 %180
