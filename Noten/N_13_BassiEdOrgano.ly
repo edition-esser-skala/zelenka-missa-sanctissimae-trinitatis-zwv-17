@@ -1758,7 +1758,92 @@ EtResurrexitBassiOrgano = {
 		\clef bass
 		\key a \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
-		\mvTr a'8\fE-\solo h cis h a h cis h
+		\mvTr a'8\fE-\solo h cis h a h cis h %142
+		a h cis a e' e, e' d
+		cis cis, cis' h a a, a' gis
+		fis fis, fis' e d' d, d' cis %145
+		h h, h' a gis gis, gis' fis
+		e d' cis a e16 d' d d cis a a a
+		e8 d' cis a d,4 e
+		fis gis a8 d e e,
+		a h cis h a\p h cis cis, %150
+		d4\fE e fis gis
+		a8 d e e, a\p d e e,
+		r cis'\f a4 r8 fis d e
+		r cis a4 r8 fis' d e
+		a, a'-\tutti cis e cis a gis gis16 e %155
+		a8 a, a' cis d h e e,
+		a h cis h a h cis h
+		a h cis a e' e, e' d
+		cis cis, cis' h a a, a' gis
+		fis fis, fis' e d d, d'' cis %160
+		h h, h' a gis gis, gis' fis
+		e d' cis a e16 d' d d cis a a a
+		e8 d' cis a h a gis e
+		h16 a' a a gis e e e h8 a' gis e
+		a, a' h h, e fis-\solo gis fis %165
+		e fis gis fis e fis gis e
+		h' a gis e a,4 h
+		cis dis? e8 a h h,
+		e\p a h h, r gis' e4
+		r8 cis' a h r gis e4 %170
+		f8 cis' a \mvTr h\fE-\tutti-\tasto gis-! fis-! e-! gis
+		a h cis a h cis d h
+		cis h ais fis h a? g e
+		fis e' d h fis16 e' e e d h h h
+		fis8 e' d h fis e d e %175
+		\tempoEtResurrexitB fis2\p eis
+		\tempoEtResurrexitC fis8\f gis ais fis h a? g e
+		fis ais h h, fis' h, fis' fis,
+		h' cis d cis h cis d cis
+		h cis d h fis gis ais fis %180
+		h4 r8 a gis4 r8 g
+		fis4 r r8 h fis h
+		g g, r e' fis h fis4
+		h,8 e-\solo fis fis, h\p e fis fis,
+		r d'\f cis4 r8 d h cis %185
+		r ais' fis4 r8 d e fis
+		h cis\p d h fis gis ais gis
+		fis gis ais fis h h, h' a?
+		gis4 r8 gis a4 r8 g
+		fis4 r8 d cis4 r8 a %190
+		d e fis g? \mvTr a\f-\rip h cis h
+		a \mvTr h\p-\org cis a d d,16 e fis8 d
+		g fis e g a4 r8 cis,
+		d4 r8 cis h4 r8 dis
+		e4 r8 d cis4 r8 e %195
+		fis fis, fis' e d h' g a
+		\mvTr d,\f-\rip e fis e d e fis d
+		g?4 a h cis
+		d8 g, a a, d\p g a a,
+		r fis'\f d4 r8 h' g? a %200
+		r fis d4 r8 h' g? a
+		d, \mvTr e\pE-\solo fis d g fis e gis
+		a g fis a h a gis e
+		a gis fis e d h16 cis d8 dis
+		e fis gis fis \mvTr e\fE-\tutti fis gis fis %205
+		e fis gis fis e fis gis e
+		h' a-\solo gis e a4 h
+		cis dis e8 e,16\p fis gis8 e
+		a gis fis a h a gis h
+		cis h ais fis h a? gis e %210
+		a h cis h \mvTr a\fE-\tutti h cis h
+		a h cis h a h cis a
+		e' e, e' d cis cis, cis' h
+		a a, a' gis fis fis, fis' e
+		d d, d'' cis h h, h' a %215
+		gis gis, gis' fis e d' cis a
+		e16 d' d d cis a a a e8 d' cis a
+		h a gis e h16 a' a a gis e e e
+		h8 a' gis e a, a' h h,
+		e d-\solo cis a d4 e %220
+		fis gis a8 d e e,
+		a-\tutti h cis h a h cis cis,
+		d4 e fis gis
+		a8 d e e, a d, e e'
+		r cis a4 r8 fis d e %225
+		r cis a4 r8 fis' d e
+		a,4-! r r2 \bar "||" %227 finis
 	}
 }
 

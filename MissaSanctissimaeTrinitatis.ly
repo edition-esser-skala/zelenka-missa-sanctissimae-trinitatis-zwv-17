@@ -144,6 +144,9 @@ tempoEtIncarnatus = \tempoMarkup "[Tempo deest]"
 	tempoEtIncarnatusD = \tempoMarkup "Adagio"
 	tempoEtIncarnatusFinis = \tempoMarkup "Adagissimo"
 tempoEtResurrexit = \tempoMarkup "Allegro"
+	tempoEtResurrexitB = \tempoMarkup "Adagio"
+	tempoEtResurrexitC = \tempoMarkup "[a tempo]"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm
