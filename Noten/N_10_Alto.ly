@@ -980,11 +980,109 @@ EtResurrexitAltoNotes = {
 		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
 		a'4 r r2 %142
+		R1*12 %154
+		r8 \mvTr a\fE^\tuttiE a gis a a h h16 h %155
+		a8 a r a a h16 h a8([ gis)]
+		a4 r a a
+		a a8 cis h4 h
+		r a2 a4
+		a1( %160
+		h)
+		h4 a gis8. gis16 a8 a
+		gis8. gis16 a8 a fis8. fis16 gis8 gis
+		fis8. fis16 gis4 fis( gis
+		fis2) gis4 r %165
+		R1*5 %170
+		r2 r4 r8 \mvTr h\fE^\tuttiE
+		a a a a fis fis fis fis
+		e e16 e e8 fis fis4 r8 g?
+		fis4 h ais r8 h
+		cis4 h ais8([ gis)] fis fis %175
+		\tempoEtResurrexitB fis2( gis4.) gis8
+		\tempoEtResurrexitC fis4 r fis8 fis g?4
+		fis8 fis fis fis fis fis fis4
+		fis r fis r
+		h r8 fis fis fis fis fis %180
+		fis4 r8 fis gis!4 r8 h
+		ais4 r r8 fis ais fis
+		h h r g fis fis fis4
+		fis r r2
+		R1*20 %204
+		r4 \mvTr h8\fE^\tutti h h h h a %205
+		gis a h a gis([ a)] h gis
+		fis fis r4 r2
+		R1*3 %210
+		r2 \mvTr a8\fE^\tuttiE a a a
+		a4 a8 a a a a a
+		gis4 gis a8 a a a
+		a1~
+		a8 a a a h2~ %215
+		h4 e, r8 gis a a
+		h gis a4( h8[ gis] a4)
+		fis r8 gis fis fis gis gis
+		fis4( gis fis2)
+		gis4 r r2 %220
+		R1
+		a8 a a a a4 r
+		fis gis a( h
+		a4. gis8 a4. gis8)
+		a4 a r8 a h([ gis)] %225
+		a4 a r8 a a([ gis)]
+		a4-! r r2 \bar "||" %227 finis
 	}
 }
 
 EtResurrexitAltoLyrics = \lyricmode {
 	est. %142
+	
+	[Et re -- sur -- re -- xit ter -- ti -- a %155
+	di -- e se -- cun -- dum Scri] -- ptu --
+	ras. Et a --
+	scen -- dit in coe -- lum,
+	se -- det,
+	se -- %160
+	
+	det ad dex -- te -- ram, ad
+	dex -- te -- ram, ad dex -- te -- ram, ad
+	dex -- te -- ram Pa --
+	tris. %165
+	
+	[Et %171
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a ju -- di -- ca -- _
+	_ _ _ re
+	vi -- vos, vi -- vos et %175
+	mor] -- tu --
+	[os:] Cu -- ius re --
+	gni non, non, non e -- rit fi --
+	nis, [non,]
+	[non,] non, non, non e -- rit, %180
+	non, non, non, non,
+	non, non, non, non
+	e -- rit, non e -- rit fi --
+	nis.
+	
+	Si -- mul, si -- mul ad -- o -- %205
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur,
+	
+	[si -- mul ad -- o -- %211
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur,] si -- mul ad -- o --
+	ra --
+	tur, ad -- o -- ra -- %215
+	[tur] et con -- glo --
+	ri -- fi -- ca --
+	tur, et con -- glo -- ri -- fi --
+	ca --
+	tur: %220
+	
+	Qui lo -- cu -- tus est
+	per Pro -- phe --
+	
+	tas, per Pro -- phe -- %225
+	tas, per Pro -- phe --
+	tas. %227 finis
 }
 
 % SanctusAltoNotes = {

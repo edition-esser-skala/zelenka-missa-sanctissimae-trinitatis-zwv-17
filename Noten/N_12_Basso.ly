@@ -823,6 +823,7 @@ EtResurrexitBassoNotes = {
 		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
 		a'4 r r2 %142
+		R1*12 %154
 	}
 }
 

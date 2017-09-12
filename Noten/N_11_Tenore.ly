@@ -910,6 +910,7 @@ EtResurrexitTenoreNotes = {
 		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
 		e4 r r2 %142
+		R1*12 %154
 	}
 }
 
