@@ -1141,11 +1141,109 @@ EtResurrexitSopranoNotes = {
 		\key a \major \time 4/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
 		a'4 r r2 %142
+		R1*12 %154
+		r8 \mvTr cis\fE^\tuttiE cis h a cis e e16 e %155
+		e8 e e4 fis8 d16 d h8([ e)]
+		cis e4 e8 e4 e8 d
+		cis a e'2 e4
+		e1
+		fis~ %160
+		fis2 e~
+		e1~
+		e4 e dis8. dis16 e8 e
+		dis8. dis16 e4 dis8([ h] e4~
+		e dis) e r %165
+		R1*5 %170
+		r2 r4 r8 \mvTr e\fE^\tuttiE
+		cis8. h16 a8 cis d cis h h
+		ais ais16 ais fis'8 e d4. h8
+		ais4 r8 d cis4 h
+		ais h cis d8 d %175
+		\tempoEtResurrexitB cis4( d4. h8 d8.) cis16
+		\tempoEtResurrexitC cis4 fis8 e d4 e8 e
+		e4 d8 d cis d cis4
+		h r d r
+		fis4 h, ais8 fis cis'4 %180
+		r8 d dis4 r8 e eis4
+		r8 fis cis fis d h r dis
+		r e h e e d cis4
+		h r r2
+		R1*20 %204
+		r2 \mvTr e8\fE^\tuttiE e e e %205
+		e e r e e e e e
+		dis h r4 r2
+		R1*3 %210
+		r4 \mvTr e8\fE^\tutti e e e e d
+		cis4 cis8 cis cis d e cis
+		h4 h r e8 d
+		cis cis cis h a a a' gis
+		fis fis fis e d d d cis %215
+		h h h a gis([ h a cis]
+		gis[ h a cis] gis[ h a cis]
+		dis) h r e dis dis e e
+		dis([ h] e2 dis4)
+		e r r2 %220
+		r r4 e8 d
+		cis h a4 cis8 d e4~
+		e8[( d16 cis] h8[ e] d[ a] d4
+		cis8.[ h16]) cis8([ h)] cis d h4
+		a cis r8 cis d([ h)] %225
+		cis4 e r8 a, fis'([ e)]
+		e4-! r r2 \bar "||" %227 finis
 	}
 }
 
 EtResurrexitSopranoLyrics = \lyricmode {
 	est. %142
+	
+	[Et re -- sur -- re -- xit ter -- ti -- a %155
+	di -- e se -- cun -- dum Scri] -- ptu --
+	ras. Et a -- scen -- dit in
+	coe -- lum, se -- det,
+	se --
+	_ %160
+	det __
+	
+	ad dex -- te -- ram, ad
+	dex -- te -- ram Pa --
+	[tris.] %165
+	
+	Et %171
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a ju -- di -- ca -- _
+	_ _ _ re
+	vi -- vos, vi -- vos et %175
+	mor -- tu --
+	os: Cu -- ius re -- gni non
+	e -- rit, non e -- rit fi --
+	nis, non,
+	non, non e -- rit, non, %180
+	non, non, non, non,
+	non, non, non e -- rit, [non,]
+	non, non, non e -- rit fi --
+	nis.
+	
+	Si -- mul ad -- o -- %205
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur,
+	
+	si -- mul, si -- mul ad -- o -- %211
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur, si -- mul,
+	si -- mul ad -- o -- ra -- tur, si -- mul,
+	si -- mul ad -- o -- ra -- tur, si -- mul %215
+	con -- glo -- ri -- fi -- ca --
+	
+	tur, et con -- glo -- ri -- fi --
+	ca --
+	tur: %220
+	Qui lo --
+	cu -- tus est per Pro -- phe --
+	
+	tas, per Pro -- phe --
+	tas, per Pro -- phe -- %225
+	tas, per Pro -- phe --
+	tas. %227 finis
 }
 
 % SanctusSopranoNotes = {

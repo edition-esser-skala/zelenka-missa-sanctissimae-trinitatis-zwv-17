@@ -145,7 +145,7 @@ tempoEtIncarnatus = \tempoMarkup "[Tempo deest]"
 	tempoEtIncarnatusFinis = \tempoMarkup "Adagissimo"
 tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoEtResurrexitB = \tempoMarkup "Adagio"
-	tempoEtResurrexitC = \tempoMarkup "[a tempo]"
+	tempoEtResurrexitC = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'
