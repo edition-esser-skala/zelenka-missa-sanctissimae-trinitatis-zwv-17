@@ -1787,7 +1787,7 @@ EtResurrexitBassiOrgano = {
 		cis dis? e8 a h h,
 		e\p a h h, r gis' e4
 		r8 cis' a h r gis e4 %170
-		f8 cis' a \mvTr h\fE-\tutti-\tasto gis-! fis-! e-! gis
+		r8 cis' a \mvTr h\fE-\tutti-\tasto gis-! fis-! e-! gis
 		a h cis a h cis d h
 		cis h ais fis h a? g e
 		fis e' d h fis16 e' e e d h h h
@@ -1805,7 +1805,7 @@ EtResurrexitBassiOrgano = {
 		r ais' fis4 r8 d e fis
 		h cis\p d h fis gis ais gis
 		fis gis ais fis h h, h' a?
-		gis4 r8 gis a4 r8 g
+		g?4 r8 gis a4 r8 g
 		fis4 r8 d cis4 r8 a %190
 		d e fis g? \mvTr a\f-\rip h cis h
 		a \mvTr h\p-\org cis a d d,16 e fis8 d
@@ -1840,8 +1840,8 @@ EtResurrexitBassiOrgano = {
 		fis gis a8 d e e,
 		a-\tutti h cis h a h cis cis,
 		d4 e fis gis
-		a8 d e e, a d, e e'
-		r cis a4 r8 fis d e %225
+		a8 d e e, a\pE d, e e'
+		r cis\f a4 r8 fis d e %225
 		r cis a4 r8 fis' d e
 		a,4-! r r2 \bar "||" %227 finis
 	}

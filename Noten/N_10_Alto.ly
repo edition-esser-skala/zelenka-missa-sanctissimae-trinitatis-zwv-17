@@ -1025,8 +1025,8 @@ EtResurrexitAltoNotes = {
 		R1
 		a8 a a a a4 r
 		fis gis a( h
-		a4. gis8 a4. gis8)
-		a4 a r8 a h([ gis)] %225
+		a4. gis8 a4.\pE gis8)
+		a4 a\fE r8 a h([ gis)] %225
 		a4 a r8 a a([ gis)]
 		a4 r r2 \bar "||" %227 finis
 	}

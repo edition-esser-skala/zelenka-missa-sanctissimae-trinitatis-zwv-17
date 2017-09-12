@@ -824,11 +824,108 @@ EtResurrexitBassoNotes = {
 			\set Score.currentBarNumber = #142
 		a'4 r r2 %142
 		R1*12 %154
+		r8 \mvTr a\fE^\tutti cis e cis a gis gis16 e %155
+		a8 a r cis d h16 h e4
+		a,4 r a8 h cis h
+		a h cis a16 a e'8([ e, e' d]
+		cis4.) h8 a4 a8 gis
+		fis8. fis16 fis8 e d8. d16 d4 %160
+		h' h8 a gis8. gis16 gis8([ fis)]
+		e[ d' cis a] e[ d' cis a]
+		e[ d' cis a] h[ a gis e]
+		h[ a' gis e] h[ a' gis e]
+		a4 h e, r %165
+		R1*5 %170
+		r4 r8 \mvTr h'\fE^\tuttiE gis fis e gis
+		a h cis a h cis16 cis d8 h
+		cis([ h)] ais([ fis)] h([ a?)] g([ e)]
+		fis([ e' d h] fis[ e' d h]
+		fis[ e')] d([ h]) fis([ e)] d e %175
+		\tempoEtResurrexitB fis2(\pE eis4.) eis8
+		\tempoEtResurrexitC fis4 r h8\fE a g? e16 e
+		fis8([ ais)] h h, fis' h fis4
+		h, r h' r
+		h r8 h fis gis ais fis %180
+		h4 r8 a gis4 r8 g
+		fis4 r r8 h fis h
+		g g r e fis h fis4
+		h, r r2
+		R1*20 %204
+		r2 \mvTr e8\fE^\tuttiE fis gis fis %205
+		e fis gis fis e([ fis)] gis e
+		h' h r4 r2
+		R1*3 %210
+		r2 \mvTr a8\fE^\tuttiE h cis h
+		a h cis h a([ h)] cis a
+		e' e, e' d cis cis cis h
+		a a a gis fis fis fis e
+		d d d' cis h h h a16 a %215
+		gis8 gis gis fis e[ d' cis a]
+		e[ d' cis a] e[ d' cis a]
+		h[ a gis e] h[ a' gis e]
+		h[ a' gis e] a4 h
+		e, r r2 %220
+		R1
+		a8 h cis h a([ h)] cis cis,
+		d4 e fis gis
+		a8[ d e e,] a[\p d,] e4
+		a, a'\f r8 fis d([ e)] %225
+		a,4 a' r8 fis d([ e)]
+		a,4 r r2 \bar "||" %227 finis
 	}
 }
 
 EtResurrexitBassoLyrics = \lyricmode {
 	est. %142
+	
+	Et re -- sur -- re -- xit ter -- ti -- a %155
+	di -- e se -- cun -- dum Scri -- ptu --
+	[ras.] Et a -- scen -- dit,
+	et a -- scen -- dit in coe --
+	lum, se -- det ad
+	dex -- te -- ram, ad dex -- te -- ram, %160
+	se -- det ad dex -- te -- ram
+	Pa -- _
+	_ _
+	_ _
+	_ _ [tris.] %165
+	
+	Et i -- te -- rum ven -- %171
+	tu -- rus est cum glo -- ri -- a ju -- di --
+	ca -- re, __ ju -- di --
+	ca --
+	re __ vi -- vos et %175
+	mor -- [tu --
+	os:] Cu -- ius re -- gni non
+	e -- rit, non e -- rit fi --
+	nis, non,
+	non, non e -- rit fi -- nis, %180
+	non, non, non, non,
+	non, non, non, non
+	e -- rit, non e -- rit fi --
+	nis.
+	
+	Si -- mul ad -- o -- %205
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur,
+	
+	si -- mul ad -- o -- %211
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur, si -- mul, si -- mul ad -- o --
+	ra -- tur, si -- mul, si -- mul ad -- o --
+	ra -- tur, si -- mul ad -- o -- ra -- tur et %215
+	con -- glo -- ri -- fi -- ca --
+	_ _
+	_ _
+	_ _ _
+	tur: %220
+	
+	Qui lo -- cu -- tus est __ per Pro --
+	phe -- _ _ _
+	_ _ _
+	tas, per Pro -- phe -- %225
+	tas, per Pro -- phe --
+	tas. %227 finis
 }
 
 % SanctusBassoNotes = {

@@ -1186,8 +1186,8 @@ EtResurrexitSopranoNotes = {
 		r r4 e8 d
 		cis h a4 cis8 d e4~
 		e8[( d16 cis] h8[ e] d[ a] d4
-		cis8.[ h16]) cis8([ h)] cis d h4
-		a cis r8 cis d([ h)] %225
+		cis8.[ h16]) cis8([ h)] cis\pE d h4
+		a cis\fE r8 cis d([ h)] %225
 		cis4 e r8 a, fis'([ e)]
 		e4-! r r2 \bar "||" %227 finis
 	}

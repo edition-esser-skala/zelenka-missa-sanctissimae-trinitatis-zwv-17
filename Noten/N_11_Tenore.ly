@@ -972,8 +972,8 @@ EtResurrexitTenoreNotes = {
 		R1
 		e8 d! cis d e4 a,8 a
 		a( h4 gis8) fis fis' e4~
-		e8([ fis)] e([ d] cis[ fis] e4)
-		e e r8 e fis([ e)] %225
+		e8([ fis)] e([ d] cis[\pE fis] e4)
+		e e\fE r8 fis^\critnote fis([ e)] %225
 		e4 cis r8 cis h4
 		a r r2 \bar "||" %227 finis
 	}
