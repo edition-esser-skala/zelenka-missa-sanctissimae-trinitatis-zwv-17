@@ -1785,9 +1785,9 @@ EtResurrexitBassiOrgano = {
 		e fis gis fis e fis gis e
 		h' a gis e a,4 h
 		cis dis? e8 a h h,
-		e\p a h h, r gis' e4
+		e\p a h h, r gis'\fE e4
 		r8 cis' a h r gis e4 %170
-		r8 cis' a \mvTr h\fE-\tutti-\tasto gis-! fis-! e-! gis
+		r8 cis' a h-\tutti-\tasto gis-! fis-! e-! gis
 		a h cis a h cis d h
 		cis h ais fis h a? g e
 		fis e' d h fis16 e' e e d h h h

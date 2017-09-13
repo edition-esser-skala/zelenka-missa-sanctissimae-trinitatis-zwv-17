@@ -874,7 +874,88 @@ EtResurrexitViola = {
 % 		\clef alto
 		\key a \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
-		
+		cis'8\fE h a d cis h a d %142
+		cis h a cis h gis r16 gis a h
+		a8 a4 a8 cis cis, cis cis
+		cis cis4 cis8 fis fis fis fis %145
+		fis fis4 fis8 h h h h
+		<h gis>4 <a e a,> <h gis> <a e a,>
+		<h gis> <a e a,> r8 fis h,4
+		r8 a' e4 r8 a a gis16 h
+		cis8 h a h cis\pE h a e %150
+		r fis\fE h,4 r8 a' e4
+		r8 a a gis16 h r8 a\p a gis16 h
+		r8 e,\f cis'4 r8 fis, d e
+		r e cis e r fis d e
+		a,16 cis cis cis e a gis gis cis cis, cis cis h e e e %155
+		e e e e e e e e a8 h gis h
+		cis h a d cis h a d
+		cis h a cis h gis e' d
+		cis cis, cis' h a a, a' gis
+		fis fis, fis' e d d, d'' cis %160
+		h h, h' a gis gis, gis' fis
+		e d' cis a e16 d' d d cis a a a
+		e8 d' cis a h a gis e
+		h16 a' a a gis e e e h8 a' gis e
+		a, a' h h, gis' a h a %165
+		gis a h a gis a h h
+		h fis gis h r cis fis,4
+		r8 e' a, fis r e e dis16 fis
+		r8 e\p e dis16 fis r8 h,\f gis' h
+		r cis a h r h, gis' h %170
+		r cis a h gis fis e gis
+		a h cis a h cis d h
+		cis h ais fis h a? g e
+		fis e' d h fis16 e' e e d h h h
+		fis8 e' d h fis e d e %175
+		\tempoEtResurrexitB fis\pE ais ais ais h h, h h
+		\tempoEtResurrexitC ais16\fE cis cis cis fis cis cis cis d h h h h g' g g
+		fis fis fis fis fis h, h h cis cis h h cis fis fis fis
+		fis8 h, h' cis d cis h e
+		d cis h d cis4 r8 ais %180
+		h d h dis h e h eis,
+		fis4 ais h ais8 fis
+		g h g h ais h4 ais8
+		r h h ais16-! cis-! r8 h\p h ais16-! cis-!
+		r8 fis,\f gis4 r8 d' h cis %185
+		fis, cis cis4 r8 d e fis
+		h,4-\critnote r r2
+		R1*3 %190
+		r2 cis'8\f h a h
+		cis\p h a cis d d,16 e fis8 d
+		g fis e g a4 r
+		R1*3 %196
+		fis8\fE e d e fis e d fis
+		d h' a cis g? d' a e'
+		a, g?16 h d,8 cis16 e r8 d\p d cis16 e
+		r8 a\f fis a r h g a %200
+		r a fis a r h g a
+		d, e\p fis d g fis e gis
+		a g fis a h a gis e
+		a gis fis e d h16 cis d8 dis
+		e fis gis fis e\f fis gis fis %205
+		e fis gis fis e fis gis e
+		h' a gis e e a fis4
+		r8 cis' h4 h8 e,16\pE fis gis8 e
+		a gis fis a h a gis h
+		cis h ais fis h a? gis e %210
+		a h cis h a\fE h cis h
+		a h cis h a h cis a
+		e' e, e' d cis cis, cis' h
+		a a, a' gis fis fis, fis' e
+		d d, d'' cis h h, h' a %215
+		gis gis, gis' fis e d' cis a
+		e16 d' d d cis a a a e8 d' cis a
+		h a gis e h16 a' a a gis e e e
+		h8 a' gis e a, a' h h,
+		e d cis e a,4 r8 e' %220
+		fis4 gis a8 d, e4
+		a8 h cis h a h cis cis,
+		d4 e fis gis
+		a8 d e e, a\pE d, e e'
+		r cis\f a4 r8 fis d e %225
+		r cis a4 r8 fis' d e
+		a,4-! r r2 \bar "||" %227 finis
 	}
 }
 
