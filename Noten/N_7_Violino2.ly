@@ -953,8 +953,8 @@ EtResurrexitViolinoII = {
 		d16\mf fis a d a[ d,] d8\trill r h'\p h, dis
 		e16\mf gis! h e h[ e,] e8\trill r e'\p gis, d' %195
 		cis a fis e d h' g? cis
-		d16 fis a d a[ d,] d8\trill d,16 fis a d a[ d,] d8\trill
-		h'16[ g] g8\trill cis16[ g] g8\trill d'16[ g,] d8\trill e'16[ g,] g8\trill
+		d16\fE fis a d a[ d,] d8\trill d,16\pE fis a d a[ d,] d8\trill
+		h'16[\fE g] g8\trill cis16[ g] g8\trill d'16[ g,] d8\trill e'16[ g,] g8\trill
 		\tuplet 3/2 8 { fis16 a d h[ a g] fis a d, e[ d cis] fis\p a d h[ a g] fis a d, e[ d cis] }
 		d8\fE d' r fis, g h g a %200
 		d, d' r fis g h, g a

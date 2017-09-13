@@ -870,8 +870,8 @@ EtIncarnatusViola = {
 
 EtResurrexitViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
 		cis'8\fE h a d cis h a d %142
@@ -925,8 +925,8 @@ EtResurrexitViola = {
 		cis\p h a cis d d,16 e fis8 d
 		g fis e g a4 r
 		R1*3 %196
-		fis8\fE e d e fis e d fis
-		d h' a cis g? d' a e'
+		fis8\fE e d e fis\pE e d fis
+		d\fE h' a cis g? d' a e'
 		a, g?16 h d,8 cis16 e r8 d\p d cis16 e
 		r8 a\f fis a r h g a %200
 		r a fis a r h g a

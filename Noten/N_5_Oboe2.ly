@@ -591,7 +591,84 @@ EtResurrexitOboeII = {
 		\clef treble
 		\key a \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #142
-		
+		a'16\fE cis e a e[ a,] a8\trill a16 cis e a e[ a,] a8\trill %142
+		a16 cis e a \tuplet 3/2 8 { e16 a, h cis[ h a] } gis8 e r16 h' cis d
+		e8 e4 e e fis16 gis
+		a8 a4 a a~ a32 a, h cis %145
+		d8 d4 d d8~[ d16 h] cis32 d e fis
+		gis8 e a4 gis8 e a4
+		gis-! r16 e d cis fis8 r gis r
+		a r h r a a,4 gis8
+		a16 cis e a e[ a,] a8\trill a16\p cis e a e[ a,] a8\trill %150
+		r8 fis'\fE r gis r a r h
+		a a,4 gis8 r a4\p gis8
+		a4\fE r r8 fis d e
+		a4 r8 cis d fis, d e
+		a e' a h, e a h e, %155
+		cis4 r8 e fis d h e
+		a,16 cis e a e[ a,] a8\trill a16 cis e a e[ a,] a8\trill
+		a16 cis e a \tuplet 3/2 8 { e16 a, h cis[ h a] } gis8 e r16 h' cis d
+		e8 e4 e e fis16 gis
+		a8 a4 a a~ a32 a, h cis %160
+		d8 d4 d d8~[ d16 h] cis32 d e fis
+		gis8 e a4 gis8 e a4
+		gis r dis8 h e4
+		dis8 h e4 dis8 h e4~
+		e8 cis dis8.\trill e16 e e, gis h e[ e,] e8\trill %165
+		e'16 e, gis h e[ e,] e8\trill e'16 e, gis h e h gis' e
+		dis8 h r16 h a gis cis8 r dis r
+		e r fis a, \tuplet 3/2 8 { gis16 h e cis[ h a] gis h e, fis[ e dis]
+		gis16(\p h e cis[ h a]) gis( h e, fis[ e dis]) } e8-!\f e'-! r gis,
+		a cis a h e, e' r gis %170
+		a cis, a h e, e' gis, e'
+		cis e e, e' d! fis fis, fis'
+		ais, e' fis, e' d h r4
+		r r8 fis' fis2~\f
+		fis2~ fis4. d8 %175
+		\tempoEtResurrexitB cis4\pE d4. h8 d8. cis16
+		\tempoEtResurrexitC cis4 fis8\fE e d4 e8 e
+		e4 d8 d cis d cis4
+		h r d r
+		fis4 h, ais8 fis cis'4 %180
+		r8 d dis4 r8 e eis4
+		r8 fis cis fis d h r dis
+		r e h e e d cis4
+		\tuplet 3/2 8 { h16-\critnote fis' h g?[ fis e] d fis h, cis[ h ais] h(\p fis' h g?[ fis e]) d( fis h, cis[ h ais]) }
+		h8\f h' r eis, fis d h cis %185
+		fis, fis' r ais, h h, e fis
+		h,4 r r2
+		R1*3 %190
+		r2 a'16\f cis e a e[ a,] a8\trill
+		R1*5 %196
+		d16\fE fis a d a[ d,] d8\trill r2
+		h8\f g cis g d' g, e' g,
+		fis h a cis fis,\p h a cis
+		d,8\fE d' r fis, g h g a %200
+		d, d' r fis g h, g a
+		d,4 r r2
+		R1*2
+		\mvTr e16\fE-\critnote gis h e h[ e,] e8\trill e16 gis h e h[ e,] e8\trill %205
+		e16 gis h e h[ e,] e8\trill e16 gis h e \tuplet 3/2 8 { h e, fis gis[ fis e] }
+		fis8 h r16 h a gis a8 cis a dis
+		a e' a, fis' gis, e r4
+		R1*2 %210
+		a16\f cis e a e[ a,] a8\trill a16 cis e a e[ a,] a8\trill
+		a16 cis e a e[ a,] a8\trill a16 cis e a \tuplet 3/2 8 { e a, h cis[ h a] }
+		gis8 e r16 h' cis d e e, a cis e e, a cis
+		e8 e4~\trill e32 e fis gis a16 a, cis fis a a, cis fis
+		a8 a4~\trill a32 a, h cis d16 d, fis h d d, fis h %215
+		d8 d[~\trillE d16 h] cis32 d e fis gis8 e a4
+		gis8 e a4 gis r16 a, cis e
+		dis8 h e4 dis8 h e4-\critnote
+		dis8 h e4. cis8 dis8.\trill e16
+		e4 r16 e d cis d8 fis d gis %220
+		d a' d, h' e, fis e d
+		cis16 a e' a e[ a,] a8\trill a16 cis e a e[ a,] a8\trill
+		fis'16[ d] d8\trillE gis16[ d] d8\trill a'16[ d,] d8\trill h'16[ d,] d8\trill
+		\tuplet 3/2 8 { cis16 e a fis[ e d] cis e a, h[ a gis] cis\pE e a fis[ e d] cis e a, h[ a gis] }
+		a8\fE a' r cis, d fis, d e %225
+		a4 r8 cis d fis, d e
+		a4-! r r2 \bar "||" %227 finis
 	}
 }
 
