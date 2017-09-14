@@ -729,60 +729,135 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
+% 			composer = \markup { \larger " " }
+% 		}
+% 
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EtUnamSanctamViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+% 							\EtUnamSanctamViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\EtUnamSanctamViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \EtUnamSanctamSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EtUnamSanctamSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EtUnamSanctamAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EtUnamSanctamAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EtUnamSanctamTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EtUnamSanctamTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Bassi ed Organo"
+% 						\EtUnamSanctamBassiOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EtUnamSanctamBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
 			composer = \markup { \larger " " }
 		}
-
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\EtVitamOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\EtVitamOboeII
+						}
+					>>
+				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EtUnamSanctamViolinoI
+							\EtVitamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\EtUnamSanctamViolinoII
+							\EtVitamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\EtUnamSanctamViola
+						\EtVitamViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EtUnamSanctamSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EtVitamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EtUnamSanctamSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EtVitamSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtUnamSanctamAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EtVitamAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \EtUnamSanctamAltoLyrics
+					\new Lyrics \lyricsto Alto \EtVitamAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtUnamSanctamTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EtVitamTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EtUnamSanctamTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EtVitamTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtVitamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtVitamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi ed Organo"
-						\EtUnamSanctamBassiOrgano
+						\EtVitamBassiOrgano
 					}
 				>>
-				\new FiguredBass { \EtUnamSanctamBassFigures }
+				\new FiguredBass { \EtVitamBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 % 	\bookpart {

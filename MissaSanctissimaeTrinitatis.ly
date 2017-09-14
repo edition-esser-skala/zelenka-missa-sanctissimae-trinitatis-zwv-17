@@ -148,6 +148,7 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoEtResurrexitC = \tempoMarkup "Allegro"
 tempoEtUnamSanctam = \tempoMarkup "Andante"
 	tempoMortuorum = \tempoMarkup "Adagio"
+tempoEtVitam = \tempoMarkup "Vivace"
 
 
 % modify the Scheme function 'format-bass-figure'

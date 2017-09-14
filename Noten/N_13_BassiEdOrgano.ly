@@ -1989,6 +1989,126 @@ EtUnamSanctamBassFigures = \figuremode {
 	<5 4> <5 _!> <5 2> \bassFigureExtendersOff <5 _!>1. %247 finis
 }
 
+EtVitamBassiOrgano = {
+	\relative c {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		\mvTr c'2-!\fE-\tuttiE d-! %248
+		e-! f-!
+		g-! a-! %250
+		<< {
+			s2 g
+			a h
+			c d
+			e c4. d16 c
+			h8 c d4
+		} \\ {
+			f,4.-! g16 f e8 d c e
+			f4 e8 d r g d g
+			e c c'2 h4
+			c8 c,16 d e8 c e4 fis
+			g4. f8
+		} >> \clef bass c,2 %255
+		d e
+		f g
+		a f4. g16 f
+		e8 d c e f4 d
+		r8 g-! d-! g e c c'4~ %260
+		c h c8 c,16 d e8 c
+		e4 fis g8 \clef treble g'16-![ f-!] e-! d-! c h
+		<< { r8 c'16 h a g fis e fis8 } \\ { a,8 h c a d } >> \clef bass d16[ c] h a g fis
+		e8 fis g c, d d'[ h g]
+		r c a fis r h g e %265
+		r a fis d r g e c
+		d4 g c, d8 c
+		h a g \clef treble << {
+			s8 a''2
+			h c
+			d e %270
+			c4. d16 c h4 cis
+		} \\ {
+			g8~ g fis16 e fis4
+			r8 g16 fis e d c h a8 a'16 g fis e d c
+			h8 h'16 a g fis e d c8 c'16 h a g fis e %270
+			a8 g fis d g fis e a
+		} >>
+		\clef bass d,,2 e
+		fis g
+		a h
+		g4. a16 g fis8 d'[ h g] %275
+		r c a fis r h g e
+		r a fis e dis h16 cis dis e fis g
+		a8 g fis h r e,16-\markup { \anmerkung "senza Rip." } fis g a h c
+		d8 c h e r a,,16-\rip h c d e fis
+		g8 fis e a d c h a %280
+		g e16 fis? g8 a h h,16 cis? dis e fis g
+		fis8 dis16 e fis g a h c8 c, \clef "treble_8" g'16 a h c
+		d8 d,16 e fis g a h c8 c,16 d e fis g a
+		h8 h,16 cis? dis e fis g a8 g fis h
+		\clef bass e2 d %285
+		c h
+		a gis
+		h4. a16 h c4. d8
+		e4 a, e r8 e'
+		c[ a] e \noBeam \clef "treble_8" e' c a g dis %290
+		\clef bass e2 fis
+		g a
+		h c
+		d4 g, d8 d' h g
+		r c a fis r h g e %295
+		r a fis d r g e c
+		d d'16 c d8 c h a \once\tieDashed g4~
+		g fis r8 g16 f e d c h
+		a8-! a'16 g f! e d c h8-! h'16 a g f e d
+		c8-! c'16 h a g f e f8 d e f %300
+		g4 c, g \clef "treble_8" g'
+		\clef bass c,2 d
+		e f
+		g a
+		f4. e16 f g8 f e c %305
+		r f d h r e c a
+		r d h g c d e f
+		g4 c, g2
+		c4 f2 g4~
+		g a2 b4~ %310
+		b c2 d4~
+		d8 c b g c b a f
+		r b? g e r a f d
+		r g e c f g a b
+		c4 f, c cis %315
+		d8 e f g a g f d
+		r g e c r f d h!
+		r e cis a d e f g
+		a4 d, a2
+		d8 \clef "treble_8" d'[ h! g] r c a fis %320
+		r h g e r a fis d
+		\clef bass g2 a
+		h c
+		d e
+		f!8 e d c h g c c, %325
+		f d g f e c c'4~
+		c h r8 c16 h a g f e
+		d8 d'16 c h a g f e8-! e'16 d c h a g
+		f8-! f'16 e d c h a h8 g a h
+		c c,16 d e8 f g4 g, %330
+		g'1~-\tasto
+		g~
+		\once\tieDashed g~
+		g
+		r8 c a4-! h-! r8 c %335
+		a4-! r8 f g4-! r8 c,
+		g'4 g, c g'-!
+		c-! g-! c,-! g'-!
+		c-! r r2 \bar "|." %339 FINIS
+	}
+}
+
+
+EtVitamBassFigures = \figuremode {
+	
+}
+
 % SanctusBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

@@ -1298,6 +1298,19 @@ EtUnamSanctamSopranoLyrics = \lyricmode {
 	rum. __ %247 finis
 }
 
+EtVitamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
+EtVitamSopranoLyrics = \lyricmode {
+	
+}
+
 % SanctusSopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
@@ -1750,15 +1763,4 @@ EtUnamSanctamSopranoLyrics = \lyricmode {
 % 	na no --
 % 	bis pa --
 % 	cem. %110 FINIS
-% }
-
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
 % }

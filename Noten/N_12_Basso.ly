@@ -928,6 +928,19 @@ EtResurrexitBassoLyrics = \lyricmode {
 	tas. %227 finis
 }
 
+EtVitamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
+EtVitamBassoLyrics = \lyricmode {
+	
+}
+
 % SanctusBassoNotes = {
 % 	\relative c {
 % 		\clef bass

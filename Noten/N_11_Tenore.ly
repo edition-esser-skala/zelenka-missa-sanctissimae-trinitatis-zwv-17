@@ -1101,6 +1101,19 @@ EtUnamSanctamTenoreLyrics = \lyricmode {
 	rum. __ %247 finis
 }
 
+EtVitamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
+EtVitamTenoreLyrics = \lyricmode {
+	
+}
+
 % SanctusTenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

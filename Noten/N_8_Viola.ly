@@ -989,6 +989,16 @@ EtUnamSanctamViola = {
 	}
 }
 
+EtVitamViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
 % SanctusViola = {
 % 	\relative c' {
 % % 		\clef treble

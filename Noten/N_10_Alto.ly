@@ -1137,6 +1137,19 @@ EtUnamSanctamAltoLyrics = \lyricmode {
 	_ _ [rum.] %247 finis
 }
 
+EtVitamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
+EtVitamAltoLyrics = \lyricmode {
+	
+}
+
 % SanctusAltoNotes = {
 % 	\relative c' {
 % 		\clef treble

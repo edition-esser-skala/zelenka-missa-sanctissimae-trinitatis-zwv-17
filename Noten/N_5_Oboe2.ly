@@ -682,6 +682,15 @@ EtResurrexitOboeII = {
 % 	}
 % }
 
+EtVitamOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtVitam
+			\set Score.currentBarNumber = #248
+		
+	}
+}
+
 % SanctusOboeII = {
 % 	\relative c' {
 % 		\clef treble
