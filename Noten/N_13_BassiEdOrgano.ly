@@ -1942,7 +1942,7 @@ EtUnamSanctamBassiOrgano = {
 		\key a \minor \time 6/2 \tempoEtUnamSanctam
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #228
-		\mvTr e'2\pE^\solo e e e1 e2 %228
+		\mvTr e'2\pE-\solo e e e1 e2 %228
 		dis dis dis e2. e,4 e2
 		e'1 d2 c h4 a g2 %230
 		e c'1 h r2
@@ -1986,7 +1986,7 @@ EtUnamSanctamBassFigures = \figuremode {
 	<7> <6> r <7> r <_->
 	<7 5>4 <6> <4>2 <_!> <_-> <5 _!> <\t \t> %245
 	<6 3> \bassFigureExtendersOn <6 4> <6 5-> <6\\\! 5-\!> <6\\ 4> <6\\ 3>
-	<5 4> <5 _!> <5 2> \bassFigureExtendersOff <5 _!>1.
+	<5 4> <5 _!> <5 2> \bassFigureExtendersOff <5 _!>1. %247 finis
 }
 
 % SanctusBassiOrgano = {

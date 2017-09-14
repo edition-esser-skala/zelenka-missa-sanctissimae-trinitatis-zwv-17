@@ -1252,12 +1252,50 @@ EtUnamSanctamSopranoNotes = {
 		\key a \minor \time 6/2 \autoBeamOff \tempoEtUnamSanctam
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #228
-		
+		\mvTr h'2\pE^\soloE h h c2.( h4) c2 %228
+		c h a a2. g4 g2
+		c c h a2. a4 h2 %230
+		h h a h1 r2
+		r r h cis2. h4 cis2
+		d a4( h) c2 c1 h2
+		r g g a1 a2
+		a2. a4 g2 fis fis1 %235
+		e2 h' h e1 e2
+		c4 h c( d) e( fis) g1 g,2
+		fis( a) fis h1.~
+		h2 e, e'~ e d1~
+		d2 c1~ c2 h4 a h2~ %240
+		h a g fis a h
+		a a1 g2\fermata \tempoMortuorum r r
+		\time 9/2 r g g \once\tieDashed as1.~ as2 g4 f g2~
+		\time 6/2 g f4 e! f2~ f es4 d es2~
+		es4 d d1 c2 e\pp e %245
+		f1.\f fis1~ fis4 g
+		g1.~ g \bar "||" %247 finis
 	}
 }
 
 EtUnamSanctamSopranoLyrics = \lyricmode {
-	
+	Et u -- nam san -- ctam, %228
+	san -- ctam ca -- tho -- li -- cam
+	et a -- po -- sto -- li -- cam %230
+	Ec -- cle -- si -- am.
+	Con -- fi -- te -- or
+	u -- num __ ba -- pti -- sma
+	in re -- mis -- si --
+	o -- nem pec -- ca -- to -- %235
+	rum. Et ex -- spe -- cto
+	re -- sur -- re -- cti -- o -- nem
+	mor -- tu -- o --
+	_ _ _
+	_ _ _ _ %240
+	_ _ _ rum, mor --
+	tu -- o -- rum,
+	mor -- tu -- o -- _ _ _
+	_ _ _ _ _ _
+	_ _ rum, mor -- tu -- %245
+	o -- _ _
+	rum. __ %247 finis
 }
 
 % SanctusSopranoNotes = {
