@@ -734,7 +734,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+
 		\score {
 			<<
 				\new StaffGroup <<

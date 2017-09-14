@@ -1000,7 +1000,26 @@ EtUnamSanctamViolinoI = {
 		\key a \minor \time 6/2 \tempoEtUnamSanctam
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #228
-		
+		\mvTr h'2\pE-\markup { \anmerkung "con sordino" } h h c2. h4 c2 %228
+		c h a a2. g4 g2
+		c c h a2. a4 h2 %230
+		h h a h1 r2
+		r r h cis2. h4 cis2
+		d a4 h c2 c1 h2
+		r g g a1 a2
+		a2. a4 g2 fis fis1 %235
+		e2 h' h e1 e2
+		c4 h c d e fis g1 g,2
+		fis a fis h1.~
+		h2 e, e'~ e d1~
+		d2 c1~ c2 h4 a h2~ %240
+		h a g fis a h
+		a a1 g2\fermata \tempoMortuorum r r
+		\time 9/2 r g g \once\tieDashed as1.~ as2 g4 f g2~
+		\time 6/2 g f4 e! f2~ f es4 d es2~
+		es4 d d1 c2 e\pp e %245
+		f1.\f fis1~ fis4 g
+		g1.~ g \bar "||" %247 finis
 	}
 }
 

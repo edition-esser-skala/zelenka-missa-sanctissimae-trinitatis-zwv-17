@@ -961,12 +961,31 @@ EtResurrexitViola = {
 
 EtUnamSanctamViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 6/2 \tempoEtUnamSanctam
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #228
-		
+		\mvTr e2\pE-\markup { \anmerkung "con sordino" } e e e1 e2 %228
+		dis dis dis e2. e,4 e2
+		e'2 e d c h4 a g2 %230
+		e c'2. c4 h1 r2
+		r r e a,2. a4 a2
+		d d d g,1 g2
+		r c c fis,?4 e fis1
+		h2 dis e a, h1 %235
+		e, r2 r1*3/2
+		R\breve.
+		r2 d d g1 g2
+		e4 d e fis? g a h2 fis? gis
+		a e fis g1. %240
+		c~ c2 h4 a g2
+		c d1 g,2\fermata \tempoMortuorum r r
+		\time 9/2 r1*3/2 r2 f f g1 c,2
+		\time 6/2 as'1 as2 g2 h! c
+		fis, g1 c,2 c'\ppE b? %245
+		a!1. as\fE
+		g1.~ g \bar "||" %247 FINIS
 	}
 }
 

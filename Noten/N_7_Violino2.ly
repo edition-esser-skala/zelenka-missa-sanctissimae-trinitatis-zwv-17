@@ -993,7 +993,26 @@ EtUnamSanctamViolinoII = {
 		\key a \minor \time 6/2 \tempoEtUnamSanctam
 			\set Staff.timeSignatureFraction = 3/2
 			\set Score.currentBarNumber = #228
-		
+		\mvTr g'2\pE-\markup { \anmerkung "con sordino" } g g a2. g4 a2 %228
+		a g fis fis2. e4 e2
+		g g fis e2. fis4 g2~ %230
+		g4 fis e2. e4 e2 dis fis
+		g2. fis4 g2 g fis e
+		fis1 fis2 g d g4 fis
+		e1 e2 fis2. g4 fis e
+		dis2 fis e~ e dis2. e4 %235
+		e1 r2 r e e
+		a1 a2 g4 fis g a h c
+		d1 d,2 r d d
+		g1 g2 fis2. a4 h h
+		e,2 g a d,1. %240
+		e1 e2 d fis g
+		g g fis g\fermata \tempoMortuorum d d
+		es1 d2 c des c h!2 d es4 d
+		c1. h!2 d c
+		c c h c c\pp c %245
+		c2. d4 es2~\f es d c~
+		c h! a h1. \bar "||" %247 finis
 	}
 }
 
