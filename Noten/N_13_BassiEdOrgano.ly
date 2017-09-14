@@ -1959,8 +1959,8 @@ EtUnamSanctamBassiOrgano = {
 		c d1 g,2\fermata \tempoMortuorum r r
 		\time 9/2 r1*3/2 r2 f f g1 c,2
 		\time 6/2 as'1. g2 h! c
-		fis, g1 c,2 c' b? %245
-		a!1. as
+		fis, g1 c,2 c'\ppE b? %245
+		a!1. as\f
 		g1.~ g \bar "||" %247 FINIS
 	}
 }
