@@ -1049,6 +1049,20 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	tas. %227 finis
 }
 
+EtUnamSanctamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 6/2 \autoBeamOff \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		
+	}
+}
+
+EtUnamSanctamTenoreLyrics = \lyricmode {
+	
+}
+
 % SanctusTenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

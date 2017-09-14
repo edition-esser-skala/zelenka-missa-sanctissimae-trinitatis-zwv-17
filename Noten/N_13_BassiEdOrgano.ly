@@ -1936,6 +1936,59 @@ EtResurrexitBassFigures = \figuremode {
 	r1 %227 finis
 }
 
+EtUnamSanctamBassiOrgano = {
+	\relative c {
+		\clef "treble_8"
+		\key a \minor \time 6/2 \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		\mvTr e'2\pE^\solo e e e1 e2 %228
+		dis dis dis e2. e,4 e2
+		e'1 d2 c h4 a g2 %230
+		e c'1 h r2
+		r r e a,2. a4 a2
+		d d d g,1 g2
+		c, c' c fis,4 e fis2 fis
+		h dis e a, h1 %235
+		e, r2 r1*3/2
+		R\breve.
+		r2 d d g1 g2
+		e4 d e fis g a h2 fis gis
+		a e fis g1. %240
+		c~ c2 h4 a g2
+		c d1 g,2\fermata \tempoMortuorum r r
+		\time 9/2 r1*3/2 r2 f f g1 c,2
+		\time 6/2 as'1. g2 h! c
+		fis, g1 c,2 c' h %245
+		a!1. as
+		g1.~ g \bar "||" %247 FINIS
+	}
+}
+
+
+EtUnamSanctamBassFigures = \figuremode {
+	r1. <6 4>1 <\t \t>2 %228
+	<7 5> <6 4> <5 3> <9 4>2. <8 3>
+	<6 3>1 <6 _+>2 <6> q4 <6\\> r2 %230
+	<5> <7> <6> <4> <_+>1
+	r <5 3>2 <7 _+>2. \bassFigureExtendersOn <6\\ _+>4 <5 _+>2 \bassFigureExtendersOff
+	<_+> <\t> <7 _+> <4>1 <3>2
+	r1. <5+>
+	r <6\\ 5>2 <4> <_+> %235
+	r\breve.
+	r
+	r2 <_+>1 r1.
+	<5>1 <6>2 <5+ 4> <6> <\t>
+	<9> <6> r <5 4> <\l 3> r %240
+	<7> <6> <5> <4\+ 2> <\t \t> r
+	<6 5> <4> <_+> r1.
+	r1. <5 _->2 <6-> <5> <9 _!> <8> r
+	<7> <6> r <7> r <_->
+	<7 5>4 <6> <4>2 <_!> <_-> <5 _!> <\t \t> %245
+	<6 3> \bassFigureExtendersOn <6 4> <6 5-> <6\\\! 5-\!> <6\\ 4> <6\\ 3>
+	<5 4> <5 _!> <5 2> \bassFigureExtendersOff <5 _!>1.
+}
+
 % SanctusBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

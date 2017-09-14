@@ -672,6 +672,16 @@ EtResurrexitOboeII = {
 	}
 }
 
+% EtUnamSanctamOboeII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key a \minor \time 6/2 \tempoEtUnamSanctam
+% 			\set Staff.timeSignatureFraction = 3/2
+% 			\set Score.currentBarNumber = #228
+% 		
+% 	}
+% }
+
 % SanctusOboeII = {
 % 	\relative c' {
 % 		\clef treble

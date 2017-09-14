@@ -959,6 +959,17 @@ EtResurrexitViola = {
 	}
 }
 
+EtUnamSanctamViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key a \minor \time 6/2 \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		
+	}
+}
+
 % SanctusViola = {
 % 	\relative c' {
 % % 		\clef treble

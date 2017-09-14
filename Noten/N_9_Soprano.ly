@@ -1246,6 +1246,20 @@ EtResurrexitSopranoLyrics = \lyricmode {
 	tas. %227 finis
 }
 
+EtUnamSanctamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/2 \autoBeamOff \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		
+	}
+}
+
+EtUnamSanctamSopranoLyrics = \lyricmode {
+	
+}
+
 % SanctusSopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1085,6 +1085,20 @@ EtResurrexitAltoLyrics = \lyricmode {
 	tas. %227 finis
 }
 
+EtUnamSanctamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/2 \autoBeamOff \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		
+	}
+}
+
+EtUnamSanctamAltoLyrics = \lyricmode {
+	
+}
+
 % SanctusAltoNotes = {
 % 	\relative c' {
 % 		\clef treble
