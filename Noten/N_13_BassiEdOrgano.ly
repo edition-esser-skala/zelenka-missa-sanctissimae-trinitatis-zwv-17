@@ -2051,7 +2051,7 @@ EtVitamBassiOrgano = {
 		a gis
 		h4. a16 h c4. d8
 		e4 a, e r8 e'
-		c[ a] e \noBeam \clef "treble_8" e' c a g dis %290
+		c[ a] e \noBeam \clef "treble_8" e' c a g! dis %290
 		\clef bass e2 fis
 		g a
 		h c
@@ -2092,10 +2092,17 @@ EtVitamBassiOrgano = {
 		d8 d'16 c h a g f e8-! e'16 d c h a g
 		f8-! f'16 e d c h a h8 g a h
 		c c,16 d e8 f g4 g, %330
-		g'1~-\tasto
-		g~
-		\once\tieDashed g~
-		g
+		<< {
+			s4 s2._\tasto
+			s1
+			s
+			s
+		} \\ {
+			\oneVoice g'1~
+			g~
+			\once\tieDashed g~
+			g
+		} >>
 		r8 c a4-! h-! r8 c %335
 		a4-! r8 f g4-! r8 c,
 		g'4 g, c g'-!
@@ -2122,11 +2129,11 @@ EtVitamBassFigures = \figuremode {
 	<6 4 2>4 <6 3> <9> <[6]>
 	<6> <6 5> r2
 	r r8 <5 _+> <6>4
-	<6>2 <_+>4 <6>
+	<6>8 <[6]> r4 <_+> <6>
 	r8 <[9]> <5 3>4 r8 <9> <3>4 %265
 	r8 <9> <5 3>4 r8 <9> <5 3>4
 	<7 _+> r <6 5> <_+>
-	r1
+	<[6]>1
 	r
 	r %270
 	r
@@ -2136,20 +2143,20 @@ EtVitamBassFigures = \figuremode {
 	r4 <4\+ 2> <6>8 <_+> <6> r %275
 	r <9> <5 3> <\t \t> r <9> <5 3> <\t \t>
 	r <9> <5 3> r <6 _+>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
-	<5>8 <\t> <7> <_+> r <5 3>4 \bassFigureExtendersOn q16 q \bassFigureExtendersOff
-	<_+>8 <\t> <7> <_+> r <5 3>4 \bassFigureExtendersOn q16 q \bassFigureExtendersOff
-	<5>8 r <7> <_+> q <3> <5+ _+> <\t \t> %280
-	<6>2 <5 _+>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<5>8 <[6]> <7 [5+]> <[5+] _+> r <5 3>4 \bassFigureExtendersOn q16 q \bassFigureExtendersOff
+	<_+>8 <\t> <7 [5+]> <_+> r <5 3>4 \bassFigureExtendersOn q16 q \bassFigureExtendersOff
+	<5>8 <[6]> <7> <_+> q <3> <5+ _+> <\t \t> %280
+	<6>2 <[5+] _+>4.. \bassFigureExtendersOn <5+ _+>16 \bassFigureExtendersOff
 	<6\\>4 q <5> <5 3>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff
 	<5 _+>8 r <6> <\t> <5> r <6> <\t>
-	<_+> r <6> <\t> <6\\>4. <_+>8
+	<[5+] _+> r <6 [_+]> <\t> <6\\>4. <[5+] _+>8
 	<7 _+>4 \bassFigureExtendersOn <6 _+>8 <5 _+> \bassFigureExtendersOff <6 4\+ _!>4 <\l \l [2]> %285
-	<6>2 <7>4 <6\\>
+	<6>2 <7 [5+]>4 <6\\>
 	r2 <6>
-	<5 4>4 <6\\ 3>8 <\t \t> <9 3>4 <8>
+	<[5+] 4>4 <6\\ 3>8 <\t \t> <9 3>4 <8>
 	<7 _+>2 <_+>4. q8
 	<6>4 <_+>8 q <6> r q q %290
-	<9>4 <8> <7> <6>
+	<[9+]>4 <8> <7> <6\\>
 	<6> r <7> <6\\>
 	<5+> <6> <5> <6>
 	<[9] _+>8 <[8]> r4 <_+> <6>
@@ -2163,17 +2170,17 @@ EtVitamBassFigures = \figuremode {
 	<5> <6> <5> <6>
 	<5> <6> <5> <6>
 	<5> <6> <5> r
-	<7> <6> <5>2 %305
+	<7> <6> <5> <[6]> %305
 	r8 <9> <5 3> <\t \t> r <9> <5 3> <\t \t>
 	r <9> <5 3>4 <9> <6>
-	r1
+	r2 <[4]>4 <[3]>
 	r4 <5> <6> <5 _->
 	<6 _-> <5 3> <6> <5 3> %310
 	<6> <5 3> <6> <5>
-	<6>8 q <6 5> <\t \t> r4 <[6]>
+	<[6-]>8 <6 [_-]> <6 5> <\t \t> r4 <[6]>
 	r8 <9> <5 _-> <\t \t> r <9> <5 3> <\t \t>
 	r <9 _-> <5 3>2 <6>4
-	r2 <5 4>4 <5 3> %315
+	r2 <5 4>4 <[6] [5]> %315
 	<9> <6> <_+> <6>
 	r8 <9 _-> <5 3> r r <9> <5 3> <\t \t>
 	r <9 5!> <5 3> <\t \t> <[9]>4 <[6]>
