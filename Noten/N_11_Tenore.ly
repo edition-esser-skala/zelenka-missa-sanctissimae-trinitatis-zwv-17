@@ -1124,9 +1124,9 @@ EtVitamTenoreNotes = {
 		d cis r d~ %275
 		d c2 h4~
 		h a2 a4~
-		a8( e'4 dis8) e e,16([ fis] g[ a h c]
+		a8( e'4 dis8) e e,16[ fis] g[ a h c]
 		d8[ c h e] a,4. h16[ a]
-		g8 d'4) cis8 d[( e fis fis,] %280
+		g8 d'4 cis8 d[( e fis fis,] %280
 		h4. c8) h dis[ h dis]
 		r fis[ dis fis] e e,16[ fis] g[ a h c]
 		d8[ d,16 e] fis[ g a h] c8[ c,16 d] e[ fis g a]
@@ -1141,9 +1141,9 @@ EtVitamTenoreNotes = {
 		h8) e, e'2 fis4~
 		fis g2 e4~
 		e8 d d4 d r
-		e2( d %295
+		e2 d %295
 		c h
-		a8) d, r a'( d) g, r h(
+		a8 d, r a'( d) g, r h(
 		c) e r c( g) h r e(
 		c) a r f'!( d) g, r g'(
 		e) c r c( a) f r4 %300
@@ -1181,8 +1181,8 @@ EtVitamTenoreNotes = {
 		e d2 c4~
 		c h4.( c8) d4(
 		c) c8 c c4( h)
-		c8 e ( c4) d r8 c( %335
-		e4-! f d) e
+		c8 e ( c4) d r8 c %335
+		e4-! f d e
 		d2 e4 d
 		c h c h
 		c-! r r2 \bar "|." %339 FINIS
@@ -1207,9 +1207,9 @@ EtVitamTenoreLyrics = \lyricmode {
 	[men,] a -- %275
 	_ _
 	men, a --
-	men, a --
-	
-	men, a -- %280
+	men, a -- _
+	_ _ _
+	_ _ men, a -- %280
 	men, a --
 	_ men, a -- _
 	_ _ _ _
@@ -1224,9 +1224,9 @@ EtVitamTenoreLyrics = \lyricmode {
 	men, a -- _
 	_ _
 	men, a -- men,
-	a -- %295
-	
-	men, a -- men, [a --
+	a -- _ %295
+	_ _
+	_ men, a -- men, [a --
 	men, a -- men, a --
 	men, a -- men, a --
 	men, a -- men.] %300
@@ -1265,7 +1265,7 @@ EtVitamTenoreLyrics = \lyricmode {
 	ri __ sae --
 	cu -- li, a --
 	men, a -- men, a -- %335
-	men,
+	_ _ _ men,
 	a -- men, a --
 	men, a -- men, a --
 	men. %339 FINIS

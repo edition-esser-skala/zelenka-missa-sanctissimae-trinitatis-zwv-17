@@ -933,12 +933,175 @@ EtVitamBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		R1*7 %254
+		r2 \mvTr c\fE^\tuttiE %255
+		d e
+		f g
+		a f4. g16 f
+		e8([ d c e] f4) d
+		r8 g-![ d-! g] e[ c] c'4~ %260
+		c h c8[ c,16 d] e8[ c]
+		e4 fis g r
+		r2 r8 d'16[( c] h[ a g fis]
+		e8[ fis g c,]) d d'[( h)] g
+		r c([ a)] fis r h([ g)] e %265
+		r a([ fis)] d r g([ e c]
+		d4 g c, d8[ c]
+		h[ a]) g4 r2
+		R1*3 %271
+		d'2 e
+		fis g
+		a h
+		g4. a16 g fis8([ d' h)] g %275
+		r c([ a)] fis r h([ g)] e
+		r a([ fis e] dis[ h16 cis] dis[ e fis g]
+		a8[ g fis h]) e,4 r
+		r2 r8 a,16[ h] c[ d e fis?]
+		g8[ fis e a] d[ c h a] %280
+		g[ e16 fis] g8[ a] h h,16[( cis] dis[ e fis g]
+		fis8[ dis16 e] fis[ g a h] c8) c, r4
+		R1*2
+		e'2 d %285
+		c h
+		a gis
+		h4. a16 h c4.( d8
+		e4 a,) e r8 e'(
+		c) a r4 r2 %290
+		e2 fis
+		g a
+		h c
+		d8. d16 g,4 d8([ d' h)] g
+		r c([ a)] fis r h([ g)] e %295
+		r a([ fis)] d r g[ e c]
+		d[ d'16 c] d8[ c] h[ a] g4~
+		g fis r8 g16[ f] e[ d c h]
+		a8-![ a'16 g] f![ e d c] h8-![ h'16 a] g[ f e d]
+		c8-![ c'16 h] a[ g f e] f8[ d e f] %300
+		g4 c, g2
+		c d
+		e f
+		g a
+		f4. e16 f g8([ f e)] c %305
+		r f([ d)] h r e([ c)] a
+		r d([ h)] g c([ d e f]
+		g4) c g2
+		c,4 f2 g4~
+		g a2 b4~ %310
+		b c2 d4~
+		d8[ c] b([ g)] c b16 b a8 f
+		r b([ g)] e r a([ f)] d
+		r g([ e)] c f([ g a b]
+		c4 f, c) cis %315
+		d8([ e f g] a[ g f]) d
+		r g([ e)] c r f([ d)] h!
+		r e([ cis)] a d([ e f g]
+		a4 d, a2)
+		d4 r r2 %320
+		R1
+		g2 a
+		h c
+		d e
+		f!8([ e d)] c16 c h8[ g c c,] %325
+		f[ d g f] e[ c] c'4~
+		c h r8 c16[ h] a[ g f e]
+		d8-![ d'16 c] h[ a g f] e8-![ e'16 d] c[ h a g]
+		f8-![ f'16 e] d[ c h a] h8[ g a h]
+		c[ c,16 d] e8[ f] g4 g, %330
+		g'1
+		g
+		g
+		g
+		r8 c( a4) h r8 c %335
+		a4-! r8 f g4 c,
+		g2 c4 g'
+		c g c, g'
+		c-! r r2 \bar "|." %339 FINIS
 	}
 }
 
 EtVitamBassoLyrics = \lyricmode {
+	Et %255
+	vi -- tam
+	ven -- tu --
+	ri sae -- cu -- li,
+	a -- men,
+	a -- _ _ %260
+	_ _ _
+	_ _ men,
+	a --
+	men, a -- men,
+	a -- men, a -- men, %265
+	a -- men, a --
 	
+	men.
+	
+	Et vi -- %272
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- men, %275
+	a -- men, a -- men,
+	a --
+	men,
+	a -- _
+	_ _ %280
+	_ _ men, a --
+	men.
+	
+	Et vi -- %285
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a --
+	men, a --
+	men. %290
+	Et vi --
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- men,
+	a -- men, a -- men, %295
+	a -- men, a --
+	_ _ _ _
+	men, a -- _
+	_ _ _ _
+	_ _ _ %300
+	_ _ men.
+	Et vi --
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- men, %305
+	a -- men, a -- men,
+	a -- men, a --
+	men, a --
+	men. Et vi --
+	tam ven -- %310
+	tu -- _
+	ri __ sae -- cu -- li, a -- men,
+	a -- men, a -- men,
+	a -- men, a --
+	men, %315
+	a -- men,
+	a -- men, a -- men,
+	a -- men, a --
+	
+	men. %320
+	
+	Et vi --
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- %325
+	_ _ _
+	men, a -- _
+	_ _ _ _
+	_ _ _
+	_ _ _ men, %330
+	a --
+	men,
+	a --
+	men,
+	a -- men, a -- %335
+	_ _ _ men,
+	a -- men, a --
+	men, a -- men, a --
+	men. %339 FINIS
 }
 
 % SanctusBassoNotes = {

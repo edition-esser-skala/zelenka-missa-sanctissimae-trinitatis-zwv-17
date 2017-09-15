@@ -1173,8 +1173,8 @@ EtVitamAltoNotes = {
 		g) e r a( fis) d r g(
 		e4 fis) fis8 dis16([ e] fis[ g a h]
 		c8[ h a h)] h4 r
-		r8 d,16([ e] fis[ gis a h] c8[ c,16 d] e[ fis? g a]
-		h8[ a g a)] a4 r %280
+		r8 d,16[ e] fis[ gis a h] c8[ c,16 d] e[ fis? g a]
+		h8[ a g a] a4 r %280
 		r2 h
 		a g
 		fis e
@@ -1269,8 +1269,8 @@ EtVitamAltoLyrics = \lyricmode {
 	men, a -- men, a --
 	men, a --
 	men,
-	a --
-	men. %280
+	a -- _ _ _
+	_ men. %280
 	Et
 	vi -- tam
 	[ven -- tu --
