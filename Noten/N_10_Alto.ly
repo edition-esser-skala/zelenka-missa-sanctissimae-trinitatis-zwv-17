@@ -1142,12 +1142,194 @@ EtVitamAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		\mvTr c2\fE^\tuttiE d %248
+		e f
+		g a %250
+		f4. g16 f e8([ d c e]
+		f4) d r8 g([-! d-! g-!]
+		e[ c] c'2 h4
+		c8[ c,16 d] e8[ c] e4) fis
+		g4.( f8 e[ f] g4) %255
+		f8 a([-! f-! a] g[ c,] c'4~
+		c b8[ a] b[ g] b4
+		a8[ g] f4.) c8 d4
+		e8[ f] g4. f16[ g] a8[ f]
+		d2 e %260
+		f4 g4. e8 g4~
+		g d r8 g16[( f!] e[ d c h]
+		a8[ h c a] d4.) h8
+		e4( d8[ e)] fis4 r8 h(
+		g) e r a( fis) d r g( %265
+		e) c r fis( d) h r e(
+		d4.) h8 e4( d~
+		d8[ g,] g'2) fis4
+		r8 g16[ fis] e[ d c h] a8[ a'16 g] fis[ e d c]
+		h8[ h'16 a] g[ fis e d] c8[ c'16 h] a[ g fis e] %270
+		a8[ g fis d] g[ fis e a]
+		fis fis([-! d-! fis] h,4) g'
+		r8 a([ fis a] d,4-!) h'-!
+		r8 c([ a c] fis,4.) fis8
+		g4( e) d r8 h'( %275
+		g) e r a( fis) d r g(
+		e4 fis) fis8 dis16([ e] fis[ g a h]
+		c8[ h a h)] h4 r
+		r8 d,16([ e] fis[ gis a h] c8[ c,16 d] e[ fis? g a]
+		h8[ a g a)] a4 r %280
+		r2 h
+		a g
+		fis e
+		dis fis4. e16 fis
+		gis8([-! h-! gis-)] h-! r gis([-! e)]-! h' %285
+		r a([ e)] a r a([ d,)] gis
+		r a([ c,)] e r h'([ e, a]
+		fis4) gis a2
+		gis4 a gis8 h([ gis)] e
+		r a([ gis)] e r a([ g? fis] %290
+		h8.[ a16] g8[ e] a2)
+		g8 h16[( a] g[ fis e d] c8[ c'16 h] a[ g fis e])
+		d4 r8 d( c[ g'] a4~
+		a g) fis r8 h(
+		g) e r a( fis) d r g( %295
+		e) c r fis( d) h r e(
+		d4) d d2(
+		e4 d) d8 d([ e)] g
+		r e([ f!)] a r g([ h)] g
+		r g([ c)] a r f([ g a] %300
+		g8.[ f16] e4 d2)
+		e8 g16[ f!] e[ d c h] a8[-! a'16 g] f[ e d c]
+		h8[-! h'16 a] g[ f e d] c8-![ c'16 h] a[ g f e]
+		d8-![ h'16 a] g[ f e d] c8-![ c'16 h] a[ g f e]
+		f4 a g r %305
+		a2( g
+		f e
+		d4 c) d r
+		c2 d
+		e f %310
+		g a
+		f4. g16 f e8 c r a'(
+		b) f r g( a) e r f(
+		g) d r e( f) b a4(
+		g8[ e] a[ g16 f] g4.) g8 %315
+		f([ g a b] a) e a4~
+		a g2 f4~
+		f e2 d4
+		cis d2 cis4
+		d d'2 c4~ %320
+		c h!2 a4~
+		a g2 fis4
+		r g2 a4~
+		a h2 c4~
+		c8[ c,] a'4 g4. g8 %325
+		a4( g) g2
+		r4 g2 a4~
+		a h2 c4~
+		c d2 g,4
+		g g8 g  g4( c) %330
+		h8 h,16([ c] d[ e f g] h,8[ g' c g]
+		c4 d) h e,8.[ f16]
+		g2 f
+		e8[ d c e] d4 g
+		g8 g( a4) g r8 g %335
+		a4-! r8 a g4 g
+		g2 g4 g
+		g g g g
+		g-! r r2 \bar "|." %339 FINIS
 	}
 }
 
 EtVitamAltoLyrics = \lyricmode {
+	Et vi -- %248
+	tam ven --
+	tu -- ri %250
+	sae -- cu -- li, [a] --
+	men, a --
 	
+	men,
+	a -- %255
+	men, a --
+	
+	men, a --
+	_ _ _ _
+	_ _ %260
+	_ _ men, a --
+	men, a --
+	men,
+	a -- men, a --
+	men, a -- men, [a] -- %265
+	men, a -- men, a --
+	men, a --
+	men,
+	a -- _ _ _
+	_ _ _ _ %270
+	_ _
+	men, a -- men,
+	a -- men,
+	a -- men,
+	a -- men, a -- %275
+	men, a -- men, a --
+	men, a --
+	men,
+	a --
+	men. %280
+	Et
+	vi -- tam
+	[ven -- tu --
+	ri] sae -- cu -- li,
+	a -- men, a -- men, %285
+	a -- men, a -- men,
+	a -- men, a --
+	men, a --
+	men, a -- men, a -- men,
+	a -- men, a -- %290
+	
+	men, a --
+	[men, a] --
+	men, a --
+	men, a -- men, a -- %295
+	men, a -- men, a --
+	men, a --
+	men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- %300
+	
+	men, a -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ men, %305
+	a --
+	
+	men.
+	Et vi --
+	tam ven -- %310
+	tu -- ri
+	sae -- cu -- li, a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men, %315
+	a -- men, a --
+	_ _
+	_ _
+	_ _ _
+	men, a -- _ %320
+	_ _
+	_ men,
+	a -- _
+	_ _
+	_ _ men, %325
+	a -- men.
+	Et vi --
+	tam ven --
+	tu -- ri
+	sae -- cu -- li, a --
+	men, a --
+	men, a --
+	_ _
+	_ _ _
+	men, a -- men, a --
+	_ _ _ men,
+	a -- men, a --
+	men, a -- men, a --
+	men.
 }
 
 % SanctusAltoNotes = {
