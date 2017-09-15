@@ -1106,12 +1106,169 @@ EtVitamTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		R1*11 %258
+		\mvTr g2\fE^\tuttiE a
+		h c %260
+		d e
+		c4. d16 c h8 g r4
+		R1
+		r8 e'16([ d] c[ h a g] fis8) d r4
+		e'2 d %265
+		c h
+		a8 d([ h g] a2)
+		g r
+		R1*3 %271
+		r8 d'16[ c] h[ a g fis] g8[ e'16 d] c[ h a g]
+		a8[ fis'16 e] d[ c h a] h8[ g'16 fis] e[ d c h]
+		c8[ a'16 g] fis[ e d c] d8[ h] d4~
+		d cis r d~ %275
+		d c2 h4~
+		h a2 a4~
+		a8( e'4 dis8) e e,16([ fis] g[ a h c]
+		d8[ c h e] a,4. h16[ a]
+		g8 d'4) cis8 d[( e fis fis,] %280
+		h4. c8) h dis[ h dis]
+		r fis[ dis fis] e e,16[ fis] g[ a h c]
+		d8[ d,16 e] fis[ g a h] c8[ c,16 d] e[ fis g a]
+		h8[ h,16 cis?] dis[ e fis g] a8[ g fis h]
+		e,4 r8 e'( gis,) h r gis( %285
+		c) e r e( d) fis r d(
+		c) e r e( e,) gis h4~
+		h8([ c] d[ c16 d] e8[ e,] e'4~)
+		e e e2
+		e4 r8 e( c) a r dis( %290
+		g8.[ fis16] e8) h a([ g] fis[ g16 a]
+		h8) e, e'2 fis4~
+		fis g2 e4~
+		e8 d d4 d r
+		e2( d %295
+		c h
+		a8) d, r a'( d) g, r h(
+		c) e r c( g) h r e(
+		c) a r f'!( d) g, r g'(
+		e) c r c( a) f r4 %300
+		r2 r4 g~
+		g a2 h4~
+		h c2 d4~
+		d e2 c4~
+		c8 h16 c d4 d r8 e( %305
+		f) c r d( e) h r c(
+		d) a r h g4 g'~
+		g8[ f] e4 d2
+		c8 e16[ d] c[ b a g] f8[-! f'16 e] d[ c b a]
+		g8-![ g'16 f] e[ d c b] a8-![ a'16 g] f[ e d c] %310
+		b8-![ b16 a] g[ f e d] c4 r
+		r2 r4 c'~
+		c b2 a4~
+		a g f c'~
+		c c e( a,~ %315
+		a8[ g f f')] e4 r8 f(
+		g)  d r e( f) c r d(
+		e) h! r cis( d4) a
+		a1
+		a8 d([ h!)] h r c([ a)] fis %320
+		r h([ g)] e r a([ fis)] d
+		d'4( e4. d8 c[ h16 c]
+		d8) g, r d'~ d[ c] e4~
+		e8[ d] f4. e8 g4~
+		g f8[ e] d4 e %325
+		d2 c8.[( d16] e8[ d16 e]
+		f2) c8 e16[ d] c[ h a c]
+		d8[ f16 e] d[ c h d] e8[ g16 f] e[ d c e]
+		f8[ a16 g] f[ e d c] d8[ h c d]
+		c[ g] c4 h g'~ %330
+		g f2 e4~
+		e d2 c4~
+		c h4.( c8) d4(
+		c) c8 c c4( h)
+		c8 e ( c4) d r8 c( %335
+		e4-! f d) e
+		d2 e4 d
+		c h c h
+		c-! r r2 \bar "|." %339 FINIS
 	}
 }
 
 EtVitamTenoreLyrics = \lyricmode {
+	Et vi -- %259
+	tam ven -- %260
+	tu -- ri
+	sae -- cu -- li, [a -- men,]
 	
+	[a -- men,
+	a -- _ %265
+	_ _
+	men, a --
+	men,]
+	
+	a -- _ _ _ %272
+	_ _ _ _
+	_ _ _ _
+	[men,] a -- %275
+	_ _
+	men, a --
+	men, a --
+	
+	men, a -- %280
+	men, a --
+	_ men, a -- _
+	_ _ _ _
+	_ _ _
+	men, a -- men, a -- %285
+	men, a -- men, a --
+	men, a -- men, a --
+	
+	men, a --
+	men, a -- men, a -- %290
+	men, a --
+	men, a -- _
+	_ _
+	men, a -- men,
+	a -- %295
+	
+	men, a -- men, [a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men, a -- men.] %300
+	Et __
+	vi -- tam __
+	ven -- tu --
+	ri sae --
+	cu -- li, a -- men, a -- %305
+	men, a -- men, a --
+	men, a -- _ _
+	_ _
+	men, a -- _ _ _
+	_ _ _ _ %310
+	_ _ men,
+	a --
+	_ _
+	_ _ _
+	men, a -- %315
+	men, a --
+	men, [a -- men, a] --
+	men, a -- men,
+	a --
+	men, a -- men, a -- men, %320
+	a -- men, a -- men,
+	a --
+	men, a -- _
+	_ _ _
+	_ _ _ %325
+	men, a --
+	men, a -- _
+	_ _ _ _
+	_ _ _
+	_ _ men. Et __ %330
+	vi -- tam __
+	ven -- tu --
+	ri __ sae --
+	cu -- li, a --
+	men, a -- men, a -- %335
+	men,
+	a -- men, a --
+	men, a -- men, a --
+	men. %339 FINIS
 }
 
 % SanctusTenoreNotes = {

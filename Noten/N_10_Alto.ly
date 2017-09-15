@@ -1320,16 +1320,16 @@ EtVitamAltoLyrics = \lyricmode {
 	Et vi --
 	tam ven --
 	tu -- ri
-	sae -- cu -- li, a --
+	sae -- cu -- li, a -- %330
 	men, a --
 	men, a --
 	_ _
 	_ _ _
-	men, a -- men, a --
+	men, a -- men, a -- %335
 	_ _ _ men,
 	a -- men, a --
 	men, a -- men, a --
-	men.
+	men. %339 FINIS
 }
 
 % SanctusAltoNotes = {
