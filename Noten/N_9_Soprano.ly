@@ -1303,12 +1303,183 @@ EtVitamSopranoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		R1*3 %250
+		r2 \mvTr g'\fE^\tuttiE
+		a h
+		c d
+		e c4. d16 c
+		h8([ c] d4.\trill c16[ d] e4~) %255
+		e d r8 c([-! g-! c]
+		a[ f] f'2 e4
+		f8[ f,16 g] a8[ f] a4 h!)
+		c r r8 a([ f a]
+		g[ h] d4) g, e'( %260
+		a, d2 c4~
+		c8[ h] a4) h r
+		r8 c16([ h] a[ g fis e] fis8[ a] g4~
+		g8[ a] h4) a d~
+		d c2 h4~ %265
+		h a2 g4
+		fis g2 fis4
+		g2 a
+		h c
+		d e %270
+		c4. d16 c h4( cis)
+		d r r8 g,([-! e-! g]
+		d4-!) a'-! r8 h([ g h]
+		e,4) c' r8 d8([ d, d']
+		h4 a) a r %275
+		e'2( d
+		c) h
+		r8 a16([ h] cis[ dis e fis] g8[ fis] e8.[\trill d32 e]
+		fis8) d r4 r2
+		r8 g,16([ a] h[ cis d e] fis8[ e] dis8.[\trillE cis32 dis] %280
+		e8[ g16 fis] e8.[ dis16]) dis4 r
+		R1*3
+		r8 gis,16[ a] h[ c d e] f8[ f,16 gis] a[ h c d] %285
+		e8[ e,16 fis?] gis?[ a h c] d8[ d,16 e] fis[ gis a h]
+		c8[ c,16 d] e[ fis gis a] h8[ e,] e'4~
+		e d2 c4
+		h c h2
+		a8 c([ h)] gis r c([ h fis']~) %290
+		fis fis e2( dis4)
+		e2 r
+		r8 d16([ c] h[ a g f] e8[ e'16 d] c[ h a g]
+		fis8[ a] h4) a d~
+		d c2 h4~ %295
+		h a2 g4~
+		g fis g2
+		a h
+		c d
+		e d4. c16 d %300
+		h8[( g] c2 h4)
+		c8 e16[ d] c[ h a g] f8-![ f'16 e] d[ c h a]
+		g8-![ g'16 f] e[ d c h] a8-![ a'16 g] f[ e d c]
+		h4.\trill a16[ h] c8[ d] e4~
+		e d8[ c] h g g'4~ %305
+		g f2 e4~
+		e d2 c4
+		h c4. h16[ a] h8[ d]
+		e[ c16 b] a[ g f e] f8-![ d'16 c] b[ a g f]
+		g8-![ e'16 d] c[ b a g] a8-![ f'16 e] d[ c b a] %310
+		b8-![ g'16 f] e[ d c b] c8-![ a'16 g] f[ e d c]
+		b8[ c d b] g4 r
+		d'2( c
+		b a8) f f'4(
+		e8[ g] f2 e4~ %315
+		e d) cis r
+		b2( a
+		g f)
+		e8 e'([ f d] e2)\trill
+		d4 r e2( %320
+		d c
+		h! c)
+		h8 d16[ c] h[ a g f!]
+		e8[ e'16 d] c[ h a g] f8[ f'16 e] d[ c h a] g8[ g'16 f] e[ d c h]
+		a8[ h16 c] d4. h8 c4~ %325
+		c h c2
+		d e
+		f g
+		a g4. f16 g
+		e2 d8 g16([ f] e[ d c e] %330
+		d4 g,) d' r
+		r8 g,16[ a] h[ c d e] f8-![ f,16 g] a[ h c d]
+		e8[ e,16 f] g[ a h c] d8[ d,16 e] f[ g a h]
+		c8[ d] e[ d16 c] d2
+		e4 f-! r8 d e4-! %335
+		r8 c d4-! r8 h c4~
+		c8 c h4 c d
+		e d c d
+		e-! r r2 \bar "|." %339 FINIS
 	}
 }
 
 EtVitamSopranoLyrics = \lyricmode {
+	Et %251
+	vi -- tam
+	ven -- tu --
+	ri sae --
+	cu -- li, a -- %255
+	men, a --
 	
+	men, a -- %259
+	men, a -- %260
+	
+	men,
+	a --
+	men, a --
+	_ _ %265
+	_ _
+	_ _ [men.]
+	Et vi --
+	tam ven --
+	tu -- ri %270
+	sae -- cu -- li, a --
+	men, a --
+	men, a --
+	men, a --
+	men, %275
+	a --
+	men,
+	a --
+	men,
+	a -- %280
+	men,
+	
+	[a] -- _ _ _  %285
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ men, a --
+	men, a -- men, a -- %290
+	men, a --
+	men,
+	a --
+	men, a --
+	_ _ %295
+	_ _
+	men. Et
+	vi -- tam
+	ven -- tu --
+	ri sae -- cu -- li, %300
+	a --
+	men, a -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ men, a -- %305
+	_ _
+	_ _
+	men, a -- _ _
+	_ _ _ _
+	_ _ _ _ %310
+	_ _ _ _
+	_ men,
+	a --
+	men, a --
+	%315
+	men,
+	a --
+	
+	men, a --
+	men, a -- %320
+	
+	men, a -- _ _ _ %323
+	_ _ _ _
+	_ _ men, a -- %325
+	men. Et
+	vi -- tam
+	ven -- tu --
+	ri sae -- cu -- li,
+	a -- men, a -- %330
+	men,
+	a -- _ _ _
+	_ _ _ _
+	_ _ _
+	men, a -- _ _ %335
+	_ _ _ _
+	men, a -- men, a --
+	men, a -- men, a --
+	men. %339 FINIS
 }
 
 % SanctusSopranoNotes = {
