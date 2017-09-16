@@ -1572,11 +1572,107 @@ BenedictusSopranoNotes = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
+		R1*18 %56
+		\mvTr e4\pE^\soloE a a8([ gis)] gis d'
+		c16([ h)] a4 r8 r2
+		R1
+		r2 r8 e'4 d8 %60
+		c16([ h)] c4 a8 d4 d8 c
+		h8. a16 h4 r r8 d
+		g16([ e)] c4 c8 d8. c16 c8([ f)]
+		e4.\trill d8 d4 r
+		r2 r4 r8 c %65
+		h g r g' a16[ f d8]~ d16[ f e d]
+		g[ g, a h] c[ d e f] g[ e c8]~ c16[ e d c]
+		f[ f, g a] h[ c d e] f[ d h8]~ h16[ d c h]
+		e[ c c8]~\trill c16[ e d e] f[ c c8]~\trill c16[ f e f]
+		g[ c, c8]~\trill c16[ g' f g] a[ g f e] d[ c h a] %70
+		g8 h c([ f)] e4( d8.) c16
+		c4 r r2
+		R1*5 %77
+		r2 g4 c
+		c8([ h)] h \appoggiatura { d16[ e] } f8 e16([ d)] c4 r8
+		r2 e,4 c'~ %80
+		c8[( h16 c] d8[ h] c[ h)] a e'
+		a8. g16 f8([ e)] e4(^\adlibitum d8.) e16
+		e4 r r2
+		r4 r8 a, e'([ f)] e f
+		e8. d16 cis8 e d16[ a h cis] d[ f e d] %85
+		e[ a, cis d] e[ f g e] \tuplet 3/2 8 { f16[ d e] f[ e d] g[ e f] g[ f e] }
+		a8. cis,16 d8([ g)] f4( e8.) d16
+		d4 r r2
+		r4 r8 h fis'([ g)] fis g
+		fis8. e16 dis8 fis e16[ h cis dis?] e[ g fis e] %90
+		fis?[ h, dis e] fis[ a g fis] \tuplet 3/2 8 { g[ e fis] g[ fis e] a[ fis g] a[ g fis] }
+		h8. dis,16 e8([ fis)] fis4.\trill e8
+		e4 r r2
+		R1*3 %96
+		h4 e e8([ dis)] dis fis?
+		g16([^\critnote fis)] e4 r8 r2
+		r4 r8 c h e, r e'
+		f16[ d h8]~ h16[ d c h] e[ e, fis gis?] a[ h c d] %100
+		e[ c a8]~ a16[ e' d c] d[ d, e fis] gis[ a h c]
+		d[ h gis8~] gis16[ d' c h] c[ a a8~]\trill a16[ cis h cis]
+		d[ a a8~]\trill a16[ d cis d] e[ a, a8~]\trill a16[ e' d e]
+		f[ e d c] h[ a gis? fis] gis[ f'? e d] c[ h a gis]
+		a8. e16 a8([ d)] c4( h8.) a16 %105
+		a4 r r r8 h
+		e4 e8 d \tuplet 3/2 8 { c16[ a h] c[ h a] d[ h c] d[ c h]
+		e[ c d] e[ d c] f[ d e] f[ e d] } gis8. e16 a8([ d,)]
+		c4(^\adlibitum h8.) a16 a4 r
+		R1*7 %116
+		R1\fermataMarkup \bar "||" %117 finis
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui %57
+	[ve -- nit,]
 	
+	be -- ne -- %60
+	di -- ctus, qui ve -- nit in
+	no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne __
+	Do -- mi -- ni,
+	qui %65
+	ve -- nit in no --
+	_ _ _
+	_ _ _
+	_ _
+	_ _ _ %70
+	_ mi -- ne __ Do -- mi --
+	ni.
+	
+	Be -- ne -- %78
+	di -- ctus, qui ve -- nit,
+	qui ve -- %80
+	nit in
+	no -- mi -- ne __ Do -- mi --
+	ni,
+	qui ve -- nit in
+	no -- mi -- ne, in [no] -- _ %85
+	_ _ _ _ _ _
+	_ mi -- ne __ Do -- mi --
+	ni,
+	qui ve -- nit in
+	no -- mi -- ne, in no -- _ %90
+	_ _ _ _ _ _
+	_ mi -- ne __ Do -- mi --
+	ni.
+	
+	Be -- ne -- di -- ctus, qui %97
+	ve -- nit,
+	qui ve -- nit in
+	no -- _ _ %100
+	_ _ _
+	_ _
+	_ _
+	_ _ _ _
+	_ mi -- ne __ Do -- mi -- %105
+	ni, qui
+	ve -- nit in no -- _ _ _
+	_ _ _ _ _ [mi] -- ne __
+	Do -- mi -- ni. %109 finis
 }
 
 % OsannaSopranoNotes = {

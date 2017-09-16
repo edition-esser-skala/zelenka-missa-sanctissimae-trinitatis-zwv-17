@@ -2403,7 +2403,7 @@ BenedictusBassFigures = \figuremode {
 	<[6]>2 r8 q q <_+>
 	r2 <_+>8 r <[6]> <_+> %55
 	r <6\\>16. <8>32 <_+>4 r2
-	r <6 4>8 <5 _+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <[6]> <6 4>8 <5 _+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	r2.. <_+>8
 	r4 <[6]> r <6>
 	q2 <_+>4 <[6]> %60
@@ -2438,7 +2438,7 @@ BenedictusBassFigures = \figuremode {
 	<[6] [4]> <5+ _+>8 <6 4> <5+ _+> <6 4>
 	<5+ _+>4. \bassFigureExtendersOn q8 r2 %90
 	<6>4. q8 \bassFigureExtendersOff r4 <6\\>
-	<[6]>8 <[5+] _+> r4 <6 4> <5+ _+>
+	<[6]>8 <[5+] _+> r4 <[5+] 4> <\l _+>
 	r2 <6>
 	r8 <[6]> <[6\\]> <[5+] [_+]> r2
 	r <6>4 <[6]> %95
