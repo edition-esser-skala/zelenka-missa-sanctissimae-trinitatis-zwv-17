@@ -907,16 +907,17 @@ SanctusOboeI = {
 	}
 }
 
-% BenedictusOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \phrygian \time 4/4 \tempoBenedictus
-% 			\set Score.currentBarNumber = #83
-% 		\override MultiMeasureRest.minimum-length = #40
-% 			R1*22 \bar "||" %104 finis
-% 	}
-% }
-% 
+BenedictusOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #39
+		
+	}
+}
+
 % OsannaOboeI = {
 % 	\relative c' {
 % 		\clef treble

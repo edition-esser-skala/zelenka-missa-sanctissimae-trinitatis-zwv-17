@@ -1565,56 +1565,20 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %36 finis
 }
 
-% BenedictusSopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \phrygian \time 4/4 \tempoBenedictus
-% 			\set Score.currentBarNumber = #83
-% 		r2 e~^\markup { \anmerkung "Solo, tenuto e forte" } %83
-% 		e e
-% 		dis1 %85
-% 		e
-% 		h'
-% 		c
-% 		h2 r
-% 		h1 %90
-% 		a
-% 		g
-% 		fis
-% 		gis2. gis4
-% 		a2 r %95
-% 		g!1
-% 		fis
-% 		e
-% 		a2 g
-% 		fis2. fis4 %100
-% 		e2 r
-% 		R1*3 \bar "||" %104 finis
-% 	}
-% }
-% 
-% BenedictusSopranoLyrics = \lyricmode {
-% 	Be -- %83
-% 	ne --
-% 	di -- %85
-% 	ctus,
-% 	qui
-% 	ve --
-% 	nit
-% 	in %90
-% 	no --
-% 	_
-% 	_
-% 	_ mi --
-% 	ne %95
-% 	Do --
-% 	_
-% 	_
-% 	_ _
-% 	_ mi -- %100
-% 	ni. %101 finis
-% }
-% 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #39
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	
+}
+
 % OsannaSopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

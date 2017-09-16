@@ -1169,36 +1169,17 @@ SanctusViolinoI = {
 	}
 }
 
-% BenedictusViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \phrygian \time 4/4 \tempoBenedictus
-% 			\set Score.currentBarNumber = #83
-% 		e'8\pE e,16 fis g8 e r8 g16 a h8 g %83
-% 		\tuplet 3/2 4 { e16( g h e g h) e,,16( g h e g h) g( e h g fis e) g'( e h g fis e)
-% 		h( dis fis h dis fis) h,,( dis fis h dis fis) h( fis e dis cis h) h'( fis e dis cis h) %85
-% 		g( e g h e g) g,( e g h e fis) g( e h g fis e) g'( e h g fis e)
-% 		d( g h d g h) d,,( g h d g h) e,( h a g e h) e'( h a g e h)
-% 		c( fis a c fis a) c,,( fis a c fis a) d( a fis d a fis) d''( a fis d a fis)
-% 		g,( d' g h d g) g,,( d' g h d g) h( g d h g d) h''( g d h g d)
-% 		g( h e g fis e) g,( h e g fis e) g,( h e g fis e) g,( h e g fis e) %90
-% 		c( fis a c h a) c,( fis a c h a) d,( fis a c h a) d,( fis a c h a)
-% 		h,( d g h a g) h,( d g h a g) h,( d g h a g) h,( d g h a g)
-% 		d,( fis a d fis a) d,,( fis a d fis a) fis( d a fis e d) d'( a g fis e d)
-% 		e( gis h e gis h) e,,( gis h e gis h) gis( e h gis fis e) e'( h a gis fis e)
-% 		a,( c e a c e) a,,( c e a c e) fis( dis h fis dis h) fis''( dis h fis dis h) %95
-% 		e( g h e g h) e,,( g h e g h) g( e c g e c) g''( e c g e c)
-% 		a( c fis a c fis) a,,( c fis a c fis) fis,( a dis fis g a) fis,( a dis fis g a)
-% 		g( e h g fis e) g'( e h g fis e) c( e a c d e) c,( e a c d e)
-% 		fis( dis a fis e dis) fis'( dis a fis e dis) e( g h e g h) g,( e h' e g h)
-% 		dis,( h a fis dis h) dis'( h a fis dis h) dis( fis a dis fis a) dis,,( fis a dis fis a) %100
-% 		g( e h g fis e) g'( e h g fis e) c'( h ais c h ais) c( h ais c h ais) }
-% 		h4 r8 a \tuplet 3/2 4 { g16( e g h e g) g,( e g h e g)
-% 		e( d c h a g) c( h a g fis e) e'(\p d c h a g) a-!\f g-! a-! h-! a-! h-! }
-% 	e,8 h' e4 r2 \bar "||" %104 finis
-% 	}
-% }
-% 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #39
+		
+	}
+}
+
 % OsannaViolinoI = {
 % 	\relative c' {
 % 		\clef treble

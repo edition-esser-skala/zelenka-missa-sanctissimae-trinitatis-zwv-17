@@ -2295,72 +2295,21 @@ SanctusBassFigures = \figuremode {
 	r q r r2. %38 finis
 }
 
-% BenedictusBassiOrgano = {
-% 	\relative c {
-% 		\clef bass
-% 		\key e \phrygian \time 4/4 \tempoBenedictus
-% 			\set Score.currentBarNumber = #83
-% 		\mvTr e'8\pE-\soloE e,16 fis g8 e r e16 fis g8 e %83
-% 		r e g e r e' e, e'
-% 		r h, h' h, r h' h, h' %85
-% 		r e, e' e, r e' e, e'
-% 		r g, g, g' r e e, e'
-% 		r a c a r fis d fis
-% 		r g g, g' r g g, g'
-% 		r e e' e, r e e' e, %90
-% 		r fis d fis r fis d fis
-% 		r g h g r g h g
-% 		r d fis d r d a' d,
-% 		r d h' d, r d h' d,
-% 		r c c' c, r dis h' dis, %95
-% 		r e g e r c' e c
-% 		r a c a r dis, h' dis,
-% 		r e e' e, r a a, a'
-% 		r fis h, h' r e, e' e,
-% 		r h h' h, r h h' h, %100
-% 		r e e' e, \tuplet 3/2 4 { c'16[(-\tasto h ais c h ais)] c16[( h ais c h ais)]
-% 		h([ h, cis dis cis h)] h'([ h, cis dis cis h)] } e8 e, r4
-% 		\tuplet 3/2 4 { e''16([ d c h a g)] c([ h a g fis e)] e'([\p d c h a g)] a-!\f g-! a-! h-! a-! h }
-% 		e,8 h' e4 r2 \bar "||" %104 finis
-% 	}
-% }
-% 
-% BenedictusBassFigures = \figuremode {
-% 	<_->4. \bassFigureExtendersOn q8 r8 <5 3>4 q8 %83
-% 	r <5 3>4 q8 r q4 q8
-% 	r <5+ _+>4 q8 r q4 q8 %85
-% 	r <5 3>4 q8 r q4 q8
-% 	r q4 q8 r q4 q8
-% 	r <6\\ 3>4 q8 r <6 3>4 q8
-% 	r <5 3>4 q8 r q4 q8
-% 	r q4 q8 r q4 q8 %90
-% 	r <6 3>4 q8 r q4 q8
-% 	r <5 3>4 q8 r q4 q8
-% 	r <5 _+>4 q8 r q4 q8
-% 	r <6 4\+ 2>4 q8 r q4 q8
-% 	r <6 3>4 q8 r <6 [_+]>4 <6 _+>8 %95
-% 	r <5 _!>4 q8 r <5 3>4 q8
-% 	r <6\\ 3>4 q8 r <6 [_+]>4 <6 _+>8
-% 	r <5 3>4 q8 r q4 q8
-% 	r <6\\> <[5+] _+> <5+ _+> r <5 3>4 q8
-% 	r <[5+] _+>4 <5+ _+>8 r <[5+] _+>4 <5+ _+>8 %100
-% 	r <5 _!>4. r2
-% 	<[5+] _+>4.. <5+ _+>16 r2
-% 	<5 3>8 r <5 3>8. q16 <5\! 3\!>8. <5 3>16 \bassFigureExtendersOff <6\\>8 <[5+] _+>
-% 	r <[5+] _+> r2. %104 finis
-% }
-% 
-% BenedictusChords = {
-% 	\clef treble
-% 	\key e \phrygian \time 4/4 \tempoBenedictus
-% 	<< \relative c' {
-% 		
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% 	
-% }
-% 
+BenedictusBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoBenedictus
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #39
+		\mvTr a'8\p-\org h c a e' e, e' e,
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
+
 % OsannaBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

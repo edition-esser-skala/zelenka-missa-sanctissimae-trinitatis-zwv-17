@@ -1162,6 +1162,17 @@ SanctusViolinoII = {
 	}
 }
 
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoBenedictus
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #39
+		
+	}
+}
+
 % OsannaViolinoII = {
 % 	\relative c' {
 % 		\clef treble

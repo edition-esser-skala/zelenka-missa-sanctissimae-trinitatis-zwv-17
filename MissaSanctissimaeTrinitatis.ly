@@ -152,6 +152,7 @@ tempoEtVitam = \tempoMarkup "Vivace"
 
 tempoSanctus = \tempoMarkup "Vivace mà non troppo"
 	tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'
