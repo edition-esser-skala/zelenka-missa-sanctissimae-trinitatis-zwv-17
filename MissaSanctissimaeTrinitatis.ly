@@ -34,7 +34,7 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #75 % K: 1   G: 29   C: 75
+	first-page-number = #129 % K: 1   G: 29   C: 75   S: 129
 	print-first-page-number = ##t
 }
 
@@ -149,6 +149,8 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoEtUnamSanctam = \tempoMarkup "Andante"
 	tempoMortuorum = \tempoMarkup "Adagio"
 tempoEtVitam = \tempoMarkup "Vivace"
+
+tempoSanctus = \tempoMarkup "Vivace mà non troppo"
 
 
 % modify the Scheme function 'format-bass-figure'

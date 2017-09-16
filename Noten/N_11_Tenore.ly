@@ -1271,167 +1271,17 @@ EtVitamTenoreLyrics = \lyricmode {
 	men. %339 FINIS
 }
 
-% SanctusTenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
-% 		\mvTr e2\fE^\tuttiE e
-% 		f^\critnote( e
-% 		d1~)
-% 		d4 d e2
-% 		d d( %5
-% 		e4 a,4. fis8 fis'[ e]
-% 		d2) d~
-% 		d4 r r2\fermata \bar "||"
-% 		\tempoSanctusB R1*5 %13
-% 		r2 g,\fE
-% 		a4 c4. c8 h4 %15
-% 		a h c a
-% 		g g'4. f8 e4
-% 		d( c h) c
-% 		d( c8[ h] a4) h
-% 		c2 r %20
-% 		r4 h c e~
-% 		e8 e d4 c d
-% 		e c h r
-% 		r d4. d8 c([ h)]
-% 		a4( h8[ g] d'4) d %25
-% 		d2. d4
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			d4 h h
-% 		d d d
-% 		h h d
-% 		c h r %30
-% 		c c c
-% 		f f f
-% 		e c c
-% 		c c r
-% 		d8. d16 d4 r %35
-% 		gis,4( h \once \tieDashed e~)
-% 		e4. e8 e4
-% 		d4. d8 d4
-% 		d4. d8 d4
-% 		c4. c8 c4 %40
-% 		c4. c8 c4
-% 		h4. h8 h4~
-% 		h r r
-% 		c( a c~)
-% 		c8 c h2( %45
-% 		c4) h2
-% 		h4 h h
-% 		h h h
-% 		h h h
-% 		c h r %50
-% 		R2.
-% 		dis4 fis? dis
-% 		e g e
-% 		cis e cis
-% 		d f! d %55
-% 		h g g'~
-% 		g g, g'
-% 		\once \tieDashed f2.~
-% 		f4 f, f'
-% 		e4 e8 e e4 %60
-% 		e r r
-% 		f( d f
-% 		e4.) e8 e4~
-% 		e e2
-% 		e4 a, a8 a %65
-% 		c4. c8 a4
-% 		g8([ a h c d e]
-% 		c4 a c
-% 		d4.) d8 d4(
-% 		c8[ h]) a2 %70
-% 		h4 g'8[( d h d]
-% 		c8.) c16 h8 d([ h d]
-% 		c8.) c16 h4 h
-% 		a2\fermata r4
-% 		d4 d d %75
-% 		fis d2
-% 		e4( d2)
-% 		d4 r r
-% 		R2.*2 %80
-% 		\time 6/4 << { \oneVoice R1. } \\ { s1 \tempoPleniFinis s2 } >>
-% 		R1.\fermataMarkup \bar "||" %82 finis
-% 	}
-% }
-% 
-% SanctusTenoreLyrics = \lyricmode {
-% 	San -- ctus,
-% 	San --
-% 	
-% 	ctus, San --
-% 	ctus, San -- %5
-% 	
-% 	ctus. __
-% 	
-% 	San -- %14
-% 	ctus Do -- mi -- nus, %15
-% 	De -- us Sa -- ba --
-% 	oth, Do -- mi -- nus,
-% 	De -- us
-% 	Sa -- ba --
-% 	oth. %20
-% 	San -- ctus Do --
-% 	mi -- nus, De -- us
-% 	Sa -- ba -- oth,
-% 	Do -- mi -- nus, __
-% 	De -- us %25
-% 	Sa -- ba --
-% 	oth. Ple -- ni,
-% 	ple -- ni sunt
-% 	coe -- li et
-% 	ter -- ra, %30
-% 	ple -- ni sunt
-% 	coe -- li, sunt
-% 	coe -- li et
-% 	ter -- ra
-% 	glo -- ri -- a, %35
-% 	glo --
-% 	ri -- a,
-% 	glo -- ri -- a,
-% 	glo -- ri -- a,
-% 	glo -- ri -- a, %40
-% 	glo -- ri -- a,
-% 	glo -- ri -- a, __
-% 	
-% 	glo --
-% 	ri -- a __ %45
-% 	tu --
-% 	a. Ple -- ni,
-% 	[ple -- ni sunt
-% 	coe -- li et]
-% 	ter -- ra %50
-% 	
-% 	glo -- _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ %55
-% 	_ _ _
-% 	_ _
-% 	_
-% 	_ _
-% 	_ ri -- a tu -- %60
-% 	a,
-% 	glo --
-% 	ri -- a __
-% 	tu --
-% 	a, glo -- ri -- a, %65
-% 	glo -- ri -- a,
-% 	[glo --
-% 	
-% 	ri -- a __
-% 	tu -- %70
-% 	a,] glo --
-% 	ri -- a, glo --
-% 	ri -- a tu --
-% 	[a.]
-% 	O -- san -- na %75
-% 	in ex --
-% 	cel --
-% 	sis. %78 finis
-% }
-% 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	
+}
+
 % OsannaTenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

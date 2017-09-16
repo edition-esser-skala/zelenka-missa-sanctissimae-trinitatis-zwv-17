@@ -778,95 +778,14 @@ EtVitamOboeII = {
 	}
 }
 
-% SanctusOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoSanctus
-% 		e'8.[\fE e16 e8. e16] e8.[ e16 e8. e16]
-% 		h'8.[ d,16 d8. d16] c8.[ a16 a8. a16]
-% 		d8.[ d16 d8. d16] a'8.[ c,16 c8. c16]
-% 		h8.[ g16 g8. g16] g'8.[ g16 g8. g16]
-% 		fis8.[ d16 d8. d16] d8.[ d16 d8. d16] %5
-% 		c'8.[ c,16 c8. c16] c8.[ c16 c8. c16]
-% 		c8.[ c16 h8. a16] h4 r
-% 		R1\fermataMarkup \bar "||"
-% 		\tempoSanctusB g2\fE a4 c~
-% 		c8 c h4 a h %10
-% 		c a g e'~
-% 		e8 d c4 h c
-% 		d c8 h a4 h
-% 		c8 g c2 h4
-% 		c e d2 %15
-% 		c4 h8 a g4 c
-% 		h8 d4 d d8 c4~
-% 		c8 h a4 d g,
-% 		R1
-% 		g2 a4 c~ %20
-% 		c8 c h4 a g
-% 		c d e4. d8
-% 		c d e fis g g, h c
-% 		d c h d e2
-% 		fis,4 g a h %25
-% 		<< { \oneVoice fis g2 fis8. fis16 } \\ { s2 \tempoSanctusFinis s } >>
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			h4 h h
-% 		a-\critnote a a
-% 		h h h
-% 		c h r %30
-% 		g g g
-% 		g g g
-% 		g g g
-% 		a g r
-% 		h8.[ c16 h8. c16 h8. c16] %35
-% 		\once \tieDashed h2.~
-% 		h4 a4. a8
-% 		a2.~
-% 		a4 g4. g8
-% 		g2.~ %40
-% 		g4 fis4. fis8
-% 		fis?2.
-% 		g4. g8 fis e
-% 		a4. a8 a g
-% 		fis4. fis8 g4 %45
-% 		fis fis2
-% 		e4 e e
-% 		a a a
-% 		g g g
-% 		a g r %50
-% 		a8.[ h16 a8. h16 a8. h16]
-% 		a2.
-% 		g4 h e,8. fis?16
-% 		g2.
-% 		f!4 a d,8. e16 %55
-% 		f2.
-% 		e4 g c,8 d
-% 		e2.
-% 		d4 f f-\critnote
-% 		d2. %60
-% 		c8 d e fis gis a
-% 		h4. h8 a4
-% 		gis4. gis8 a4~
-% 		a a gis
-% 		a a a8 a %65
-% 		a4. a8 a4
-% 		g4.-\critnote g8 fis e
-% 		r4 c' e,
-% 		a4. a8 g4~
-% 		g g fis %70
-% 		g g g8 g
-% 		g4 g8 g g4~
-% 		g g8 g g4
-% 		g2\fermata r4
-% 		a4 a g %75
-% 		a4. a8 g4~
-% 		g8 e fis2\trill
-% 		g4 r r
-% 		R2.*2 %80
-% 		\time 6/4 << { \oneVoice R1. } \\ { s1 \tempoPleniFinis s2 } >>
-% 		R1.\fermataMarkup \bar "||" %82 finis
-% 	}
-% }
-% 
+SanctusOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoSanctus
+		
+	}
+}
+
 % OsannaOboeII = {
 % 	\relative c' {
 % 		\clef treble

@@ -1104,161 +1104,17 @@ EtVitamBassoLyrics = \lyricmode {
 	men. %339 FINIS
 }
 
-% SanctusBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
-% 		\mvTr c'2\fE^\tuttiE a
-% 		gis( a
-% 		fis2.) fis4
-% 		g2 cis,
-% 		c( h %5
-% 		a d
-% 		g) g,~
-% 		g4 r r2\fermata \bar "||"
-% 		\tempoSanctusB R1*8 %16
-% 		r2 c\fE
-% 		d4 f4. f8 e4
-% 		d e f d
-% 		c2 r %20
-% 		g'2 a4 c~
-% 		c8 c h4 a h
-% 		c a g2
-% 		fis4 g c,2(
-% 		d1~) %25
-% 		d2. d4
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			g4 h g
-% 		fis d' fis,
-% 		g h g
-% 		c, g' r %30
-% 		c e c
-% 		h g h
-% 		c e c
-% 		f, c' r
-% 		g8. g16 g4 r %35
-% 		R2.
-% 		a4 c a
-% 		fis d' fis,
-% 		g h g
-% 		e c' e, %40
-% 		fis a fis
-% 		dis h' dis,
-% 		e8[ fis g a h c]
-% 		a4 fis a
-% 		h4. a8 g4( %45
-% 		a) h2
-% 		e,4 g e
-% 		dis h' dis,
-% 		e g e
-% 		a e r %50
-% 		R2.
-% 		h'4 dis h
-% 		e g e
-% 		cis a cis
-% 		d f! d %55
-% 		h g h
-% 		c e c
-% 		a f a
-% 		h d h
-% 		gis e gis %60
-% 		a8[ h c d e f]
-% 		d4 h d
-% 		e4. d8 c4( d)
-% 		e( e,)
-% 		a c a %65
-% 		fis d' fis,
-% 		g8[ a h c d e]
-% 		c4 a c
-% 		d4. c8 h4(
-% 		c) d( d,) %70
-% 		g2 g4~
-% 		g g8 g g4
-% 		g8 g h4( g)
-% 		cis,2\fermata r4
-% 		c'!4 c h %75
-% 		a fis g(
-% 		c, d2)
-% 		g4-! r r
-% 		R2.*2 %80
-% 		\time 6/4 << { \oneVoice R1. } \\ { s1 \tempoPleniFinis s2 } >>
-% 		R1.\fermataMarkup \bar "||" %82 finis
-% 	}
-% }
-% 
-% SanctusBassoLyrics = \lyricmode {
-% 	San -- ctus,
-% 	San --
-% 	ctus,
-% 	San -- ctus,
-% 	San -- %5
-% 	
-% 	ctus. __
-% 	
-% 	San -- %17
-% 	ctus Do -- mi -- nus,
-% 	De -- us Sa -- ba --
-% 	oth. %20
-% 	San -- ctus Do --
-% 	mi -- nus, De -- us
-% 	Sa -- ba -- oth,
-% 	De -- us Sa --
-% 	%25
-% 	ba --
-% 	oth. Ple -- ni,
-% 	ple -- ni sunt
-% 	coe -- li et
-% 	ter -- ra, %30
-% 	ple -- ni sunt
-% 	coe -- li, sunt
-% 	coe -- li et
-% 	ter -- ra
-% 	glo -- ri -- a, %35
-% 	
-% 	[glo] -- _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ %40
-% 	_ _ _
-% 	_ _ _
-% 	_
-% 	_ _ _
-% 	_ ri -- a __ %45
-% 	tu --
-% 	a. Ple -- ni,
-% 	ple -- ni sunt
-% 	coe -- li et
-% 	ter -- ra %50
-% 	
-% 	glo -- _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ %55
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ %60
-% 	_
-% 	_ _ _
-% 	_ ri -- a __
-% 	tu --
-% 	a, glo -- _ %65
-% 	_ _ _
-% 	_
-% 	_ _ _
-% 	_ [ri -- a __
-% 	tu -- %70
-% 	a,] glo --
-% 	ri -- a, glo --
-% 	ri -- a tu --
-% 	a.
-% 	O -- san -- na %75
-% 	in ex -- cel --
-% 	
-% 	sis. %78 finis
-% }
-% 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	
+}
+
 % OsannaBassoNotes = {
 % 	\relative c {
 % 		\clef bass

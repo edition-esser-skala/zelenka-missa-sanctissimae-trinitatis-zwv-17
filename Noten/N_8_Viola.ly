@@ -1090,93 +1090,14 @@ EtVitamViola = {
 	}
 }
 
-% SanctusViola = {
-% 	\relative c' {
-% % 		\clef treble
+SanctusViola = {
+	\relative c' {
+		\clef treble
 % 		\clef alto
-% 		\key c \major \time 4/4 \tempoSanctus
-% 		g'8.[\fE g16 g8. g16] a8.[ a16 a8. e16]
-% 		f8.[ f16 h,8. h16] c8.[ e16 e8. e16]
-% 		fis8.[ a16 a8. a16] d,8.[ d16 d8. d16]
-% 		d8.[ d16 d8. d16] e8.[ e16 e8. e16]
-% 		d8.[ fis16 fis8. fis16] g8.[ g16 h8. h16] %5
-% 		e,8.[ e16 fis8. fis16] fis8.[ fis16 fis8. e16]
-% 		d8.[ g,16 g8. g16] g8.[ g16 g8. g16]
-% 		g8.[ d16\p d8. d16] d4\fermata-\critnote r \bar "||"
-% 		\tempoSanctusB R1*5 %13
-% 		r2 g\fE
-% 		a4 c4. c8 h4 %15
-% 		a h c a
-% 		g g'4. f8 e4
-% 		d c h c
-% 		d c8 h a4 h
-% 		c2 r %20
-% 		r4 h c e~
-% 		e8 e d4 c d
-% 		e c h r
-% 		r d4. d8 c h
-% 		a4 h8 g d'4 d %25
-% 		d2. d4
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			g16 g g g h g g g h g g g
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g g g h g g g h g g g
-% 		c,4 g' r %30
-% 		c16 c c c e c c c e c c c
-% 		h h h h g' h, h h g' h, h h
-% 		c c c c e c c c e c c c
-% 		f,4 c' r
-% 		g g, r %35
-% 		e'16 e e e gis e e e gis e e e
-% 		a a a a c a a a c a a a
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g g g h g g g h g g g
-% 		e e e e c' e, e e c' e, e e %40
-% 		fis fis fis fis a fis fis fis a fis fis fis
-% 		dis dis dis dis h' dis, dis dis h' dis, dis dis
-% 		e e fis fis g g a a h h c c
-% 		a4 fis a
-% 		h4. a8 g4 %45
-% 		a h h,
-% 		e16 e e e g e e e g e e e
-% 		dis dis dis dis h' dis, dis dis h' dis, dis dis
-% 		e e e e g e e e g e e e
-% 		a,4 e' r %50
-% 		R2.
-% 		h'16 h h h dis h h h dis h h h
-% 		e e e e g e e e g e e e
-% 		cis cis cis cis a cis cis cis a cis cis cis
-% 		d d d d f! d d d f d d d %55
-% 		h h h h g' h, h h g' h, h h
-% 		c c c c e c c c e c c c
-% 		a a a a f' a, a a f' a, a a
-% 		h h h h d h h h d h h h
-% 		gis gis gis gis e' gis, gis gis e' gis, gis gis %60
-% 		a a h h c c d d e e f f
-% 		d4 h d
-% 		e4. d8 c4
-% 		d e e,
-% 		a16 a a a c a a a c a a a %65
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g a a h h c c d d e e
-% 		c4 a c
-% 		d4. c8 h4
-% 		c d d, %70
-% 		g16 g g g h g g g h g g g
-% 		g g g g h g g g h g g g
-% 		g g g g h g g g h g g g
-% 		a2\fermata r4
-% 		d,4 d d %75
-% 		a' fis g
-% 		e d4. d8
-% 		h16 g a a h h c c d d e e
-% 		h h c c d d e e fis fis g g
-% 		e4 c d %80
-% 		\time 6/4 g, c, d g \tempoPleniFinis r \mvTr g'\pE
-% 		e4 e4. e8 dis2\fermata r4 \bar "||" %82 finis
-% 	}
-% }
-% 
+		\key a \minor \time 2/2 \tempoSanctus
+	}
+}
+
 % BenedictusViola = {
 % 	\relative c' {
 % % 		\clef treble

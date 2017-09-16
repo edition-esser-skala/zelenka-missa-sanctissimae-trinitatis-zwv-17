@@ -861,95 +861,14 @@ EtVitamOboeI = {
 	}
 }
 
-% SanctusOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoSanctus
-% 		e'8.[\fE e16 e8. e16] e8.[ e16 e8. e16]
-% 		h'8.[ d,16 d8. d16] c8.[ a16 a8. a16]
-% 		d8.[ d16 d8. d16] a'8.[ c,16 c8. c16]
-% 		h8.[ g16 g8. g16] g'8.[ g16 g8. g16]
-% 		fis8.[ d16 d8. d16] d8.[ d16 d8. d16] %5
-% 		c'8.[ c,16 c8. c16] c8.[ c16 c8. c16]
-% 		c8.[ c16 h8. a16] h4 r
-% 		R1\fermataMarkup \bar "||"
-% 		\tempoSanctusB g2\fE a4 c~
-% 		c8 c h4 a h %10
-% 		c a g e'~
-% 		e8 d c4 h c
-% 		d c8 h a4 h
-% 		c8 g c2 h4
-% 		c e d2 %15
-% 		c4 h8 a g4 c
-% 		h8 d4 d d8 c4~
-% 		c8 h a4 d g,
-% 		R1
-% 		g2 a4 c~ %20
-% 		c8 c h4 a g
-% 		c d e4. d8
-% 		c d e fis g g, h c
-% 		d c h d e2~
-% 		e4 d fis, g %25
-% 		a h \tempoSanctusFinis a4. a8
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			h4 d d
-% 		d d d
-% 		d d d
-% 		e d r %30
-% 		e e e
-% 		d d d
-% 		e e e
-% 		f e r
-% 		d8.[ e16 d8. e16 d8. e16] %35
-% 		d2.
-% 		c4 e a,8. h16
-% 		c2.
-% 		h4 d g,8. a16
-% 		h2. %40
-% 		a4 c fis,8. g16
-% 		a2.
-% 		g8 a h cis dis e
-% 		fis4. fis8 e4
-% 		dis4. dis8 e4~ %45
-% 		e8 fis dis4.\trill e8
-% 		e4 e e
-% 		fis fis fis
-% 		e e e
-% 		e e r %50
-% 		fis8.[ g16 fis8. g16 fis8. g16]
-% 		fis?2.~
-% 		fis4 e4. e8
-% 		e4 e2~
-% 		e4 d4. d8 %55
-% 		d4 d2~
-% 		d4 c4. c8
-% 		c4 c2~
-% 		c4 h4.  h8
-% 		h2. %60
-% 		c4. c8 h a
-% 		d4. d8 d4
-% 		h4. h8 c4
-% 		h h2
-% 		a4 e' e8 e %65
-% 		d4. d8 c4
-% 		h8 c d e fis g
-% 		a4. a8 g4
-% 		fis4. fis8 g4
-% 		e d2 %70
-% 		d8 h d h d h
-% 		e8. e16 d8 h d h
-% 		e8. e16 d4 d
-% 		e2\fermata r4
-% 		fis fis g %75
-% 		c,4. a8 h4
-% 		a a2\trill
-% 		h4-! r r
-% 		R2.*2 %80
-% 		\time 6/4 << { \oneVoice R1. } \\ { s1 \tempoPleniFinis s2 } >>
-% 		R1.\fermataMarkup \bar "||" %82 finis
-% 	}
-% }
-% 
+SanctusOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoSanctus
+		
+	}
+}
+
 % BenedictusOboeI = {
 % 	\relative c' {
 % 		\clef treble

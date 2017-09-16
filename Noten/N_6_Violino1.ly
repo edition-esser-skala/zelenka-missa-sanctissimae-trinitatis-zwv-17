@@ -1123,96 +1123,14 @@ EtVitamViolinoI = {
 	}
 }
 
-% SanctusViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoSanctus
-% 		e'8.[\fE e16 e8. e16] e8.[ e16 e8. e16]
-% 		h'8.[ d,16 d8. d16] c8.[ a16 a8. a16]
-% 		d8.[ d16 d8. d16] a'8.[ c,16 c8. c16]
-% 		h8.[ g16 g8. g16] g'8.[ g16 g8. g16]
-% 		fis8.[ d16 d8. d16] d8.[ d16 d8. d16] %5
-% 		c'8.[ c,16 c8. c16] c8.[ c16 c8. c16]
-% 		c8.[ c16 h8. a16] h8.[ d,16 d8. d16]
-% 		d8.[ h16\p h8. h16] h4\fermata r \bar "||"
-% 		\tempoSanctusB g'2\fE a4 c~
-% 		c8 c h4 a h %10
-% 		c a g e'~
-% 		e8 d c4 h c
-% 		d c8 h a4 h
-% 		c8 g c2 h4
-% 		c e d2 %15
-% 		c4 h8 a g4 c
-% 		h8 d4 d d8 c4~
-% 		c8 h a4 d g,
-% 		R1
-% 		g2 a4 c~ %20
-% 		c8 c h4 a g
-% 		c d e4. d8
-% 		c d e fis g g, h c
-% 		d c h d e2~
-% 		e4 d fis, g %25
-% 		a h \tempoSanctusFinis a4.\trill a8
-% 		\time 3/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-% 			g16 g g g h g g g h g g g
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g g g h g g g h g g g
-% 		c,4 g' r %30
-% 		c16 c c c e c c c e c c c
-% 		h h h h g' h, h h g' h, h h
-% 		c c c c e c c c e c c c
-% 		f,4 c' r
-% 		d8.[( e16) d8. ( e16) d8.( e16)] %35
-% 		d16 e,-! e-! e-! gis e e e gis e e e
-% 		a a a a c a a a c a a a
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g g g h g g g h g g g
-% 		e e e e c' e, e e c' e, e e %40
-% 		fis fis fis fis a fis fis fis a fis fis fis
-% 		dis dis dis dis h' dis, dis dis h' dis, dis dis
-% 		e e fis fis g g a a h h c c
-% 		a4 fis a
-% 		h4. a8 g4 %45
-% 		a h h,
-% 		e16 e e e g e e e g e e e
-% 		dis dis dis dis h' dis, dis dis h' dis, dis dis
-% 		e e e e g e e e g e e e
-% 		a,4 e' r %50
-% 		fis'8.([ g16) fis8.( g16) fis8.( g16)]
-% 		fis16 h, h h dis h h h dis h h h
-% 		e e e e g e e e g e e e
-% 		cis cis cis cis a' cis, cis cis a' cis, cis cis
-% 		d d d d f! d d d f d d d %55
-% 		h h h h g' h, h h g' h, h h
-% 		c c c c e c c c e c c c
-% 		a a a a f' a, a a f' a, a a
-% 		h h h h d h h h d h h h
-% 		gis gis gis gis e' gis, gis gis e' gis, gis gis %60
-% 		a a h h c c d d e e f f
-% 		d4 h d
-% 		e4. d8 c4
-% 		d e e,
-% 		a16 a a a c a a a c a a a %65
-% 		fis fis fis fis d' fis, fis fis d' fis, fis fis
-% 		g g a a h h c c d d e e
-% 		c4 a c
-% 		d4. c8 h4
-% 		c d d, %70
-% 		g16 g g g h g g g h g g g
-% 		g g g g h g g g h g g g
-% 		g g g g h g g g h g g g
-% 		g'2\fermata r4
-% 		fis16 d d d a' d, d d g d d d %75
-% 		c4. a8 h4
-% 		r8 a a4.\trill a8
-% 		g16 g a a h h c c d d e e
-% 		h h c c d d e e fis fis g g
-% 		e4 c d %80
-% 		\time 6/4 g, c, d g, \tempoPleniFinis h'2~\pE
-% 		h4 a4. a8 h2\fermata r4 \bar "||" %82 finis
-% 	}
-% }
-% 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoSanctus
+		
+	}
+}
+
 % BenedictusViolinoI = {
 % 	\relative c' {
 % 		\clef treble

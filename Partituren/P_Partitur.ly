@@ -785,84 +785,9 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
-			composer = \markup { \larger " " }
-		}
-		\paper { systems-per-page = #2 }
-		\score {
-			<<
-				\new StaffGroup {
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\EtVitamOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\EtVitamOboeII
-						}
-					>>
-				}
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\EtVitamViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\EtVitamViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\EtVitamViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EtVitamSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \EtVitamSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtVitamAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \EtVitamAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtVitamTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \EtVitamTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtVitamBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EtVitamBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi ed Organo"
-						\EtVitamBassiOrgano
-					}
-				>>
-				\new FiguredBass { \EtVitamBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.1 SANCTUS" }
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
 % 			composer = \markup { \larger " " }
 % 		}
 % 		\paper { systems-per-page = #2 }
@@ -872,12 +797,12 @@
 % 					\new GrandStaff <<
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Oboe I"
-% 							\SanctusOboeI
+% 							\EtVitamOboeI
 % 						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Oboe II"
 % 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\SanctusOboeII
+% 							\EtVitamOboeII
 % 						}
 % 					>>
 % 				}
@@ -885,55 +810,130 @@
 % 					\new GrandStaff <<
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino I"
-% 							\SanctusViolinoI
+% 							\EtVitamViolinoI
 % 						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino II"
 % 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\SanctusViolinoII
+% 							\EtVitamViolinoII
 % 						}
 % 					>>
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Viola"
-% 						\SanctusViola
+% 						\EtVitamViola
 % 					}
 % 				>>
 % 				\new ChoirStaff <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+% 						\new Voice = "Soprano" { \dynamicUp \EtVitamSopranoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \EtVitamSopranoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+% 						\new Voice = "Alto" { \dynamicUp \EtVitamAltoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+% 					\new Lyrics \lyricsto Alto \EtVitamAltoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+% 						\new Voice = "Tenore" { \dynamicUp \EtVitamTenoreNotes }
 % 					}
-% 					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \EtVitamTenoreLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+% 						\new Voice = "Basso" { \dynamicUp \EtVitamBassoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+% 					\new Lyrics \lyricsto Basso \EtVitamBassoLyrics
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\SanctusBassiOrgano
+% 						\EtVitamBassiOrgano
 % 					}
 % 				>>
-% 				\new FiguredBass { \SanctusBassFigures }
+% 				\new FiguredBass { \EtVitamBassFigures }
 % 			>>
-% % 			\midi { }
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.1 SANCTUS" }
+			composer = \markup { \larger " " }
+		}
+% 		\paper { systems-per-page = #2 }
+		\score {
+			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\SanctusOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\SanctusOboeII
+						}
+					>>
+				}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SanctusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\SanctusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\SanctusViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Bassi ed Organo"
+						\SanctusBassiOrgano
+					}
+				>>
+				\new FiguredBass { \SanctusBassFigures }
+			>>
+% 			\midi { }
+		}
+	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.2 BENEDICTUS" }
