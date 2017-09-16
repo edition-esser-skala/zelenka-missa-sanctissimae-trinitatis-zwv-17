@@ -931,7 +931,8 @@
 				>>
 				\new FiguredBass { \SanctusBassFigures }
 			>>
-% 			\midi { }
+			\layout { }
+			\midi { \tempo 4 = 180 }
 		}
 	}
 % 	\bookpart {

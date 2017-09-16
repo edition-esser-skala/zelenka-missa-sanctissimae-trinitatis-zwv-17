@@ -2222,8 +2222,8 @@ SanctusBassiOrgano = {
 		a a d, d g g c, c
 		f f f f g g c, c %10
 		g' g g g g g g g
-		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
-			c,8-\markup { \anmerkung "staccato" } c' c,-\solo c' c, c' c, c' c, c' c, c'
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni \newSpacingSection
+		c,8-\markup { \anmerkung "staccato" } c' c,-\solo c' c, c' c, c' c, c' c, c'
 		c, c' c, c' c, c' c, c' c, c' c, c'
 		c, c' c, c' c, e g4 g r
 		c,8-\tutti c' c, c' c, c' c, c' c, c' c, c' %15
@@ -2259,12 +2259,12 @@ SanctusBassFigures = \figuremode {
 	r
 	<6 4\+ _->2 <6 3>4 <5 \t>
 	<6\\ 5 3> <\t \t \t> <_+>2
-	<9>4 <8> <7 5 3> <\t \t \t> %5
-	<_+>2 <7>4 <6 5>
+	<9>4 <8>8 <[7]> <7 5 [_+]>4 <\t \t \t> %5
+	<[5] _+>4 <[6] [\t]> <7> <6 5>
 	<9> <8> <6>2
 	<7 _+>4 <6 4> <5 4> <\t _+>
 	r <7> q q
-	q <7> <7>2 %10
+	q <6>8 <[5]> <7>2 %10
 	<5 3>4 <6 4> <5 4 > <\t 3>
 	r1.
 	r
@@ -2276,19 +2276,19 @@ SanctusBassFigures = \figuremode {
 	<6> <5 3>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
 	<6>4 q r r q r %20
 	<5>1.
-	<5 3>4 <6 4> <7 5> <8 6> <7 5> <6 4>
-	<5 3> <6 4> <7 5> r <6> r
+	<5 3>4. <6 4>4 <7 5>8 <8 6>4 <7 5> <6 4>
+	<5 3>4. <6 4>4 <7 5>8 r4 <6> r
 	<5> q q
-	r2. <5 3>4 <6- 4> <7 5> %25
-	<8 6-> <7 5> <[6-] 4> <5 _!> <6- 4> <7 5>
-	<_-> <6 5 _->  <_!> <5 _!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r2. <5 3>4. <6- 4>4 <7 5>8 %25
+	<8 6->4 <7 5> <[6-] 4> <5 _!>4. <6- 4>4 <7 5>8
+	<_->4 <6 5 _->  <_!> <5 _!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	r1.
 	r
 	<5 3>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff <6>2. %30
 	<5> <6>
 	<5 3>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff <6>4 q r
 	<5> <6> r r2.
-	r4 <6> <\t> r2.
+	r4 <6> <\t> r <[6] [5]>2
 	r4 <5> <6 5> r <4> <3> %35
 	<5> q q r2.
 	r1.

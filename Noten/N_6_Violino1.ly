@@ -1127,7 +1127,45 @@ SanctusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 2/2 \tempoSanctus
-		
+		e'8-!\fE e-! e-! c c a a e
+		\tuplet 3/2 4 { e( a c) e([ a e)] c( e c) a([ c a)]
+		e([ b' cis)] e( b'^\critnote e,) a,([ d fis)] a( d a)
+		a,([ c a)] dis( a a') gis([ h gis)] e( h d)
+		c([ a' e)] c( a c) fis([ a fis)] c( h a) %5
+		gis([ h e)] gis,( h e) a,([ d a)] h( e h)
+		c([ e a)] c,( e a) a,([ d a')] a,( d a')
+		gis([ h d,)] c( e a,) h([-\critnote e a)] gis( a h)
+		c([ a e)] f( a d) h([ g d)] e( g c)
+		a([ f c)] d( f a,) h([ d g)] e( g c) %10
+		h([ g h)] c( g e) \once\slurDashed c([ g e)] d( g f) }
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			e16-!-\markup { \anmerkung "staccato" } c-! c-! c e-! e-! e e g g g g e e e e g g g g c c c c
+		g g g g c c c c e e e e c c c c e e e e g g g g
+		e e e e g g g g c c c c h4 g r
+		c,,16 c c c e e e e g g g g e e e e g g g g c c c c %15
+		g g g g c c c c e e e e c c c c e e e e g g g g
+		e e e e g g g g c c c c h4 g r
+		c,16 c c c c' c c c b b b b a8 f a f a f
+		d16 d d d d' d d d c c c c h8 g h g h g
+		c16 h a g a g f e f e d c h' a g f g f e d e d c h %20
+		a' g f e f e d c d c h a h8 g' d g h, g'
+		g, d' d( e) e( f) e-! g-! d g c, g'
+		h, d d( e) e( f) e-! c'-! d,4-! h'-!
+		\time 3/4 c,16 h a g a g f e f e d c
+		\time 6/4 h8 g' d g h, g' g, d'' d( es) es( f) %25
+		es-! g-! d g c, g' h, d d( es) es( f)
+		es c d4.\trill c8 c,16 c c c e e e e g g g g
+		e e e e g g g g c c c c g g g g c c c c e e e e
+		c c c c e e e e g g g g e e e e g g g g c c c c
+		h4-! g-! r c,16 c c c c' c c c b b b b %30
+		a8 f a f a f d16 d d d d' d d d c c c c
+		h8 g h g h g c16 h a g a g f e f e d c
+		h' a g f g f e d e d c h a' g f e f e d c d c h a
+		h g a h c d e f g8 r r e f4 d
+		e2-! d-! d4.\trill d8 %35
+		c16-! h-! a g a g f e f e d c h8 g' d g h, g'
+		e8. c'16 f,4-! g-! c,16 c' c c d, c' c c d, h' h h
+		c, c' c c d, c' c c d, h' h h c4-! r r \bar "||" %38 finis
 	}
 }
 
