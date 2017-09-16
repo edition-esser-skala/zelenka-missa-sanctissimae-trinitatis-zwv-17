@@ -1095,6 +1095,45 @@ SanctusViola = {
 		\clef treble
 % 		\clef alto
 		\key a \minor \time 2/2 \tempoSanctus
+		a'8\fE a a a a a a a
+		a,4 r a'8 a a a
+		g g g g fis fis fis fis
+		f f f f e e e e
+		a a a a dis, dis dis dis %5
+		e e e e fis fis gis gis
+		a a a g f f f f
+		e e e e e e e e
+		a a d, d g g c, c
+		f f f f g g c, c %10
+		g' g g g g g g g
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni \newSpacingSection
+			g, e g e c c' g e c c' e, e'
+		c c, e' e, g' c, e c g' c, c' c,
+		g' c, c c g' g g4 g r
+		e8 c g' e c c' g e c c' e, e, %15
+		c' c, e' e, g' c, e c g' c, c' c,
+		g' c, c c g' g g4 g r
+		g8 e g e g e c16 c c c c' c c c c c c c
+		c8 fis, a fis a fis d16 d d d d d d d d' d d d
+		g,4 f r g c r %20
+		f, f a d,16 d d d d d d d d d d d
+		g,8 g' g, g' g, g' g, g' f4 e
+		d c h g' a g
+		\time 3/4 c16 h a g a g f e f e d c
+		\time 6/4 g8 g' g, g' g, g' g, g' g g g g %25
+		g4 f es d c h
+		c as' g g8 e, g e c c'
+		g e c c' e, e' c c, e' e, g' c,
+		e c g' c, c' c, g' c, c c g' g
+		g4 g r g8 e g e g e %30
+		c16 c c c c' c c c c c c c c8 fis, a fis a fis
+		d16 d d d d' d d d d d d d g,4 f
+		r g c r f, f a
+		g f4. f8 e4 a g
+		e e-\critnote a d,2 g4 %35
+		c16 h a g a g f e f e d c h8 g' d g h, g'
+		e8. c'16 f,4-! g-! e16 e e e a a a a g g g g
+		e e e e a a a a g d d d e4-! r r \bar "||" %38 finis
 	}
 }
 
