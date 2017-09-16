@@ -2303,11 +2303,167 @@ BenedictusBassiOrgano = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
 		\mvTr a'8\p-\org h c a e' e, e' e,
+		a h c a f f d e %40
+		a h c h a4 g
+		f8 f f f e \mvTr e'16\fE-\rip d cis8 h
+		a a, a' a, a' a, \mvTr a'\p-\org a,
+		a' a, a' a, a' a, a' a,
+		\mvTr d\f-\rip d'16 c h8 a g g, g' g, %45
+		g' g, \mvTr g'\pE-\org g, g' g, g' g,
+		g' g, g' g, \mvTr c\fE-\rip c'16 h a8 g
+		f4 d e8 \mvTr e'16\pE-\org d c8 a
+		d c d c d c d c
+		h a gis fis e e e e %50
+		e c d e \mvTr a\f-\ripE a a a
+		gis e16 fis gis8 e a c, d e
+		a a a a a a a a
+		gis e16 fis gis8 e a c, d e
+		a, a a a e' f d e %55
+		a,16. c'32 h16. a32 e'8 e, a,4\fermata r
+		\mvTr a'8\p-\org h c a e' e, e' e,
+		a c16 h a8 g f f d e
+		a h c h a a g g
+		f f f f e fis gis e %60
+		a a, a' g f e d f
+		g g, g' g, g' g, g' f
+		e e e e f e16 d e8 d
+		c d e f \mvTr g\fE-\rip g, g' f
+		e e e d c\p d e f %65
+		g f-\org e c f f f f
+		e e e e e e e e
+		d d g g, g' g, g' g,
+		c' c b b a a a a
+		e e e e f f f f %70
+		f f e d c c' f, g
+		c, d e c g' g, g' g,
+		c d e c a a' f g
+		\mvTr c,\f-\rip c'16 h c8 h a a a a
+		g \mvTr g16\p-\org f e8 e d d, d' d, %75
+		d' d, d' d, g' a f g
+		\mvTr c,\fE-\tutti c c c g' a f g
+		c16. e,32 d16. c32 g'8 g, c \mvTr d\pE-\org e c
+		g' g, g' g, c c'16 h c8 a
+		e e' e, e' a, a, a' a, %80
+		f' f d e a h c c,
+		c' h a g f2-\adlibitum
+		\mvTr e8\fE-\rip e'16 d cis8 h a a, a' a,
+		a' a, \mvTr a'\p-\org a, a' a, a' a,
+		a' a, a' a, d d d d %85
+		cis a' cis, a' d,4 e
+		f8 a b g a a, a' a,
+		\mvTr d\fE-\rip d'16 c d8 c h8 h, h' h,
+		h' h, \mvTr h'\pE-\org h, h' h, h' h,
+		h' h, h' h, e e e e %90
+		dis h' dis, h' e,4 fis
+		g8 h c a h h, h' h,
+		\mvTr e\fE-\rip e e e dis h16 cis dis8 h
+		e g a h e, e e e
+		e e e e dis h'16 cis dis8 h %95
+		e c a h c a h h,
+		e \mvTr fis?\pE-\org g a h h, h' h,
+		\mvTr e\fE-\tutti d c a e' e, e' e,
+		a a'16 h \mvTr c8\pE-\orgE a e' d c a
+		d d d d c c c c %100
+		c c c c h h e e
+		e e, e' e, a a g g
+		f f f f cis cis cis cis
+		d d d d d d e e
+		c c f d a' a, e' e, %105
+		\mvTr a\fE-\rip a' d, dis e \mvTr fis?\pE-\org gis fis
+		e fis? gis e a4 g?
+		c d e8 d c h
+		a4-\adlibitumE e a8 h c a
+		d c d c d c d c %110
+		h a gis fis e e e e
+		e c d e \mvTr a\f-\ripE a a a
+		gis e16 fis gis8 e a c, d e
+		a a a a a a a a
+		gis e16 fis gis8 e a c, d e %115
+		a, a a a e' f d e
+		a,16. c'32 h16. a32 e'8 e, a,4\fermata r \bar "||" %117 finis
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r4 <[6]> <6 4>8 <5 _+> <\t \t>4 %39
+	r4 <[6]> r4. <_+>8 %40
+	r4 <6>8 q q4 q
+	q4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_+>4 <6>
+	<_+>2 <[6] [4]>
+	<5 _+>8 <6 4> <5 _+> <6 4> <_+>2
+	r4 <6>8 <\t> r2 %45
+	<[6] [4]> <5 3>8 <6 4> <5 3> <6 4>
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2
+	r <_+>4 <6>
+	<6>8 q q q <6-> <6> <6-> <6>
+	<6\\> <8> <6>4 <7 _+>8 <6 4> <5 _+> <6 4> %50
+	<_+> <6> <6 5> <_+> r2
+	<6> r8 <[6]> q <_+>
+	r1
+	<[6]>2 r8 q q <_+>
+	r2 <_+>8 r <[6]> <_+> %55
+	r <6\\>16. <8>32 <_+>4 r2
+	r <6 4>8 <5 _+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2.. <_+>8
+	r4 <[6]> r <6>
+	q2 <_+>4 <[6]> %60
+	r2 <6>
+	r <5 3>8 <6 4> <5 3> <\t \t>
+	<6>2 q8 q16 q q8 q
+	r4 <[6]>8 q r2
+	<[6]> r4 q %65
+	r q <5> <6 5>
+	<[6]>1
+	<7>
+	<5 3>4 <\t \t> <6>2
+	q1 %70
+	<[2]>4 <[6]>8 q r4 q
+	r q <[6] [4]>8 <[5] [3]> r4
+	r4 <[6]> r q
+	r2 <6\\ 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4 <5>8 <6\\> <5 _+> <6 4> <5 _+> <6 4> %75
+	<_+>2 r4 <[6]>
+	r2. <[6]>4
+	r8 <[6]>16. <[8]>32 r2 <[6]>4
+	<[6] [4]>8 <[5] [3]> r2 <6>8 <\t>
+	<6 4> <5 _+> <\t \t>4 r2 %80
+	<5>4. <_+>8 r4 <6>
+	<6 3>8 q q q <7>4 <6>
+	<_+> <[6]> <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<[6] [4]>2 <5 _+>8 <6 4> <5 _+> <6 4>
+	<5 _+>2 <_!> %85
+	<6>2. <6\\>4
+	<6>8 <_+> r4 <6 4> <5 _+>
+	r <_+>8 <\t> <5+ _+>2
+	<[6] [4]> <5+ _+>8 <6 4> <5+ _+> <6 4>
+	<5+ _+>4. \bassFigureExtendersOn q8 r2 %90
+	<6>4. q8 \bassFigureExtendersOff r4 <6\\>
+	<[6]>8 <[5+] _+> r4 <6 4> <5+ _+>
+	r2 <6>
+	r8 <[6]> <[6\\]> <[5+] [_+]> r2
+	r <6>4 <[6]> %95
+	r8 <6> r <[5+] _+> <5>4 <[5+] _+>
+	r4 <[6]> <6 4>8 <5+ _+> <\t \t>4
+	r4 <6> <6 4>8 <5 _+> <\t \t>4
+	r4 <[6]> <_+> <6>
+	<5> <6 5> <6>2 %100
+	q <7>4 <_+>
+	<5 _+> <\t \t> <5 3> <4\+ 2>
+	<6>2 q
+	r4 <6 3>8 <\t \t> <4\+ _!>4 <7 _+>
+	<6>2. <5 _+>8 <\t \t> %105
+	r4. <7>8 <_+>2
+	<[_+]>2. <5>4
+	<5>8 <6> <5> <6> <_+> r <6> <6\\>
+	r4 <[_+]> r <[6]>
+	<6>8 q q q <6-> <6> <6-> <6> %110
+	<6\\> <8> <6>4 <7 _+>8 <6 4> <5 _+> <6 4>
+	<_+> <6> <6 5> <_+> r2
+	<6> r8 <[6]> q <_+>
+	r1
+	<[6]>2 r8 q q <_+> %115
+	r2 <_+>8 r <[6]> <_+>
+	r <6\\>16. <8>32 <_+>4 r2 %117 finis
 }
 
 % OsannaBassiOrgano = {
