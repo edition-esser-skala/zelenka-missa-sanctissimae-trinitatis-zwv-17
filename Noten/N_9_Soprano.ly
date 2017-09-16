@@ -1487,11 +1487,82 @@ SanctusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+		\mvTr e'4.\fE^\tuttiE e8 e2
+		e4 r c4. c8
+		cis2 d
+		dis  e8[ h e d?]
+		c1 %5
+		h4 e2 e8 d
+		c2( d8[ a] d4~)
+		d c h4. h8
+		a4 f'2( \once\tieDashed e4~
+		e d8[ c] h4) c %10
+		d( c2) h4
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			c4 r r r1*3/4
+		R1.*2
+		e4 e e e e r %15
+		e e e e e g
+		e e e d d r
+		c4. c8 c4 c c r
+		d4. d8 d4 d4. d8 d4
+		e4 d r d e r %20
+		c d4. c8 h4. h8 h4
+		r8 d4 e f8 e4 d c
+		h8 d4 e f8 e4 d8 d d4
+		\time 3/4 c r r
+		\time 6/4 d4. d8 d4 h8 d4 es f8 %25
+		es4 d c h!8 d4 es? f8
+		es4 d8 d d4 c r r
+		r r e e e r
+		r r e e e e
+		d4. d8 d d c[ e g e g e] %30
+		c4 r r d8[ fis a fis a fis]
+		d4. d8 d4 e d r
+		d e g c, f4.( e8
+		d4.) c8 d4 e d4. d8
+		c2 c4~ c c( h) %35
+		c r r r1*3/4
+		R1.*2 \bar "||" %38 finis
 	}
 }
 
 SanctusSopranoLyrics = \lyricmode {
+	San -- ctus, San --
+	ctus, San -- ctus,
+	San -- _
+	_ _
+	_ %5
+	ctus Do -- mi -- nus
+	De --
+	us Sa -- ba --
+	oth, De --
+	us %10
+	Sa -- ba --
+	oth.
 	
+	Ple -- ni sunt coe -- li, %15
+	ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra
+	glo -- ri -- a tu -- a,
+	glo -- ri -- a, glo -- ri -- a
+	tu -- a, glo -- _ %20
+	_ _ _ _ ri -- a,
+	glo -- _ _ _ _ _
+	_ _ _ _ _ ri -- a tu --
+	a,
+	glo -- ri -- a, glo -- _ _ _ %25
+	_ _ _ _ _ _ _
+	_ ri -- a tu -- a.
+	O -- san -- na,
+	o -- san -- na, o --
+	san -- na in ex -- cel -- %30
+	_ _
+	_ sis, o -- san -- na,
+	o -- san -- na, o -- san --
+	na in ex -- cel -- sis,
+	in ex -- cel -- %35
+	sis. %36 finis
 }
 
 % BenedictusSopranoNotes = {
