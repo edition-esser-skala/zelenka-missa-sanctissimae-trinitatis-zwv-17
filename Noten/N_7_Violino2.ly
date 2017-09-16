@@ -1087,7 +1087,7 @@ EtVitamViolinoII = {
 		b8-! g'16 f e d c b c8-! a'16 g f e d c
 		b8 c d b g4 r
 		d'2 c
-		h a8 f a4
+		b a8 f a4
 		g8 e a'4 g4.\trill g8 %315
 		f g a b <a cis, e, a,>4 r
 		b,2 a

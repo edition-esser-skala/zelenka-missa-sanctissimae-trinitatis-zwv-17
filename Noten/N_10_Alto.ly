@@ -1200,9 +1200,9 @@ EtVitamAltoNotes = {
 		h8[-! h'16 a] g[ f e d] c8-![ c'16 h] a[ g f e]
 		d8-![ h'16 a] g[ f e d] c8-![ c'16 h] a[ g f e]
 		f4 a g r %305
-		a2( g
+		a2 g
 		f e
-		d4 c) d r
+		d4 c d r
 		c2 d
 		e f %310
 		g a
@@ -1225,8 +1225,8 @@ EtVitamAltoNotes = {
 		a h2 c4~
 		c d2 g,4
 		g g8 g  g4( c) %330
-		h8 h,16([ c] d[ e f g] h,8[ g' c g]
-		c4 d) h e,8.[ f16]
+		h8 h,16[ c] d[ e f g] h,8[ g' c g]
+		c4 d h e,8.[ f16]
 		g2 f
 		e8[ d c e] d4 g
 		g8 g( a4) g r8 g %335
@@ -1296,9 +1296,9 @@ EtVitamAltoLyrics = \lyricmode {
 	_ _ _ _
 	_ _ _ _
 	_ _ men, %305
-	a --
-	
-	men.
+	a -- _
+	_ _
+	_ _ men.
 	Et vi --
 	tam ven -- %310
 	tu -- ri
@@ -1321,8 +1321,8 @@ EtVitamAltoLyrics = \lyricmode {
 	tam ven --
 	tu -- ri
 	sae -- cu -- li, a -- %330
-	men, a --
-	men, a --
+	men, a -- _ _
+	_ _ men, a --
 	_ _
 	_ _ _
 	men, a -- men, a -- %335

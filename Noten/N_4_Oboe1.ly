@@ -770,7 +770,94 @@ EtVitamOboeI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		R1*3 %250
+		r2 \mvTr g'\fE
+		a h
+		c d
+		e c4. d16 c
+		h8 c d4.\trill c16 d e4~ %255
+		e d r8 c-! g-! c
+		a-\critnote f f'4. e16 d e8.\trill f16
+		f8 f,16 g a8 f a4 h!
+		c r r8 a f a
+		g h d4 g, e' %260
+		a, d2 c4
+		g' a d, r
+		r8 c16 h a g fis e fis8 a g4~
+		g8 a h8.\trill a16 a4 r
+		e'2 d %265
+		c h4 g8 c~
+		c h16 a h8 g a4.\trill g8
+		g2 a
+		h c
+		d e %270
+		c4. d16 c h4 cis
+		d r r8 g,-! e-! g
+		d4-! a'-! r8 h g h
+		e,4 c' r8 d8 d, d'
+		d cis16 h cis8. d16 d4 d'~ %275
+		d c2 h4~
+		h a8.(\trill g32 a) h16 fis dis h' h,4-!
+		r8 a16 h cis dis e fis g8 fis e8.\trill d32 e
+		fis8 d r4 r2
+		r8 g,16 a h cis d e fis8 e dis8.\trillE cis32 dis %280
+		e8 g16 fis e8. dis16 dis4 r
+		R1*3
+		r8 gis,16 a h c d e f8 f,!16 gis a h c d %285
+		e8 e,16 fis? gis? a h c d8 d,16 e fis gis a h
+		c8 c,16 d e fis gis a h8 e, e'4~
+		e d4. e16 d c8 a'
+		h,4 c h4.\trill h8
+		a c[-! h-! gis-!] r c-! h-! fis'~ %290
+		fis e16 dis e4. dis16 cis? dis8.\trill e16
+		e8 h16 a g fis e d c8-! c'16 h a g fis e
+		d8-! d'16 c h a g f e8-! e'16 d c h a g
+		fis'4-! g-! fis8.(\trill e32 fis) g8 g,
+		e'2 d %295
+		c h
+		a8 d, r4 g2
+		a h
+		c d
+		e d4. c16 d %300
+		h8 g c4. h16 a h8.\trill c16
+		c8 e16 d c h a g f8-! f'16 e d c h a
+		g8-! g'16 f e d c h a8-! a'16 g f e d c
+		h4.\trill a16 h c8 d e4~
+		e d8 c h g r4 %305
+		a'2 g
+		f e
+		d8-! h-! c4. h16 a h8. c16
+		c2 d
+		e f %310
+		g a
+		f4. g16 f e8 c c'4~
+		c b2 a4~
+		a g f4. g16 f
+		e8 g f2 e4~ %315
+		e d cis8 e, a4~
+		a g2 f4~
+		f8 f' e4. f16 e d8 e
+		cis4 d e r8 cis
+		d fis g h, e2 %320
+		d c!
+		h8 g h8.(\trill a32 h) c8 c, c'16 e d c
+		h8 d16 c h a g f! e8 e'16 d c h a g 
+		f8 f'16 e d c h a g8 g'16 f e d c h
+		a8 h16 c d4. h8 c4~ %325
+		c h c2
+		d e
+		f g
+		a g4. f16 g
+		e2 d8 g, g'4~ %330
+		g f2 e4~
+		e d2 c4
+		e8 e,16 f g a h c d8 d,16 e f g a h
+		c8 d e d16 c d2
+		e4 f-! r8 d e4-! %335
+		r8 c d4-! r8 h c4~
+		c8 h16 a h8.\trill c16 c8 g' h, g'
+		r e d g r e d g
+		e4-! r r2 \bar "|." %339 FINIS
 	}
 }
 

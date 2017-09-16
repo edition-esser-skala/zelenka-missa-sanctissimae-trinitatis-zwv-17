@@ -2153,7 +2153,7 @@ EtVitamBassFigures = \figuremode {
 	<7 _+>4 \bassFigureExtendersOn <6 _+>8 <5 _+> \bassFigureExtendersOff <6 4\+ _!>4 <\l \l [2]> %285
 	<6>2 <7 [5+]>4 <6\\>
 	r2 <6>
-	<[5+] 4>4 <6\\ 3>8 <\t \t> <9 3>4 <8>
+	<[5+] 4>4 <6\\ 3>8 <\t \t> <9 [6] 3>4 <8>
 	<7 _+>2 <_+>4. q8
 	<6>4 <_+>8 q <6> r q q %290
 	<[9+]>4 <8> <7> <6\\>

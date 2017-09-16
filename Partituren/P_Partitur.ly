@@ -790,7 +790,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {

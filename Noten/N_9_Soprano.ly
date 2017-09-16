@@ -1333,8 +1333,8 @@ EtVitamSopranoNotes = {
 		c) h
 		r8 a16[ h] cis[ dis e fis] g8[ fis] e8.[\trill d32 e]
 		fis8 d r4 r2
-		r8 g,16([ a] h[ cis d e] fis8[ e] dis8.[\trillE cis32 dis] %280
-		e8[ g16 fis] e8.[ dis16]) dis4 r
+		r8 g,16[ a] h[ cis d e] fis8[ e] dis8.[\trillE cis32 dis] %280
+		e8[ g16 fis] e8.[ dis16] dis4 r
 		R1*3
 		r8 gis,16[ a] h[ c d e] f8[ f,!16 gis] a[ h c d] %285
 		e8[ e,16 fis?] gis?[ a h c] d8[ d,16 e] fis[ gis a h]
@@ -1371,11 +1371,11 @@ EtVitamSopranoNotes = {
 		b2( a
 		g f)
 		e8 e'([ f d] e2)\trill
-		d4 r e2( %320
+		d4 r e2 %320
 		d c
-		h! c)
-		h8 d16[ c] h[ a g f!]
-		e8[ e'16 d] c[ h a g] f8[ f'16 e] d[ c h a] g8[ g'16 f] e[ d c h]
+		h! c
+		h8 d16[ c] h[ a g f!] e8[ e'16 d] c[ h a g] 
+		f8[ f'16 e] d[ c h a] g8[ g'16 f] e[ d c h]
 		a8[ h16 c] d4. h8 c4~ %325
 		c h c2
 		d e
@@ -1423,8 +1423,8 @@ EtVitamSopranoLyrics = \lyricmode {
 	men,
 	a -- _ _ _
 	_ men,
-	a -- %280
-	men,
+	a -- _ _ _ %280
+	_ _ men,
 	
 	[a] -- _ _ _  %285
 	_ _ _ _
@@ -1462,8 +1462,9 @@ EtVitamSopranoLyrics = \lyricmode {
 	
 	men, a --
 	men, a -- %320
-	
-	men, a -- _ _ _ %323
+	_ _
+	_ _
+	men, a -- _ _ _
 	_ _ _ _
 	_ _ men, a -- %325
 	men. Et
