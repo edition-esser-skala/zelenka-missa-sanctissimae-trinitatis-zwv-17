@@ -1336,7 +1336,7 @@ EtVitamSopranoNotes = {
 		r8 g,16([ a] h[ cis d e] fis8[ e] dis8.[\trillE cis32 dis] %280
 		e8[ g16 fis] e8.[ dis16]) dis4 r
 		R1*3
-		r8 gis,16[ a] h[ c d e] f8[ f,16 gis] a[ h c d] %285
+		r8 gis,16[ a] h[ c d e] f8[ f,!16 gis] a[ h c d] %285
 		e8[ e,16 fis?] gis?[ a h c] d8[ d,16 e] fis[ gis a h]
 		c8[ c,16 d] e[ fis gis a] h8[ e,] e'4~
 		e d2 c4

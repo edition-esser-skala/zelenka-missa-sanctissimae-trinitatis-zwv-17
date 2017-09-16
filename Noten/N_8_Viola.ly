@@ -995,7 +995,98 @@ EtVitamViola = {
 % 		\clef alto
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		c2\fE d %248
+		e f
+		g a %250
+		f4. g16 f e8 d c e
+		f4 d r8 g-! d-! g-!
+		e c c'2 h4
+		c8 c,16 d e8 c e4 fis
+		g4. f8 e f g4 %255
+		f8 a-! f-! a g c, c'4~
+		c b8 a b g b4
+		a8 g f4. c8 d4
+		g2 a
+		h c %260
+		d e
+		c4. d16 c h8 g16 f! e d c h
+		a8 h c a d4. h8
+		c e16 d c h a g fis8 d''16 c h8-! g-!
+		r c16-! h-! a8-! fis-! r h16 a g8 e %265
+		r a16 g fis8 d r g16 fis e8 c
+		d4. d8 e4 d
+		d g4. fis16 e fis8. g16
+		g,8 g'16 fis e d c h a8 a'16 g fis e d c
+		h8 h'16 a g fis e d c8 c'16 h a g fis e %270
+		a8 g fis d g fis e a
+		fis fis-! d-! fis h,4 g'
+		r8 a fis a d,4-! h'-!
+		r8 c a c fis,4. fis8
+		g4 e d r8 h'16 a %275
+		g8 e r a16 g fis8 d r g16 fis
+		e4 fis fis8 dis16 e fis g a h
+		c8 h a h h4 r
+		r8 d,16 e fis gis a h c8 c,16 d e fis? g a
+		h8 a g a a4 r %280
+		r2 r8 dis, h dis
+		r fis? dis fis e e, r h'
+		d d, r a' c c, r g'
+		h fis r fis a g fis h
+		e,4 r8 e' gis, h r gis %285
+		c e r e d fis r d
+		c e r e e, gis h4~
+		h8 c d c16 d e8 e, e'4
+		e e e r8 e
+		c a r e' c a r dis %290
+		g8. fis16 e8 h' a g fis g16 a
+		h4 e,2 fis4~
+		fis g2 e4~
+		e8 d d4 d r8 h'16 a
+		g8 e r a16 g fis8 d r g16 f %295
+		e8 c r fis16 e d8 h r e
+		d4 d d r8 d
+		c4 d d r8 e16 d
+		c8-! e-! r f16 e d8 g r g16 f
+		e8 g r a16 g f8 a g a %300
+		g4 g g2~
+		g4 a2 h4~
+		h c2 d4~
+		d e2 c4~
+		c8 h16 c d4 d r8 e, %305
+		f c r d e h r c
+		d a r h g4 g'~
+		g8 f e g g4. g8
+		g e16 d c b a g f8-! f'16 e d c b a
+		g8-! g'16 f e d c b a8-! a'16 g f e d c %310
+		b8 b'16 a g f e d c8 c' d4~
+		d8 c b g c4 r8 a
+		b?-! f-! r g a e r f
+		g d r e c4 c'~
+		c c e,8 g a4~ %315
+		a8 g f8.-\trill e16 e4 r8 f
+		g d r e f c r d
+		e h! r cis d4 a
+		a8-! e'-! d-! f-! a, a' a8. a16
+		a8 d,16 c! h!8-! g-! r c16 h a8 fis %320
+		r h16 a g8 e r a16 g fis8 d
+		g16-! g' g g g,-! g' g g a,-! a' a a a,-! a' a a
+		h, h' h h h, h' h h c,8 c'16 h a4~
+		a8 a h2 c4~
+		c8 c, a'8. a16 h8 g c c,
+		f d g f e c r4
+		r g'2 a4~
+		a h2 c4~
+		c d2 g,4~
+		g g-! g-! c16 d e c
+		h8-! d-! d,16 e f g h,8-! g'-! c g
+		c h16 c d8 c h4-! e,8. f16
+		g2 f
+		e8 d c e d4.\trill d8
+		c e c f d4 r8 c
+		c4 r8 f d g r g
+		g4. g8 g4 r8 h,
+		c c' r d, c c' r d,
+		c4-! r r2 \bar "|."
 	}
 }
 

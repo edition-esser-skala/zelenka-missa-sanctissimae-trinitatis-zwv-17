@@ -1021,7 +1021,98 @@ EtVitamViolinoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		c2\fE d %248
+		e f
+		g a %250
+		f4. g16 f e8 d c e
+		f4 d r8 g-! d-! g-!
+		e c c'2 h4
+		c8 c,16 d e8 c e4 fis
+		g4. f8 e f g4 %255
+		f8 a-! f-! a g c, c'4~
+		c b8 a b g b4
+		a8 g f4. c8 d4
+		g2 a
+		h c %260
+		d e
+		c4. d16 c h8 g16 f! e d c h
+		a8 h c a d4. h8
+		e4 d8 e fis d d'4~
+		d c2 h4~ %265
+		h a2 g8 c~
+		c h16 a h8 g a4.\trill g8
+		g d g4. fis16 e fis8.\trill g16
+		g,8 g'16 fis e d c h a8 a'16 g fis e d c
+		h8 h'16 a g fis? e d c8 c'16 h a g fis e %270
+		a8 g fis d g fis e-\critnote a
+		d,4 r r8 g-! e-! g
+		d4-! a'-! r8 h g h
+		e,4 c' r8 d8 d, d'
+		h4 a a r %275
+		e'2 d
+		c h8 h,16 cis dis e fis g
+		a8 g fis h r e,16 fis g a h c
+		d8 c h e r a,,16 h c d e fis g8 fis e a
+		d c h a %280
+		g e16 fis g8 a h2
+		a g
+		fis e
+		dis fis4. e16 fis
+		gis8-! h-! gis-! h-! r gis-! e-! h' %285
+		r a e a r a d, gis
+		r a c, e r h' e, a
+		fis4 gis a a'
+		<gis h, e,>4-! <a c, e, a,>-! <gis h, e,>-! r8 q-!
+		<a c, e, a,> a,[ gis e] r a g? fis %290
+		h8. a16 g8 e a2
+		g8 h16 a g fis e d c8 c'16 h a g fis e
+		d4 r8 d c g' a4
+		<fis' a, d,> <g h, d, g,> <fis a, d,>8 a, d4~
+		d c2 h4~ %295
+		h a a'8 d, g4~
+		g8 fis16 e fis8. g16 <g h, d, g,>4 g,
+		a2 h8 g16 f! e d c h
+		a8-! a'16 g f! e d c h8-! h'16 a g f e d
+		c8-! c'16 h a g f e f8 d e f %300
+		h g e'4 d4.\trill-\critnote c8
+		c8 g16 f! e d c h a8-! a'16 g f e d c
+		h8-! h'16 a g f e d c8-! c'16 h a g f e
+		d8-! h'16 a g f e d c8-! c'16 h a g f e
+		f4 a g8 d' g4~ %305
+		g f2 e4~
+		e d2 c4
+		h c8 e, d4.\trill c8
+		c c'16 b a g f e f8-! d'16 c b a g f
+		g8-! e'16 d c b a g a8-! f'16 e d c b a %310
+		b8-! g'16 f e d c b c8-! a'16 g f e d c
+		b8 c d b g4 r
+		d'2 c
+		h a8 f a4
+		g8 e a'4 g4.\trill g8 %315
+		f g a b <a cis, e, a,>4 r
+		b,2 a
+		g f
+		<cis' e, a,>4 <d f, a,> <e a, e a,> r8 <cis e, a,>
+		d a d2 c4~ %320
+		c h!2 a4~
+		a g8 g' g fis16 e fis8.\trill g16
+		g4 r8-\critnote d~ d c e4~
+		e8 d f4. e8 g4~
+		g f8 e d4 e %325
+		d2 c
+		d e8 c16 h a g f e
+		d8 d'16 c h a g f e8-! e'16 d c h a g
+		f8-! f'16 e d c h a h8 g a h
+		c c,16 d e8 f <g' h, d, g,>4-! g,16-! g' g g %330
+		g,-! g' g g g,-! f' f f f,-! f' f f e, e' e e
+		e, e' e e d, d' d d d, d' d d c, c' c c
+		c, c' c c h, h' h h h8 c d8.(\trill c32 d)
+		e8 d c e d g, g' f
+		e c f c g' d e g %335
+		r e f4 r8 d g4
+		r8 c, h d e16 g g g <g h, d, g,>4-!
+		e,16 g' g g <g h, d, g,>4-! e16 g g g <g h, d, g,>8 q
+		e4-! r r2 \bar "|." %339 FINIS
 	}
 }
 

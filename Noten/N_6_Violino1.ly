@@ -1028,7 +1028,98 @@ EtVitamViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoEtVitam
 			\set Score.currentBarNumber = #248
-		
+		c2\fE d %248
+		e f
+		g a %250
+		f4. e16 f g2
+		a h
+		c d
+		e c4. d16 c
+		h8 c d4.\trill c16 d e4~ %255
+		e d r8 c-! g-! c
+		a-\critnote f f'4. e16 d e8.\trill f16
+		f8 f,16 g a8 f a f h! d,
+		c' c, g''4.\trill f16 g a8 f
+		d d4\trill c16 d e8 e4\trill d16 e %260
+		f8 d g4. e16 f g8 e16 f
+		g4-! a-! d,-! r
+		r8 c16 h a g fis e fis8 a g4~
+		g8 a h8.\trill a16 a4 r8 h'16 a
+		g8 e r a16 g fis8 d r g16 fis %265
+		e8 c r fis16 e d8 h r e
+		<fis c d,>4 <g h, d, g,>4. fis16 e fis8.\trill g16
+		g,2 a
+		h c
+		d e %270
+		c4. d16 c h4-! cis-!
+		r8 d16 c h a g fis g8 e'16 d c h a g
+		a8 fis'16 e d c h a h8 g'16 fis e d c h
+		c8 a'16 g fis e d c d8 h d4~
+		d8 cis16 h cis8.\trill d16 d4 d'~ %275
+		d c2 h4~
+		h a8.(\trill g32 a) h16 fis dis h' h,4-!
+		r8 a16 h cis dis e fis g8 fis e8.\trill d32 e
+		fis8 d,16 e fis gis a h c8 c,16 d e fis g a
+		h8 g16 a h cis d e fis8 e dis8.\trill cis?32 dis %280
+		e16 h g' fis? e8.\trill dis16 dis8 h,16 cis dis e fis g
+		fis8 dis16 e fis g a h r8 c h d
+		r a d, c' r g c, h'
+		r fis h, a' c, c'16 h a8 dis
+		d gis,16 a h c d e f8 f,16 gis a h c d %285
+		e8 e,16 fis? gis? a h c d8 d,16 e fis gis a h
+		c8 c,16 d e fis gis a h8 e, e'4~
+		e d4. e16 d c8 a'
+		<gis h, e,>4-! <a c, e, a,>-! <gis h, e,>-! r8 q-!
+		<a c, e, a,> c,[-! h-! gis-!] r c-! h-! fis'~ %290
+		fis e16 dis e4. dis16 cis? dis8.\trill e16
+		e8 h16 a g fis e d c8-! c'16 h a g fis e
+		d8-! d'16 c h a g f e8-! e'16 d c h a g
+		<fis' c d,>4 <g h, d, g,> <fis c d,> <g h, d, g,>8 g,
+		e'2 d %295
+		c h
+		a8 d, r4 g2
+		a h
+		c d
+		e d4. c16 d %300
+		h8 g c4. h16 a h8.\trill c16
+		c8 e16 d c h a g f8-! f'16 e d c h a
+		g8-! g'16 f e d c h a8-! a'16 g f e d c
+		h4.\trill a16 h c8 d e4~
+		e d8 c h g r4 %305
+		a'2 g
+		f e
+		d8-! h-! c4. h16 a h8. c16
+		c2 d
+		e f %310
+		g a
+		f4. g16 f e8 c c'4~
+		c b2 a4~
+		a g f4. g16 f
+		e8 g f2 e4~ %315
+		e d <a' cis, e, a,>8 \noBeam e, a4~
+		a g2 f4~
+		f8 f' e4. f16 e d8 e
+		<cis e, a,>4 <d f, a,> <e a, e a,> r8 <cis e, a,>
+		<d fis,> fis <g h, d, g,>[ h,] e2 %320
+		d c!
+		h8 g h8.(\trill a32 h) c8 c, c'16 e d c
+		h8 d16 c h a g f! e-! c' c c e,-! c' c c
+		d,-! d' d d d,-! d' d d e,-! e' e e e,-! e' e e
+		f8 e d c h g c c, %325
+		f d g f e c c'4
+		d2 e8 c16 h a g f e
+		d8 d'16 c h a g f e8-! e'16 d c h a g
+		f8-! f'16 e d c h a h8 g a h
+		c c,16 d e8 f <g' h, d, g,>4-! r %330
+		q-! r q-! r
+		r8 g,16 a h c d e f8-! f,16 g a h c d
+		e8 e,16 f g a h c d8 d,16 e f g a h
+		c8 d e d16 c d8 g, g' f
+		e-! c-! f-! c-! <g' h, d, g,>4-! r8 e %335
+		c'4 r8 a <g h, d, g,>4-! r8 e
+		d4 <g h, d, g,>-! e16 g g g h, g' g g
+		e, g' g g h,, g'' g g e g g g h, g' g g
+		e4-! r r2 \bar "|." %339 FINIS
 	}
 }
 

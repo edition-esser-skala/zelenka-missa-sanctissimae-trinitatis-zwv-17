@@ -1163,7 +1163,7 @@ EtVitamTenoreNotes = {
 		a g f c'~
 		c c e( a,~ %315
 		a8[ g f f')] e4 r8 f(
-		g)  d r e( f) c r d(
+		g) d r e( f) c r d(
 		e) h! r cis( d4) a
 		a1
 		a8 d([ h!)] h r c([ a)] fis %320
