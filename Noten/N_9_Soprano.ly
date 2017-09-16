@@ -1521,7 +1521,7 @@ SanctusSopranoNotes = {
 		d4. d8 d4 e d r
 		d e g c, f4.( e8
 		d4.) c8 d4 e d4. d8
-		c2 c4~ c c( h) %35
+		c2 c c4( h) %35
 		c r r r1*3/4
 		R1.*2 \bar "||" %38 finis
 	}

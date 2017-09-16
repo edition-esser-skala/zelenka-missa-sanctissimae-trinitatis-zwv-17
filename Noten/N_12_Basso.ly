@@ -1108,11 +1108,82 @@ SanctusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+		\mvTr a'4.\fE^\tuttiE a8 a2
+		a,4 r a' a
+		g g fis2(
+		f) e
+		a( dis,) %5
+		e fis4 gis
+		a a8 g f4. f8
+		e2. e4
+		a d8. d16 g,4 c8. c16
+		f,2 g4 c %10
+		g2. g4
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			c,4 r r r1*3/4
+		R1.*2
+		c'4 c c c c, r %15
+		c' c c c c, c
+		c' c c, g' g, r
+		e'8([ c e c e c] f8.) f16 f4 r
+		fis8([ d fis d fis d] g4.) g8 f?4
+		e f r g e r %20
+		f d f g4. g8 g4
+		g g, r g'4. g8 g4
+		g4. g8 g4( c) f,( g)
+		\time 3/4 c, r r
+		\time 6/4 g'4. g8 g4 g g, r %25
+		g'4. g8 g4 g4. g8 g4(
+		c,) f( g) c, r r
+		r r c' c c, r
+		r r c' c c c,
+		g'4. g8 f f e[ c e c e c] %30
+		f4 r r fis8[ d fis d fis d]
+		g4. g8 f4 e f r
+		g e r f( d f
+		g) a h c f, g
+		a2 fis( g) %35
+		c,4 r r r1*3/4
+		R1.*2 \bar "||" %38 finis
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	[San -- ctus, San --
+	ctus, San -- ctus,
+	San -- ctus, San] --
+	ctus,
+	San -- %5
+	ctus, San -- ctus
+	Do -- mi -- nus De -- us,
+	Sa -- ba --
+	oth,  Do -- mi -- nus, Do -- mi --
+	nus De -- us %10
+	Sa -- ba --
+	oth.
 	
+	Ple -- ni sunt coe -- li, %15
+	ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra
+	glo -- ri -- a,
+	glo -- ri -- a,
+	tu -- a, glo -- _ %20
+	_ _ _ _ ri -- a,
+	tu -- a, glo -- ri -- a,
+	glo -- ri -- a __ tu --
+	a,
+	glo -- ri -- a tu -- a, %25
+	glo -- ri -- a, glo -- ri -- a __
+	tu -- a.
+	O -- san -- na,
+	o -- san -- na, o --
+	san -- na in ex -- cel -- %30
+	_ _
+	_ sis, o -- san -- na,
+	in ex -- cel --
+	sis, o -- san -- na in
+	ex -- [cel] -- %35
+	sis. %36 finis
 }
 
 % OsannaBassoNotes = {

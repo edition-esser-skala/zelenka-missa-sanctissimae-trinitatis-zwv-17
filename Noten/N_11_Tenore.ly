@@ -1275,11 +1275,82 @@ SanctusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+		\mvTr c4.\fE^\tuttiE c8 c2
+		c4 r e4. e8
+		e2( fis8) d c4~
+		c a h2~
+		h4 a2 fis4 %5
+		h c4. c8 h4
+		e2( f
+		h,4) c8([ d)] e4 e8 d
+		c4( d2 c4~
+		c f2) e4 %10
+		h( e d4.) d8
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			c4 r r r1*3/4
+		R1.*2
+		c4 c c c c r %15
+		c c c c c c
+		c c c h h r
+		c4. c8 c4 a a r
+		c4. c8 c4 h4. h8 h4
+		c a r h c r %20
+		a f'2~ f4. e8 d4
+		r8 h4 c d8 c4 f e
+		d8 h4 c d8 c4 c8 c h4
+		\time 3/4 c r r
+		\time 6/4 h4. h8 h4 d8 h4 c d8 %25
+		c4 f es d8 h4 c d8
+		c4 c8 c h4 c r r
+		r r c c c r
+		r r c c c c
+		h4. h8 h h c4 c c %30
+		f4. f8 f f d4 d d
+		h4. h8 h4 c a r
+		h c r a d c
+		h a g r c h
+		c2 a d %35
+		e4 r r r1*3/4
+		R1.*2 \bar "||" %38 finis
 	}
 }
 
 SanctusTenoreLyrics = \lyricmode {
+	[San -- ctus, San --
+	ctus,] San -- ctus,
+	San -- ctus, San --
+	_ _
+	_ _ %5
+	ctus Do -- mi -- nus
+	De --
+	us, __ Do -- mi -- nus
+	De --
+	us %10
+	Sa -- ba --
+	oth.
 	
+	[Ple -- ni sunt coe -- li, %15
+	ple -- ni sunt coe -- li, sunt]
+	coe -- li et ter -- ra
+	[glo -- ri -- a tu -- a,
+	glo -- ri -- a, glo -- ri -- a
+	tu -- a, glo -- _ %20
+	_ _ ri -- a,]
+	glo -- _ _ _ _ _
+	_ _ _ _ _ ri -- a tu --
+	a,
+	glo -- ri -- a, glo -- _ _ _ %25
+	_ _ _ _ _ _ _
+	_ [ri -- a tu -- a.]
+	O -- san -- na,
+	[o -- san -- na, o --
+	san -- na in ex -- cel -- sis,] o -- %30
+	san -- [na in ex] -- cel -- sis, o --
+	[san -- na, o -- san -- na,]
+	in ex -- cel -- _ _
+	_ _ sis, in ex --
+	[cel] -- _ _ %35
+	sis. %36 finis
 }
 
 % OsannaTenoreNotes = {

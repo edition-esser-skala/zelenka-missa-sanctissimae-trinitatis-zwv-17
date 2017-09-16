@@ -1336,11 +1336,82 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 2/2 \autoBeamOff \tempoSanctus
+		\mvTr a'4.\fE^\tuttiE a8 a2
+		a4 r a4. a8
+		b2 \once\tieDashed a~
+		a gis
+		a4. g8 fis4( a %5
+		gis2) a4 h
+		h8 h a2 a4
+		gis( a2) gis4
+		a2 h
+		a d,4( e8[ f] %10
+		g2.) g4
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			g4 r r r1*3/4
+		R1.*2
+		g4 g g g g r %15
+		g g g g g e
+		g g g g g r
+		g4. g8 g4 a a r
+		a4. a8 a4 g4. g8 g4
+		g f r g8. g16 g4 r %20
+		a4. a8 a4 g4. g8 g4
+		g g r g4. g8 g4
+		g4. g8 g4~ g a( g)
+		\time 3/4 g r r
+		\time 6/4 g4. g8 g4 g g r %25
+		g4. g8 g4 g4. g8 g4~
+		g as( g) g r r
+		r r g g g r
+		r r g g g g
+		g4. g8 g g g4 g r8 g %30
+		a4. a8 a a a4 a r8 a
+		g4. g8 g4 g f r
+		g c, e a a a
+		g f2 e4( a g)
+		e e a d,2( g4) %35
+		g r r r1*3/4
+		R1.*2 \bar "||" %38 finis
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	[San -- ctus, San --
+	ctus,] San -- ctus,
+	San -- _
+	_
+	_ ctus, San -- %5
+	ctus Do --
+	mi -- nus De -- us
+	Sa -- ba --
+	oth, De --
+	us Sa -- %10
+	ba --
+	oth.
 	
+	[Ple -- ni sunt coe -- li, %15
+	ple -- ni sunt coe -- li, sunt]
+	coe -- li et ter -- ra
+	glo -- ri -- a tu -- a,
+	[glo -- ri -- a, glo -- ri -- a
+	tu -- a,] glo -- ri -- a, %20
+	glo -- ri -- a, glo -- ri -- a
+	[tu -- a, glo -- ri -- a,
+	glo -- ri -- a __ tu --
+	a,]
+	[glo -- ri -- a tu -- a, %25
+	glo -- ri -- a, glo -- ri -- a] __
+	tu -- a.
+	O -- san -- na,
+	[o -- san -- na, o --
+	san -- na in ex] -- cel -- sis, o -- %30
+	san -- na in ex -- cel -- sis, o --
+	[san -- na, o -- san -- na,]
+	o -- san -- na, o -- san -- na
+	in ex -- cel --
+	sis, in ex -- [cel] -- %35
+	sis. %36 finis
 }
 
 % BenedictusAltoNotes = {
