@@ -2291,8 +2291,8 @@ SanctusBassFigures = \figuremode {
 	r4 <6> <\t> r <[6] [5]>2
 	r4 <5> <6 5> r <4> <3> %35
 	<5> q q r2.
-	r1.
-	r %38 finis
+	r4 <[6] [5]> r r q r
+	r q r r2. %38 finis
 }
 
 % BenedictusBassiOrgano = {

@@ -1283,8 +1283,8 @@ SanctusTenoreNotes = {
 		h c4. c8 h4
 		e2( f
 		h,4) c8([ d)] e4 e8 d
-		c4( d2 c4~
-		c f2) e4 %10
+		c4 d2 c4~
+		c f2 e4 %10
 		h( e d4.) d8
 		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
 			c4 r r r1*3/4
@@ -1324,8 +1324,8 @@ SanctusTenoreLyrics = \lyricmode {
 	ctus Do -- mi -- nus
 	De --
 	us, __ Do -- mi -- nus
-	De --
-	us %10
+	De -- _ _
+	_ us %10
 	Sa -- ba --
 	oth.
 	

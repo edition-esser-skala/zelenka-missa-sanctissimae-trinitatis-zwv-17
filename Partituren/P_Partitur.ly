@@ -865,7 +865,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.1 SANCTUS" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {

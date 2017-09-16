@@ -1092,8 +1092,8 @@ EtVitamViola = {
 
 SanctusViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 2/2 \tempoSanctus
 		a'8\fE a a a a a a a
 		a,4 r a'8 a a a

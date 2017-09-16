@@ -782,7 +782,45 @@ SanctusOboeII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 2/2 \tempoSanctus
-		
+		e'4.\fE e8 e2
+		e4 r c4. c8
+		cis2 d
+		dis e8 h e d?
+		c1 %5
+		h4 e2 e8 d
+		c2 d8 a d4~
+		d c h4. h8
+		a4 f'2 \once\tieDashed e4~
+		e d8 c h4 c %10
+		d c2 h4
+		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
+			e,4 c e c e g
+		e g c g c e
+		c e e d h r
+		e, c e c e g %15
+		e g c g c e
+		c e e d h r
+		c c' b a8 f a f a f
+		d4 d' c h8 g h g h g
+		c4 a f h g e %20
+		a f d h8 g' d g h, g'
+		g, h h( c) c( d) e-! g-! d g c, g'
+		g, h h( c) c( d) c4 d h
+		\time 3/4 c16 h a g a g f e f e d c
+		\time 6/4 g'4 r r r8 h h( c) c( d) %25
+		es-! g-! d g c, g' g, h h( c) c( d)
+		c4 c h c c, e
+		c-! e-! g e g c
+		g c e c e e
+		d h r c c' b %30
+		a8 f a f a f d4 d' c
+		h8 g h g h g c4-! a-! f-!
+		h g e a f d
+		h16 g a h c d e f g8 r r c, d4 h
+		c2 c c4 h %35
+		c16-! h-! a g a g f e f e d c g'4 r r
+		e8. c'16 f,4 g c, r r8 h'
+		c4 r r8 h c4 r r \bar "||" %38 finis
 	}
 }
 

@@ -1490,13 +1490,13 @@ SanctusSopranoNotes = {
 		\mvTr e'4.\fE^\tuttiE e8 e2
 		e4 r c4. c8
 		cis2 d
-		dis  e8[ h e d?]
+		dis e8[ h e d?]
 		c1 %5
 		h4 e2 e8 d
 		c2( d8[ a] d4~)
 		d c h4. h8
-		a4 f'2( \once\tieDashed e4~
-		e d8[ c] h4) c %10
+		a4 f'2 \once\tieDashed e4~
+		e d8[ c] h4 c %10
 		d( c2) h4
 		\time 6/4 \set Staff.timeSignatureFraction = 3/4 \tempoPleni
 			c4 r r r1*3/4
@@ -1536,8 +1536,8 @@ SanctusSopranoLyrics = \lyricmode {
 	ctus Do -- mi -- nus
 	De --
 	us Sa -- ba --
-	oth, De --
-	us %10
+	oth, De -- _
+	_ _ us %10
 	Sa -- ba --
 	oth.
 	

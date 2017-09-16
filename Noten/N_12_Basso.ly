@@ -1140,8 +1140,8 @@ SanctusBassoNotes = {
 		g'4. g8 f f e[ c e c e c] %30
 		f4 r r fis8[ d fis d fis d]
 		g4. g8 f4 e f r
-		g e r f( d f
-		g) a h c f, g
+		g e r f d f
+		g a h c f, g
 		a2 fis( g) %35
 		c,4 r r r1*3/4
 		R1.*2 \bar "||" %38 finis
@@ -1180,8 +1180,8 @@ SanctusBassoLyrics = \lyricmode {
 	san -- na in ex -- cel -- %30
 	_ _
 	_ sis, o -- san -- na,
-	in ex -- cel --
-	sis, o -- san -- na in
+	in ex -- cel -- _ _
+	_ sis, o -- san -- na in
 	ex -- [cel] -- %35
 	sis. %36 finis
 }
