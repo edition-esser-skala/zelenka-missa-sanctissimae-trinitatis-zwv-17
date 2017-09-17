@@ -2473,11 +2473,29 @@ OsannaBassiOrgano = {
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
 		\mvTr c8\fE-\rip-\markup { \anmerkung "staccato" } c' c, c' c, c' c, c' c, c' c, c' %118
+		c, c' c, c' c, c' c, c' c, c' c, c'
+		c, c' c, c' c, c' g4 g r %120
+		c,8 c' c, c' c, c' c, c' c, c' c, c'
+		c, c' c, c' c, c' c, c' c, c' c, c'
+		c, c' c, c' c, c' g4 g \clef treble h'-!
+		e4.-! e8-! \clef bass e,,4 a,16 a a a a' a a a g g g g
+		f8 d f d f d e4 gis a %125
+		d, e e, a8 a' a, a' a, a'
+		\tempoOsannaFinis d,2. a'2 r4 \bar "|." %127 FINIS
 	}
 }
 
 OsannaBassFigures = \figuremode {
-	
+	r1. %118
+	r
+	r %120
+	r
+	r
+	r
+	r2 <_+>4 r2 <4\+>4
+	<6>2. <7 [_+]>4 <[6]> r %125
+	<6 5> <5 4> <\t _+> r2.
+	r <_+> %127 FINIS
 }
 
 % AgnusDeiBassiOrgano = {

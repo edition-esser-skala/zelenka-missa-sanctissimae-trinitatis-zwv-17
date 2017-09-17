@@ -154,6 +154,7 @@ tempoSanctus = \tempoMarkup "Vivace mà non troppo"
 	tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Andante"
 tempoOsanna = \tempoMarkup "Allegro"
+	tempoOsannaFinis = \tempoMarkup "Adagio"
 
 
 
