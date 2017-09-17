@@ -1386,11 +1386,72 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*11 %11
+		r4 \mvTr e2~\pE^\soloE e8 d
+		c([ h)] a a a4 gis8 a16([ h)]
+		c8([ d] e4~ e16[ d e f] e8[ d]
+		c8.[ h16]) a8 c f2~ %15
+		f4. g16[ f] e2~
+		e4. f16[ e] d2~
+		d4. d8 c2
+		h4 e8 h c4 cis
+		d4. c8 h-![( d-!] g4~ %20
+		g f2) e4
+		d2 c4 r
+		R1*8 %30
+		e4. e8 d4 d8 d
+		c h16 c d8 c \tempoAgnusDeiB \afterGrace c2( h8)
+		h4 r r2
+		r r4 e8. h16
+		c4 cis d8 a d4~ %35
+		d8[( e16 f] e8[ d] cis[ g']) f([ h,)]
+		cis4.( d8) d4 r
+		R1*2
+		a4. d8 h!4 c8 h %40
+		a gis16 a h8 a gis e c' e
+		f2~ f4. e16[ d]
+		e2~ e4. d16[ c]
+		d2~ d4 c
+		h2 a4 r %45
+		r2 r4 e'8. h16
+		c4 cis d8 a d4~
+		d8([ f)] e([ d)] c2~
+		\tempoAgnusDeiD c4( h8.[ a16)] \tempoAgnusDeiE a4 r
+		R1*8 \bar "||" %57 finis
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus %12
+	De -- i, qui tol -- lis pec --
+	ca --
+	ta, pec -- ca -- %15
+	_ _
+	_ _
+	ta mun --
+	di: Mi -- se -- re -- re,
+	mi -- se -- re -- %20
+	re
+	no -- bis.
 	
+	A -- gnus De -- i, qui %31
+	tol -- lis pec -- ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re, mi -- se -- re -- %35
+	re __
+	no -- bis.
+	
+	A -- gnus De -- i, qui %40
+	tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+	re -- _
+	_ _
+	_ [re
+	no -- bis,] %45
+	mi -- se --
+	re -- re, mi -- se -- re --
+	re __ no --
+	bis. %49 finis
 }
 
 % DonaNobisTenoreNotes = {

@@ -1219,7 +1219,7 @@ AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDei
-		
+		R1*12 %12
 	}
 }
 
