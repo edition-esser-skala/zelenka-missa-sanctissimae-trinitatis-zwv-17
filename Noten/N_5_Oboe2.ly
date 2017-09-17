@@ -848,6 +848,12 @@ DonaNobisOboeII = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		
+		a'4.\fE a8 gis8. a16 h4~ %58
+		h a2 a4
+		g2 g4 g %60
+		f8 f f f \tuplet 3/2 8 { e16([ gis h)] e( h a) gis([ h a)] gis( fis e)
+		a([-\critnote c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis a8 a a a
+		a a gis fis gis gis gis gis
+		gis?2 r \bar "||" %64 finis
 	}
 }

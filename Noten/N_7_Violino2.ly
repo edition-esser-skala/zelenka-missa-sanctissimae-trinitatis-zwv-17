@@ -1275,6 +1275,12 @@ DonaNobisViolinoII = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		
+		c'8-!\fE r c-! r h r h r %58
+		c r e r d r d r
+		h r h r h r h r %60
+		a r a r \tuplet 3/2 8 { h16([ gis h)] e( h a) gis([ h a)] gis( fis e)
+		a([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis a8 c-! c-! c-!
+		c c h a \tuplet 3/2 8 { h16[ e, h'] e h a gis[ h a] gis a h }
+		e,8 h' e4 r2 \bar "||" %64 finis
 	}
 }

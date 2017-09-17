@@ -1318,6 +1318,12 @@ DonaNobisViola = {
 % 		\clef alto
 		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		
+		a'8\fE r a r gis r h r %58
+		a r c r a r a r
+		g r g r g r g r %60
+		f f f f \tuplet 3/2 8 { e16([ gis h)] e( h a) gis([ h a)] gis( fis e)
+		a,([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis dis8 a'-! a-! a
+		a a gis fis gis gis gis gis
+		gis?2 r \bar "||" %64 finis
 	}
 }

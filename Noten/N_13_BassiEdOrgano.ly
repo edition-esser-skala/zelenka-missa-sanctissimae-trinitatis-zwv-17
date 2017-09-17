@@ -2640,8 +2640,8 @@ DonaNobisBassiOrgano = {
 DonaNobisBassFigures = \figuremode {
 	r2 <5 _+>4.. \bassFigureExtendersOn q16 %58
 	<[9]\! 3\!>8. <9 3>16 <[8]\! 3>8. <8 3>16 <7\! 3\!>4.. <7 3>16
-	<7\! 3\!>4.. <7 3>16 <[9]\! 3\!>8. <9 3>16 <[8]\! 3>8. <8 3>16 %60
-	<7>4 <6> <5 _+>4.. q16
+	<7\! 3\!>4.. <7 3>16 \bassFigureExtendersOff <[9] [7] 3>8. \bassFigureExtendersOn <9 7 3>16 <[8] 7 3>8. <8 7 3>16 \bassFigureExtendersOff %60
+	<7>4 <6> <5 _+>4.. \bassFigureExtendersOn q16
 	<5\! 3\!>4.. <5 3>16 \bassFigureExtendersOff <7 [_+]>2
 	<6 4>4 <5 _+>8 <4 2\+> <5 _+>2 \bassFigureExtendersOn
 	q2 \bassFigureExtendersOff r %64 finis
