@@ -1258,41 +1258,16 @@ BenedictusViolinoI = {
 	}
 }
 
-% OsannaViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*9 %113
-% 		g'2\fE a8. a16 a8 h
-% 		c d e fis g d g4~ %115
-% 		g8 f16 e d8 c h g c4~
-% 		c h c8 h16 a g8 f
-% 		e f g a4 g8-! g-! a16 h
-% 		c4 d4.\trill c16 d e8-! c-!
-% 		a-! fis-! g4. fis16 e fis4 %120
-% 		g2 r
-% 		g2 a8. a16 a8 h
-% 		c d e fis g d g4~
-% 		g8 f?16 e d8 c h g c4~
-% 		c8 d e2 d8 c %125
-% 		h4. a16 h cis4 d8 e
-% 		f4 e d g~
-% 		g f e a
-% 		g8 f e8 d16 c d4.\trill d8
-% 		e16 g e g d g h, g' e g a c, r g d' f %130
-% 		e g e\pE g d g h, g' e g a c, r g d' f
-% 		<< {
-% 			\oneVoice e8 c4\fE c c c8~
-% 			c c4 c8 c4. c8
-% 		} \\ {
-% 			s4 \tempoOsannaFinis s2.
-% 			s1
-% 		} >>
-% 		c2 r \bar "||" %134 FINIS
-% 	}
-% }
-% 
+OsannaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
 % AgnusDeiViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1675,59 +1675,19 @@ BenedictusSopranoLyrics = \lyricmode {
 	Do -- mi -- ni. %109 finis
 }
 
-% OsannaSopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*9 %113
-% 		\mvTr g'2\fE^\tuttiE a8. a16 a8 h
-% 		c[ d e fis] g[ d] g4~ %115
-% 		g8[ f16 e] d8[ c] h[ g] c4~
-% 		c h c8[ h16 a] g8[ f]
-% 		e[ f g] a4 g8-! g-![ a16 h]
-% 		c4 d4.\trill c16[ d] e8[-! c-!]
-% 		a[-! fis-!] g4. fis16[ e] fis4 %120
-% 		g2 r
-% 		g2 a8. a16 a8 h
-% 		c[( d e fis] g[ d] g4~
-% 		g8[ f?16 e] d8[ c] h[ g] c4~
-% 		c8[ d] e2) d8 c %125
-% 		h4.( a16[ h] cis4) d8([ e)]
-% 		f4 e d( g~
-% 		g f e a
-% 		g8[ f] e8[ d16 c] d2)
-% 		e8 e d d e f d4 %130
-% 		e8 e\p d d e f d4
-% 		c4 \tempoOsannaFinis c\f c c
-% 		c c c2
-% 		c r \bar "|." %134 FINIS
-% 	}
-% }
-% 
-% OsannaSopranoLyrics = \lyricmode {
-% 	O -- san -- na in ex -- %114
-% 	cel -- _ _ %115
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ _
-% 	_ _ _ _
-% 	_ _ _ _ %120
-% 	sis.
-% 	O -- san -- na in ex --
-% 	cel --
-% 	
-% 	sis, o -- %125
-% 	san -- na __
-% 	in ex -- cel --
-% 	
-% 	sis. O -- san -- na in ex -- cel -- %130
-% 	sis. O -- san -- na in ex -- cel --
-% 	sis. O -- san -- na
-% 	in ex -- cel --
-% 	sis. %134 FINIS
-% }
-% 
+OsannaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+	}
+}
+
+OsannaSopranoLyrics = \lyricmode {
+	
+}
+
 % AgnusDeiSopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

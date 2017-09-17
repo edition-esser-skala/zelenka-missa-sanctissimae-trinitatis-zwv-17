@@ -824,39 +824,16 @@ SanctusOboeII = {
 	}
 }
 
-% OsannaOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*6 %110
-% 		c2\fE d8. d16 d8 e
-% 		f g a h c g c4~
-% 		c8 h16 a g8 f e c f4~
-% 		f e f4. f8
-% 		e f g a h4 a8 g %115
-% 		a4 h8 c d h a16 g f e
-% 		d8 e16 f g8 f e8 c e4~
-% 		e8 d c a' d,4 r
-% 		R1
-% 		r2 c %120
-% 		d8. d16 d8 e f g a h
-% 		c g c4. h16 a g8 f
-% 		e f g a h2
-% 		c8 c, g'4. f8 e d16 e
-% 		f4 e8 d g4 f8 e %125
-% 		d4. c16 d e4 f8 g~
-% 		g a16 h c8 c, f4 d
-% 		e f g e
-% 		d e a g
-% 		g8 g g g g a g4 %130
-% 		g8 g\p g g g a g4
-% 		e4 \tempoOsannaFinis a\fE c c
-% 		c a2 g8 f
-% 		g2 r \bar "|." %134 FINIS
-% 	}
-% }
-% 
+OsannaOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
 % AgnusDeiOboeII = {
 % 	\relative c' {
 % 		\clef treble

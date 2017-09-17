@@ -1353,69 +1353,20 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %36 finis
 }
 
-% OsannaTenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key c \major \time 4/4 \autoBeamOff \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*3 %107
-% 		\mvTr g2\fE^\tuttiE a8. a16 a8 h
-% 		c([ d e fis] g[ d] g4~
-% 		g8[ f?16 e] d8[ c] h[ g c b] %110
-% 		a[ h] c2) h4
-% 		a8([ h)] c([ d)] e2(
-% 		d2. c4
-% 		d e a, d
-% 		c a) g r %115
-% 		R1*2
-% 		r2 g
-% 		a8. a16 a8 a h4 c
-% 		d4. c16[ h] c8[ c,] c'4~ %120
-% 		c h a8[ h c d]
-% 		e4. d16[ e] f8[ d] g4~
-% 		g8[ f16 e] d8[ c] h4 a8[ g]
-% 		a4 h8[ c] g4 g
-% 		a8. a16 a8 h c[ d e fis] %125
-% 		g[ g,] g'4. f16[ e] d8[ c]
-% 		h[ g] c2 h4
-% 		a d2 c4
-% 		d c2 h4
-% 		c8 c d h c c c([ h)] %130
-% 		c c\p d h c c c([ h)]
-% 		c4 \tempoOsannaFinis a\f g( c)
-% 		a2.( g8[ f])
-% 		g2 r \bar "|." %134 FINIS
-% 	}
-% }
-% 
-% OsannaTenoreLyrics = \lyricmode {
-% 	O -- san -- na in ex -- %108
-% 	cel --
-% 	%110
-% 	sis,
-% 	in __ ex -- cel --
-% 	
-% 	sis. %115
-% 	
-% 	O -- %118
-% 	san -- na in ex -- cel -- _
-% 	_ _ _ _ %120
-% 	_ _
-% 	_ _ _ _
-% 	_ _ _
-% 	_ _ sis. O --
-% 	san -- na in ex -- cel -- %125
-% 	_ _ _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _
-% 	sis. O -- san -- na in ex -- cel -- %130
-% 	sis. O -- san -- na in ex -- cel --
-% 	sis, in ex --
-% 	cel --
-% 	sis. %134 FINIS
-% }
-% 
+OsannaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
+OsannaTenoreLyrics = \lyricmode {
+	
+}
+
 % AgnusDeiTenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

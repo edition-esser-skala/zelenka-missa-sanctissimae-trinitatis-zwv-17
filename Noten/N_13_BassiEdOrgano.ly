@@ -2466,101 +2466,20 @@ BenedictusBassFigures = \figuremode {
 	r <6\\>16. <8>32 <_+>4 r2 %117 finis
 }
 
-% OsannaBassiOrgano = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		c2-!\f-\tweak TextScript.X-offset #2 -\tutti -\tasto d8.-! d16-! d8-! e-! %105
-% 		<< {
-% 			s1
-% 			s1
-% 			g2 a8. a16 a8 h
-% 			c d e fis? g d g4~
-% 			g8 f16 e d8 c h g c b %110
-% 		} \\ {
-% 			\oneVoice f g a h c g c4~
-% 			\voiceTwo c8 h16 a g8 f e c f4~
-% 			f e d8 e f d
-% 			e g c a h4. a16 g
-% 			a4 f g8 f e c %110
-% 		} >>
-% 		f e16 d c8 a g4 g'
-% 		f2 e4 d8 c
-% 		g'2 c4 a
-% 		h c f,8 e d g
-% 		c4 a g \clef treble << {
-% 			g''4~-\critnote %115
-% 			g8 f!16 e d8 c h g c4
-% 		} \\ {
-% 			a8 g %115
-% 			a4 h8 c d h a16 g f! e
-% 		} >>
-% 		\clef bass g,,2 a8. a16 a8 h
-% 		c d e fis g g, g'4~
-% 		g8 f16 e d8 c h g c4~
-% 		c h a2 %120
-% 		g2~ g~-\tasto
-% 		\once \tieDashed g1~
-% 		g
-% 		r2 g'
-% 		a8. a16 a8 h c d e fis %125
-% 		g g, g'4. f16 e d8 c
-% 		h g c2 h4
-% 		a d2 c4
-% 		h c f, g
-% 		c,8 c' h g c f, g g, %130
-% 		c c'\p h g c f, g g,
-% 		c4 \tempoOsannaFinis f2\f e4
-% 		f2 c~
-% 		c r \bar "|." %134 FINIS
-% 	}
-% }
-% 
-% OsannaBassFigures = \figuremode {
-% 	r1 %105
-% 	r
-% 	r
-% 	r
-% 	r
-% 	r %110
-% 	<5 3>8 <\t \t> <5 3>4 <5 4> <\t 3>
-% 	<5> <6> <6 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
-% 	<5 4>4 <\t 3> <[9]> <6>
-% 	<6 5> r <5> q8 <7>
-% 	r4 <6\\> r2 %115
-% 	r1
-% 	<5 4>4 <\t 3> <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
-% 	<5 3>4 <6>8 <\t> <9> <8> r4
-% 	<4 2>8 <\t \t> <5>4 <6> r
-% 	<4\+ 2> <6> <7> <6\\> %120
-% 	<[5] [4]> <[\t] [3]> r2
-% 	r1
-% 	r
-% 	r2 <5 3>4 <6 4>
-% 	<6 3>4. \bassFigureExtendersOn <6 3\!>8 \bassFigureExtendersOff r4 <6> %125
-% 	<5 3> <\t \t> <4\+ 2>8 <\t \t> <5 _!>4
-% 	<6 5> <5 3> <6 4 2> <6>
-% 	<7> <5 _!> <6 4 2> <6>
-% 	<6> r <[6] [5]> r
-% 	r4 <[6]> r2 %130
-% 	r4 <[6]> r2
-% 	r4 <5 3> <[5] [2]> <6>
-% 	<9> <8> <6 4> <5 3>8 <4 2>
-% 	<5 3>1 %134 FINIS
-% }
-% 
-% OsannaChords = {
-% 	\clef treble
-% 	\key c \major \time 4/4 \tempoOsanna
-% 	<< \relative c' {
-% 		
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% 	
-% }
-% 
+OsannaBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		\mvTr c8\fE-\rip-\markup { \anmerkung "staccato" } c' c, c' c, c' c, c' c, c' c, c' %118
+	}
+}
+
+OsannaBassFigures = \figuremode {
+	
+}
+
 % AgnusDeiBassiOrgano = {
 % 	\relative c {
 % 		\clef bass

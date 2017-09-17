@@ -1414,115 +1414,20 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %36 finis
 }
 
-% BenedictusAltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key e \phrygian \time 4/4 \tempoBenedictus
-% 			\set Score.currentBarNumber = #83
-% 		r2 e~^\markup { \anmerkung "Solo, tenuto e forte" } %83
-% 		e e
-% 		dis1 %85
-% 		e
-% 		h'
-% 		c
-% 		h2 r
-% 		h1 %90
-% 		a
-% 		g
-% 		fis
-% 		gis2. gis4
-% 		a2^\critnote r %95
-% 		g!1
-% 		fis
-% 		e
-% 		a2 g
-% 		fis2. fis4 %100
-% 		e2 r
-% 		R1*3 \bar "||" %104 finis
-% 	}
-% }
-% 
-% BenedictusAltoLyrics = \lyricmode {
-% 	Be -- %83
-% 	ne --
-% 	di -- %85
-% 	ctus,
-% 	qui
-% 	ve --
-% 	nit
-% 	in %90
-% 	no --
-% 	_
-% 	_
-% 	_ mi --
-% 	ne %95
-% 	Do --
-% 	_
-% 	_
-% 	_ _
-% 	_ mi -- %100
-% 	ni. %101 finis
-% }
-% 
-% OsannaAltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \autoBeamOff \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*6 %110
-% 		\mvTr c2\fE^\tuttiE d8. d16 d8 e
-% 		f([ g a h] c[ g] c4~
-% 		c8[ h16 a] g8[ f] e[ c] f4~)
-% 		f e f4. f8
-% 		e[ f g a] h4 a8[ g] %115
-% 		a4 h8[ c] d[ h] a16[ g f e]
-% 		d8[ g, g' f] e[ c] e4~
-% 		e d8[ c] h4 d
-% 		g, r r2
-% 		r c %120
-% 		d8. d16 d8 e f[ g a h]
-% 		c[ g] c4. h16[ a] g8[ f]
-% 		e[ f g a] h2
-% 		c8[ c,] g'4. f8 e[ d16 e]
-% 		f4 e8 d g4( f8[ e] %125
-% 		d4. c16[ d] e4 f8[ g]~
-% 		g[ a16 h] c8[ c,] f4 d
-% 		e) f g e
-% 		d( e a g)
-% 		g8 g g g g a g4 %130
-% 		g8 g\p g g g a g4
-% 		e4 \tempoOsannaFinis f\f g2~
-% 		g4 f2( e8[ d])
-% 		e2 r \bar "|." %134 FINIS
-% 	}
-% }
-% 
-% OsannaAltoLyrics = \lyricmode {
-% 	O -- san -- na in ex -- %111
-% 	cel --
-% 	
-% 	sis, in ex --
-% 	cel -- _ _ %115
-% 	_ _ _ _
-% 	_ _ _
-% 	_ _ _
-% 	sis.
-% 	O -- %120
-% 	san -- na in ex -- cel --
-% 	_ _ _ _
-% 	_ _
-% 	_ _ _ _
-% 	_ sis. O -- san -- %125
-% 	
-% 	na in ex --
-% 	cel --
-% 	sis. O -- san -- na in ex -- cel -- %130
-% 	sis. O -- san -- na in ex -- cel --
-% 	sis, in ex --
-% 	cel --
-% 	sis. %134 FINIS
-% }
-% 
+OsannaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
+OsannaAltoLyrics = \lyricmode {
+	
+}
+
 % AgnusDeiAltoNotes = {
 % 	\relative c' {
 % 		\clef treble

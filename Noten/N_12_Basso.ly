@@ -1186,76 +1186,20 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %36 finis
 }
 
-% OsannaBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \major \time 4/4 \autoBeamOff \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		\mvTr c2\fE^\tuttiE d8. d16 d8 e %105
-% 		f([ g a h] c[ g] c4~
-% 		c8[ h16 a] g8[ f] e[ c] f4~)
-% 		f e d8([ e)] f([ d)]
-% 		e([ g c a] h4. a16[ g]
-% 		a4) f g8([ f)] e([ c)] %110
-% 		f([ e16 d] c8[ a]) g4 g'
-% 		f4. f8 e4 d8([ c)]
-% 		g'2( c4 a
-% 		h c f,8[ e d g])
-% 		c,4 r r2 %115
-% 		R1
-% 		g2 a8. a16 a8 h
-% 		c([ d e fis] g[ g,] g'4~
-% 		g8[ f16 e] d8[ c] h[ g] c4~
-% 		c h a2) %120
-% 		g4 g' g g
-% 		g g \once \tieDashed g2~
-% 		g2 g,
-% 		r2 g'
-% 		a8. a16 a8 h c[ d e fis] %125
-% 		g[ g,] g'4. f16[ e] d8[ c]
-% 		h[ g] c2 h4
-% 		a d2 c4
-% 		h c f, g
-% 		c,8 c' h g c f, g4 %130
-% 		c,8 c'\p h g c f, g4
-% 		c, \tempoOsannaFinis f2\f e4
-% 		f2 c~
-% 		c r \bar "|." %134 FINIS
-% 	}
-% }
-% 
-% OsannaBassoLyrics = \lyricmode {
-% 	O -- san -- na in ex -- %105
-% 	cel --
-% 	
-% 	sis, in __ ex --
-% 	[cel] --
-% 	sis, in __ ex -- %110
-% 	cel -- sis. O --
-% 	san -- na in ex --
-% 	cel --
-% 	
-% 	sis. %115
-% 	
-% 	O -- san -- na in ex -- %118
-% 	cel --
-% 	
-% 	sis. O -- san -- na %121
-% 	in ex -- [cel] --
-% 	sis.
-% 	O --
-% 	san -- na in ex -- cel -- %125
-% 	_ _ _ _
-% 	_ _ _
-% 	_ _ _
-% 	_ _ _ _
-% 	sis. O -- san -- na in ex -- cel -- %130
-% 	sis. O -- san -- na in ex -- cel --
-% 	sis, in ex --
-% 	cel -- sis. __
-% 	%134 FINIS
-% }
-% 
+OsannaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
+OsannaBassoLyrics = \lyricmode {
+	
+}
+
 % AgnusDeiBassoNotes = {
 % 	\relative c {
 % 		\clef bass

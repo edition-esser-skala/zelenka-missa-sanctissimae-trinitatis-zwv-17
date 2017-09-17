@@ -1227,42 +1227,17 @@ BenedictusViola = {
 	}
 }
 
-% OsannaViola = {
-% 	\relative c' {
-% % 		\clef treble
+OsannaViola = {
+	\relative c' {
+		\clef treble
 % 		\clef alto
-% 		\key c \major \time 4/4 \tempoOsanna
-% 			\set Score.currentBarNumber = #105
-% 		R1*3 %107
-% 		g2\fE a8. a16 a8 h
-% 		c d e fis g d g4~
-% 		g8 f?16 e d8 c h g c b %110
-% 		a h c2 h4
-% 		a8 h c d e2
-% 		d2. c4
-% 		d e a, d
-% 		c a g r %115
-% 		R1*2
-% 		r2 g
-% 		a8. a16 a8 a h4 c
-% 		d4. c16 h c8 c, c'4~ %120
-% 		c h a8 h c d
-% 		e4. d16 e f8 d g4~
-% 		g8 f16 e d8 c h4 a8 g
-% 		a4 h8 c g4 g
-% 		a8. a16 a8 h c d e fis %125
-% 		g g, g'4. f16 e d8 c
-% 		h g c2 h4
-% 		a d2 c4
-% 		d c2 h4
-% 		c8 c' h g c f, g4 %130
-% 		c,8 c'\pE h g c f, g4
-% 		g4 \tempoOsannaFinis a2\fE g4
-% 		a2. g8 f
-% 		g2 r \bar "|." %134 FINIS
-% 	}
-% }
-% 
+		\key c \major \time 6/4 \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/4
+			\set Score.currentBarNumber = #118
+		
+	}
+}
+
 % AgnusDeiViola = {
 % 	\relative c' {
 % % 		\clef treble
