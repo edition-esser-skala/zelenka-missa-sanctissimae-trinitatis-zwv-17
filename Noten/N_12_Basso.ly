@@ -1192,12 +1192,27 @@ OsannaBassoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		R1.*2 %119
+		r4 r \mvTr c'\fE^\tuttiE g g g %120
+		c c, r r r c'
+		c c, r r r c
+		c' c c g g r
+		r r e a4. a8 g g
+		f4 f d e gis a %125
+		d, e2 a,4 a' a
+		\tempoOsannaFinis d,2. a'2 r4 \bar "|." %127 FINIS
 	}
 }
 
 OsannaBassoLyrics = \lyricmode {
-	
+	O -- san -- na, o -- %120
+	san -- na, o --
+	san -- na, o --
+	san -- na, o -- san -- na,
+	o -- san -- na in ex --
+	cel -- sis, o -- san -- na in %125
+	ex -- cel -- sis, in ex --
+	cel -- sis. %127 FINIS
 }
 
 % AgnusDeiBassoNotes = {

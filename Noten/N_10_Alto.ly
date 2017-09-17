@@ -1420,12 +1420,27 @@ OsannaAltoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		R1.*2 %119
+		r4 r \mvTr g'\fE^\tuttiE g g g %120
+		g g r r r g
+		e g r r r g
+		g g g g g r
+		r r gis a4. a8 a a
+		a4 a a gis h a %125
+		a a( gis) a a a
+		a2. a2 r4 \bar "|." %127 FINIS
 	}
 }
 
 OsannaAltoLyrics = \lyricmode {
-	
+	[O -- san -- na, o -- %120
+	san -- na,] [o --
+	san -- na,] [o] --
+	san -- na, o -- san -- na,
+	o -- san -- na in ex --
+	cel -- sis, o -- san -- na in %125
+	ex -- cel -- sis, in ex --
+	cel -- sis. %127 FINIS
 }
 
 % AgnusDeiAltoNotes = {

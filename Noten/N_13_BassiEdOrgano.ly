@@ -2472,9 +2472,9 @@ OsannaBassiOrgano = {
 		\key c \major \time 6/4 \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		\mvTr c8\fE-\rip-\markup { \anmerkung "staccato" } c' c, c' c, c' c, c' c, c' c, c' %118
+		\mvTr c8\fE-\rip-\solo-\markup { \anmerkung "staccato" } c' c, c' c, c' c, c' c, c' c, c' %118
 		c, c' c, c' c, c' c, c' c, c' c, c'
-		c, c' c, c' c, c' g4 g r %120
+		c,-\tutti c' c, c' c, c' g4 g r %120
 		c,8 c' c, c' c, c' c, c' c, c' c, c'
 		c, c' c, c' c, c' c, c' c, c' c, c'
 		c, c' c, c' c, c' g4 g \clef treble h'-!

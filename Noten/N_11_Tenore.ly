@@ -1359,12 +1359,27 @@ OsannaTenoreNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		R1.*2 %119
+		r4 r \mvTr c\fE^\tuttiE h h h %120
+		c c r r r c
+		c c r r r c
+		c c c h h r
+		r r h c4. e8 e e
+		d4 d4. f8 e4 e e %125
+		f e2 e4 cis cis
+		\tempoOsannaFinis d2. cis2 r4 \bar "|." %127 FINIS
 	}
 }
 
 OsannaTenoreLyrics = \lyricmode {
-	
+	[O -- san -- na, o -- %120
+	san -- na,] [o --
+	san -- na,] [o --
+	san -- na, o -- san -- na,]
+	[o -- san -- na in ex --
+	cel] -- sis, o -- san -- na in %125
+	ex -- cel -- sis, in ex --
+	cel -- sis. %127 FINIS
 }
 
 % AgnusDeiTenoreNotes = {

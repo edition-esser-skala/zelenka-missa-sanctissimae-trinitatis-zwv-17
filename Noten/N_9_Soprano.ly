@@ -1681,11 +1681,27 @@ OsannaSopranoNotes = {
 		\key c \major \time 6/4 \autoBeamOff \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
+		R1.*2 %119
+		r4 r \mvTr e'\fE^\tuttiE d d d %120
+		e e r r r e
+		g e r r r e
+		e e e d d h
+		e4. e8 d d c4 c cis
+		d a d d4. d8 c4 %125
+		h h2 a4 e' e
+		\tempoOsannaFinis f2. e2 r4 \bar "|." %127 FINIS
 	}
 }
 
 OsannaSopranoLyrics = \lyricmode {
-	
+	[O -- san -- na, o -- %120
+	san -- na,] o --
+	san -- na, [o] --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na in %125
+	ex -- cel -- sis, in ex --
+	cel -- sis. %127 FINIS
 }
 
 % AgnusDeiSopranoNotes = {
