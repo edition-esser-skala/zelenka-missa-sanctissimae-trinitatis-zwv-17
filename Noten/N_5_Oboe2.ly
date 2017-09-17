@@ -830,7 +830,16 @@ OsannaOboeII = {
 		\key c \major \time 6/4 \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		c4\fE c e c e g %118
+		e g c g c e
+		c e e d d r %120
+		c, c e c e g
+		e g c g c e
+		c e e d d h
+		e4. e8 d d c4 c cis
+		d a d d4. d8 c4 %125
+		h h2 a4 cis cis
+		\tempoOsannaFinis d2~ d8 d cis2 r4 \bar "|." %127 FINIS
 	}
 }
 

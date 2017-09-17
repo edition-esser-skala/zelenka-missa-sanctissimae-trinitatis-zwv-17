@@ -2494,8 +2494,8 @@ OsannaBassFigures = \figuremode {
 	r
 	r2 <_+>4 r2 <4\+>4
 	<6>2. <7 [_+]>4 <[6]> r %125
-	<6 5> <5 4> <\t _+> r2.
-	r <_+> %127 FINIS
+	<6 5> <5 4> <\t _+> r4 <[_+]>2
+	r2. <_+> %127 FINIS
 }
 
 % AgnusDeiBassiOrgano = {
