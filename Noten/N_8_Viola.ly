@@ -1139,13 +1139,91 @@ SanctusViola = {
 
 BenedictusViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoBenedictus
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
-		
+		e8\p e e e e e e e %39
+		e e e e a, f' f e %40
+		e d c h a a' g, g'
+		f, f' f f h, gis' a\fE e
+		e g e g f f f\p f
+		e f e f e e cis e
+		d d d\f d d f d f %45
+		e e e\pE e d e-\critnote d e-\critnote
+		d d h d c g'\fE a a
+		a a f f e gis\pE a c
+		d c d c d c d c
+		h a gis fis e e e e %50
+		e e f e e\fE e c' c
+		h gis16 a h8 gis e e a, gis
+		a a a a a a a a
+		gis e' e e e e f e
+		e e c a' gis a f e16 h %55
+		c16. c'32 h16. a32 gis8 h a4\fermata r
+		e8\p e e e e e e e
+		e e e e a, f' f e
+		e d c h a a' g, g'
+		f, f' f f e e h' gis %60
+		a16 gis a8 e e a, a a a
+		g g' d d h16( g) g( g') d g, g g'
+		c,8 g' g g a g16 f g8 h,
+		c c c c h16(\fE c) d( e) c g h d
+		e8 c g' h, c\pE c c a %65
+		d d e e c a' a a
+		g g g g g g g g
+		a a d, d h g' g, h
+		c g' g g a a a a
+		e e e e f f f f %70
+		f f e d c c' f, g
+		g g g g g g g g
+		g g c, g' a a a g
+		g\fE g e d c c' c c
+		h h\p c c a d, a d %75
+		a' fis d d d c a' d,
+		e16 e e e f f e g h,8 e f d
+		e16. e32 d16. c32 g'8 g, c8 e\p g e
+		e-\critnote d d d c c'16 h c8 a
+		e e, e' e, a' a, a' a, %80
+		a' a a gis a a a a
+		e d' c h a4.^\adlibitum a8
+		gis\f gis16 fis? e8 e e g e g
+		f f f\pE f e a, a a
+		a cis e a, a a a a %85
+		a e' a, cis d d cis cis
+		d e d b' a a, a' a,
+		d\f d a' a a a a a
+		g g g\pE g fis h, h h
+		h dis h h h e h e %90
+		dis h dis h e4 fis
+		g8 h c a h-\critnote h, h' h,
+		e\fE e g g fis dis16 e fis8 dis
+		e h' c dis, h h h h
+		h h g' g fis fis16 g a8 fis %95
+		e a a fis g16. g32 fis16. e32 h'8 h,
+		g' a\pE h c g-\critnote fis? fis dis
+		e\fE e e c c h h gis
+		a c16 d e8\pE a gis gis a a
+		f f f f e e e e %100
+		e e e e h' h h h
+		e, e, e' e, a' a g g
+		f f f f cis cis cis cis
+		d d d d h h h h
+		c c f d a' a, e' e, %105
+		c'\fE c f fis h, h\pE h h
+		h h h gis' a4 r
+		R1
+		r2^\adlibitumE e8 e e e
+		\mark \critnote d' c d c d c d c %110
+		h a gis fis e e e e
+		e e f e e\fE e c' c
+		h gis16 a h8 gis e e a, gis
+		a a a a a a a a
+		gis e' e e e e f e %115
+		e e c a' gis a f e16 h
+		c16. c'32 h16. a32 gis8 h a4\fermata r \bar "||" %117 finis
 	}
 }
 

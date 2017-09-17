@@ -940,7 +940,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.2 BENEDICTUS" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -984,7 +984,8 @@
 				>>
 				\new FiguredBass { \BenedictusBassFigures }
 			>>
-% 			\midi { \tempo 4 = 60 }
+			\layout { }
+			\midi { \tempo 4 = 72 }
 		}
 	}
 % 	\bookpart {

@@ -2338,7 +2338,7 @@ BenedictusBassiOrgano = {
 		c, d e c g' g, g' g,
 		c d e c a a' f g
 		\mvTr c,\f-\rip c'16 h c8 h a a a a
-		g \mvTr g16\p-\org f e8 e d d, d' d, %75
+		g \mvTr g16\p-\org fis? e8 e d d, d' d, %75
 		d' d, d' d, g' a f g
 		\mvTr c,\fE-\tutti c c c g' a f g
 		c16. e,32 d16. c32 g'8 g, c \mvTr d\pE-\org e c
@@ -2389,7 +2389,7 @@ BenedictusBassFigures = \figuremode {
 	r4 <[6]> r4. <_+>8 %40
 	r4 <6>8 q q4 q
 	q4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_+>4 <6>
-	<_+>2 <[6] [4]>
+	<[7] _+>2 <[6] [4]>
 	<5 _+>8 <6 4> <5 _+> <6 4> <_+>2
 	r4 <6>8 <\t> r2 %45
 	<[6] [4]> <5 3>8 <6 4> <5 3> <6 4>
@@ -2405,13 +2405,13 @@ BenedictusBassFigures = \figuremode {
 	r <6\\>16. <8>32 <_+>4 r2
 	r4 <[6]> <6 4>8 <5 _+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	r2.. <_+>8
-	r4 <[6]> r <6>
+	r4 <[6]>8 q q4 <6>
 	q2 <_+>4 <[6]> %60
 	r2 <6>
 	r <5 3>8 <6 4> <5 3> <\t \t>
 	<6>2 q8 q16 q q8 q
-	r4 <[6]>8 q r2
-	<[6]> r4 q %65
+	r4 <[6]>8 q <[5] [3]>4 <[6] [4]>8 <[2]>
+	<[6]>4. q8 r4 q %65
 	r q <5> <6 5>
 	<[6]>1
 	<7>
@@ -2423,25 +2423,25 @@ BenedictusBassFigures = \figuremode {
 	r2 <6\\ 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	r4 <5>8 <6\\> <5 _+> <6 4> <5 _+> <6 4> %75
 	<_+>2 r4 <[6]>
-	r2. <[6]>4
+	r4 <[6] [4]>8 <[5] [3]> r4 <[6]>
 	r8 <[6]>16. <[8]>32 r2 <[6]>4
 	<[6] [4]>8 <[5] [3]> r2 <6>8 <\t>
 	<6 4> <5 _+> <\t \t>4 r2 %80
 	<5>4. <_+>8 r4 <6>
 	<6 3>8 q q q <7>4 <6>
-	<_+> <[6]> <5 _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_+> <[6]> <[7] 5 _+>4. \bassFigureExtendersOn <7 5 _+>8 \bassFigureExtendersOff
 	<[6] [4]>2 <5 _+>8 <6 4> <5 _+> <6 4>
 	<5 _+>2 <_!> %85
 	<6>2. <6\\>4
-	<6>8 <_+> r4 <6 4> <5 _+>
+	<6>8 <_+> r <[_-]> <6 4>4 <5 _+>
 	r <_+>8 <\t> <5+ _+>2
 	<[6] [4]> <5+ _+>8 <6 4> <5+ _+> <6 4>
 	<5+ _+>4. \bassFigureExtendersOn q8 r2 %90
-	<6>4. q8 \bassFigureExtendersOff r4 <6\\>
-	<[6]>8 <[5+] _+> r4 <[5+] 4> <\l _+>
-	r2 <6>
+	<6 [_+]>4. <6 _+>8 \bassFigureExtendersOff r4 <6\\>
+	<[6]>8 <[5+] _+> r <[6\\]> <[5+] 4>4 <\l _+>
+	r2 <6 [_+]>
 	r8 <[6]> <[6\\]> <[5+] [_+]> r2
-	r <6>4 <[6]> %95
+	r <6 [_+]> %95
 	r8 <6> r <[5+] _+> <5>4 <[5+] _+>
 	r4 <[6]> <6 4>8 <5+ _+> <\t \t>4
 	r4 <6> <6 4>8 <5 _+> <\t \t>4
@@ -2452,7 +2452,7 @@ BenedictusBassFigures = \figuremode {
 	<6>2 q
 	r4 <6 3>8 <\t \t> <4\+ _!>4 <7 _+>
 	<6>2. <5 _+>8 <\t \t> %105
-	r4. <7>8 <_+>2
+	r4. <7 [_+]>8 <_+>2
 	<[_+]>2. <5>4
 	<5>8 <6> <5> <6> <_+> r <6> <6\\>
 	r4 <[_+]> r <[6]>

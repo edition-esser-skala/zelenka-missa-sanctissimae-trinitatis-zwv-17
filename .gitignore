@@ -6,6 +6,7 @@ Manuskript/*
 *.kilepr
 *.zip
 *.pdf
+*.ps
 *.mid
 *.midi
 *.eps
