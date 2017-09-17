@@ -1234,7 +1234,16 @@ OsannaViola = {
 		\key c \major \time 6/4 \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		g8\fE e g e c c' g e c c' e, e' %118
+		c c, e' e, g' c, e c g' c, c' c,
+		g' c, c' c, g' c,  g'4 h r %120
+		g,8 e g e c c' g e c c' e, e'
+		c c, e' e, g' c, e c g' c, c' c,
+		g' c, c' c, g' c, g'4 h r
+		r r gis a16 a a a e e e e e e e e
+		f f f f f f f f f a a a gis4 e e %125
+		r e e e a a
+		\tempoOsannaFinis a2. a2 r4 \bar "|." %127 FINIS
 	}
 }
 

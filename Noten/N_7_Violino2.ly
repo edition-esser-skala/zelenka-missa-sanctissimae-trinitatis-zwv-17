@@ -1257,7 +1257,16 @@ OsannaViolinoII = {
 		\key c \major \time 6/4 \tempoOsanna
 			\set Staff.timeSignatureFraction = 3/4
 			\set Score.currentBarNumber = #118
-		
+		c16\fE c c c c c c c e e e e c c c c e e e e g g g g
+		e e e e g g g g c c c c g g g g c c c c e e e e
+		c c c c e e e e e e e e d4 d r
+		c,16 c c c c c c c e e e e c c c c e e e e g g g g
+		e e e e g g g g c c c c g g g g c c c c e e e e
+		c c c c e e e e e e e e d4 d h
+		e,16 e e e e' e e e d d d d c8 a c a cis a
+		d,16 d d d d' d d d d d d d d8 h d h c a %125
+		f' d h a' h, gis' a4 cis, cis
+		\tempoOsannaFinis d2~ d8 d cis2 r4 \bar "|." %127 FINIS
 	}
 }
 
