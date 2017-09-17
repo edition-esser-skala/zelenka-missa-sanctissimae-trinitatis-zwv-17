@@ -1401,7 +1401,7 @@ AgnusDeiTenoreNotes = {
 		R1*8 %30
 		e4. e8 d4 d8 d
 		c h16 c d8 c \tempoAgnusDeiB \afterGrace c2( h8)
-		h4 r r2
+		\tempoAgnusDeiC h4 r r2
 		r r4 e8. h16
 		c4 cis d8 a d4~ %35
 		d8[( e16 f] e8[ d] cis[ g']) f([ h,)]

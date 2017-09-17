@@ -1220,11 +1220,67 @@ AgnusDeiBassoNotes = {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDei
 		R1*12 %12
+		\mvTr e'2.~\pE^\soloE e8 d
+		c([ h)] a a a4 gis8 a16([ h)]
+		c8[ d] e4. d16[ c] d8.[ c16] %15
+		h8[ c] d4. c16[ h] c8.[ h16]
+		a8[ h] c4. h16[ a] h8.[ a16]
+		gis8[ a] h4. h8 a4
+		gis r r a8 e
+		f4 fis g4. c8 %20
+		a2( h4 c~)
+		c8 c h8.([ c16)] c4 r
+		R1*8 %30
+		c4. c8 c4 h8 h
+		a gis16 a h8 a \tempoAgnusDeiB a2
+		\tempoAgnusDeiC gis4 r r2
+		R1
+		r4 a8 e f4 fis %35
+		g4. gis8 a([ cis,)] d([ g)]
+		a2 d,4 r
+		R1*3 %40
+		r2 e8 h' e4~
+		e d8.[ c16] h8[ c] d4~
+		d c8.[ h16] a8[ h] c4~
+		c h8.[ a16] gis8[( h]) a4~
+		a( gis8.[ a16)] a4 r %45
+		R1
+		r4 a8 e f4 fis
+		gis4. gis8 a[([ a,)] c([ d])
+		\tempoAgnusDeiD e2 \tempoAgnusDeiE a,4 r
+		R1*8 \bar "||" %57 finis
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus %13
+	[De] -- i, qui tol -- lis pec --
+	ca -- _ _ _ %15
+	_ _ _ _
+	_ _ _ _
+	_ _ ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- %20
+	[re] --
+	re no -- bis.
 	
+	A -- gnus De -- i, qui %31
+	tol -- lis pec -- ca -- ta mun --
+	di:
+	
+	Mi -- se -- re -- re, mi -- se -- re -- %35
+	re __
+	no -- bis.
+	
+	Mi -- se -- re -- %41
+	_ _ _
+	_ _ _
+	_ re __ no --
+	bis, %45
+	
+	mi -- se -- re -- re,
+	[mi -- se -- re] -- re __
+	no -- [bis.]
 }
 
 % DonaNobisBassoNotes = {
