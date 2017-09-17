@@ -1035,79 +1035,11 @@ AgnusDeiOboeI = {
 	}
 }
 
-% DonaNobisOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \tempoDonaNobis
-% 			\set Score.currentBarNumber = #42
-% 		e'4.\fE e8 e4 e %42
-% 		e, e'8 e f,4 d'
-% 		fis, d'8 d gis,4 d'~
-% 		d8 c c h16 a h8 e, e'4~ %45
-% 		e d e8 h e d
-% 		c h c4 r8 a fis' e
-% 		dis d c h a h c h16 a
-% 		g4 fis r8 h cis dis
-% 		e h e2 d4 %50
-% 		c2 h8 e4 e8
-% 		e4 e e, e'8 e
-% 		f,4 d' fis, d'8 d
-% 		gis,4 d'4. c8 c h16 a
-% 		h8 e, e'2 d4 %55
-% 		e8 h e d c h c4
-% 		r8 a fis' e dis d c h
-% 		a h c h16 a g4 fis
-% 		r8 h cis dis e h e4~
-% 		e d2 c4 %60
-% 		h2 r8 a e' d
-% 		c cis d c? h16 g' g g g g g f32 g
-% 		a16 a a a a a a g32 a h16 h h h h h h a32 h
-% 		c16 c c c c c c h32 c d16 f, f f e g g e
-% 		d8 g, e' g, d' g, g' f %65
-% 		e d16 c h8 d c h a h
-% 		c4 a r8 g a h
-% 		c g c4. h8 h a16 g
-% 		a4.\trill a8 g4 r
-% 		c4. c8 c4 c %70
-% 		c, c'8 c d,4 b'
-% 		d, b'8 b e,4 b'~
-% 		b8 a a g16 f g8 c, c'4~
-% 		c h8 c d4 cis8 d
-% 		e4 r8 a, d c b c %75
-% 		d4 cis e d8 e
-% 		a,4. g16 f g8 a e a
-% 		d4. d8 cis4 r
-% 		r8 d g f e f g16 g, g g
-% 		g g g g g g g f32 g a16 a a a a a a g32 a %80
-% 		b16 b b b b b b a32 b c16 c c c c c c b32 c
-% 		d16 d d d d d d cis32 d cis16 a' a a a a a a
-% 		b d, d d c c' c b32 c a16 c, c c b b' b a32 b
-% 		g16 b, b b a a' a g32 a b16 g d b g g' g g
-% 		g g g f32 g f16 f f f f f f es32 f es16 es es es %85
-% 		es es es d32 es d16 d d d d d d c32 d c16 g' g g
-% 		fis fis fis e32 fis g16 g g g a a a g32 a d,16 a' a a
-% 		gis4-! a-! gis8-! h, e d16 c
-% 		h8 e, r gis a g f a
-% 		d d, fis g16 a h2 %90
-% 		e,4. e'8 dis e h a16 g
-% 		a8 h c8. c16 h4 r
-% 		a'4. a8 a4 a
-% 		a, a'8 a h,4 a'
-% 		cis, a'8 a dis,4 a'~ %95
-% 		a8 g g fis16 e fis8 h, h' a
-% 		gis4 r e4. e8
-% 		e4 e e, e'8 e
-% 		f,4 d' fis, d'8 d
-% 		gis,4 d'4. c8 c h16 a %100
-% 		h8 e, e'2 d4
-% 		gis a gis r8 h,
-% 		c16 c c c c c c h32 c d16 d d d d d d c32 d
-% 		e16 e e e e e e d32 e fis16 fis fis fis fis fis fis e32 fis
-% 		gis16 gis gis gis a a a gis32 a a,4-! a'-! %105
-% 		gis-! a-! f16 f f f g g g g
-% 		g2\fermata_\tenuto \tempoDonaNobisB a4\ff r8 c-!
-% 		h4-! a-! a-! gis
-% 		a e f2~
-% 		\tempoDonaNobisFinis f4 e8 d e2 \bar "|." %110 FINIS
-% 	}
-% }
+DonaNobisOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
+			\set Score.currentBarNumber = #58
+		
+	}
+}

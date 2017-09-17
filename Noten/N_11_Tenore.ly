@@ -1454,130 +1454,15 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	bis. %49 finis
 }
 
-% DonaNobisTenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoDonaNobis
-% 			\set Score.currentBarNumber = #42
-% 		R1*9 %50
-% 		r2 \mvTr e4.\fE^\tuttiE e8
-% 		e4 e e, e'8 e
-% 		f,4( d' fis,) d'8 d
-% 		gis,4( d'~ d8[ c] c[ h16 a]
-% 		h8[ e,] e'2 d4) %55
-% 		e8 h([ e)] d c([ h)] c4
-% 		r8 a([ fis')] e dis([ d c h]
-% 		a[ h] c[ h16 a] g4) fis
-% 		r8 h([ cis dis] e[ h] e4~
-% 		e d2 c4 %60
-% 		d4. c16[ h] c8[ h]) a r
-% 		r a([ d)] c h8.([ a16)] g4
-% 		r2 r8 d'([ g)] f
-% 		e([ d]) c4 d e
-% 		h( c) d8 h([ e)] d %65
-% 		c4 d8([ e)] f4.( e16[ d]
-% 		c4 d4. c16[ h] a4)
-% 		g8 d'( e4 a,) h
-% 		e( d) d r
-% 		r2 r8 a([ f')] e16([ d]) %70
-% 		e8[( c b a] g4. a8
-% 		b[ c] d4 c2
-% 		f, c')
-% 		g r8 h!([ e)] d
-% 		cis([ c b a] g[ a] b[ a16 g] %75
-% 		f4) e r8 a([ h cis]
-% 		d[ a] d4. c8 c8[ b16 a]
-% 		b2) a
-% 		r4 r8 d( e[ d16 c] h8[ a)]
-% 		g4 r r8 a([ d)] c %80
-% 		b([ d)] g,4 r8 c([ f)] e
-% 		d([ cis)] d([ e)] cis a d4~
-% 		d c2 b4~
-% 		b( a) b es~
-% 		es d2 c4~ %85
-% 		c d g,( a~)
-% 		a b c a
-% 		e'4. e8 e4 e
-% 		e, e'8 e f,4( d'
-% 		fis,) d'8 d gis,4( d'~ %90
-% 		d8[ c] c[ h16 a] h8[ e,] e'4~
-% 		e dis) e8 h([ e)] d
-% 		c([ h)] a4 r8 a([ f')] e16([ d)]
-% 		cis8([ c h a] gis[ h] c[ h16 a]
-% 		g4) fis r8 h([ cis dis] %95
-% 		e[ h] e2 d4~
-% 		d c h2~
-% 		h a)
-% 		h4 r8 h([ d)] c h4~
-% 		h8[( e,] h'4. a8 a[ gis16 fis] %100
-% 		gis8[ a16 h] c8[ a] f'2)
-% 		e8 h( e4.) d16[( c]) h4~
-% 		h a d2~
-% 		d4 c2 h4
-% 		e, e'2 d8([ f)] %105
-% 		h,4( c8[ d16 e] f4 e)
-% 		\mvTrr e2\fermata^\tenuto \tempoDonaNobisB r4 c!\ffE
-% 		h a2 gis4
-% 		a1
-% 		\tempoDonaNobisFinis a \bar "|." %110 FINIS
-% 	}
-% }
-% 
-% DonaNobisTenoreLyrics = \lyricmode {
-% 	Do -- na %51
-% 	no -- bis pa -- cem, da
-% 	pa -- cem, da
-% 	pa --
-% 	%55
-% 	cem, do -- na no -- bis,
-% 	do -- na pa --
-% 	cem,
-% 	pa --
-% 	%60
-% 	cem,
-% 	do -- na pa -- cem,
-% 	do -- na
-% 	no -- bis, do -- na
-% 	pa -- cem, do -- na %65
-% 	no -- bis __ pa --
-% 	
-% 	cem, do -- na
-% 	pa -- cem,
-% 	do -- na __ %70
-% 	pa --
-% 	
-% 	cem, do -- na %74
-% 	pa -- %75
-% 	cem, pa --
-% 	
-% 	cem,
-% 	do --
-% 	na, do -- na %80
-% 	pa -- cem, do -- na,
-% 	do -- na __ pa -- cem, do --
-% 	na no --
-% 	bis, do --
-% 	na, do -- %85
-% 	na no --
-% 	bis pa -- cem.
-% 	Do -- na no -- bis
-% 	pa -- cem, da pa --
-% 	cem, da pa -- %90
-% 	
-% 	cem, do -- na
-% 	no -- bis, do -- na __
-% 	pa --
-% 	cem, pa -- %95
-% 	
-% 	cem, do -- na pa -- %99
-% 	
-% 	cem, do -- na __ pa -- %102
-% 	cem, do --
-% 	na no --
-% 	bis, do -- na __ %105
-% 	pa --
-% 	cem. Do --
-% 	na no -- bis
-% 	pa --
-% 	cem. %110 FINIS
-% }
+DonaNobisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDeiUltimus
+			\set Score.currentBarNumber = #58
+		
+	}
+}
+
+DonaNobisTenoreLyrics = \lyricmode {
+	
+}

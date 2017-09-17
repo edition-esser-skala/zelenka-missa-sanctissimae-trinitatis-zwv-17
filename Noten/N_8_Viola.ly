@@ -1312,76 +1312,12 @@ AgnusDeiViola = {
 	}
 }
 
-% DonaNobisViola = {
-% 	\relative c' {
-% % 		\clef treble
+DonaNobisViola = {
+	\relative c' {
+		\clef treble
 % 		\clef alto
-% 		\key a \minor \time 4/4 \tempoDonaNobis
-% 			\set Score.currentBarNumber = #42
-% 			R1*5 %46
-% 		a'4.\fE a8 a4 a
-% 		h, h'8 h c,4 a'
-% 		cis, a'8 a dis,4 a'~
-% 		a8 g g fis16 e fis8 h, h'4~ %50
-% 		h a2 gis4~
-% 		gis a h r8 e,
-% 		f! g a2 gis8 a
-% 		h4 a8 h e,2~
-% 		e r %55
-% 		r8 h' c h a gis a4
-% 		e r r r8 fis
-% 		a g! fis g a4. c8
-% 		h a16 g fis4.\trill fis8 e fis16 g
-% 		a8 g fis e16 fis gis4 a %60
-% 		h4. h8 a4 r
-% 		r r8 d, g f e c
-% 		f16 f f f f f f e32 f g16 g g g g g g f32 g
-% 		a16 a a a a a a g32 a h16 h h h c c c c
-% 		h8 g c g h g r4 %65
-% 		r8 c, d e f4. e16 d
-% 		c4 d4. c16 h a4
-% 		g8 d' e4 a, h
-% 		e d d r
-% 		r2 r8 a f' e16 d %70
-% 		e8 c b a g4. a8
-% 		b c d4 c2
-% 		f, c'
-% 		g r8 h! e d
-% 		cis c b a g a b a16 g %75
-% 		f4 e r8 a h cis
-% 		d a d4. c8 c8 b16 a
-% 		b2 a
-% 		r4 r8 d e d16 c h8 a
-% 		g16 e' e e e e e d32 e f16 f f f f f f e32 f %80
-% 		g16 g g g g g g f32 g a16 a a a a a a g32 a
-% 		b16 b b b b b b a32 b e,16 e e e e e d d
-% 		g g g g a a a a fis fis fis fis g g g g
-% 		g g g g d d d d b b'? b b b b b b
-% 		es, es es es d d d d d d d d c c c c %85
-% 		c c c c g' g g g g g g g g es es es
-% 		d a' a a g g g g c c c c a d, d a'
-% 		<gis h>4 <c e, a,> <h e,> r
-% 		r e, f, d'
-% 		fis, d'8 d gis,4 d'~ %90
-% 		d8 c c h16 a h8 e, e'4~
-% 		e dis e8 h e d
-% 		c h a4 r8 a f' e16 d
-% 		cis8 c h a gis h c h16 a
-% 		g4 fis r8 h cis dis %95
-% 		e h e2 d4~
-% 		d c8 a e4 h'
-% 		e r e r
-% 		h' r8 h, d c h a
-% 		e4 r8 e' gis4-! a-! %100
-% 		e e e e
-% 		e e e r8 gis
-% 		a16 a a a a a a gis32 a h16 h h h h h h a32 h
-% 		c16 c, c c c c c h32 c d16 d d d d d d c32 d
-% 		e16 e e e e e e d32 e f16 f f f f f f e32 f %105
-% 		h,16 h h h a a a a d d d d e e e e
-% 		e2\fermata \tempoDonaNobisB dis4\ff r8 fis
-% 		e4 e e4. e8
-% 		e4 a2 a4
-% 		\tempoDonaNobisFinis a2 a \bar "|." %110 FINIS
-% 	}
-% }
+		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
+			\set Score.currentBarNumber = #58
+		
+	}
+}

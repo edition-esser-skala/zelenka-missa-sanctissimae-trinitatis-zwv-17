@@ -1283,116 +1283,15 @@ AgnusDeiBassoLyrics = \lyricmode {
 	no -- [bis.] %49 finis
 }
 
-% DonaNobisBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \minor \time 4/4 \autoBeamOff \tempoDonaNobis
-% 			\set Score.currentBarNumber = #42
-% 		R1*10 %51
-% 		r8 \mvTr e(\fE^\tuttiE c'[ h16 a] gis8[ g f e]
-% 		d[ e] f[ e16 d] c4) h
-% 		r8 e([ fis gis] a[ e] a4~
-% 		a g f2) %55
-% 		e4 r a4. a8
-% 		a4 a h, h'8 h
-% 		c,4( a' cis,) a'8 a
-% 		dis,4( a'4. g8 g[ fis16 e]
-% 		fis8[ h,] h'4 e, a~ %60
-% 		a gis) a r
-% 		r4 r8 d,([ g]) f e([ c]
-% 		f2 g
-% 		a h4) c
-% 		g4. g8 g4 g %65
-% 		g, g'8 g a,4( f'
-% 		a,) f'8 f h,4( f'~
-% 		f8[ e] e[ d16 c] d4 g~
-% 		g fis) g8 d([ g)] f?
-% 		e([ d c e] f4) f, %70
-% 		R1*7 %77
-% 		r2 r8 a([ a')] g
-% 		f([ fis] g[ a16 h!] c8[ c, g' f])
-% 		e2 f %80
-% 		g a
-% 		b a4 d,
-% 		g a fis g
-% 		e( fis g) es
-% 		c d h! c %85
-% 		a h! c2
-% 		d4 g2( f4)
-% 		e8 e'4 e8 e4 e
-% 		e, e'8 e f,4( d'
-% 		fis,) d'8 d gis,4( d'~ %90
-% 		d8[ c] c[ h16 a] h8[ e,] \once \tieDashed e'4~
-% 		e dis) e8 h([ e)] d?
-% 		c([ h]) a4 r2
-% 		R1*3 %96
-% 		e4. e8 e4 e
-% 		e2 e~
-% 		e e~
-% 		e e %100
-% 		e e
-% 		e1
-% 		a,4 a' h2
-% 		c d
-% 		e( f %105
-% 		e4 a, d, e)
-% 		\mvTrr cis2\fermata^\tenuto \tempoDonaNobisB r4 dis(\ffE
-% 		e4) a, e'2(
-% 		a4) a, d2
-% 		\tempoDonaNobisFinis a'1 \bar "|." %110 FINIS
-% 	}
-% }
-% 
-% DonaNobisBassoLyrics = \lyricmode {
-% 	Pa -- %52
-% 	cem,
-% 	pa --
-% 	%55
-% 	cem. Do -- na
-% 	no -- bis pa -- cem, da
-% 	pa -- cem, da
-% 	pa --
-% 	%60
-% 	cem,
-% 	do -- na pa --
-% 	
-% 	cem.
-% 	Do -- na no -- bis %65
-% 	pa -- cem, da pa --
-% 	cem, da pa --
-% 	
-% 	cem, do -- na
-% 	pa -- [cem,] %70
-% 	
-% 	do -- na %78
-% 	pa --
-% 	cem, do -- %80
-% 	na, do --
-% 	na no -- bis,
-% 	do -- na no -- bis,
-% 	do -- na,
-% 	do -- na no -- bis, %85
-% 	do -- na no --
-% 	bis pa --
-% 	cem. Do -- na no -- bis
-% 	pa -- cem, da pa --
-% 	cem, da pa -- %90
-% 	
-% 	cem, do -- na
-% 	no -- bis.
-% 	
-% 	Do -- na no -- bis %97
-% 	do -- na __
-% 	no --
-% 	bis, %100
-% 	do -- na
-% 	pa --
-% 	cem, do -- na
-% 	no -- bis
-% 	pa -- %105
-% 	
-% 	cem. Do --
-% 	na no --
-% 	bis pa --
-% 	cem. %110 FINIS
-% }
+DonaNobisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDeiUltimus
+			\set Score.currentBarNumber = #58
+		
+	}
+}
+
+DonaNobisBassoLyrics = \lyricmode {
+	
+}

@@ -843,109 +843,11 @@ OsannaOboeII = {
 	}
 }
 
-% AgnusDeiOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 6/2 \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		r2 r c'\fE h r gis
-% 		a r h h r h
-% 		a r h gis r gis
-% 		h r gis e r gis
-% 		a r c d r e %5
-% 		c r e e r gis,
-% 		a r a a r a
-% 		gis r h a c1~
-% 		c h h\trill
-% 		a2 c-! d-! r h c %10
-% 		r a h4 a gis2 e'1~
-% 		e2 d1~ d2 c1~
-% 		c2 h1~ h2 a1~
-% 		a2 g1~ g2 fis h~
-% 		h4 a a2 gis a1 r2 %15
-% 		R\breve.*7 %22
-% 		r1*3/2 r2 r c-!\f
-% 		a-! r d h r c
-% 		a r h g r a %25
-% 		h c d~ d c4 h \once \tieDashed c2~
-% 		c4 a h2.\trill c4 c2 r r
-% 		R\breve.*14 \bar "||" %41 finis
-% 	}
-% }
-% 
-% DonaNobisOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 4/4 \tempoDonaNobis
-% 			\set Score.currentBarNumber = #42
-% 		e'4.\fE e8 e4 e %42
-% 		e, e'8 e f,4 d'
-% 		fis, d'8 d gis,4 d'~
-% 		d8 c c h16 a h8 e, e'4~ %45
-% 		e d e8 h e d
-% 		c h c4 r8 a fis' e
-% 		dis d c h a h c h16 a
-% 		g4 fis r8 h cis dis
-% 		e h e2 d4 %50
-% 		c2 h
-% 		r8 h e d16 c h4. cis8
-% 		d4 r r8 a h c
-% 		d4 c8 h a h c e
-% 		d c h4 a2~ %55
-% 		a4 gis r r8 c
-% 		e d c4 h8 cis dis4
-% 		e fis e dis8 e
-% 		fis2 h,
-% 		R1 %60
-% 		r2 r4 r8 e
-% 		a g! f! fis g g, c16 c c c
-% 		c c c h32 c d16 d d d d d d c32 d e16 e e e
-% 		e e e d32 e f16 f f f f d d d c e e c
-% 		h8 g e' g, d' g, g' f %65
-% 		e4 r r8 f a g
-% 		f4.\trill e16 f g4 c,
-% 		g'4. g8 fis4 g8 g,
-% 		c4. h16 a h8 d16 c h8 a
-% 		g8 c4 c8 c4 c %70
-% 		c, c'8 c d,4 b'
-% 		d, b'8 b e,4 b'~
-% 		b8 a a g16 f g8 c, c'4~
-% 		c h8 c d4 cis8 d
-% 		e4 r8 a, d c b c %75
-% 		d4 cis e d8 e
-% 		a,4. g16 f g8 a e a
-% 		d4. d8 cis4 r8 a
-% 		d c! h! a g16 g g a h h h h
-% 		h h h a32 h cis16 cis cis cis cis cis cis h32 cis d16 d d d %80
-% 		d d d c?32 d e16 e e e e e e d32 e f16 f f f
-% 		f f f e32 f g16 g g g g g g f32 g f16 f f f
-% 		es es es es es es es es d d d d d d d d
-% 		c c c c c c d d d d d d es b b b
-% 		as as as as as as as g32 as g16 g g g g g g f32 g %85
-% 		f16 f f f f f f es32 f es8 g c4~
-% 		c16 c c c b b b a32 b a16 c c c d d d c32 d
-% 		gis4-! a-! gis8-! gis, c h16 a
-% 		gis8 g f e d e f e16 d
-% 		c4-\critnote r r8 e fis gis %90
-% 		a e a4. g8 g4
-% 		fis2 r8 dis' g fis?
-% 		e a, e' d c h a cis16 d
-% 		e4 d e8 d c d
-% 		e4 d8 c h8 fis' e fis %95
-% 		h,4. g8 a h16 c d8 c
-% 		h4 r e4. e8
-% 		e4 e e, e'8 e
-% 		f,4 d' fis, d'8 d
-% 		gis,4 d'4. c8 c h16 a %100
-% 		h8 e, e'2 d4
-% 		h c h8 h e d
-% 		c a c2 h4
-% 		r a16 a a a a a a gis32 a h16 h h h
-% 		h h h a32 h c16 c c c c c c h32 c d16 d d d %105
-% 		d d d d c c c c d b b b b b b b
-% 		a2\fermata_\tenuto \tempoDonaNobisB a4\ffE r8 a'
-% 		gis4 a-! a-! gis
-% 		a cis,^\tenuto d8 f, d'4~
-% 		\tempoDonaNobisFinis d cis8 h cis2 \bar "|." %110 FINIS
-% 	}
-% }
+DonaNobisOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
+			\set Score.currentBarNumber = #58
+		
+	}
+}
