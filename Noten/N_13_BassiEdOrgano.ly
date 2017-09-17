@@ -2633,16 +2633,16 @@ DonaNobisBassiOrgano = {
 		f8 f f f \tuplet 3/2 8 { e16([ gis h)] e( h a) gis([ h a)] gis( fis e)
 		a,([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis dis8 dis dis dis
 		e e e e e e e e
-		e2 r \bar "||" %64
+		e2 r \bar "||" %64 finis
 	}
 }
 
 DonaNobisBassFigures = \figuremode {
 	r2 <5 _+>4.. \bassFigureExtendersOn q16 %58
-	<5\! 3\!>4.. <5 3>16 <7\! 3\!>4.. <7 3>16
-	<7\! 3\!>4.. <7 3>16 <5\! 3\!>4.. <5 3>16 %60
+	<[9]\! 3\!>8. <9 3>16 <[8]\! 3>8. <8 3>16 <7\! 3\!>4.. <7 3>16
+	<7\! 3\!>4.. <7 3>16 <[9]\! 3\!>8. <9 3>16 <[8]\! 3>8. <8 3>16 %60
 	<7>4 <6> <5 _+>4.. q16
 	<5\! 3\!>4.. <5 3>16 \bassFigureExtendersOff <7 [_+]>2
 	<6 4>4 <5 _+>8 <4 2\+> <5 _+>2 \bassFigureExtendersOn
-	q2 \bassFigureExtendersOff r
+	q2 \bassFigureExtendersOff r %64 finis
 }

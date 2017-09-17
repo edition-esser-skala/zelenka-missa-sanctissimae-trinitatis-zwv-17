@@ -1459,10 +1459,21 @@ DonaNobisTenoreNotes = {
 		\clef "treble_8"
 		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		
+		\mvTr e4\fE^\tuttiE e e h8 h %58
+		c2. c8 c
+		h8.[ c16] d2 c4 %60
+		a2 h4 e~
+		e e( fis4.) fis8
+		e2 e
+		R1 \bar "||" %64 finis
 	}
 }
 
 DonaNobisTenoreLyrics = \lyricmode {
-	
+	A -- gnus De -- i, qui %58
+	tol -- lis pec --
+	ca -- _ ta %60
+	mun -- di, pec --
+	ca -- ta
+	[mun -- di:] %63 finis
 }

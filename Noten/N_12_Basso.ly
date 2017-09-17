@@ -1288,10 +1288,21 @@ DonaNobisBassoNotes = {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		
+		\mvTr a'4\fE^\tuttiE a e' e8 e, %58
+		a4 a8 a d2
+		g, c4. c8 %60
+		f,2 e4 e
+		a4. a8 \tempoAgnusDeiUltimusFinis dis,2
+		e e
+		R1 \bar "||" %64 finis
 	}
 }
 
 DonaNobisBassoLyrics = \lyricmode {
-	
+	A -- gnus De -- i, qui %58
+	tol -- lis pec -- ca --
+	_ _ ta %60
+	mun -- di, pec --
+	ca -- ta mun --
+	_ [di:] %63 finis
 }
