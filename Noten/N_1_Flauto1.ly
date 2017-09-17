@@ -221,7 +221,82 @@ BenedictusFlautoI = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
-		
+		e'4\f a a8( gis) gis([ d')] %39
+		c16( h a4) c8~ c h16 c d8 h %40
+		c8.( h16) a8.( g16) f8.( g16) e8. f16
+		\appoggiatura e8 d4.\trill e8 e4 r
+		r2 r4 r16 d f g
+		a cis, d8 a'16 cis, d8 cis16( e g4) f16 e
+		f8 d r4 r2 %45
+		r4 r16 c e f g( h,) c8 g'16( h,) c8
+		h16 d f4 e16 d e8 c c'4~
+		c8 h16 a d32( c16.) h32( a16.) gis8 e r a
+		h16( gis) a8 h16( gis) a8 b16( gis) a8 b16( gis) a8
+		d2~ \tuplet 3/2 8 { d16[ c h] c h a h[ a gis] a gis fis? } %50
+		gis e a a, h8.\trill a16 a4 r
+		R1
+		\tuplet 3/2 8 { a16 c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis'
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h e  a, a' h,8 gis' %55
+		a16. c,32 h16. a32  h8 gis' a4\fermata r
+		R1
+		r8 e c'4~ c8 h16 c d8 h
+		c8.( h16) a8.( g16) f8.( g16) e8. f16
+		d4.\trill e8 e4 r %60
+		R1
+		r4 r16 d e f g h, c8 g'16 h, g8
+		R1
+		r2 \tuplet 3/2 8 { g'16[-! f-! e-!] f e d e[ d c] d c h }
+		c g a h c8[ \appoggiatura { d16[ e] } f8] e4.\trill e8 %65
+		d g c4~ c2~
+		c1~
+		c4 h8. c16 d2
+		c16 c,(-. c-. c-.) c(-. c-. c-. c-.) f c(-. c-. c-.) c(-. c-. c-. c-.)
+		g' c,(-. c-. c-.) c(-. c-. c-. c-.) a'8. g16 f e d c %70
+		h32( c d8.) c8 f \appoggiatura f e4 r
+		g c~ c8 h h d
+		e16 d c4 e,8~ e d16 e f8 d
+		e16 d c4 r8 r2
+		r4 r16 g' h cis d fis, g8 d'16 fis, g8 %75
+		fis16 a c4 h16 a h16. g32 c16. e,32 d8 h'
+		\tuplet 3/2 8 { c16[-! b-! a-!] b a g a[ g f] g f e } d g c, a' d,8.\trill c16
+		c16. e32 d16. c32 g'8 g, c4 r
+		r2 e4 a
+		a8([ gis)] gis d' c16 h a4 r8 %80
+		R1*3
+		r4 r16 d, f g a cis, d8 a'16 cis, d8
+		cis16 e g4 f16 e f8 d r a' %85
+		a2. g4
+		f8. e16 d2 cis8. d16
+		d4 r r2
+		r4 r16 e g a h dis, e8 h'16 dis, e8
+		dis16 fis a4 g16 fis g8 e r h' %90
+		h2. a4
+		g8 fis e2 dis8. e16
+		\tuplet 3/2 4 { e8 e([ d] c h ais) } \appoggiatura ais h4-\critnote r8 a
+		h16 g e' e, fis8.\trill e16 \tuplet 3/2 8 { e16[-! g-! h-!] e,-! g-! h-! g[-! h-! e-!] g,-! h-! e-! }
+		\tuplet 3/2 4 { g8([ e d] c h ais) } \appoggiatura ais h4 r8 a'? %95
+		g32( fis? e8.) fis,?8 dis' e16. g,32-! fis16.-! e32 h'8 h-\critnote
+		e, h' e4 e8 dis dis fis
+		g8. fis16 e4 r2
+		r4 r8 c h e, r a'
+		a1~ %100
+		a2. gis8. a16
+		h2 c16 c,(-. c-. c-.) cis(-. cis-. cis-. cis-.)
+		d a(-. a-. a-.) a(-. a-. a-. a-.) e' a,(-. a-. a-.) a(-. a-. a-. a-.)
+		f'(-. f-. f-. f-. f-. f-. f-. f-.) f(-. f-. f-. f-. e-. e-. e-. e-.)
+		e(-. e-. e-. e-.) c c f f e8 e gis gis %105
+		\tuplet 3/2 8 { a16 g f e[ d c] f e d c[ h a] } gis8 e r4
+		R1*2
+		r2^\adlibitumE r4 r8 a'
+		\mark \critnote h16( gis) a8 h16( gis) a8 b16( gis) a8 b16( gis) a8 %110
+		d2~ \tuplet 3/2 8 { d16[ c h] c h a h[ a gis] a gis fis? }
+		gis e a a, h8.\trill a16 a4 r
+		R1
+		\tuplet 3/2 8 { a16 c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis' %115
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h e  a, a' h,8 gis'
+		a16. c,32 h16. a32  h8 gis' a4\fermata r \bar "||" %117 finis
 	}
 }
 

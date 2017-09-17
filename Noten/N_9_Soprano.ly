@@ -1620,7 +1620,7 @@ BenedictusSopranoNotes = {
 		e4 e8 d \tuplet 3/2 8 { c16[ a h] c[ h a] d[ h c] d[ c h]
 		e[ c d] e[ d c] f[ d e] f[ e d] } gis8. e16 a8([ d,)]
 		c4(^\adlibitum h8.) a16 a4 r
-		R1*7 %116
+		\mark \critnote R1*7 %116
 		R1\fermataMarkup \bar "||" %117 finis
 	}
 }

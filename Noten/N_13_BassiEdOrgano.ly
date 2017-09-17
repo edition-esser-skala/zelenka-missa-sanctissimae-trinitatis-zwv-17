@@ -2373,7 +2373,7 @@ BenedictusBassiOrgano = {
 		e fis? gis e a4 g?
 		c d e8 d c h
 		a4-\adlibitumE e a8 h c a
-		d c d c d c d c %110
+		\mark \critnote d c d c d c d c %110
 		h a gis fis e e e e
 		e c d e \mvTr a\f-\ripE a a a
 		gis e16 fis gis8 e a c, d e

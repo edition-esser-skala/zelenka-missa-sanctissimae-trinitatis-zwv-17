@@ -1176,7 +1176,85 @@ BenedictusViolinoI = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
-		
+		c'8\p d e c c( h) h h %39
+		a e' e e f a a gis %40
+		a a, e' d c c h h
+		a a a a gis e r16 e'\fE f g
+		a cis,8 cis cis cis16 d cis d4 d8\p
+		cis16( a) a( a') cis,( a) a( a') a, cis e4 d16 cis
+		d8-! f-! r16 d\fE e f g h,8 h h h16 %45
+		c h c4 c8\pE h16( g) g( g') h,( g) g( g')
+		g, h d4 c16 h c8 e\fE e e
+		f f f f h, h\pE e e
+		f e f e f e f e
+		gis,16( a) a( h) h a a gis gis8 a gis c %50
+		h-! c-! r gis \tuplet 3/2 4 { a8 a'[\f g] f e dis }
+		\appoggiatura dis? e4 r8 d? c16 e a a, h8.\trill a16
+		\tuplet 3/2 8 { a c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis'
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h-! e -! a, a' h,8 gis' %55
+		a16. c,32 h16. a32  e'8 e, a4\fermata r
+		e4\p a a8 gis gis d'
+		c16 h a8 e' e f a4 gis8
+		a a, e' d c c h h
+		a a a a gis e'4 d8 %60
+		c16 h c4 a8 d16( f) a( g) f( e) d( c)
+		h d e f g8 h, d( e) h d
+		g16( e) c8~ c16 c' g( c,) \appoggiatura c d8.\trill c16 c8( f)
+		\appoggiatura f e4 r8 a \tuplet 3/2 8 { g16[-!\fE f-! e-!] f e d e[ d c] d c h }
+		c g a h c8[ \appoggiatura { d16[ e] } f8] \appoggiatura f e4 r8 c\pE %65
+		h g r g' a16 f d8~ d16 f e d
+		g g, a h c d e f g e c8~ c16 e d c
+		f f, g a h c d e f d h8~ h16 d c h
+		e c c8~\trill c16 e d e f c c8~\trill c16 f e f
+		g c, c8~\trill c16 g' f g a g f e d c h a %70
+		g8 h c f e4 d8. c16
+		e8( f) g( e) e( d) d-! d-!
+		c e g g c, c d h
+		c c, r16 g''\f a h c fis,8 fis fis fis16
+		g fis g4 g8\p fis16( d) d'( d,) fis( d) d'( d,) %75
+		d, fis' a4 g16( fis) g f e c' d,8 h'
+		\tuplet 3/2 8 { c16[\f-! b-! a-!] b a g a[ g f] g f e } d g c, a' d,8.\trill c16
+		c16. e,32 d16. c32 g'8 g, c g'\pE c4
+		c8( h) h[ \appoggiatura { d16[ e] } f8] e16 d c4 c8~
+		c h h gis a e c'4~ %80
+		c8 h16 c d8 h c h a e'
+		a8.( g16) f8. e16 e4^\adlibitum d8. e16
+		e4 r16 e\f f g a cis,8 cis cis cis16
+		d cis d4 d8\pE cis16( a) a a' cis,( a) a( a')
+		a, cis e4 d16 cis d16 a h cis d f e d %85
+		e a, cis d e f g e \tuplet 3/2 8 { f16 d e f[ e d] g e f g[ f e] }
+		a8. cis,16 d8 g f4 e8. d16
+		d8 d, r16 fis'\f g a h dis,8 dis dis dis16
+		e dis e4 e8\pE dis16( h) h( h') dis,( h) h( h')
+		h, dis fis4 e16 dis e16 h cis dis? e g fis e %90
+		fis? h, dis e fis a g fis \tuplet 3/2 8 { g[ e fis] g fis e a[ fis g] a g fis }
+		h8. dis,16 e8 fis fis4.\trill e8
+		\tuplet 3/2 4 { e, e'([\f d] c h ais) } \appoggiatura ais h4-\critnote r8 a
+		h16 g e' e, fis8.\trill e16 \tuplet 3/2 8 { e16[-! g-! h-!] e,-! g-! h-! g[-! h-! e-!] g,-! h-! e-! }
+		\tuplet 3/2 4 { g8([ e d] c h ais) } \appoggiatura ais h4 r8 a'? %95
+		g32( fis? e8.) fis,?8 dis' e16. g,32-! fis16.-! e32 h'8 h,
+		e4 r r2
+		e4\f a a8 gis gis d'
+		c16 h a4 c8\pE h e, r e'
+		f16 d h8~ h16 d c h e e, fis gis? a h c d %100
+		e c a8~ a16 e' d c d d, e fis gis a h c
+		d h gis8~ gis16 d' c h c a a8~\trill a16 cis h cis
+		d a a8~\trill a16 d cis d e a, a8~\trill a16 e' d e
+		f e d c h a gis? fis gis f'? e d c h a gis
+		a8. e16 a8 d c4 h8. a16 %105
+		\tuplet 3/2 8 { a'16\f g f e[ d c] f e d c[ h a] } gis16 e\pE gis h e h gis h
+		e4 e8 d \tuplet 3/2 8 { c16[ a h] c h a d[ h c] d c h
+		e[ c d] e d c f[ d e] f e d } gis8. e16 a8 d,
+		c4^\adlibitum h8 e c d e c
+		\mark \critnote f e f e f e f e %110
+		gis,16( a) a( h) h a a gis gis8 a gis c
+		h-! c-! r gis \tuplet 3/2 4 { a8 a'[\f g] f e dis }
+		\appoggiatura dis? e4 r8 d? c16 e a a, h8.\trill a16
+		\tuplet 3/2 8 { a c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis' %115
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h-! e -! a, a' h,8 gis'
+		a16. c,32 h16. a32  e'8 e, a4\fermata r \bar "||" %117 finis
 	}
 }
 

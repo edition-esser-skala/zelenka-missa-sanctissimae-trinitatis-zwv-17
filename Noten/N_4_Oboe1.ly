@@ -914,7 +914,53 @@ BenedictusOboeI = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #39
-		
+		R1*3 %41
+		r2 r4 r16 e'\fE f g
+		a cis,8 cis cis cis16 d cis d4 r8
+		R1
+		r4 r16 d\fE e f g h,8 h h h16 %45
+		c h c4 r8-\critnote r2
+		R1*4 %50
+		r2 \tuplet 3/2 4 { r8-\critnote a'[\f g] f e dis }
+		\appoggiatura dis? e4 r8 d? c16 e a a, h8.\trill a16
+		\tuplet 3/2 8 { a c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis'
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h-! e -! a, a' h,8 gis' %55
+		a16. c,32 h16. a32  e'8 e, a4\fermata r
+		<< { \oneVoice R1 } \\ { s4-\critnote s2. } >>
+		R1*6 %63
+		r2 \tuplet 3/2 8 { g'16[-!\fE f-! e-!] f e d e[ d c] d c h }
+		c g a h c8[ \appoggiatura { d16[ e] } f8] \appoggiatura f e4 r4-\critnote %65
+		R1*8 %73
+		r4 r16 g\f a h c fis,8 fis fis fis16
+		g fis g4 r8 r2 %75
+		R1
+		\tuplet 3/2 8 { c16[\f-! b-! a-!] b a g a[ g f] g f e } d g c, a' d,8.\trill c16
+		c16.-\critnote e32 d16. c32 g'8 g, c4 r
+		R1*4 %82
+		r4 r16 e\f f g a cis,8 cis cis cis16
+		d cis d4 r8-\critnote r2
+		R1*3 %87
+		r4 r16 fis\f g a h dis,8 dis dis dis16
+		e dis e4 r8-\critnote r2
+		R1*3 %92
+		\tuplet 3/2 4 { r8 e([\f d] c h ais) } \appoggiatura ais h4-\critnote r8 a
+		h16 g e' e, fis8.\trill e16 \tuplet 3/2 8 { e16[-! g-! h-!] e,-! g-! h-! g[-! h-! e-!] g,-! h-! e-! }
+		\tuplet 3/2 4 { g8([ e d] c h ais) } \appoggiatura ais h4 r8 a'? %95
+		g32( fis? e8.) fis,?8 dis' e16. g,32-! fis16.-! e32 h'8 h-\critnote
+		e,4 r r2
+		e4\f a a8 gis gis d'
+		c16 h a4 r8-\critnote r2
+		R1*6 %105
+		\tuplet 3/2 8 { a'16\f g f e[ d c] f e d c[ h a] } gis8-\critnote e r4
+		R1*3 %109
+		\mark \critnote R1*2 %111
+		r2 \tuplet 3/2 4 { r8-\critnote a'[\f g] f e dis }
+		\appoggiatura dis? e4 r8 d? c16 e a a, h8.\trill a16
+		\tuplet 3/2 8 { a c e a,[ c e] c e a c,[ e a] } \tuplet 3/2 4 { c8 a g f[ e dis] }
+		\appoggiatura dis e4 r8 d? c16 e a a, h8\trill gis' %115
+		\tuplet 3/2 8 { a16[-! g-! f-!] g f e f[ e d] e d c } h-! e -! a, a' h,8 gis'
+		a16. c,32 h16. a32  e'8 e, a4\fermata r \bar "||" %117 finis
 	}
 }
 
