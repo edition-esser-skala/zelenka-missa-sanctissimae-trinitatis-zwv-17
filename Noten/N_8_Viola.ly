@@ -1249,10 +1249,66 @@ OsannaViola = {
 
 AgnusDeiViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoAgnusDei
-		
+		\mvTr a'8\pE-\critnote h c a gis e16 fis gis8 e
+		a h c a c d e e,
+		a, h c a c d e e,
+		a' h c a d d, d'16 c h a
+		g8 a h g c c, c'16 h a g %5
+		f8 g a f h h, h'16 a gis fis
+		e8 fis? gis e a a, dis dis
+		e4 r8 e' e,4^\tenuto r8 e'
+		e,4^\tenuto r8 e' e, d c d
+		e a e e, a4 r8 d %10
+		a'4 r8 gis a a, e' e,
+		a a'16 h c8 a gis e16 fis gis8 e
+		a, h c a c d e e,
+		a a'16 h c8 a c d e e,
+		a h c a d d, d'16 c h a %15
+		g8 a h g c c, c'16 h a g
+		f8 g a f h h, h'16 a gis fis
+		e8 fis? gis e a a, dis dis
+		e fis? gis e a a, r g'?
+		f f, r d' g f e c %20
+		f e d f g g, c c'
+		g4 g, c8 c'16 d e8 c
+		h g16 a h8 g c c,16 d e8 c
+		e f g g, c' d e c
+		f f, f'16 e d c h8 c d h %25
+		e e, e'16 d c h a8 h c a
+		d d, d'16 c h a g8 a h g
+		c c, fis fis g4 r8 g
+		g,4_\tenuto r8 g' g,4_\tenuto r8 g'
+		f4^\tenuto e8 c f d g g, %30
+		c' h a c fis, fis gis e
+		a e d d  \tempoAgnusDeiB dis dis dis dis
+		\tempoAgnusDeiC e4 r8 e' e,4^\tenutoE r8 e'
+		e,4^\tenutoE r8 e' e, fis gis e
+		a a, r g' f f, r d' %35
+		g g, g' gis a a, d g?
+		a a, a' a, d4 r8 a'-!
+		a,4-\tenuto r8 a' a,4-\tenuto r8 a'
+		a,4-\tenuto r8 a' d d, a' a,
+		d e f d g f e c %40
+		f e d h e d c a
+		d' d, d'16 c h a g8 a h g
+		c c, c'16 h a g f8 g a f
+		h h, h'16 a gis fis e8 gis a d,
+		e d e e, a4 r8 e'' %45
+		e,4^\tenuto r8 e' e, fis? gis e
+		a a, r g' f f, r d'
+		e e, r e' a a, c d
+		\tempoAgnusDeiD e2-\adlibitum \tempoAgnusDeiE a,4 r8 e''
+		e,4^\tenuto r8 e' e,4^\tenuto r8 e' %50
+		e,4^\tenuto r8 e' e, d c d
+		e a e e, a4 a'
+		h8 h, r h' e e, r h'
+		h,4-\tenuto r8 h' h,4-\tenuto r8 h'
+		h,4-\tenuto r8 h' e d c h %55
+		\tempoAgnusDeiFinis ais2 h4 h,
+		e2 r \bar "||" %57 finis
 	}
 }
 
