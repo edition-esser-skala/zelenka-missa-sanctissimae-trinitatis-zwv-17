@@ -987,7 +987,51 @@ AgnusDeiOboeI = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoAgnusDei
-		
+		r4 \mvTr e'2~\pE-\markup { \anmerkung "cantabile" } e8 d
+		\appoggiatura d16 c8.( h16) a8 a a8.( gis16) gis8.\trill a16
+		a4 e'2~ e8 d
+		c8.( h16) a8 c f2~
+		f4. g16( f) e8 e, e'4~ %5
+		e4. f16 e d8 d, d'4~
+		d4. e16 d c4.\trill h8
+		h d d([ c)] r e e([ d)]
+		r f f([ e)] gis4-\tenuto a8 d,
+		c4 h8.\trill a16 a8 f'( e d) %10
+		cis d( c h) a8. gis16 gis8. a16
+		a4 r8 c\p \appoggiatura c h4 r8 gis
+		\appoggiatura gis a4 r r2
+		R1*8 %21
+		r2 g'2~
+		g4. f8 \appoggiatura f16 e8.( d16) c8 c
+		c8.( h16) h8.\trill c16 c8 e g4~
+		g8 a16 g f8. e16 d( e) e( f) f4~ %25
+		f8 g16 f e8. d16 c( d) d( e) e4~
+		e8 f16 e \appoggiatura e16 d8.( c16) h( c) c( d) d4~
+		d8 c c8.\trill h16 h8 d d([ c)]
+		r e e([ d)] r f f([ e)]
+		d4 e d4.\trill d8 %30
+		c4 r r2
+		<< { \oneVoice R1 } \\ { s2 \tempoAgnusDeiB s } >>
+		\tempoAgnusDeiC r8 d d([ c)] r e e([ d)]
+		r f f( e) \appoggiatura c h4 r
+		R1*2 %36
+		r2 r8 f' f([ e)]
+		r g g([ f)] r f( e d)
+		cis g'( f e) d4 cis8.\trill d16
+		d4 r r2 %40
+		R1*4
+		r2 r8 e e([ d)] %45
+		r d d([ c)] \appoggiatura c8 h4 r
+		R1*2
+		\tempoAgnusDeiD r2 \tempoAgnusDeiE r8 e e([ d)]
+		r d d([ c)] r c c([ h)] %50
+		r f' f([ e)] gis4 a8 d,
+		c4 h8. a16 a8 e' fis16( e) e( dis)
+		\appoggiatura e8 dis4 r r8 e e([ dis)]
+		r fis fis([ e)] r g g([ fis)]
+		r a( g fis) g2~\f %55
+		\tempoAgnusDeiFinis g4 fis fis4.\trill e8
+		e2 r \bar "||" %57 finis
 	}
 }
 

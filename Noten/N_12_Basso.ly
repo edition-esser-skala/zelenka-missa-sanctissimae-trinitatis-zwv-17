@@ -1280,7 +1280,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 	
 	mi -- se -- re -- re,
 	[mi -- se -- re] -- re __
-	no -- [bis.]
+	no -- [bis.] %49 finis
 }
 
 % DonaNobisBassoNotes = {

@@ -1067,7 +1067,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { max-systems-per-page = #3 }
 		\score {
 			<<
 				\new StaffGroup {
@@ -1110,7 +1110,8 @@
 				>>
 				\new FiguredBass { \AgnusDeiBassFigures }
 			>>
-% 			\midi { \tempo 2 = 100 }
+			\layout { }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 % 	\bookpart {
