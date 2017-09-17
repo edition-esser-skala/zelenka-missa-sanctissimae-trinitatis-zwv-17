@@ -1215,85 +1215,18 @@ OsannaBassoLyrics = \lyricmode {
 	cel -- sis. %127 FINIS
 }
 
-% AgnusDeiBassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \minor \time 6/2 \autoBeamOff \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		r2 \mvTr a'\fE^\tuttiE a gis e e
-% 		a e r r r e
-% 		c' e, e d' e, r
-% 		e'1. d1 d2
-% 		c1. h1 r2
-% 		a e r gis e r %5
-% 		a a,1 f'2( e) d
-% 		e1. a2 f e
-% 		dis1 dis2 e1.
-% 		a,1 r2 r1*3/2 %10
-% 		R\breve.*4
-% 		r1*3/2 r2 \mvTr e'\pE^\solo a %15
-% 		h h e c4( h) c2. h4
-% 		a2( f' a, gis e' g,
-% 		fis d' f, e c') h4( a)
-% 		gis( fis?) e2 r r e'1~
-% 		e2 d1~ d2 \once \tieDashed c1~ %20
-% 		c2( h1~ h2 a d
-% 		g, h d g h, c)
-% 		a h2.( c4) c,1 r2
-% 		R\breve.*3 %26
-% 		r1*3/2 r2 \mvTr e'\pE^\soloE d
-% 		c h a gis c h
-% 		a dis1 e2 e, r
-% 		r1*3/2 r2 e' d %30
-% 		c h a gis a h
-% 		c f a, gis e' g,
-% 		fis d' f, e c' e,
-% 		d h' d, c e a~
-% 		a gis4 a h2~ h a4 h c2~ %35
-% 		c h4 c d2~ d c4 d e2~
-% 		e4 d c h a c h a gis fis? e gis
-% 		a1 h2 c1.~
-% 		\tempoAgnusDeiB c2. a4 c2 \tempoAgnusDeiFinis h1 r2
-% 		R\breve.*2 \bar "||" %41 finis
-% 	}
-% }
-% 
-% AgnusDeiBassoLyrics = \lyricmode {
-% 	A -- gnus De -- i, qui
-% 	tol -- lis, qui
-% 	tol -- lis pec -- ca -- ta,
-% 	pec -- ca -- ta
-% 	mun -- di: %5
-% 	Mi -- se -- re -- re,
-% 	mi -- se -- re -- re
-% 	no -- bis, mi -- se --
-% 	re -- re no --
-% 	bis. %10
-% 	
-% 	A -- gnus %15
-% 	De -- i, qui tol -- lis pec --
-% 	ca --
-% 	ta __
-% 	mun -- di: Mi --
-% 	se -- re -- %20
-% 	
-% 	re no -- bis. %23
-% 	
-% 	A -- gnus %27
-% 	De -- i, qui tol -- lis pec --
-% 	ca -- ta mun -- di,
-% 	A -- gnus %30
-% 	De -- i, qui tol -- lis pec --
-% 	ca -- _ _ _ _ _
-% 	_ _ _ _ _ _
-% 	_ _ _ _ _ _
-% 	_ _ _ _ _ _ %35
-% 	_ _ _ _ _ _
-% 	_ _ _ _ _ _ _ _ _ _ _
-% 	_ _ _
-% 	ta mun -- di:
-% }
-% 
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	
+}
+
 % DonaNobisBassoNotes = {
 % 	\relative c {
 % 		\clef bass

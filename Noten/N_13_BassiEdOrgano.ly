@@ -2498,99 +2498,130 @@ OsannaBassFigures = \figuremode {
 	r2. <_+> %127 FINIS
 }
 
-% AgnusDeiBassiOrgano = {
-% 	\relative c {
-% 		\clef bass
-% 		\key a \minor \time 6/2 \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		\mvTr a'2\fE-\tutti a, r gis' e r
-% 		a e r h' e, r
-% 		c' e, r d' e, r
-% 		e' e, r d' e, r
-% 		c' e, r h' e, r %5
-% 		a e r gis e r
-% 		a a, r f' e d
-% 		e e, r a' f e
-% 		dis1. e
-% 		\mvTr a2\f-\solo a, r gis' e r %10
-% 		a a, r e' e, r
-% 		d'' h r c a r
-% 		h gis r a fis r
-% 		g e r f dis e
-% 		a d, e a a, r %15
-% 		gis'\p e r a a, r
-% 		f' d r e cis r
-% 		d h r c a d
-% 		e e' d c a r
-% 		d h r c a r %20
-% 		h g r a f r
-% 		g g, r g' f e
-% 		f g g, c e'\f c
-% 		f d r e c r
-% 		d h r c a fis %25
-% 		g g, r g' g, c
-% 		f g g, c c'\p gis
-% 		a d, dis e e, r
-% 		e' e, r e' e, r
-% 		e' e, r e' e, r %30
-% 		e' e, r e' fis gis
-% 		a a, r e' cis r
-% 		d h r c a r
-% 		h gis r a' g f
-% 		e-\tasto e, r e' e, r %35
-% 		e' e, r e' e, r
-% 		e' e, r e' e, d'
-% 		c c' h a f e
-% 		\tempoAgnusDeiB dis1. \tempoAgnusDeiFinis e2 e,\f r
-% 		e' e, r a' a, r %40
-% 		dis\p dis dis e1.\fermata \bar "||" %41 finis
-% 	}
-% }
-% 
-% AgnusDeiBassFigures = \figuremode {
-% 	r1. <6>2 <[_+]> r
-% 	r <_+> r <6\\> <_+> r
-% 	<6> <_+> r <6 4\+ _!> <7 _+> r
-% 	<7 _+> <\t \t> r <6 4\+ 2> <6> r
-% 	<6 3> <\t \t> r <7> <7 _+> r %5
-% 	<5 3> <\t \t> r <6> <6 4> r
-% 	<_!> <7 _+> r <6> <_+> <6>
-% 	<[7] _+> <[6] [4]> <[5] [_+]> <5> <5 3> <\t \t>
-% 	<7 [_+]> <6 [\t]>1 <5 4> <\l _+>2
-% 	r1. <6 3>2 <_+> r %10
-% 	r1. <5 _+>2 <\t \t> r
-% 	<9 3> <6 5> r <9 3> <6 5> r
-% 	<9 3> <6 5> r <9 3> <6 5> r
-% 	<9 _-> <6 5-> r <5 4-> <7 [_+]> <_+>
-% 	<9>4 <[8]> <6 5>2 <_+> r1. %15
-% 	<[6]>2 <_+> r r1.
-% 	<5>2 <7> r <_+> <6 5> r
-% 	<_+> <6 5> r <6> <5> <6>
-% 	<5 _+>1 \bassFigureExtendersOn q2 \bassFigureExtendersOff <6> r r
-% 	<9> <6 5> r <[9] 3> <6 5> r %20
-% 	<9 7> <5> r <9> <5 3> r
-% 	<7> <\t> r <5 3> <\t \t> <6>
-% 	r1. r2 <[6]> r
-% 	<9 3> <6 5> r <9 3> <6 5> r
-% 	<9 3> <6 5> r <9 3> <6 5> <[7]> %25
-% 	<5 3> <\t \t> r <7 3> <\t \t> r
-% 	<6 5> <5 3> <\t \t> r1 <[5]>2
-% 	<_!> <[6]> <6> <5 _+> <6 4> r
-% 	<6 4> <[7+] 5 _+> r <5 _+> <6 4> r
-% 	<6 [4]> <7+ 5> r <5 _+> <6 4> r %30
-% 	<6 4> <9+ 7+ 5> r <_+> <[\t]> <[5]>
-% 	<5 3> <6> r <_+> <6 5> r
-% 	<9 3> <7 3> r <9 3!> <_!> r
-% 	<[9] 5!> <7 3> r <5 3> <6> q
-% 	r\breve.  %35
-% 	r
-% 	r1. <5 _+>1 \bassFigureExtendersOn q2 \bassFigureExtendersOff
-% 	<6> <[\t]> <6\\> <6> <5> <\t>
-% 	<7 _+>1. <5 _+>
-% 	<5 _+>2 <\t \t> r <5>1. %40
-% 	<7 3 [_+]>1 \bassFigureExtendersOn <7 3 _+>2 \bassFigureExtendersOff <5 _+>2. %41 finis
-% }
-% 
+AgnusDeiBassiOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoAgnusDei
+		\mvTr a'8\pE-\soloE h c a gis e16 fis gis8 e
+		a h c a c d e e,
+		a, h c a c d e e,
+		a' h c a d d, d'16 c h a
+		g8 a h g c c, c'16 h a g %5
+		f8 g a f h h, h'16 a gis fis
+		e8 fis? gis e a a, dis dis
+		e4 r8 e'-\tasto e,4^\tenuto r8 e'
+		e,4^\tenuto r8 e' e, d c d
+		e a e e, a4 r8 d %10
+		a'4 r8 gis a a, e' e,
+		a a'16 h c8 a gis e16 fis gis8 e
+		a, h c a c d e e,
+		a a'16 h c8 a c d e e,
+		a h c a d d, d'16 c h a %15
+		g8 a h g c c, c'16 h a g
+		f8 g a f h h, h'16 a gis fis
+		e8 fis? gis e a a, dis dis
+		e fis? gis e a a, r g'?
+		f f, r d' g f e c %20
+		f e d f g g, c c'
+		g4 g, c8 c'16 d e8 c
+		h g16 a h8 g c c,16 d e8 c
+		e f g g, c' d e c
+		f f, f'16 e d c h8 c d h %25
+		e e, e'16 d c h a8 h c a
+		d d, d'16 c h a g8 a h g
+		c c, fis fis g4 r8 g-\tasto
+		g,4_\tenuto r8 g' g,4_\tenuto r8 g'
+		f4^\tenuto e8 c f d g g, %30
+		c' h a c fis, fis gis e
+		a e d d  \tempoAgnusDeiB dis dis dis dis
+		\tempoAgnusDeiC e4 r8 e'-\tasto e,4^\tenutoE r8 e'
+		e,4^\tenutoE r8 e' e, fis gis e
+		a a, r g' f f, r d' %35
+		g g, g' gis a a, d g?
+		a a, a' a, d4 r8 a'-!-\tasto
+		a,4-\tenuto r8 a' a,4-\tenuto r8 a'
+		a,4-\tenuto r8 a' d d, a' a,
+		d e f d g f e c %40
+		f e d h e d c a
+		d' d, d'16 c h a g8 a h g
+		c c, c'16 h a g f8 g a f
+		h h, h'16 a gis fis e8 gis a d,
+		e d e e, a4 r8 e''-\tasto %45
+		e,4^\tenuto r8 e' e, fis? gis e
+		a a, r g' f f, r d'
+		e e, r e' a a, c d
+		\tempoAgnusDeiD e2-\adlibitum \tempoAgnusDeiE a,4 r8 e''-\tasto
+		e,4^\tenuto r8 e' e,4^\tenuto r8 e' %50
+		e,4^\tenuto r8 e' e, d c d
+		e a e e, a4 a'
+		h8 h, r h' e e, r h'-\tasto
+		h,4-\tenuto r8 h' h,4-\tenuto r8 h'
+		h,4-\tenuto r8 h' e d c h %55
+		\tempoAgnusDeiFinis ais2 h4 h,
+		e2 r \bar "||" %57 finis
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r4 <[6]> q2
+	r4 q q <_+>
+	r4 <[6]> q <_+>
+	r <[6]> <9> <8>
+	<7> <5> <9> <8> %5
+	<7> <5> <9> <8>8 <\t>
+	<7>4 <5> r <7 _+>
+	<_+>1
+	r2 <_+>4 <6>
+	<[6] [4]> <\l _+> r2 %10
+	<_+>4. <6>8 r4 <_+>
+	r4 <[6]> <6>2
+	r4 <[6]> <6> <_+>
+	r <6> q <_+>
+	r <[6]> <9> <8> %15
+	<7> <\t> <9> <8>
+	<7> <\t> <9> <8>
+	<7 _+> <\t \t> r <7 [_+]>
+	<_+>4 <[6]>8 <_+> r4. <4\+ 2>8
+	<6>2. q4 %20
+	r1
+	r2. <[6]>4
+	q2. q4
+	q2. q4
+	<9> <8>8 <\t> <7>4 <\t> %25
+	<9> <8>8 <\t> <7>4 <\t>
+	<9> <8>8 <\t> <7>4 <\t>
+	<9>8 <8> <7>2.
+	r1
+	<4 2>4 <6> <6 5>2 %30
+	r <6>4 q
+	r8 <_+> <5>4 <7 [_+]>2
+	<[_+]>1
+	r2 <[_+]>4 <[6]>
+	r4. <[4\+] [2]>8 <[6]>4. <_+>8 %35
+	r1
+	r
+	r
+	r4. <_+>8 r4 <_+>
+	r2 <_!>4 <6> %40
+	r <6> <_+> <6>
+	<9> <8> <7 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<9>4 <8> <7 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<[9]>4 <8> <7>2
+	<5 4>4 <\t _+> r2 %45
+	r <5 _+>4 <[6]>
+	r4. <[4\+] [2]>8 <6>4. <_+>8
+	<7 _+>4. <_+>8 r4 <[6]>
+	<6 4>4 <5 _+> r2
+	r1 %50
+	r2 <_+>
+	<[6] [4]>4 <[_+]> r <6\\>8 <5>
+	<_+>4. q8 r2
+	r1
+	r4. <_+>8 <5 3>4 q %55
+	<7 _+>4 <6> <5+ 4> <\t _+>
+	r1 %57 finis
+}
+
 % AgnusDeiChords = {
 % 	\clef treble
 % 	\key a \minor \time 6/2 \tempoAgnusDei

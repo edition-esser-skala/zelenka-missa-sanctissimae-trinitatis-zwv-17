@@ -1247,57 +1247,15 @@ OsannaViola = {
 	}
 }
 
-% AgnusDeiViola = {
-% 	\relative c' {
-% % 		\clef treble
+AgnusDeiViola = {
+	\relative c' {
+		\clef treble
 % 		\clef alto
-% 		\key a \minor \time 6/2 \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		e\f c r e gis, r
-% 		c' h r d d, r
-% 		a' gis r h gis r
-% 		gis h r h gis r
-% 		a a, r a' gis r %5
-% 		a a, r h' gis r
-% 		c e, r f e d
-% 		e e, r a' f e
-% 		dis1. e
-% 		e2-! c-! r e-! gis-! r %10
-% 		c,-! e-! r e-! gis-! a
-% 		r g-! h-! r f-\markup { \anmerkung "sempre staccato" } a
-% 		r e gis r d fis
-% 		r c e c2. c4 h2
-% 		a f' e e1 r2 %15
-% 		e\p r e e r a,
-% 		c r c h r cis
-% 		a r h g a d,
-% 		e e' gis a c-! a-!
-% 		f1. e %20
-% 		d2 g r r c, d
-% 		d r r h' g g
-% 		a g g, c1 r2
-% 		r d\fE d, r c' c,
-% 		r h' g c a' fis %25
-% 		r g g, h g' g
-% 		a g g g r r
-% 		r1*3/2 r2 a,\pE gis
-% 		r e' e, r a gis
-% 		r e' e, h' r e %30
-% 		e fis1\f^\tenuto e2\pE fis gis
-% 		a a, fis' gis r cis,
-% 		d r h c r a
-% 		h r gis a g' f
-% 		e r e e, r c' %35
-% 		f, r d' gis, r h
-% 		e, r a' e r h
-% 		a c h a f' e
-% 		\tempoAgnusDeiB dis1. \tempoAgnusDeiFinis e2 gis,\fE r
-% 		e gis r e e r %40
-% 		fis\pE fis fis e1.\fermata \bar "||" %41 finis
-% 		
-% 	}
-% }
-% 
+		\key a \minor \time 4/4 \tempoAgnusDei
+		
+	}
+}
+
 % DonaNobisViola = {
 % 	\relative c' {
 % % 		\clef treble

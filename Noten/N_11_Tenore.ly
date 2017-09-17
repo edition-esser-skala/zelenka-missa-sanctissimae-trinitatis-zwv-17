@@ -1382,38 +1382,17 @@ OsannaTenoreLyrics = \lyricmode {
 	cel -- sis. %127 FINIS
 }
 
-% AgnusDeiTenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key a \minor \time 6/2 \autoBeamOff \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		r2 \mvTr c\fE^\tuttiE c h h e
-% 		e e r r r h
-% 		a gis e' h( e) e
-% 		e1. h
-% 		r2 c c d h1 %5
-% 		e2( c) a \once \tieDashed e'1.~
-% 		e( d2) e( f)
-% 		e1. e2 f f
-% 		fis1 fis2 e1.
-% 		e1 r2 r1*3/2 %10
-% 		R\breve.*31 \bar "||" %41 finis
-% 	}
-% }
-% 
-% AgnusDeiTenoreLyrics = \lyricmode {
-% 	[A -- gnus De -- i, qui
-% 	tol -- lis,] qui
-% 	tol -- lis pec -- ca -- ta
-% 	mun -- di:
-% 	Mi -- se -- re -- re, %5
-% 	mi -- se -- re --
-% 	re __
-% 	no -- bis, mi -- se --
-% 	re -- re no --
-% 	bis. %10 finis
-% }
-% 
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}
+
 % DonaNobisTenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -34,7 +34,7 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #129 % K: 1   G: 29   C: 75   S: 129
+	first-page-number = #153 % K: 1   G: 29   C: 75   S: 129   A: 153
 	print-first-page-number = ##t
 }
 
@@ -155,6 +155,13 @@ tempoSanctus = \tempoMarkup "Vivace mà non troppo"
 tempoBenedictus = \tempoMarkup "Andante"
 tempoOsanna = \tempoMarkup "Allegro"
 	tempoOsannaFinis = \tempoMarkup "Adagio"
+
+tempoAgnusDei = \tempoMarkup "Andante"
+	tempoAgnusDeiB = \tempoMarkup "Adagio"
+	tempoAgnusDeiC = \tempoMarkup "Andante"
+	tempoAgnusDeiD = \tempoMarkup "Adagio"
+	tempoAgnusDeiE = \tempoMarkup "Andante"
+	tempoAgnusDeiFinis = \tempoMarkup "Adagio"
 
 
 

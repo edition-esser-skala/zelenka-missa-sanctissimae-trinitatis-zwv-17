@@ -983,36 +983,14 @@ OsannaOboeI = {
 	}
 }
 
-% AgnusDeiOboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 6/2 \tempoAgnusDei
-% 			\set Staff.timeSignatureFraction = 3/2
-% 		r2 r e'\fE e r e
-% 		c r e d r d
-% 		c r e h r e
-% 		e r e e r e
-% 		e r a a r gis %5
-% 		a r c, h r d
-% 		c r cis d r d~
-% 		d c? h \once \tieDashed c1.~
-% 		c1 h h-\trillE
-% 		a2 e'-! f-! r d-! e-! %10
-% 		r c d4 c h2 r r
-% 		f'1. e
-% 		d c
-% 		b1.~ b2 a gis
-% 		c h2.\trill h4 a1 r2 %15
-% 		R\breve.*7 %22
-% 		r1*3/2 r2 r e'-!\f
-% 		c-! r d h r c
-% 		a r h g r a %25
-% 		d e f~ f e4 d e2
-% 		d d2.\trill c4 c2 r r
-% 		R\breve.*14 \bar "||" %41 finis
-% 	}
-% }
-% 
+AgnusDeiOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAgnusDei
+		
+	}
+}
+
 % DonaNobisOboeI = {
 % 	\relative c' {
 % 		\clef treble

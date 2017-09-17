@@ -988,98 +988,23 @@
 % 			\midi { \tempo 4 = 72 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.3 OSANNA" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup {
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\OsannaOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\OsannaOboeII
-						}
-					>>
-				}
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\OsannaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-							\OsannaViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\OsannaViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi ed Organo"
-						\OsannaBassiOrgano
-					}
-				>>
-				\new FiguredBass { \OsannaBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 4 = 180 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.3 OSANNA" }
 % 			composer = \markup { \larger " " }
 % 		}
-% 		\paper { systems-per-page = #2 }
 % 		\score {
 % 			<<
 % 				\new StaffGroup {
 % 					\new GrandStaff <<
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Oboe I"
-% 							\AgnusDeiOboeI
+% 							\OsannaOboeI
 % 						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Oboe II"
 % 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\AgnusDeiOboeII
+% 							\OsannaOboeII
 % 						}
 % 					>>
 % 				}
@@ -1087,55 +1012,107 @@
 % 					\new GrandStaff <<
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino I"
-% 							\AgnusDeiViolinoI
+% 							\OsannaViolinoI
 % 						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino II"
 % 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\AgnusDeiViolinoII
+% 							\OsannaViolinoII
 % 						}
 % 					>>
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Viola"
-% 						\AgnusDeiViola
+% 						\OsannaViola
 % 					}
 % 				>>
 % 				\new ChoirStaff <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+% 						\new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+% 						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+% 					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+% 						\new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
 % 					}
-% 					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+% 						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+% 					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\AgnusDeiBassiOrgano
+% 						\OsannaBassiOrgano
 % 					}
 % 				>>
-% 				\new FiguredBass { \AgnusDeiBassFigures }
+% 				\new FiguredBass { \OsannaBassFigures }
 % 			>>
-% % 			\midi { \tempo 2 = 100 }
+% 			\layout { }
+% 			\midi { \tempo 4 = 180 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
+			composer = \markup { \larger " " }
+		}
+% 		\paper { systems-per-page = #2 }
+		\score {
+			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe solo"
+							\AgnusDeiOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Salmoè"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\AgnusDeiSalmoe
+						}
+					>>
+				}
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\AgnusDeiViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Bassi ed Organo"
+						\AgnusDeiBassiOrgano
+					}
+				>>
+				\new FiguredBass { \AgnusDeiBassFigures }
+			>>
+% 			\midi { \tempo 2 = 100 }
+		}
+	}
 % 	\bookpart {
 % 		\header {
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 DONA NOBIS" }
