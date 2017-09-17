@@ -2627,10 +2627,22 @@ DonaNobisBassiOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
-		\tuplet 3/2 8 { \mvTr a16([\fE-\tutti c e)] a( e d) c([ e d)] c( h a) e'([ gis h)] e( h a) gis([ h a)] gis( fis e) }
+		\tuplet 3/2 8 { \mvTr a16([\fE-\tutti c e)] a( e d) c([ e d)] c( h a) e'([ gis h)] e( h a) gis([ h a)] gis( fis e) %58
+		a,([ c e)] a( e d) c([ e d)] c( h a) d([ f a)] d( a g) f([ a g)] f( e d)
+		g([ h d)] g( d c) h([ d c)] h( a g) c,([ e g)] c( g f) e([ g f)] e( d c) } %60
+		f8 f f f \tuplet 3/2 8 { e16([ gis h)] e( h a) gis([ h a)] gis( fis e)
+		a,([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis dis8 dis dis dis
+		e e e e e e e e
+		e2 r \bar "||" %64
 	}
 }
 
 DonaNobisBassFigures = \figuremode {
-	
+	r2 <5 _+>4.. \bassFigureExtendersOn q16 %58
+	<5\! 3\!>4.. <5 3>16 <7\! 3\!>4.. <7 3>16
+	<7\! 3\!>4.. <7 3>16 <5\! 3\!>4.. <5 3>16 %60
+	<7>4 <6> <5 _+>4.. q16
+	<5\! 3\!>4.. <5 3>16 \bassFigureExtendersOff <7 [_+]>2
+	<6 4>4 <5 _+>8 <4 2\+> <5 _+>2 \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff r
 }
