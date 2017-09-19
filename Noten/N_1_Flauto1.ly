@@ -74,7 +74,7 @@ ChristeFlautoI = {
 		gis16( a) a8 r a8.([\trill gis32 fis)] e16 d
 		cis16.([ d64 e)] \appoggiatura cis16 h8 r r4 r8
 		\time 9/8 r4 r8 \tempoChristeD r4^\adlibitumE r8 \tempoChristeE \tuplet 3/2 8 { e,16(\fE gis h e[ h a] gis fis e) }
-		\tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
+		\time 6/8 \tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
 		\appoggiatura { h16[ cis] } d8 cis8.\trill h16 h(-. h-. e-.\pE e-. e-. e-.) %85
 		e(-. e-. e-. e-. e-. e-.) e(-. e-. d-. cis-. h-. h-.)
 		h( a) h( cis) d( e) fis8 e16 d cis[ e]

@@ -34,7 +34,7 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #153 % K: 1   G: 29   C: 75   S: 129   A: 153
+	first-page-number = #1 % K: 1   G: 29   C: 75   S: 129   A: 153
 	print-first-page-number = ##t
 }
 
@@ -250,7 +250,7 @@ tempoDonaNobis = \tempoMarkup "Vivace"
 
 \include "Noten/N_1_Flauto1.ly"
 \include "Noten/N_2_Flauto2.ly"
-\include "Noten/N_3_Chalumeau.ly"
+\include "Noten/N_3_Salmoe.ly"
 \include "Noten/N_4_Oboe1.ly"
 \include "Noten/N_5_Oboe2.ly"
 \include "Noten/N_6_Violino1.ly"
@@ -289,11 +289,14 @@ tempoDonaNobis = \tempoMarkup "Vivace"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 }
 
-\include "Partituren/P_Partitur.ly"
+\include "Partituren/P_FullScore.ly"
+% \include "Partituren/P_Flauto1.ly"
+% \include "Partituren/P_Flauto2.ly"
+% \include "Partituren/P_Salmoe.ly"
 % \include "Partituren/P_Oboe1.ly"
 % \include "Partituren/P_Oboe2.ly"
 % \include "Partituren/P_Violino1.ly"

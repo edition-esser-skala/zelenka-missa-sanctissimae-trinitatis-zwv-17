@@ -22,19 +22,17 @@
 		\header {
 			title = \markup {
 				\medium \center-column {
-					\normal-text \larger \larger \line { Missa Omnium Sanctorum }
-					\smaller \smaller \smaller \line { ZWV 21 }
+					\normal-text \larger \larger \line { Missa Sanctissimae Trinitatis }
+					\smaller \smaller \smaller \line { ZWV 17 }
 				}
 			}
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.1 KYRIE" }
-			composer = \markup { \larger "Dresden, 1741" }
+			composer = \markup { \larger "Dresden, 1736" }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \KyrieIViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \KyrieIViolinoII
 			}
 		}
 	}
@@ -44,11 +42,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \ChristeViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \ChristeViolinoII
 			}
 		}
 	}
@@ -57,12 +53,11 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.3 KYRIE II" }
 			composer = \markup { \larger " " }
 		}
+		\paper { min-systems-per-page = #3 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \KyrieIIViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \KyrieIIViolinoII
 			}
 		}
 	}
@@ -72,11 +67,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \GloriaViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \GloriaViolinoII
 			}
 		}
 	}
@@ -86,69 +79,94 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \QuiTollisViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \QuiTollisViolinoII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM I" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \QuoniamIViolinoII
-				}
-			}
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 QUONIAM II" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
 			composer = \markup { \larger " " }
 		}
 		\paper { max-systems-per-page = #10 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \QuoniamIIViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \QuoniamViolinoII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.5 CUM SANCTO SPIRITU" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 CUM SANCTO SPIRITU" }
 			composer = \markup { \larger " " }
 		}
-		\paper { max-systems-per-page = #10 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \CumSanctoViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \CumSanctoViolinoII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 CREDO" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.1 CREDO" }
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \CredoViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \CredoViolinoII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.2 ET INCARNATUS EST" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \EtIncarnatusViolinoII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.3 ET RESURREXIT" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \EtResurrexitViolinoII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \EtUnamSanctamViolinoII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \EtVitamViolinoII
 			}
 		}
 	}
@@ -158,11 +176,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \SanctusViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \SanctusViolinoII
 			}
 		}
 	}
@@ -172,11 +188,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \BenedictusViolinoI
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \BenedictusViolinoII
 			}
 		}
 	}
@@ -186,11 +200,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \OsannaViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \OsannaViolinoII
 			}
 		}
 	}
@@ -200,25 +212,21 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \AgnusDeiViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \AgnusDeiViolinoII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 DONA NOBIS" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 AGNUS DEI – DONA NOBIS" }
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Violino II"
-					\compressFullBarRests \DonaNobisViolinoII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Violino II"
+				\compressFullBarRests \DonaNobisViolinoII
 			}
 		}
 	}

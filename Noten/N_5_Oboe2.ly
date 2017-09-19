@@ -12,7 +12,7 @@ KyrieIOboeII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoKyrieI
-		c'16.\fE c32 c16. c32 d16. d32 d16. d32 d16. d32 d16. d32 h16. h32 h16. h32
+		c'16.\fE c32 c16. c32 d16. d32 d16. d32 d16. d32 d16. d32 h16. h32 h16. h32 \noBreak
 		e16. e32 e16. e32 cis16. cis32 cis16. cis32 d16. d32 d16. d32 fis16. fis32 fis16. fis32
 		g16. g32 g16. g32 g16. g32 g16. g32 g16. g32 g16. e32 c16. c32 c16. c32
 		h16. h32 h16. h32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
@@ -356,6 +356,18 @@ QuiTollisOboeII = {
 	}
 }
 
+QuoniamOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoQuoniam
+			\set Staff.timeSignatureFraction = 2/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #305
+		\override MultiMeasureRest.minimum-length = #40
+			R1*118 \bar "||" %402 finis
+	}
+}
+
 CumSanctoOboeII = {
 	\relative c' {
 		\clef treble
@@ -672,15 +684,16 @@ EtResurrexitOboeII = {
 	}
 }
 
-% EtUnamSanctamOboeII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key a \minor \time 6/2 \tempoEtUnamSanctam
-% 			\set Staff.timeSignatureFraction = 3/2
-% 			\set Score.currentBarNumber = #228
-% 		
-% 	}
-% }
+EtUnamSanctamOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/2 \tempoEtUnamSanctam
+			\set Staff.timeSignatureFraction = 3/2
+			\set Score.currentBarNumber = #228
+		\override MultiMeasureRest.minimum-length = #40
+			R1.*20 \bar "||" %247 finis
+	}
+}
 
 EtVitamOboeII = {
 	\relative c' {
@@ -840,6 +853,15 @@ OsannaOboeII = {
 		d a d d4. d8 c4 %125
 		h h2 a4 cis cis
 		\tempoOsannaFinis d2~ d8 d cis2 r4 \bar "|." %127 FINIS
+	}
+}
+
+AgnusDeiOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAgnusDei
+		\override MultiMeasureRest.minimum-length = #40
+			R1*57 \bar "||" %57 finis
 	}
 }
 

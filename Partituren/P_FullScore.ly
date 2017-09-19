@@ -1062,63 +1062,64 @@
 % 			\midi { \tempo 4 = 180 }
 % 		}
 % 	}
-% 	\bookpart {
-% 		\header {
-% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
-% 			composer = \markup { \larger " " }
-% 		}
-% 		\paper { max-systems-per-page = #3 }
-% 		\score {
-% 			<<
-% 				\new StaffGroup {
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe solo"
-% 							\AgnusDeiOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Salmoè"
-% 							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
-% 							\AgnusDeiSalmoe
-% 						}
-% 					>>
-% 				}
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\AgnusDeiViola
-% 					}
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Bassi ed Organo"
-% 						\AgnusDeiBassiOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass { \AgnusDeiBassFigures }
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
+			composer = \markup { \larger " " }
+		}
+		\paper { max-systems-per-page = #3 }
+		\score {
+			<<
+				\new StaffGroup {
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe solo"
+							\AgnusDeiOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Salmoè"
+							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
+							\AgnusDeiSalmoe
+						}
+					>>
+				}
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\AgnusDeiViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Bassi ed Organo"
+						\AgnusDeiBassiOrgano
+					}
+				>>
+				\new FiguredBass { \AgnusDeiBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 4 = 80 }
+		}
+	}
 	\bookpart {
 		\header {
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 AGNUS DEI – DONA NOBIS" }
 			composer = \markup { \larger " " }
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {

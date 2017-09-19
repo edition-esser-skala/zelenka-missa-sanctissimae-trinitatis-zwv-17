@@ -12,7 +12,7 @@ KyrieIViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoKyrieI
-		c'16.\fE c32 c16. c32 d16. d32 d16. d32 d16. d32 d16. d32 h16. h32 h16. h32
+		c'16.\fE c32 c16. c32 d16. d32 d16. d32 d16. d32 d16. d32 h16. h32 h16. h32 \noBreak
 		e16. e32 e16. e32 cis16. cis32 cis16. cis32 d16. d32 d16. d32 fis16. fis32 fis16. fis32
 		g16. g32 g16. g32 g16. g32 g16. g32 g16. g32 g16. e32 c16. c32 c16. c32
 		h16. h32 h16. h32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32 a16. a32
@@ -104,7 +104,7 @@ ChristeViolinoII = {
 		gis16( a) a8 r <a cis, e, a,>8.([\trill gis32 fis)] e16 d
 		cis16.([ d64 e)] \appoggiatura cis16 h8 r r e\pE a,
 		\time 9/8 h16( a) a([ cis)] d8 \tempoChristeD cis4.^\adlibitumE \tempoChristeE \tuplet 3/2 8 { e,16(\fE gis h e[ h a] gis fis e) }
-		\tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
+		\time 6/8 \tuplet 3/2 8 { a( cis e a[ e d] cis h a) } \appoggiatura a h8 a16 gis a8
 		\appoggiatura { h16[ cis] } d8 cis8.\trill h16 h8 e,\pE gis %85
 		a e16 fis g8 fis h16 a gis? fis
 		gis fis gis a h cis d8 cis16 h cis8~
@@ -1267,6 +1267,15 @@ OsannaViolinoII = {
 		d,16 d d d d' d d d d d d d d8 h d h c a %125
 		f' d h a' h, gis' a4 cis, cis
 		\tempoOsannaFinis d2~ d8 d cis2 r4 \bar "|." %127 FINIS
+	}
+}
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAgnusDei
+		\override MultiMeasureRest.minimum-length = #40
+			R1*57 \bar "||" %57 finis
 	}
 }
 

@@ -12,7 +12,7 @@ KyrieIBassiOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoKyrieI
-		\mvTr a'16.\fE-\tuttiE a32 a16. a32 a16. a32 a16. a32  gis16. gis32 gis16. gis32 d'16. d32 d16. d32
+		\mvTr a'16.\fE-\tuttiE a32 a16. a32 a16. a32 a16. a32  gis16. gis32 gis16. gis32 d'16. d32 d16. d32 \noBreak
 		cis16. cis32 cis16. cis32 g16. g32 g16. g32 fis16. fis32 fis16. fis32 c'16. c32 c16. c32
 		h16. h32 h16. h32 f16. f32 f16. f32 e16. e32 e16. e32 fis16. fis32 fis16. fis32
 		gis16. gis32 gis16. gis32 a16. a32 a16. a32 f16. f32 f16. f32 dis16. dis32 dis16. dis32

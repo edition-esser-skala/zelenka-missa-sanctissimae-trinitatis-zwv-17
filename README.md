@@ -11,7 +11,7 @@ First version, September 2017
 * Individual voices in folder *Noten*:
     * N_1_Flauto1.ly
     * N_2_Flauto2.ly
-    * N_3_Chalumeau.ly
+    * N_3_Salmoe.ly
     * N_4_Oboe1.ly
     * N_5_Oboe2.ly
     * N_6_Violino1.ly
@@ -25,10 +25,13 @@ First version, September 2017
 * Score and parts definitions in folder *Partituren*:
     * P_Bassi.ly
     * P_Coro.ly
+    * P_Flauto1.ly
+    * P_Flauto2.ly
+    * P_FullScore.ly
     * P_Oboe1.ly
     * P_Oboe2.ly
     * P_Organo.ly
-    * P_Partitur.ly
+    * P_Salmoe.ly
     * P_Viola.ly
     * P_Violino1.ly
     * P_Violino2.ly

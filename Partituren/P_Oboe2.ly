@@ -22,19 +22,17 @@
 		\header {
 			title = \markup {
 				\medium \center-column {
-					\normal-text \larger \larger \line { Missa Omnium Sanctorum }
-					\smaller \smaller \smaller \line { ZWV 21 }
+					\normal-text \larger \larger \line { Missa Sanctissimae Trinitatis }
+					\smaller \smaller \smaller \line { ZWV 17 }
 				}
 			}
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.1 KYRIE" }
-			composer = \markup { \larger "Dresden, 1741" }
+			composer = \markup { \larger "Dresden, 1736" }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \KyrieIOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \KyrieIOboeII
 			}
 		}
 	}
@@ -44,11 +42,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-					\compressFullBarRests \ChristeViolinoI
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \ChristeOboeI
 			}
 		}
 	}
@@ -58,11 +54,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \KyrieIIOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \KyrieIIOboeII
 			}
 		}
 	}
@@ -72,11 +66,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \GloriaOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \GloriaOboeII
 			}
 		}
 	}
@@ -86,68 +78,94 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-					\compressFullBarRests \QuiTollisViolinoI
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \QuiTollisOboeII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM I" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \QuoniamIOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \QuoniamOboeII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 QUONIAM II" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 CUM SANCTO SPIRITU" }
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \QuoniamIIOboeI
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \CumSanctoOboeII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.5 CUM SANCTO SPIRITU" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.1 CREDO" }
 			composer = \markup { \larger " " }
 		}
+		\paper { min-systems-per-page = #3 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \CumSanctoOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \CredoOboeII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 CREDO" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.2 ET INCARNATUS EST" }
 			composer = \markup { \larger " " }
 		}
-		\paper { max-systems-per-page = #10 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \CredoOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \EtIncarnatusOboeII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.3 ET RESURREXIT" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \EtResurrexitOboeII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \EtUnamSanctamOboeII
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \EtVitamOboeII
 			}
 		}
 	}
@@ -157,11 +175,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \SanctusOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \SanctusOboeII
 			}
 		}
 	}
@@ -170,12 +186,11 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.2 BENEDICTUS" }
 			composer = \markup { \larger " " }
 		}
+		\paper { min-systems-per-page = #2 }
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \BenedictusOboeI
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \BenedictusOboeI
 			}
 		}
 	}
@@ -185,11 +200,9 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \OsannaOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \OsannaOboeII
 			}
 		}
 	}
@@ -199,25 +212,21 @@
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \AgnusDeiOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \AgnusDeiOboeII
 			}
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 DONA NOBIS" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 AGNUS DEI – DONA NOBIS" }
 			composer = \markup { \larger " " }
 		}
 		\score {
-			\new StaffGroup {
-				\new Staff {
-					\set Staff.instrumentName = "Oboe II"
-					\compressFullBarRests \DonaNobisOboeII
-				}
+			\new Staff {
+				\set Staff.instrumentName = "Oboe II"
+				\compressFullBarRests \DonaNobisOboeII
 			}
 		}
 	}

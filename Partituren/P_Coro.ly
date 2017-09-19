@@ -11,6 +11,7 @@
 \paper {
 	indent = 2\cm
 	system-separator-markup = ##f
+	min-systems-per-page = #2
 }
 
 \layout {
@@ -27,13 +28,14 @@
 		\header {
 			title = \markup {
 				\medium \center-column {
-					\normal-text \larger \larger \line { Missa Omnium Sanctorum }
-					\smaller \smaller \smaller \line { ZWV 21 }
+					\normal-text \larger \larger \line { Missa Sanctissimae Trinitatis }
+					\smaller \smaller \smaller \line { ZWV 17 }
 				}
 			}
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.1 KYRIE" }
-			composer = \markup { \larger "Dresden, 1741" }
+			composer = \markup { \larger "Dresden, 1736" }
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -76,13 +78,14 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.2 CHRISTE" }
 			composer = \markup { \larger " " }
 		}
+		\paper { max-systems-per-page = #5 }
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Tenore"
-					\new Voice = "Tenore" { \dynamicUp \ChristeTenoreNotes }
+					\set Staff.instrumentName = "Alto"
+					\new Voice = "Alto" { \dynamicUp \ChristeAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \ChristeTenoreLyrics
+				\new Lyrics \lyricsto Alto \ChristeAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
@@ -98,7 +101,6 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1.3 KYRIE II" }
 			composer = \markup { \larger " " }
 		}
-		\paper { min-systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -186,11 +188,31 @@
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Soprano"
-					\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
@@ -203,72 +225,30 @@
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM I" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.3 QUONIAM" }
 			composer = \markup { \larger " " }
 		}
-		\paper { systems-per-page = #3 }
-		\score {
-			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuoniamISopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \QuoniamISopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuoniamIAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \QuoniamIAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuoniamITenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \QuoniamITenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuoniamIBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \QuoniamIBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\QuoniamIBassiOrgano
-					}
-				>>
-				\new FiguredBass { \QuoniamIBassFigures }
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 QUONIAM" }
-			composer = \markup { \larger " " }
-		}
+		\paper { max-systems-per-page = #6 }
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Alto"
-					\new Voice = "Alto" { \dynamicUp \QuoniamIIAltoNotes }
+					\set Staff.instrumentName = "Soprano"
+					\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 				}
-				\new Lyrics \lyricsto Alto \QuoniamIIAltoLyrics
+				\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuoniamIIBassiOrgano
+						\QuoniamBassiOrgano
 					}
 				>>
-				\new FiguredBass { \QuoniamIIBassFigures }
+				\new FiguredBass { \QuoniamBassFigures }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.5 CUM SANCTO SPIRITU" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2.4 CUM SANCTO SPIRITU" }
 			composer = \markup { \larger " " }
 		}
 		\score {
@@ -310,9 +290,10 @@
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 CREDO" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.1 CREDO" }
 			composer = \markup { \larger " " }
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -352,10 +333,173 @@
 	}
 	\bookpart {
 		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.2 ET INCARNATUS EST" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtIncarnatusTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtIncarnatusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\EtIncarnatusBassiOrgano
+					}
+				>>
+				\new FiguredBass { \EtIncarnatusBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.3 ET RESURREXIT" }
+			composer = \markup { \larger " " }
+		}
+		\paper { systems-per-page = #3 }
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\EtResurrexitBassiOrgano
+					}
+				>>
+				\new FiguredBass { \EtResurrexitBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.4 ET UNAM SANCTAM" }
+			composer = \markup { \larger " " }
+		}
+
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EtUnamSanctamSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \EtUnamSanctamSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtUnamSanctamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtUnamSanctamAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtUnamSanctamTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtUnamSanctamTenoreLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\EtUnamSanctamBassiOrgano
+					}
+				>>
+				\new FiguredBass { \EtUnamSanctamBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3.5 ET VITAM" }
+			composer = \markup { \larger " " }
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EtVitamSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \EtVitamSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtVitamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtVitamAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtVitamTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtVitamTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtVitamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtVitamBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\EtVitamBassiOrgano
+					}
+				>>
+				\new FiguredBass { \EtVitamBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.1 SANCTUS" }
 			composer = \markup { \larger " " }
 		}
-		\paper { min-systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -398,21 +542,14 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.2 BENEDICTUS" }
 			composer = \markup { \larger " " }
 		}
+		\paper { max-systems-per-page = #6 }
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Soprano"
+					\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+				}
+				\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
@@ -428,7 +565,6 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4.3 OSANNA" }
 			composer = \markup { \larger " " }
 		}
-		\paper { min-systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -471,22 +607,10 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.1 AGNUS DEI" }
 			composer = \markup { \larger " " }
 		}
-		\paper { max-systems-per-page = #3 }
+		\paper { max-systems-per-page = #4 }
 		\score {
 			<<
 				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
-					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
@@ -511,10 +635,10 @@
 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 DONA NOBIS" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5.2 AGNUS DEI – DONA NOBIS" }
 			composer = \markup { \larger " " }
 		}
-		\paper { min-systems-per-page = #2 }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<
