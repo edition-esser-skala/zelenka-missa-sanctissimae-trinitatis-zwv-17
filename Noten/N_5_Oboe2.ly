@@ -855,5 +855,61 @@ DonaNobisOboeII = {
 		a([-\critnote c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis a8 a a a
 		a a gis fis gis gis gis gis
 		gis?2 r \bar "||" %64 finis
+		\tempoDonaNobis R1*8 %72
+		\mvTr a4.\fE-\tenutoE a8 a4 a
+		gis d' cis g
+		fis c' h f %75
+		e r r2
+		e'4.^\tenuto e8 e4 e
+		dis a' gis d
+		cis g' fis c
+		h h'4. e,8 a4~ %80
+		a g fis4.\trill fis8
+		e4 r r2
+		R1*2
+		r2-\critnote c8. d16 e8 f! %85
+		g f16 e d8 g c, d e c
+		f es16 d c8 f b, c d b
+		es d16 c b8 d a4. g16 a
+		h4 c2 b4
+		a8 a' fis8.(\trill e32 fis) g8- ! g,-! d' h %90
+		r g' e8.(\trill d32 e) f8-! f,-! c'-! a-!
+		r8 d4^\tenutoE d8 d4 d
+		cis g' fis c
+		h f' e b
+		a a'4. d,8 g4~ %95
+		g f e8 a,16 h c!8 d
+		e d16 c h8 e a, h cis a
+		d c16 h a8 c d c h a
+		g4 cis d c?8 a
+		h4 f e e'~ %100
+		e8 cis d4~ d8 f e d
+		cis e d4. cis16 h cis8.\trill d16
+		d4.-\tenutoE d8 d4 d
+		cis g' fis c
+		h f' e b %105
+		a r c8. c16 d8 e
+		f es16 d c8 a b8. b16 c8 d
+		es4 r r2
+		d8. d16 e!8 fis g f16 es d8 g
+		g,4 r8 e' f es16 d c8 f %110
+		f, f'4 e16 d cis8 a r4
+		a8.-!\f h16-! c8 d e d16 c h8 e
+		a, h cis a d c16 h a8 c
+		d c h c16 d e4.\trill e8
+		d2 r %115
+		e4.^\tenuto e8 e4 e
+		dis a' gis d
+		cis g' fis c
+		h f' e b
+		a d2 c4 %120
+		h8. a16 g4 fis8 fis'4 dis8
+		h4 e a8 g!16 fis e8 a
+		a, a'16 g f8.\trill e16 e8 e, d'4
+		cis4.^\tenuto cis8 dis2\f^\tenuto
+		e8 e, e' d16 c h8 a' h, gis' %125
+		r a a, a' r f r h,
+		r e e, e' r f h, gis'
+		a4 r r2\fermata \bar "|." %128 FINIS
 	}
 }

@@ -1295,6 +1295,59 @@ DonaNobisBassoNotes = {
 		a4. a8 \tempoAgnusDeiUltimusFinis dis,2
 		e e
 		R1 \bar "||" %64 finis
+		\tempoDonaNobis R1*4 %68
+		\mvTr e4.\fE^\tuttiE e8 e4 e
+		dis a' gis d %70
+		cis g' fis c
+		h h' a g~
+		g f!8[ d] f[ g a a,]
+		e'4 r r2
+		R1*2 %76
+		r2 e8. fis16 g8 a
+		h[ a16 g] fis8[ h] e,[ fis gis e]
+		a[ g16 fis] e8[ a] d,[ e fis d]
+		g[ fis16 e] dis8[ h] e[ d c a] %80
+		h4 e h'2
+		e,4 r r2
+		R1*6 %88
+		r2 g8. a16 b8 c
+		d[ c16 b] a8[ d] g,[ a h g] %90
+		c[ b16 a] g8[ c] f,[ g a f]
+		b[ a16 g] f8[ e] d4 d'
+		a4 r r2
+		R1*2 %95
+		a4. a8 a4 a
+		gis d' cis g
+		fis c' h f
+		e a d,8. d16 e8 fis
+		g[ f16 e] d8[ g] c[ h16 a] gis8[ e] %100
+		a[ g] f[ g16 a] b4 g
+		a d a4. g8
+		f[( e d c] b2)
+		a4 r r2
+		R1 %105
+		f'8. g16 a8 b c[( b16 a] g8[ c]
+		f,[ g a f] b[ as?16 g] f8[ b]
+		es,4 f) g r
+		R1*2 %110
+		r2 a4. a8
+		a4 a gis d'
+		cis g fis c'?
+		h f e a
+		d,4 e8[ fis] g[ f16 e] d8[ g] %115
+		c,4 r e8. fis16 g8 a
+		h[ a16 g] fis8[ h] e,[ fis gis e]
+		a[ g16 fis] e8[ a] d,[ e fis d]
+		g[ f16 e] d8[ g] c,[ d e c]
+		f[ e] d([ f)] e4. e8 %120
+		e4 e dis( a'
+		gis d cis g'?)
+		f d e2~
+		e e~
+		e4 e e2 %125
+		f4 r8 f d4( e)
+		c r8 a' d,4( e)
+		a, r r2\fermata \bar "|." %128 FINIS
 	}
 }
 
@@ -1305,4 +1358,57 @@ DonaNobisBassoLyrics = \lyricmode {
 	mun -- di, pec --
 	ca -- ta mun --
 	_ [di:] %63 finis
+	
+	Do -- na no -- bis %69
+	pa -- _ _ _ %70
+	_ _ _ _
+	cem, da pa -- _
+	_ _
+	cem.
+	
+	Do -- na no -- bis %77
+	pa -- _ _
+	_ _ _
+	_ _ _ %80
+	_ _ _
+	cem. %82
+	
+	Do -- na no -- bis %89
+	pa -- _ _ %90
+	_ _ _
+	_ _ _ _
+	cem.
+	
+	Do -- na no -- bis %96
+	pa -- _ _ _
+	_ _ _ _
+	_ cem. Do -- na no -- bis
+	pa -- _ _ _ %100
+	_ _ _ _
+	_ _ cem, da
+	pa --
+	cem.
+	%105
+	Do -- na no -- bis
+	pa --
+	cem.
+	
+	Do -- na %111
+	no -- bis pa -- _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %115
+	cem. Do -- na no -- bis
+	pa -- _ _
+	_ _ _
+	_ _ _
+	_ cem. __ Do -- na %120
+	no -- bis pa --
+	
+	cem, da pa --
+	cem, __
+	da pa -- %125
+	cem, da pa --
+	cem, da pa --
+	cem. %128 FINIS
 }

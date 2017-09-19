@@ -2634,6 +2634,83 @@ DonaNobisBassiOrgano = {
 		a,([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis dis8 dis dis dis
 		e e e e e e e e
 		e2 r \bar "||" %64 finis
+		\clef "treble_8" \tempoDonaNobis
+			\mvTr a4.\fE-\markup { \anmerkung "Organo e Fagotti sostenuto" } a8 a4 a %65
+		gis4 d' cis g
+		fis c' h f
+		e e'4. a,8 d4
+		\clef bass e,4.-\markup { \anmerkung "Tutti Bassi sostenuto" } e8 e4 e
+		dis a' gis d %70
+		cis g' fis c
+		h h' a g~
+		g f!8 d f g a4
+		\clef "treble_8" e'8 d16 c h8 e a, h cis a
+		d c16 h a8 d g, a h g %75
+		c h a g f4 fis
+		gis a \clef bass e8. fis16 g8 a
+		h a16 g fis8 h e, fis gis e
+		a g16 fis e8 a d, e fis d
+		g fis16 e dis8 h e d c a %80
+		h h' e, g16 a h8 a h h,
+		e \clef treble << {
+			r8 r4 h''8. h16 cis8 dis
+			e d16 cis? h8 e c4 r8 cis
+			d c16 h a8 d h c d4
+		} \\ {
+			e,16-! fis-! g8-! a-! h a16 g fis8 h
+			e, fis gis e a g16 fis e8 a
+			d, e fis d g f16 e d8 g
+		} >>
+		\clef "treble_8" c,4. c8 c4 c %85
+		h f' e b
+		a es' d as
+		g g'4. c,8 \once \tieDashed f4~
+		f es \clef bass g,8. a16 b8 c
+		d c16 b? a8 d g, a h g %90
+		c b16 a g8 c f, g a f
+		b a16 g f8 e d4 d'
+		a8 \clef treble << {
+			r8 g''4 fis c!
+			h f' e b
+			a a'4. d,8 g4 %95
+		} \\ {
+			g,16-! f-! e8 a d, e fis d
+			g f16 e d8 g c, d e c
+			f e16 d cis8 a b4 h8 e %95
+		} >>
+		\clef bass a,4.^\critnote a8 a4 a
+		gis d' cis g
+		fis c' h f?
+		e a d,8. d16 e8 fis
+		g f16 e d8 g c h16 a gis8 e %100
+		a g f g16 a b4 g
+		a d a4. g8
+		f e d c b?2
+		a4 \clef "treble_8" g'' fis c!
+		h f' e b %105
+		\clef bass f8. g16 a8 b c b16 a g8 c
+		f, g a f b as?16 g f8 b
+		es,4 f g8. \noBeam \clef "treble_8" a16 h8 c
+		d c16 b a8 d g, a h g
+		c b16 a g8 c f, g a f %110
+		b a16 g f8 g \clef bass a4. a8
+		a4 a gis d'
+		cis g fis c'?
+		h f e a
+		d,8 e fis d g f16 e d8 g %115
+		c, c, r4 e'8. fis16 g8 a
+		h a16 g fis8 h e, fis gis e
+		a g16 fis e8 a d, e fis d
+		g f16 e d8 g c, d e c
+		f e d f e4. e8 %120
+		e4 e dis a'
+		gis d cis g'?
+		f d e8 e, e'-\tasto e,
+		e' e, e' e, e' e, e' e,
+		e' e, e' e, e' e, e' e, %125
+		f'4 r8 f d4 e
+		c r8 a' d,4 e
+		a, r r2\fermata \bar "|." %128 FINIS
 	}
 }
 

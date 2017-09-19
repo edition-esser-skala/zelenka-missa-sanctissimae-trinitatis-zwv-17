@@ -1289,5 +1289,69 @@ DonaNobisViolinoI = {
 		a([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis fis'8-! fis-! fis-! fis
 		e r e, r \tuplet 3/2 8 { e16[ gis h] e h a gis[ h a] gis a h }
 		e,8 h' e4 r2 \bar "||" %64 finis
+		\tempoDonaNobis \mvTr a,,4.\fE-\tenuto a8 a4 a %65
+		gis d' cis r
+		r c h r
+		r e4. a,8 d8[ a']
+		gis-! e' a,-! e' h e,16 fis g?8 a
+		h a16 g fis 8 h e, fis gis e %70
+		a g16 fis e8 a d, e fis d
+		g f16 e d8 g c,4 r
+		a'4.-\tenuto a8 a4 a
+		gis d' cis g
+		fis c' h f %75
+		e e'4. a,8 d4~
+		d c h8. a16 g4
+		fis8 fis' dis8.(\trill cis32 dis) e8-! h-! h'-! gis-!
+		r e cis8.(\trill h32 cis) d8-! a-! a'-! fis-!
+		r g fis2 e4 %80
+		dis e4. dis16 cis? dis4\trill
+		e r h8. h16 cis8 dis
+		e d16 cis? h8 e c a' r cis,
+		d c16 h a8 d h8. c16 d4~
+		d c16 c, e g c8. d16 e8 f! %85
+		g f16 e d8 g c, d e c
+		f es16 d c8 f b, c d b
+		es d16 c b8 d a4. g16 a
+		h8 g'4^\tenuto g8 g4 g
+		fis c' h f %90
+		e b' a es
+		d r d,8. e16 f8 g
+		a g16 f e8 a d, e fis d
+		g f16 e d8 g c, d e c
+		f e16 d cis8 a b4 h8 e %95
+		cis a d2 c?4
+		h gis' a4.-\tenutoE a8
+		a4 a gis d'
+		cis g fis c'
+		h f e e'~ %100
+		e8 cis d4~ d8 f e d
+		cis e d4. cis16 h cis8.\trill d16
+		d8 d, r4 d'8.-! e16-! f8 g
+		a g16 f e8 a d, e fis d
+		g f16 e d8 g c, d e8.(\trill d32 e) %105
+		f8 f, r f' e4^\tenuto b
+		a es' d as
+		g8 es' d c h! c d es
+		d8. d16 e8 fis g f16 es d8 g
+		g, g' r e f-! es16-! d c8 f %110
+		f, f'4 e16 d cis8 a4 a8
+		a4-\tenuto a gis d'
+		cis g fis c'
+		h f e8 e' cis8.(\trill h32 cis)
+		d4 r8 fis, g4 r %115
+		e'4.^\tenuto e8 e4 e
+		dis a' gis d
+		cis g' fis c
+		h f' e b
+		a d2 c4 %120
+		h8 e16 fis g8 a h a16 g fis8 h
+		e, fis gis e a g16 fis e8 a
+		a, a'16 g f8.\trill e16 e8 e, d'4
+		cis4.^\tenuto cis8 dis2\f^\tenuto
+		e8 e, e' d16 c h8 a' h, gis' %125
+		r a a, a' r f r h,
+		r e e, e' r f h, gis'
+		a4 r r2\fermata \bar "|." %128 FINIS
 	}
 }

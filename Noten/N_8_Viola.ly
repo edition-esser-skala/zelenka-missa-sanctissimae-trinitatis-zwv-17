@@ -1314,8 +1314,8 @@ AgnusDeiViola = {
 
 DonaNobisViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoAgnusDeiUltimus
 			\set Score.currentBarNumber = #58
 		a'8\fE r a r gis r h r %58
@@ -1325,5 +1325,68 @@ DonaNobisViola = {
 		a,([ c e)] a( e d) c([ e d)] c( h a) } \tempoAgnusDeiUltimusFinis dis8 a'-! a-! a
 		a a gis fis gis gis gis gis
 		gis?2 r \bar "||" %64 finis
+		\tempoDonaNobis \mvTr a,4.\fE-\tenutoE a8 a4 a %65
+		gis d' cis g
+		fis c' h f
+		e e'4. a,8 d4~
+		d c h8 e, e' dis16 e
+		fis8. e16 dis8. cis16 h8 e, e'4~ %70
+		e8. d16 cis8. h16 a4 d~
+		d g8 g, c4 h
+		cis d a8. h16 c?8 d
+		e d16 c h8 e a, h cis a
+		d c16 h a8 d g, a h g %75
+		c h a g f4 fis
+		gis a8 a'4 g16 a h4~
+		h a h r8 e,
+		a g16 fis e8 a d, e fis d
+		g fis16 e dis8 h e d c a %80
+		h h' e, g16 a h8 a h h,
+		e4 r r2
+		R1*2
+		c4.-\tenutoE c8 c4 c %85
+		h f' e b
+		a es' d as
+		g g'4. c,8 f4~
+		f es d8 g16 a b8 c
+		d c16 b? a8 d g, a h g %90
+		c b16 a g8 c f, g a f
+		b a16 g f8 e d8. e16 f8 g
+		a g16 f e8 a d, e fis d
+		g f16 e d8 g c, d e c
+		f e16 d cis8 a b4 h8 e %95
+		cis a d2 c?4
+		h gis' a e
+		fis d4. d8 g,[ g'~]
+		g f e4. d8 g[ a]
+		g a h a16 h c4 h8 gis %100
+		a4. g8 f g16 a b8 g
+		e8.(\trill d32 e) f8 g a4. a8
+		a g f e f4. b?8
+		e, d cis a a'2
+		d, g %105
+		c,8 c'4 b16 a g8 d g4~
+		g f4. b,8 f'4
+		g as d,8 g,16 a h8 c
+		d c16 b a8 d g, a h g
+		c b16 a g8 c f, g a f %110
+		b a16 g f8 g a4 f'
+		e2 r
+		a4.^\tenutoE a8 a4 a
+		gis d' cis g
+		fis c' h f %115
+		e g4. g8 g[ g]
+		fis h, fis'2 e4~
+		e8 a, e'2 d4~
+		d8 g, d'2 \once \tieDashed c4~
+		c f h, e~^\tenutoE %120
+		e e dis a'
+		gis d cis8 e cis8.(\trill h32 cis)
+		d8 d'4 c!8 h a gis e
+		g4 e a2\f^\tenutoE
+		h8[ gis] e e, e' e, e' e, %125
+		f4 r8 f' d4 e
+		e r8 a d,4 e
+		e r r2\fermata \bar "|." %128 FINIS
 	}
 }

@@ -164,6 +164,7 @@ tempoAgnusDei = \tempoMarkup "Andante"
 	tempoAgnusDeiFinis = \tempoMarkup "Adagio"
 tempoAgnusDeiUltimus = \tempoMarkup "Adagio"
 	tempoAgnusDeiUltimusFinis = \tempoMarkup "Adagissimo"
+tempoDonaNobis = \tempoMarkup "Vivace"
 
 
 
