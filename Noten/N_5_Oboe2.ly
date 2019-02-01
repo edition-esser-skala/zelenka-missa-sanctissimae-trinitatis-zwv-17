@@ -363,8 +363,45 @@ QuoniamOboeII = {
 			\set Staff.timeSignatureFraction = 2/2
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #305
-		\override MultiMeasureRest.minimum-length = #40
-			R1*118 \bar "||" %402 finis
+		e'8\fE e, r16 h' cis dis e8.-! dis16-! e8. fis16
+		\appoggiatura g8 fis4. h8 e,8. dis16 e8. fis16
+		h,8 r r4 r2
+		r4 r8 h\f e8. dis16 e8. fis16
+		h,8 r r4 r2
+		R1*3 %312
+		r4 r8 r16 h e8.\f dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,4 r
+		c2 h4 r8 dis %315
+		e8. dis16 e8 fis fis4.\trill e8
+		e,8r r4 r2
+		R1*6 %323
+		\tuplet 3/2 4 { g8[\f fis e] c' h a } h4 h
+		e,4 r16 h' cis dis e8 r r4 %325
+		R1*2
+		r4 r8 h\f e8. dis16 e8. fis16
+		h,8. dis16 e8. fis16 h,8 r r4
+		R1*33 %362
+		r2 r4 r8 fis\f
+		h8.-! ais16-! h8. cis16 fis,8. ais16 h8. cis16
+		fis,8 r r4 r2 %365
+		R1*13 %378
+		g8.\fE fis16 g8. a16 d,8. fis16 g8. a16
+		\tuplet 3/2 4 { d,8 d' c b[ a g] } fis'8. d16 g8. cis,16 %380
+		\tuplet 3/2 4 { d8[ cis d] d cis d } fis8.(\p d16) g8.( cis,16)
+		\tuplet 3/2 4 { d8[( cis d] d cis d) \mvTr h!\f a g c[ h a] }
+		d4 d, h'8 r r4
+		R1*24 %407
+		e8.\f dis16 e8. fis16 h,8. dis16 e8. fis16
+		h,4 r r2
+		R1*2 %411
+		r4 \tempoQuoniamB r4^\adlibitumE r r8 r16 h\f
+		\tempoQuoniamC e8. dis16 e8. fis16 h,8. dis16 e8. fis16
+		ais,4 r \tuplet 3/2 4 { h8-![ a?-! g] g fis e
+		\time 2/4 c' h a a[ g fis] } %415
+		\time 4/4 h4 r r2
+		R1*4 %420
+		\tuplet 3/2 4 { g8\fE-! fis-! e c'[-! h-! a] } h4 h
+		e, r r2 \bar "||" %422 finis
 	}
 }
 
