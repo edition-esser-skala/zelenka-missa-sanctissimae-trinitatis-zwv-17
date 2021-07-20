@@ -1,0 +1,17 @@
+composer: Zelenka, Jan Dismas
+title: Missa Sanctissimae Trinitatis
+id: ZWV 17
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, chalumeau, 2 ob, 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2358-D-31
+    type: autograph manuscript
+    date: 1736
+    rism: 211010847
+    url: http://digital.slub-dresden.de/id360701914
+github: zelenka-missa-sanctissimae-trinitatis-zwv-17
+imslp: Missa_Sanctissimae_Trinitatis,_ZWV_17_(Zelenka,_Jan_Dismas)
+notes:
+
