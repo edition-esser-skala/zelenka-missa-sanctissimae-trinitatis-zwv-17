@@ -396,11 +396,13 @@
             \QuoniamViola
           }
         >>
-        \new Staff {
-          \set Staff.instrumentName = "S"
-          \new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
-        }
-        \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+          \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+        >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
@@ -940,11 +942,13 @@
             \BenedictusViola
           }
         >>
-        \new Staff {
-          \set Staff.instrumentName = "S"
-          \new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
-        }
-        \new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+        >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }

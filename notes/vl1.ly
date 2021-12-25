@@ -22,7 +22,7 @@ KyrieIViolinoI = {
     a16. a,32 c16. a32 f'16. f32 f16. f32 gis16. d32 gis16. d32 a'16. c,32 a'16. c,32
     a'16. h,32 a'16. h,32 gis'16. d32 h16. gis'32 a16 c,,( d e f gis a h)
     c16. a32 a16. a32 fis'16. a,32 a16. a'32 gis16. d32 d16. d32 c16. c32 c16. c32
-    h16. e,32 h'16. e32 gis16. gis32 gis16. gis32 a16. a,,32 a16. a32 a16. a32 a16. a32
+    h16. e,32 h'16. e32 gis16. gis32 gis16. gis32 \kneeBeam a16. a,,32 a16. a32 a16. a32 a16. a32
     a4 r r2\fermata \bar "||" %20 finis
   }
 }
